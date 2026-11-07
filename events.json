@@ -1,4 +1,158 @@
 {
- "updated": null,
- "events": []
+ "updated": "2026-11-07T22:05:00Z",
+ "events": [
+  {
+   "s": "f1",
+   "start": "2026-10-31T21:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Mexico City"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-01T20:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Mexico City"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-04T18:10:00Z",
+   "title": "C. Alcaraz – A. Michelsen",
+   "sub": "Rolex Paris Masters, Round 2"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-05T18:00:00Z",
+   "title": "C. Alcaraz – M. Berrettini",
+   "sub": "Rolex Paris Masters, Round 3"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-06T19:00:00Z",
+   "title": "C. Alcaraz – T. Fritz",
+   "sub": "Rolex Paris Masters, Quarterfinal"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-07T16:25:00Z",
+   "title": "C. Alcaraz – C. Ruud",
+   "sub": "Rolex Paris Masters, Semifinal"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-07T18:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Brazilian"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-08T14:00:00Z",
+   "title": "C. Alcaraz – B. Shelton",
+   "sub": "Rolex Paris Masters, Final"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-08T17:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Brazilian"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-12",
+   "tbc": true,
+   "title": "Cuartos de final",
+   "sub": "Dubai P1 (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-13",
+   "tbc": true,
+   "title": "Semifinal",
+   "sub": "Dubai P1 (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-14",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Dubai P1 (fecha estimada)"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-21T04:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Las Vegas"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-22T04:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Las Vegas"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-26",
+   "tbc": true,
+   "title": "Cuartos de final",
+   "sub": "Mexico Major (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-27",
+   "tbc": true,
+   "title": "Semifinal",
+   "sub": "Mexico Major (fecha estimada)"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-28T18:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Qatar"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-28",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Mexico Major (fecha estimada)"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-29T16:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Qatar"
+  },
+  {
+   "s": "f1",
+   "start": "2026-12-05T14:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Abu Dhabi"
+  },
+  {
+   "s": "f1",
+   "start": "2026-12-06T13:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Abu Dhabi"
+  },
+  {
+   "s": "padel",
+   "date": "2026-12-10",
+   "tbc": true,
+   "title": "Cuartos de final",
+   "sub": "Premier Padel Finals, Barcelona (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-12-11",
+   "tbc": true,
+   "title": "Semifinal",
+   "sub": "Premier Padel Finals, Barcelona (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-12-12",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Premier Padel Finals, Barcelona (fecha estimada)"
+  }
+ ]
 }
