@@ -1,0 +1,210 @@
+{
+ "updated": "2026-11-07T12:00:00Z",
+ "events": [
+  {
+   "s": "laliga",
+   "start": "2026-11-07T20:00:00Z",
+   "title": "Real Madrid – Barcelona",
+   "sub": "Jornada de ejemplo"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-07T15:15:00Z",
+   "title": "Final masculina",
+   "sub": "Torneo de ejemplo"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-08T19:45:00Z",
+   "title": "Inter – Bayern",
+   "sub": "Fase de liga"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Semifinal ATP",
+   "sub": "Torneo de ejemplo"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-09T20:00:00Z",
+   "title": "Arsenal – Atlético",
+   "sub": "Fase de liga"
+  },
+  {
+   "s": "motogp",
+   "start": "2026-11-09T13:00:00Z",
+   "title": "Carrera Sprint",
+   "sub": "GP de ejemplo"
+  },
+  {
+   "s": "motogp",
+   "start": "2026-11-10T14:00:00Z",
+   "title": "Carrera principal",
+   "sub": "GP de ejemplo"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-10T17:00:00Z",
+   "title": "Cuartos de final ATP",
+   "sub": "Torneo de ejemplo"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-10T21:00:00Z",
+   "title": "Milan – Benfica",
+   "sub": "Fase de liga"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-10T19:00:00Z",
+   "title": "Sevilla – Valencia",
+   "sub": "Jornada de ejemplo"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-11T18:30:00Z",
+   "title": "Chiefs – Bills",
+   "sub": "Semana de ejemplo"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-12T21:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP de ejemplo"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-13T14:00:00Z",
+   "title": "Carrera",
+   "sub": "GP de ejemplo"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T11:00:00Z",
+   "title": "Final femenina",
+   "sub": "Torneo de ejemplo"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-13T17:30:00Z",
+   "title": "Girona – Osasuna",
+   "sub": "Jornada de ejemplo"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-13T20:00:00Z",
+   "title": "Liverpool – Napoli",
+   "sub": "Fase de liga"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-13T19:00:00Z",
+   "title": "Cowboys – Eagles",
+   "sub": "Semana de ejemplo"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-15T15:15:00Z",
+   "title": "Celta – Getafe",
+   "sub": "Jornada de ejemplo"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-15T19:45:00Z",
+   "title": "Athletic – Real Sociedad",
+   "sub": "Jornada de ejemplo"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-16T20:00:00Z",
+   "title": "PSG – Dortmund",
+   "sub": "Fase de liga"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-20T20:00:00Z",
+   "title": "Real Madrid – Man. City",
+   "sub": "Fase de liga"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-18T11:00:00Z",
+   "title": "Octavos de final",
+   "sub": "Torneo de ejemplo"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-18T13:30:00Z",
+   "title": "Octavos de final",
+   "sub": "Torneo de ejemplo"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-18T16:00:00Z",
+   "title": "Cuartos de final",
+   "sub": "Torneo de ejemplo"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-19T19:00:00Z",
+   "title": "Final WTA",
+   "sub": "Torneo de ejemplo"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-21T18:30:00Z",
+   "title": "Bears – Packers",
+   "sub": "Semana de ejemplo"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-25T18:30:00Z",
+   "title": "49ers – Seahawks",
+   "sub": "Semana de ejemplo"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-27T21:25:00Z",
+   "title": "Patriots – Jets",
+   "sub": "Semana de ejemplo"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-23T20:00:00Z",
+   "title": "Betis – Villarreal",
+   "sub": "Jornada de ejemplo"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-26T19:45:00Z",
+   "title": "Barcelona – Juventus",
+   "sub": "Fase de liga"
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-29T14:00:00Z",
+   "title": "Carrera",
+   "sub": "GP de ejemplo"
+  },
+  {
+   "s": "motogp",
+   "start": "2026-12-02T13:00:00Z",
+   "title": "Carrera principal",
+   "sub": "GP de ejemplo"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-05T20:00:00Z",
+   "title": "Atlético – Real Madrid",
+   "sub": "Jornada de ejemplo"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-14",
+   "tbc": true,
+   "title": "Semifinal",
+   "sub": "Torneo de ejemplo"
+  }
+ ]
+}

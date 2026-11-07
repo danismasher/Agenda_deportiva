@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<title>Mi agenda deportiva</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f4f6;--card:#fff;--tx:#14161a;--mu:#6b7280;--bd:#e2e4e8;--chip:#e9ebef;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1115;--card:#1a1d23;--tx:#f2f3f5;--mu:#98a0ab;--bd:#2a2e36;--chip:#242830;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1115;--card:#1a1d23;--tx:#f2f3f5;--mu:#98a0ab;--bd:#2a2e36;--chip:#242830;color-scheme:dark}
+*{box-sizing:border-box;margin:0}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--tx);font-family:"Barlow Semi Condensed",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;max-width:560px;margin:0 auto;padding:14px 14px 40px}
+h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
+.sub{color:var(--mu);font-size:15px;margin-top:2px}
+.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:14px 0 6px}
+.chip{border:2px solid transparent;background:var(--chip);color:var(--tx);border-radius:999px;padding:8px 2px;font:inherit;font-size:15px;white-space:nowrap;text-align:center;font-weight:600;cursor:pointer}
+.chip.on{background:var(--c);color:#fff}
+.chip.on.dk,.badge.dk,.dots i.dk{color:#1b1d21}
+[style*="--c:#ffffff"]{box-shadow:0 0 0 1px rgba(120,120,120,.5)}
+.chip{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.chip.ft{position:relative}
+.chip.ft::after{content:"";position:absolute;top:4px;right:8px;width:9px;height:9px;border-radius:50%;background:#1b1d21;box-shadow:0 0 0 1.5px #fff}
+#sheet{position:fixed;inset:0;z-index:20;display:flex;align-items:flex-end;justify-content:center}
+#sheet[hidden]{display:none}
+#shBg{position:absolute;inset:0;background:rgba(0,0,0,.45)}
+.shBox{position:relative;width:100%;max-width:560px;background:var(--card);border-radius:22px 22px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px))}
+#shT{display:block;font-size:22px;font-weight:700;margin-bottom:12px}
+#shChips{display:flex;flex-wrap:wrap;gap:8px}
+#shChips .chip{padding:10px 16px;font-size:16px}
+.shAct{display:flex;gap:10px;margin-top:18px}
+.shAct button{flex:1;border:0;border-radius:12px;padding:12px;font:inherit;font-weight:700;font-size:17px;cursor:pointer;background:var(--chip);color:var(--tx)}
+.shAct #shOk{background:var(--tx);color:var(--bg)}
+.shAct #shAll.on{background:var(--c);color:#fff}
+.shAct #shAll.on.dk{color:#1b1d21}
+.chip:focus-visible,.day:focus-visible,.hd:focus-visible,.nav:focus-visible{outline:3px solid var(--tx);outline-offset:2px}
+.heads{display:flex;gap:24px;margin:12px 0 14px}
+.hd{border:0;background:none;font:inherit;font-size:30px;font-weight:700;color:var(--mu);padding:0 0 4px;border-bottom:4px solid transparent;cursor:pointer}
+.hd.on{color:var(--tx);border-bottom-color:var(--tx)}
+.pager{display:flex;align-items:flex-start;overflow:hidden;touch-action:pan-y}
+.pg{flex:0 0 100%;min-width:0;transform:translateX(calc(var(--p,0)*-100%));transition:transform .28s ease}
+.pager:not(.mv)[data-p="0"] #list,.pager:not(.mv)[data-p="1"] #cal{height:0;overflow:hidden}
+.mh{display:flex;align-items:center;justify-content:space-between;margin:6px 0 8px}
+.mh b{font-size:21px;text-transform:capitalize}
+.nav{border:0;background:var(--chip);color:var(--tx);width:42px;height:42px;border-radius:12px;font-size:20px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.wd{text-align:center;color:var(--mu);font-size:14px;font-weight:600;padding:4px 0}
+.day{aspect-ratio:1/1.55;min-height:0;overflow:hidden;border:0;border-radius:12px;background:var(--card);color:var(--tx);font:inherit;font-size:18px;font-weight:600;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:6px 2px;cursor:pointer}
+.day.out{opacity:.35}
+.day.today{box-shadow:inset 0 0 0 2px var(--tx)}
+.day.sel{background:var(--tx);color:var(--bg)}
+.dots{display:flex;flex-direction:column;gap:2px;width:100%;padding:0 5px}
+.dots i{display:flex;align-items:center;justify-content:center;flex:none;height:6px;border-radius:3px;background:var(--c);color:#fff;font-size:11px;font-weight:700;line-height:1;font-style:normal}
+.dots i.n{height:13px;border-radius:7px}
+.dh{font-size:21px;font-weight:700;margin:20px 0 10px;text-transform:capitalize}
+.card{display:flex;gap:14px;align-items:center;background:var(--card);border-radius:18px;padding:16px;margin-bottom:10px;border-left:10px solid var(--c)}
+.time{font-size:32px;font-weight:700;line-height:1;min-width:76px;letter-spacing:-.02em}
+.body b{display:block;font-size:20px;line-height:1.15}
+.badge{display:inline-block;margin-top:6px;font-size:14px;font-weight:700;color:#fff;background:var(--c);border-radius:8px;padding:2px 9px}
+.det{color:var(--mu);font-size:15px;margin-top:4px}
+.empty{color:var(--mu);text-align:center;padding:26px 10px;background:var(--card);border-radius:18px}
+.note{color:var(--mu);font-size:13.5px;text-align:center;margin-top:22px}
+</style>
+</head>
+<body>
+<div class="chips" id="chips"></div>
+<div class="heads"><button class="hd on" data-i="0">Calendario</button><button class="hd" data-i="1">Próximos</button></div>
+<div class="pager" id="pager" data-p="0">
+<section id="cal" class="pg">
+  <div class="mh"><button class="nav" id="prev" aria-label="Mes anterior">‹</button><b id="mt"></b><button class="nav" id="next" aria-label="Mes siguiente">›</button></div>
+  <div class="grid" id="grid"></div>
+  <div id="dayList"></div>
+</section>
+<section id="list" class="pg"></section>
+</div>
+<p class="note" id="note"></p>
+<div id="sheet" hidden><div id="shBg"></div><div class="shBox"><b id="shT"></b><div id="shChips"></div><div class="shAct"><button id="shAll">Todos los equipos</button><button id="shOk">Listo</button></div></div></div>
+<script>
+const S={f1:["F1","#e10600","🏎️"],motogp:["MotoGP","#e5239d","🏍️"],nfl:["NFL","#1e3a8a","🏈"],tenis:["Tenis","#4d9a0b","🎾"],padel:["Pádel","#2563eb","🏓"],laliga:["LaLiga","#ff6f5e","⚽"],champions:["Champions","#ffffff","🏆"]};
+const key=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+let ev=[];
+const toEv=r=>{if(r.tbc||!r.start)return{date:r.date,time:"–:–",s:r.s,title:r.title,sub:(r.sub?r.sub+", ":"")+"hora por confirmar"};const d=new Date(r.start);return{date:key(d),time:String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"),s:r.s,title:r.title,sub:r.sub||""}};
+function setData(j){ev=(j.events||[]).filter(r=>S[r.s]).map(toEv).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));$("note").textContent=j.updated?"Datos actualizados el "+new Date(j.updated).toLocaleString("es-ES",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):""}
+async function load(){let j=null;try{const r=await fetch("events.json?"+Date.now(),{cache:"no-cache"});if(r.ok){j=await r.json();try{localStorage.setItem("agd",JSON.stringify(j))}catch(e){}}}catch(e){}
+if(!j){try{j=JSON.parse(localStorage.getItem("agd")||"null")}catch(e){}}
+if(j){setData(j);all()}else $("note").textContent="No se han podido cargar los eventos."}
+let only=null;const DK=new Set(["laliga","champions"]);
+const TM={laliga:[["Real Madrid","Real Madrid"],["FC Barcelona","Barcelona"],["Atlético de Madrid","Atlético"]],nfl:["Seahawks","Patriots","Chiefs","49ers","Bills","Bears"].map(x=>[x,x])};
+TM.champions=TM.laliga;
+const tm={laliga:new Set(),champions:new Set(),nfl:new Set()};
+function saveF(){try{localStorage.setItem("agf",JSON.stringify({only,tm:Object.fromEntries(Object.entries(tm).map(([k,v])=>[k,[...v]]))}))}catch(e){}}
+try{const f=JSON.parse(localStorage.getItem("agf")||"null");if(f){only=S[f.only]?f.only:null;for(const k in tm)((f.tm&&f.tm[k])||[]).forEach(w=>tm[k].add(w))}}catch(e){}
+const today=key(new Date());
+let sel=today,cur=new Date();cur.setDate(1);
+const $=id=>document.getElementById(id);
+const fmt=(k,o)=>new Date(k+"T12:00:00").toLocaleDateString("es-ES",o);
+const vis=()=>ev.filter(e=>(!only||e.s===only)&&(!tm[e.s]||!tm[e.s].size||[...tm[e.s]].some(w=>e.title.includes(w))));
+const card=e=>`<div class="card" style="--c:${S[e.s][1]}"><div class="time">${e.time}</div><div class="body"><b>${e.title}</b><span class="badge${DK.has(e.s)?" dk":""}">${S[e.s][0]}</span><div class="det">${e.sub}</div></div></div>`;
+function chips(){$("chips").innerHTML=Object.entries(S).map(([k,[n,c,i]])=>`<button class="chip ${!only||only===k?"on":""}${DK.has(k)?" dk":""}${tm[k]&&tm[k].size?" ft":""}" style="--c:${c}" data-k="${k}">${n}</button>`).join("")}
+function cal(){
+  $("mt").textContent=cur.toLocaleDateString("es-ES",{month:"long",year:"numeric"});
+  const y=cur.getFullYear(),m=cur.getMonth(),off=(new Date(y,m,1).getDay()+6)%7;
+  let h=["L","M","X","J","V","S","D"].map(d=>`<div class="wd">${d}</div>`).join("");
+  const all=vis();
+  for(let i=0;i<42;i++){
+    const d=new Date(y,m,1-off+i),k=key(d);
+    if(i>=35&&d.getMonth()!==m)break;
+    const cnt={};all.filter(e=>e.date===k).forEach(e=>cnt[e.s]=(cnt[e.s]||0)+1);
+    const dots=Object.entries(cnt).map(([s,n])=>`<i class="${n>1?"n":""}${DK.has(s)?" dk":""}" style="--c:${S[s][1]}">${n>1?n:""}</i>`).join("");
+    h+=`<button class="day ${d.getMonth()!==m?"out":""} ${k===today?"today":""} ${k===sel?"sel":""}" data-d="${k}"><span>${d.getDate()}</span><span class="dots">${dots}</span></button>`;
+  }
+  $("grid").innerHTML=h;
+  const l=all.filter(e=>e.date===sel);
+  $("dayList").innerHTML=`<div class="dh">${fmt(sel,{weekday:"long",day:"numeric",month:"long"})}</div>`+(l.length?l.map(card).join(""):`<div class="empty">No hay eventos este día con los filtros elegidos.</div>`);
+}
+function list(){
+  const l=vis().filter(e=>e.date>=today);let last="",h="";
+  for(const e of l){if(e.date!==last){last=e.date;h+=`<div class="dh">${e.date===today?"Hoy":fmt(e.date,{weekday:"long",day:"numeric",month:"long"})}</div>`}h+=card(e)}
+  $("list").innerHTML=h||`<div class="empty">No hay próximos eventos con los filtros elegidos.</div>`;
+}
+function all(){chips();cal();list();saveF()}
+let lp=false,lt=null,sk=null,so=0;
+$("chips").onclick=e=>{const k=e.target.closest("[data-k]")?.dataset.k;if(lp){lp=false;return}if(!k)return;only=only===k?null:k;all()};
+$("chips").addEventListener("pointerdown",e=>{lp=false;clearTimeout(lt);const k=e.target.closest("[data-k]")?.dataset.k;if(!k||!TM[k])return;lt=setTimeout(()=>{lp=true;openSheet(k)},450)});
+["pointerup","pointercancel","pointerleave"].forEach(t=>$("chips").addEventListener(t,()=>clearTimeout(lt)));
+$("chips").addEventListener("contextmenu",e=>e.preventDefault());
+function openSheet(k){sk=k;only=k;so=Date.now();all();shRender();$("sheet").hidden=false}
+function shRender(){$("shT").textContent=S[sk][0]+": equipos";$("shChips").innerHTML=TM[sk].map(([n,w])=>`<button class="chip ${tm[sk].has(w)?"on":""}${DK.has(sk)?" dk":""}" style="--c:${S[sk][1]}" data-w="${w}">${n}</button>`).join("");const a=$("shAll");a.style.setProperty("--c",S[sk][1]);a.classList.toggle("on",!tm[sk].size);a.classList.toggle("dk",DK.has(sk));a.style.boxShadow=S[sk][1]==="#ffffff"&&!tm[sk].size?"0 0 0 1px rgba(120,120,120,.5)":""}
+$("shChips").onclick=e=>{const w=e.target.closest("[data-w]")?.dataset.w;if(!w)return;tm[sk].has(w)?tm[sk].delete(w):tm[sk].add(w);shRender();all()};
+$("shAll").onclick=()=>{tm[sk].clear();shRender();all()};
+$("shOk").onclick=()=>{$("sheet").hidden=true};
+$("shBg").onclick=()=>{if(Date.now()-so>400)$("sheet").hidden=true};
+$("grid").onclick=e=>{const d=e.target.closest("[data-d]")?.dataset.d;if(!d)return;sel=d;cal()};
+$("prev").onclick=()=>{cur.setMonth(cur.getMonth()-1);cal()};
+$("next").onclick=()=>{cur.setMonth(cur.getMonth()+1);cal()};
+const pg=$("pager"),hds=document.querySelectorAll(".hd");let pi=0,tx=0,ty=0;
+function go(i){if(i<0||i>1||i===pi)return;pi=i;pg.dataset.p=i;pg.style.setProperty("--p",i);pg.classList.add("mv");setTimeout(()=>pg.classList.remove("mv"),300);hds.forEach((h,j)=>h.classList.toggle("on",j===i))}
+hds.forEach(h=>h.onclick=()=>go(+h.dataset.i));
+pg.addEventListener("touchstart",e=>{tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
+pg.addEventListener("touchend",e=>{const dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5)go(dx<0?1:0)});
+all();load();
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
