@@ -101,7 +101,8 @@ const today=key(new Date());
 let sel=today,cur=new Date();cur.setDate(1);
 const $=id=>document.getElementById(id);
 const fmt=(k,o)=>new Date(k+"T12:00:00").toLocaleDateString("es-ES",o);
-const vis=()=>ev.filter(e=>(!only||e.s===only)&&(!tm[e.s]||!tm[e.s].size||[...tm[e.s]].some(w=>e.title.includes(w))));
+const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const vis=()=>ev.filter(e=>(!only||e.s===only)&&(!tm[e.s]||!tm[e.s].size||[...tm[e.s]].some(w=>norm(e.title).includes(norm(w)))));
 const card=e=>`<div class="card" style="--c:${S[e.s][1]}"><div class="time">${e.time}</div><div class="body"><b>${e.title}</b><span class="badge${DK.has(e.s)?" dk":""}">${S[e.s][0]}</span><div class="det">${e.sub}</div></div></div>`;
 function chips(){$("chips").innerHTML=Object.entries(S).map(([k,[n,c,i]])=>`<button class="chip ${!only||only===k?"on":""}${DK.has(k)?" dk":""}${tm[k]&&tm[k].size?" ft":""}" style="--c:${c}" data-k="${k}">${n}</button>`).join("")}
 function cal(){
