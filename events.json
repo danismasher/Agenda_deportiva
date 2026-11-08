@@ -1,12 +1,6 @@
 {
- "updated": "2026-11-07T22:05:00Z",
+ "updated": "2026-11-08T00:19:00Z",
  "events": [
-  {
-   "s": "f1",
-   "start": "2026-10-31T21:00:00Z",
-   "title": "Clasificación",
-   "sub": "GP Mexico City"
-  },
   {
    "s": "f1",
    "start": "2026-11-01T20:00:00Z",
@@ -44,10 +38,28 @@
    "sub": "GP Brazilian"
   },
   {
+   "s": "laliga",
+   "start": "2026-11-08T13:00:00Z",
+   "title": "Elche – Real Betis",
+   "sub": "Estadio Martínez Valero"
+  },
+  {
    "s": "tenis",
    "start": "2026-11-08T14:00:00Z",
    "title": "C. Alcaraz – B. Shelton",
    "sub": "Rolex Paris Masters, Final"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T14:30:00Z",
+   "title": "Atlanta Falcons – Cincinnati Bengals",
+   "sub": "Santiago Bernabéu"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-08T15:15:00Z",
+   "title": "Real Sociedad – Rayo Vallecano",
+   "sub": "Reale Arena"
   },
   {
    "s": "f1",
@@ -56,11 +68,113 @@
    "sub": "GP Brazilian"
   },
   {
+   "s": "laliga",
+   "start": "2026-11-08T17:30:00Z",
+   "title": "Celta Vigo – Levante",
+   "sub": "Balaidos"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-08T17:30:00Z",
+   "title": "Villarreal – Getafe",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Indianapolis Colts – Dallas Cowboys",
+   "sub": "Lucas Oil Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Kansas City Chiefs – New York Jets",
+   "sub": "Arrowhead Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Miami Dolphins – Detroit Lions",
+   "sub": "Hard Rock Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "New Orleans Saints – Cleveland Browns",
+   "sub": "Caesars Superdome"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Philadelphia Eagles – New York Giants",
+   "sub": "Lincoln Financial Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Washington Commanders – Los Angeles Rams",
+   "sub": "Northwest Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Carolina Panthers – Denver Broncos",
+   "sub": "Bank of America Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-08T20:00:00Z",
+   "title": "Atlético Madrid – Barcelona",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T21:05:00Z",
+   "title": "Los Angeles Chargers – Houston Texans",
+   "sub": "SoFi Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T21:25:00Z",
+   "title": "New England Patriots – Green Bay Packers",
+   "sub": "Gillette Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T21:25:00Z",
+   "title": "San Francisco 49ers – Las Vegas Raiders",
+   "sub": "Levi's Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T21:25:00Z",
+   "title": "Seattle Seahawks – Arizona Cardinals",
+   "sub": "Lumen Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-09T01:20:00Z",
+   "title": "Chicago Bears – Tampa Bay Buccaneers",
+   "sub": "Soldier Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-10T01:15:00Z",
+   "title": "Minnesota Vikings – Buffalo Bills",
+   "sub": "U.S. Bank Stadium"
+  },
+  {
    "s": "padel",
    "date": "2026-11-12",
    "tbc": true,
    "title": "Cuartos de final",
    "sub": "Dubai P1 (fecha estimada)"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-13T01:15:00Z",
+   "title": "New York Giants – Washington Commanders",
+   "sub": "MetLife Stadium"
   },
   {
    "s": "padel",
@@ -77,16 +191,358 @@
    "sub": "Dubai P1 (fecha estimada)"
   },
   {
+   "s": "nfl",
+   "start": "2026-11-15T14:30:00Z",
+   "title": "Detroit Lions – New England Patriots",
+   "sub": "FC Bayern Munich Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T18:00:00Z",
+   "title": "Atlanta Falcons – Kansas City Chiefs",
+   "sub": "Mercedes-Benz Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T18:00:00Z",
+   "title": "Cleveland Browns – Houston Texans",
+   "sub": "Huntington Bank Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T18:00:00Z",
+   "title": "Green Bay Packers – Minnesota Vikings",
+   "sub": "Lambeau Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T18:00:00Z",
+   "title": "Tennessee Titans – Jacksonville Jaguars",
+   "sub": "Nissan Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T18:00:00Z",
+   "title": "Indianapolis Colts – Miami Dolphins",
+   "sub": "Lucas Oil Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T18:00:00Z",
+   "title": "New Orleans Saints – Carolina Panthers",
+   "sub": "Caesars Superdome"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T18:00:00Z",
+   "title": "New York Jets – Buffalo Bills",
+   "sub": "MetLife Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T21:05:00Z",
+   "title": "Las Vegas Raiders – Seattle Seahawks",
+   "sub": "Allegiant Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T21:05:00Z",
+   "title": "Arizona Cardinals – Los Angeles Rams",
+   "sub": "State Farm Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-15T21:25:00Z",
+   "title": "Dallas Cowboys – San Francisco 49ers",
+   "sub": "AT&T Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-16T01:20:00Z",
+   "title": "Cincinnati Bengals – Pittsburgh Steelers",
+   "sub": "Paycor Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-17T01:15:00Z",
+   "title": "Baltimore Ravens – Los Angeles Chargers",
+   "sub": "M&T Bank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-20T01:15:00Z",
+   "title": "Houston Texans – Indianapolis Colts",
+   "sub": "Reliant Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-20T20:00:00Z",
+   "title": "Athletic Club – Espanyol",
+   "sub": "San Mamés"
+  },
+  {
    "s": "f1",
    "start": "2026-11-21T04:00:00Z",
    "title": "Clasificación",
    "sub": "GP Las Vegas"
   },
   {
+   "s": "laliga",
+   "start": "2026-11-21T13:00:00Z",
+   "title": "Alavés – Deportivo",
+   "sub": "Mendizorrotza"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-21T15:15:00Z",
+   "title": "Rayo Vallecano – Valencia",
+   "sub": "Estadio de Vallecas"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-21T17:30:00Z",
+   "title": "Sevilla – Real Betis",
+   "sub": "Ramón Sánchez Pizjuán Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-21T20:00:00Z",
+   "title": "Real Madrid – Celta Vigo",
+   "sub": "Santiago Bernabéu"
+  },
+  {
    "s": "f1",
    "start": "2026-11-22T04:00:00Z",
    "title": "Carrera",
    "sub": "GP Las Vegas"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-22T13:00:00Z",
+   "title": "Barcelona – Villarreal",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-22T15:15:00Z",
+   "title": "Racing Santander – Real Sociedad",
+   "sub": "El Sardineros"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-22T17:30:00Z",
+   "title": "Osasuna – Málaga",
+   "sub": "El Sadar"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Buffalo Bills – Miami Dolphins",
+   "sub": "Highmark Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Chicago Bears – New Orleans Saints",
+   "sub": "Soldier Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Dallas Cowboys – Tennessee Titans",
+   "sub": "AT&T Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Detroit Lions – Tampa Bay Buccaneers",
+   "sub": "Ford Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Kansas City Chiefs – Arizona Cardinals",
+   "sub": "Arrowhead Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "New York Giants – Jacksonville Jaguars",
+   "sub": "MetLife Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Carolina Panthers – Baltimore Ravens",
+   "sub": "Bank of America Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-22T20:00:00Z",
+   "title": "Getafe – Atlético Madrid",
+   "sub": "Estadio Coliseum"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T21:05:00Z",
+   "title": "Los Angeles Chargers – New York Jets",
+   "sub": "SoFi Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T21:25:00Z",
+   "title": "Denver Broncos – Las Vegas Raiders",
+   "sub": "Empower Field at Mile High"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T21:25:00Z",
+   "title": "Philadelphia Eagles – Pittsburgh Steelers",
+   "sub": "Lincoln Financial Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-23T01:20:00Z",
+   "title": "San Francisco 49ers – Minnesota Vikings",
+   "sub": "Estadio Banorte"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-23T20:00:00Z",
+   "title": "Levante – Elche",
+   "sub": "Estadi Ciutat de València"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-24T01:15:00Z",
+   "title": "Washington Commanders – Cincinnati Bengals",
+   "sub": "Northwest Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T17:45:00Z",
+   "title": "Bodo/Glimt – LASK Linz",
+   "sub": "Aspmyra Stadion"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T17:45:00Z",
+   "title": "Galatasaray – Aston Villa",
+   "sub": "RAMS Park"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T20:00:00Z",
+   "title": "Arsenal – Borussia Dortmund",
+   "sub": "Emirates Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T20:00:00Z",
+   "title": "Como – AEK Athens",
+   "sub": "Giuseppe Sinigaglia"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T20:00:00Z",
+   "title": "Feyenoord Rotterdam – FC Porto",
+   "sub": "De Kuip"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T20:00:00Z",
+   "title": "Manchester City – Napoli",
+   "sub": "Etihad Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T20:00:00Z",
+   "title": "RB Leipzig – Lens",
+   "sub": "Red Bull Arena"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T20:00:00Z",
+   "title": "Real Madrid – PSV Eindhoven",
+   "sub": "Santiago Bernabéu"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-24T20:00:00Z",
+   "title": "Slovan Bratislava – Real Betis",
+   "sub": "Národny Futbalovy Stadión"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T17:45:00Z",
+   "title": "Sabah FK – Barcelona",
+   "sub": "Baku Olympic Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T17:45:00Z",
+   "title": "Slavia Prague – Villarreal",
+   "sub": "Fortuna Arena"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T20:00:00Z",
+   "title": "Atlético Madrid – Viking FK",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T20:00:00Z",
+   "title": "Club Brugge – Liverpool",
+   "sub": "Jan Breydel Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T20:00:00Z",
+   "title": "Internazionale – VfB Stuttgart",
+   "sub": "San Siro"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T20:00:00Z",
+   "title": "Lille – Bayern Munich",
+   "sub": "Decathlon Arena - Stade Pierre-Mauroy"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T20:00:00Z",
+   "title": "Paris Saint-Germain – AS Roma",
+   "sub": "Parc des Princes"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T20:00:00Z",
+   "title": "Shakhtar Donetsk – Fenerbahce",
+   "sub": "Stamford Bridge"
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-25T20:00:00Z",
+   "title": "Sporting CP – Manchester United",
+   "sub": "Estádio José Alvalade"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-26T01:00:00Z",
+   "title": "Los Angeles Rams – Green Bay Packers",
+   "sub": "SoFi Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-26T18:00:00Z",
+   "title": "Detroit Lions – Chicago Bears",
+   "sub": "Ford Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-26T21:30:00Z",
+   "title": "Dallas Cowboys – Philadelphia Eagles",
+   "sub": "AT&T Stadium"
   },
   {
    "s": "padel",
@@ -96,6 +552,24 @@
    "sub": "Mexico Major (fecha estimada)"
   },
   {
+   "s": "nfl",
+   "start": "2026-11-27T01:20:00Z",
+   "title": "Buffalo Bills – Kansas City Chiefs",
+   "sub": "Highmark Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-27T20:00:00Z",
+   "title": "Levante – Racing Santander",
+   "sub": "Estadi Ciutat de València"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-27T20:00:00Z",
+   "title": "Pittsburgh Steelers – Denver Broncos",
+   "sub": "Acrisure Stadium"
+  },
+  {
    "s": "padel",
    "date": "2026-11-27",
    "tbc": true,
@@ -103,10 +577,34 @@
    "sub": "Mexico Major (fecha estimada)"
   },
   {
+   "s": "laliga",
+   "start": "2026-11-28T13:00:00Z",
+   "title": "Real Betis – Rayo Vallecano",
+   "sub": "Estadio La Cartuja"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-28T15:15:00Z",
+   "title": "Málaga – Athletic Club",
+   "sub": "La Rosaleda"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-28T17:30:00Z",
+   "title": "Elche – Atlético Madrid",
+   "sub": "Estadio Martínez Valero"
+  },
+  {
    "s": "f1",
    "start": "2026-11-28T18:00:00Z",
    "title": "Clasificación",
    "sub": "GP Qatar"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-28T20:00:00Z",
+   "title": "Real Madrid – Alavés",
+   "sub": "Santiago Bernabéu"
   },
   {
    "s": "padel",
@@ -116,10 +614,124 @@
    "sub": "Mexico Major (fecha estimada)"
   },
   {
+   "s": "laliga",
+   "start": "2026-11-29T13:00:00Z",
+   "title": "Valencia – Osasuna",
+   "sub": "Mestalla Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-29T15:15:00Z",
+   "title": "Deportivo – Barcelona",
+   "sub": "Riazor"
+  },
+  {
    "s": "f1",
    "start": "2026-11-29T16:00:00Z",
    "title": "Carrera",
    "sub": "GP Qatar"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-29T17:30:00Z",
+   "title": "Celta Vigo – Villarreal",
+   "sub": "Balaidos"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T18:00:00Z",
+   "title": "Cincinnati Bengals – New Orleans Saints",
+   "sub": "Paycor Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T18:00:00Z",
+   "title": "Cleveland Browns – Las Vegas Raiders",
+   "sub": "Huntington Bank Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T18:00:00Z",
+   "title": "Indianapolis Colts – New York Giants",
+   "sub": "Lucas Oil Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T18:00:00Z",
+   "title": "Miami Dolphins – New York Jets",
+   "sub": "Hard Rock Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T18:00:00Z",
+   "title": "Minnesota Vikings – Atlanta Falcons",
+   "sub": "U.S. Bank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T18:00:00Z",
+   "title": "Houston Texans – Baltimore Ravens",
+   "sub": "Reliant Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-29T20:00:00Z",
+   "title": "Real Sociedad – Sevilla",
+   "sub": "Reale Arena"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T21:05:00Z",
+   "title": "Jacksonville Jaguars – Tennessee Titans",
+   "sub": "EverBank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T21:25:00Z",
+   "title": "Arizona Cardinals – Washington Commanders",
+   "sub": "State Farm Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T21:25:00Z",
+   "title": "San Francisco 49ers – Seattle Seahawks",
+   "sub": "Levi's Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-30T01:20:00Z",
+   "title": "Los Angeles Chargers – New England Patriots",
+   "sub": "SoFi Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-30T20:00:00Z",
+   "title": "Espanyol – Getafe",
+   "sub": "RCDE Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-01T01:15:00Z",
+   "title": "Tampa Bay Buccaneers – Carolina Panthers",
+   "sub": "Raymond James Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-02T18:00:00Z",
+   "title": "Real Sociedad – Real Madrid",
+   "sub": "Reale Arena"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-02T20:30:00Z",
+   "title": "Barcelona – Atlético Madrid",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-04T01:15:00Z",
+   "title": "Los Angeles Rams – Kansas City Chiefs",
+   "sub": "SoFi Stadium"
   },
   {
    "s": "f1",
@@ -134,11 +746,269 @@
    "sub": "GP Abu Dhabi"
   },
   {
+   "s": "nfl",
+   "start": "2026-12-06T18:00:00Z",
+   "title": "Atlanta Falcons – Detroit Lions",
+   "sub": "Mercedes-Benz Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T18:00:00Z",
+   "title": "Chicago Bears – Jacksonville Jaguars",
+   "sub": "Soldier Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T18:00:00Z",
+   "title": "Cleveland Browns – Cincinnati Bengals",
+   "sub": "Huntington Bank Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T18:00:00Z",
+   "title": "Tennessee Titans – Washington Commanders",
+   "sub": "Nissan Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T18:00:00Z",
+   "title": "New Orleans Saints – Green Bay Packers",
+   "sub": "Caesars Superdome"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T18:00:00Z",
+   "title": "New York Giants – San Francisco 49ers",
+   "sub": "MetLife Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T18:00:00Z",
+   "title": "Tampa Bay Buccaneers – Los Angeles Chargers",
+   "sub": "Raymond James Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Alavés – Espanyol",
+   "sub": "Mendizorrotza"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Athletic Club – Real Madrid",
+   "sub": "San Mamés"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Atlético Madrid – Real Betis",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Barcelona – Celta Vigo",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Getafe – Valencia",
+   "sub": "Estadio Coliseum"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Osasuna – Elche",
+   "sub": "El Sadar"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Racing Santander – Deportivo",
+   "sub": "El Sardineros"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Rayo Vallecano – Levante",
+   "sub": "Estadio de Vallecas"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Sevilla – Málaga",
+   "sub": "Ramón Sánchez Pizjuán Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-06T20:00:00Z",
+   "title": "Villarreal – Real Sociedad",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T21:05:00Z",
+   "title": "Denver Broncos – Miami Dolphins",
+   "sub": "Empower Field at Mile High"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T21:05:00Z",
+   "title": "Arizona Cardinals – Philadelphia Eagles",
+   "sub": "State Farm Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T21:25:00Z",
+   "title": "Minnesota Vikings – Carolina Panthers",
+   "sub": "U.S. Bank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-06T21:25:00Z",
+   "title": "New England Patriots – Buffalo Bills",
+   "sub": "Gillette Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-07T01:20:00Z",
+   "title": "Pittsburgh Steelers – Houston Texans",
+   "sub": "Acrisure Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-08T01:15:00Z",
+   "title": "Seattle Seahawks – Dallas Cowboys",
+   "sub": "Lumen Field"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T17:45:00Z",
+   "title": "Viking FK – Feyenoord Rotterdam",
+   "sub": "Viking Stadion"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T17:45:00Z",
+   "title": "Villarreal – Sabah FK",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T20:00:00Z",
+   "title": "AEK Athens – Galatasaray",
+   "sub": "OPAP Arena"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T20:00:00Z",
+   "title": "AS Roma – Sporting CP",
+   "sub": "Olimpico"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T20:00:00Z",
+   "title": "Aston Villa – Paris Saint-Germain",
+   "sub": "Villa Park"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T20:00:00Z",
+   "title": "Barcelona – Manchester City",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T20:00:00Z",
+   "title": "Bayern Munich – Slavia Prague",
+   "sub": "Allianz Arena"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T20:00:00Z",
+   "title": "Manchester United – RB Leipzig",
+   "sub": "Old Trafford"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-08T20:00:00Z",
+   "title": "Napoli – Club Brugge",
+   "sub": "Stadio Diego Armando Maradona"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T17:45:00Z",
+   "title": "Real Betis – Como",
+   "sub": "Estadio La Cartuja"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T17:45:00Z",
+   "title": "Slovan Bratislava – Shakhtar Donetsk",
+   "sub": "Národny Futbalovy Stadión"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-09T19:00:00Z",
+   "title": "Rayo Vallecano – Athletic Club",
+   "sub": "Estadio de Vallecas"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T20:00:00Z",
+   "title": "Arsenal – Real Madrid",
+   "sub": "Emirates Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T20:00:00Z",
+   "title": "Borussia Dortmund – Internazionale",
+   "sub": "Signal Iduna Park"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T20:00:00Z",
+   "title": "LASK Linz – Fenerbahce",
+   "sub": "Raiffeisen Arena (Linz)"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T20:00:00Z",
+   "title": "Lens – Bodo/Glimt",
+   "sub": "Stade Bollaert-Delelis"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T20:00:00Z",
+   "title": "Liverpool – FC Porto",
+   "sub": "Anfield"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T20:00:00Z",
+   "title": "PSV Eindhoven – Atlético Madrid",
+   "sub": "Philips Stadion"
+  },
+  {
+   "s": "champions",
+   "start": "2026-12-09T20:00:00Z",
+   "title": "VfB Stuttgart – Lille",
+   "sub": "MHPArena"
+  },
+  {
    "s": "padel",
    "date": "2026-12-10",
    "tbc": true,
    "title": "Cuartos de final",
    "sub": "Premier Padel Finals, Barcelona (fecha estimada)"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-11T01:15:00Z",
+   "title": "New England Patriots – Minnesota Vikings",
+   "sub": "Gillette Stadium"
   },
   {
    "s": "padel",
@@ -153,6 +1023,1260 @@
    "tbc": true,
    "title": "Final",
    "sub": "Premier Padel Finals, Barcelona (fecha estimada)"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T18:00:00Z",
+   "title": "Cleveland Browns – Atlanta Falcons",
+   "sub": "Huntington Bank Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T18:00:00Z",
+   "title": "Detroit Lions – Tennessee Titans",
+   "sub": "Ford Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T18:00:00Z",
+   "title": "Miami Dolphins – Chicago Bears",
+   "sub": "Hard Rock Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T18:00:00Z",
+   "title": "New York Jets – Denver Broncos",
+   "sub": "MetLife Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T18:00:00Z",
+   "title": "Philadelphia Eagles – Indianapolis Colts",
+   "sub": "Lincoln Financial Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T18:00:00Z",
+   "title": "Washington Commanders – Houston Texans",
+   "sub": "Northwest Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T18:00:00Z",
+   "title": "Carolina Panthers – New Orleans Saints",
+   "sub": "Bank of America Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T18:00:00Z",
+   "title": "Baltimore Ravens – Tampa Bay Buccaneers",
+   "sub": "M&T Bank Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Atlético Madrid – Valencia",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Deportivo – Athletic Club",
+   "sub": "Riazor"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Elche – Sevilla",
+   "sub": "Estadio Martínez Valero"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Espanyol – Celta Vigo",
+   "sub": "RCDE Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Levante – Alavés",
+   "sub": "Estadi Ciutat de València"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Málaga – Barcelona",
+   "sub": "La Rosaleda"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Real Betis – Racing Santander",
+   "sub": "Estadio La Cartuja"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Real Madrid – Osasuna",
+   "sub": "Santiago Bernabéu"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Real Sociedad – Getafe",
+   "sub": "Reale Arena"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T20:00:00Z",
+   "title": "Villarreal – Rayo Vallecano",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T21:05:00Z",
+   "title": "Las Vegas Raiders – Los Angeles Chargers",
+   "sub": "Allegiant Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T21:25:00Z",
+   "title": "Cincinnati Bengals – Kansas City Chiefs",
+   "sub": "Paycor Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T21:25:00Z",
+   "title": "San Francisco 49ers – Los Angeles Rams",
+   "sub": "Levi's Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-13T21:25:00Z",
+   "title": "Seattle Seahawks – New York Giants",
+   "sub": "Lumen Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-14T01:20:00Z",
+   "title": "Green Bay Packers – Buffalo Bills",
+   "sub": "Lambeau Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-15T01:15:00Z",
+   "title": "Jacksonville Jaguars – Pittsburgh Steelers",
+   "sub": "EverBank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-18T01:15:00Z",
+   "title": "Los Angeles Chargers – San Francisco 49ers",
+   "sub": "SoFi Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-19T22:00:00Z",
+   "title": "Philadelphia Eagles – Seattle Seahawks",
+   "sub": "Lincoln Financial Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T01:20:00Z",
+   "title": "Buffalo Bills – Chicago Bears",
+   "sub": "Highmark Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T18:00:00Z",
+   "title": "Green Bay Packers – Miami Dolphins",
+   "sub": "Lambeau Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T18:00:00Z",
+   "title": "Tennessee Titans – Indianapolis Colts",
+   "sub": "Nissan Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T18:00:00Z",
+   "title": "New York Giants – Cleveland Browns",
+   "sub": "MetLife Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T18:00:00Z",
+   "title": "Pittsburgh Steelers – Baltimore Ravens",
+   "sub": "Acrisure Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T18:00:00Z",
+   "title": "Tampa Bay Buccaneers – New Orleans Saints",
+   "sub": "Raymond James Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T18:00:00Z",
+   "title": "Washington Commanders – Atlanta Falcons",
+   "sub": "Northwest Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T18:00:00Z",
+   "title": "Carolina Panthers – Cincinnati Bengals",
+   "sub": "Bank of America Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T18:00:00Z",
+   "title": "Houston Texans – Jacksonville Jaguars",
+   "sub": "Reliant Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Alavés – Elche",
+   "sub": "Mendizorrotza"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Athletic Club – Real Betis",
+   "sub": "San Mamés"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Barcelona – Real Sociedad",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Celta Vigo – Atlético Madrid",
+   "sub": "Balaidos"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Deportivo – Real Madrid",
+   "sub": "Riazor"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Getafe – Levante",
+   "sub": "Estadio Coliseum"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Osasuna – Villarreal",
+   "sub": "El Sadar"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Rayo Vallecano – Málaga",
+   "sub": "Estadio de Vallecas"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Sevilla – Racing Santander",
+   "sub": "Ramón Sánchez Pizjuán Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-20T20:00:00Z",
+   "title": "Valencia – Espanyol",
+   "sub": "Mestalla Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T21:05:00Z",
+   "title": "Arizona Cardinals – New York Jets",
+   "sub": "State Farm Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T21:25:00Z",
+   "title": "Las Vegas Raiders – Denver Broncos",
+   "sub": "Allegiant Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-20T21:25:00Z",
+   "title": "Los Angeles Rams – Dallas Cowboys",
+   "sub": "SoFi Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-21T01:20:00Z",
+   "title": "Minnesota Vikings – Detroit Lions",
+   "sub": "U.S. Bank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-22T01:15:00Z",
+   "title": "Kansas City Chiefs – New England Patriots",
+   "sub": "Arrowhead Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-25T01:15:00Z",
+   "title": "Philadelphia Eagles – Houston Texans",
+   "sub": "Lincoln Financial Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-25T18:00:00Z",
+   "title": "Chicago Bears – Green Bay Packers",
+   "sub": "Soldier Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-25T21:30:00Z",
+   "title": "Denver Broncos – Buffalo Bills",
+   "sub": "Empower Field at Mile High"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-26T01:15:00Z",
+   "title": "Seattle Seahawks – Los Angeles Rams",
+   "sub": "Lumen Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T05:00:00Z",
+   "title": "Atlanta Falcons – Tampa Bay Buccaneers",
+   "sub": "Mercedes-Benz Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T05:00:00Z",
+   "title": "Indianapolis Colts – Cincinnati Bengals",
+   "sub": "Lucas Oil Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T05:00:00Z",
+   "title": "Minnesota Vikings – Washington Commanders",
+   "sub": "U.S. Bank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T05:00:00Z",
+   "title": "Pittsburgh Steelers – Carolina Panthers",
+   "sub": "Acrisure Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T18:00:00Z",
+   "title": "Miami Dolphins – Los Angeles Chargers",
+   "sub": "Hard Rock Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T18:00:00Z",
+   "title": "New Orleans Saints – Arizona Cardinals",
+   "sub": "Caesars Superdome"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T18:00:00Z",
+   "title": "New York Jets – New England Patriots",
+   "sub": "MetLife Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T18:00:00Z",
+   "title": "Baltimore Ravens – Cleveland Browns",
+   "sub": "M&T Bank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T21:05:00Z",
+   "title": "Las Vegas Raiders – Tennessee Titans",
+   "sub": "Allegiant Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-27T21:25:00Z",
+   "title": "Kansas City Chiefs – San Francisco 49ers",
+   "sub": "Arrowhead Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-28T01:20:00Z",
+   "title": "Dallas Cowboys – Jacksonville Jaguars",
+   "sub": "AT&T Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-12-29T01:15:00Z",
+   "title": "Detroit Lions – New York Giants",
+   "sub": "Ford Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-01T01:15:00Z",
+   "title": "Cincinnati Bengals – Baltimore Ravens",
+   "sub": "Paycor Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T05:00:00Z",
+   "title": "New England Patriots – Denver Broncos",
+   "sub": "Gillette Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T05:00:00Z",
+   "title": "Los Angeles Chargers – Kansas City Chiefs",
+   "sub": "SoFi Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T05:00:00Z",
+   "title": "Tampa Bay Buccaneers – Los Angeles Rams",
+   "sub": "Raymond James Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T05:00:00Z",
+   "title": "Jacksonville Jaguars – Washington Commanders",
+   "sub": "EverBank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T18:00:00Z",
+   "title": "Atlanta Falcons – New Orleans Saints",
+   "sub": "Mercedes-Benz Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T18:00:00Z",
+   "title": "Cleveland Browns – Indianapolis Colts",
+   "sub": "Huntington Bank Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T18:00:00Z",
+   "title": "Dallas Cowboys – New York Giants",
+   "sub": "AT&T Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T18:00:00Z",
+   "title": "Tennessee Titans – Pittsburgh Steelers",
+   "sub": "Nissan Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T18:00:00Z",
+   "title": "Miami Dolphins – Buffalo Bills",
+   "sub": "Hard Rock Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T18:00:00Z",
+   "title": "New York Jets – Minnesota Vikings",
+   "sub": "MetLife Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T18:00:00Z",
+   "title": "Carolina Panthers – Seattle Seahawks",
+   "sub": "Bank of America Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Celta Vigo – Deportivo",
+   "sub": "Balaidos"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Espanyol – Barcelona",
+   "sub": "RCDE Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Levante – Valencia",
+   "sub": "Estadi Ciutat de València"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Málaga – Elche",
+   "sub": "La Rosaleda"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Racing Santander – Athletic Club",
+   "sub": "El Sardineros"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Rayo Vallecano – Atlético Madrid",
+   "sub": "Estadio de Vallecas"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Real Betis – Alavés",
+   "sub": "Estadio La Cartuja"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Real Madrid – Getafe",
+   "sub": "Santiago Bernabéu"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Real Sociedad – Osasuna",
+   "sub": "Reale Arena"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-03T20:00:00Z",
+   "title": "Villarreal – Sevilla",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T21:05:00Z",
+   "title": "Arizona Cardinals – Las Vegas Raiders",
+   "sub": "State Farm Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-03T21:25:00Z",
+   "title": "Chicago Bears – Detroit Lions",
+   "sub": "Soldier Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-04T01:20:00Z",
+   "title": "San Francisco 49ers – Philadelphia Eagles",
+   "sub": "Levi's Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-05T01:15:00Z",
+   "title": "Green Bay Packers – Houston Texans",
+   "sub": "Lambeau Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Buffalo Bills – New York Jets",
+   "sub": "Highmark Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Cincinnati Bengals – Cleveland Browns",
+   "sub": "Paycor Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Denver Broncos – Los Angeles Chargers",
+   "sub": "Empower Field at Mile High"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Green Bay Packers – Detroit Lions",
+   "sub": "Lambeau Field"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Indianapolis Colts – Jacksonville Jaguars",
+   "sub": "Lucas Oil Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Kansas City Chiefs – Las Vegas Raiders",
+   "sub": "Arrowhead Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Los Angeles Rams – Seattle Seahawks",
+   "sub": "SoFi Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Minnesota Vikings – Chicago Bears",
+   "sub": "U.S. Bank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "New England Patriots – Miami Dolphins",
+   "sub": "Gillette Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "New Orleans Saints – Tampa Bay Buccaneers",
+   "sub": "Caesars Superdome"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "New York Giants – Philadelphia Eagles",
+   "sub": "MetLife Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Arizona Cardinals – San Francisco 49ers",
+   "sub": "State Farm Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Washington Commanders – Dallas Cowboys",
+   "sub": "Northwest Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Carolina Panthers – Atlanta Falcons",
+   "sub": "Bank of America Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Baltimore Ravens – Pittsburgh Steelers",
+   "sub": "M&T Bank Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-10T05:00:00Z",
+   "title": "Houston Texans – Tennessee Titans",
+   "sub": "Reliant Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Alavés – Real Sociedad",
+   "sub": "Mendizorrotza"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Athletic Club – Villarreal",
+   "sub": "San Mamés"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Atlético Madrid – Racing Santander",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Deportivo – Rayo Vallecano",
+   "sub": "Riazor"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Elche – Getafe",
+   "sub": "Estadio Martínez Valero"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Espanyol – Real Betis",
+   "sub": "RCDE Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Osasuna – Barcelona",
+   "sub": "El Sadar"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Real Madrid – Levante",
+   "sub": "Santiago Bernabéu"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Sevilla – Celta Vigo",
+   "sub": "Ramón Sánchez Pizjuán Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-10T20:00:00Z",
+   "title": "Valencia – Málaga",
+   "sub": "Mestalla Stadium"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-16T05:00:00Z",
+   "title": "TBD – TBD",
+   "sub": ""
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-17T05:00:00Z",
+   "title": "TBD – TBD",
+   "sub": ""
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Atlético Madrid – Real Sociedad",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Barcelona – Elche",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Celta Vigo – Valencia",
+   "sub": "Balaidos"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Getafe – Athletic Club",
+   "sub": "Estadio Coliseum"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Levante – Espanyol",
+   "sub": "Estadi Ciutat de València"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Málaga – Real Madrid",
+   "sub": "La Rosaleda"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Racing Santander – Osasuna",
+   "sub": "El Sardineros"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Rayo Vallecano – Sevilla",
+   "sub": "Estadio de Vallecas"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Real Betis – Deportivo",
+   "sub": "Estadio La Cartuja"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-17T20:00:00Z",
+   "title": "Villarreal – Alavés",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-18T05:00:00Z",
+   "title": "TBD – TBD",
+   "sub": ""
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T17:45:00Z",
+   "title": "Bodo/Glimt – Atlético Madrid",
+   "sub": "Aspmyra Stadion"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T17:45:00Z",
+   "title": "Galatasaray – Feyenoord Rotterdam",
+   "sub": "RAMS Park"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T20:00:00Z",
+   "title": "AEK Athens – AS Roma",
+   "sub": "OPAP Arena"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T20:00:00Z",
+   "title": "Aston Villa – Borussia Dortmund",
+   "sub": "Villa Park"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T20:00:00Z",
+   "title": "FC Porto – Slavia Prague",
+   "sub": "Estádio do Dragão"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T20:00:00Z",
+   "title": "Internazionale – Liverpool",
+   "sub": "San Siro"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T20:00:00Z",
+   "title": "Lille – Slovan Bratislava",
+   "sub": "Decathlon Arena - Stade Pierre-Mauroy"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T20:00:00Z",
+   "title": "Real Madrid – LASK Linz",
+   "sub": "Santiago Bernabéu"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-19T20:00:00Z",
+   "title": "VfB Stuttgart – Club Brugge",
+   "sub": "MHPArena"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T17:45:00Z",
+   "title": "Fenerbahce – Villarreal",
+   "sub": "Şükrü Saracoğlu Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T17:45:00Z",
+   "title": "Sabah FK – Napoli",
+   "sub": "Baku Olympic Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T20:00:00Z",
+   "title": "Como – Paris Saint-Germain",
+   "sub": "Giuseppe Sinigaglia"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T20:00:00Z",
+   "title": "Lens – Manchester City",
+   "sub": "Stade Bollaert-Delelis"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T20:00:00Z",
+   "title": "Manchester United – Bayern Munich",
+   "sub": "Old Trafford"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T20:00:00Z",
+   "title": "RB Leipzig – Shakhtar Donetsk",
+   "sub": "Red Bull Arena"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T20:00:00Z",
+   "title": "Real Betis – Arsenal",
+   "sub": "Estadio La Cartuja"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T20:00:00Z",
+   "title": "Sporting CP – Barcelona",
+   "sub": "Estádio José Alvalade"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-20T20:00:00Z",
+   "title": "Viking FK – PSV Eindhoven",
+   "sub": "Viking Stadion"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-23T05:00:00Z",
+   "title": "TBD – TBD",
+   "sub": ""
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-24T05:00:00Z",
+   "title": "TBD – TBD",
+   "sub": ""
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Alavés – Barcelona",
+   "sub": "Mendizorrotza"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Athletic Club – Levante",
+   "sub": "San Mamés"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Deportivo – Atlético Madrid",
+   "sub": "Riazor"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Elche – Rayo Vallecano",
+   "sub": "Estadio Martínez Valero"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Espanyol – Villarreal",
+   "sub": "RCDE Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Getafe – Osasuna",
+   "sub": "Estadio Coliseum"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Racing Santander – Celta Vigo",
+   "sub": "El Sardineros"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Real Madrid – Real Betis",
+   "sub": "Santiago Bernabéu"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Real Sociedad – Málaga",
+   "sub": "Reale Arena"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Valencia – Sevilla",
+   "sub": "Mestalla Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Arsenal – Sabah FK",
+   "sub": "Emirates Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "AS Roma – Lille",
+   "sub": "Olimpico"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Atlético Madrid – Fenerbahce",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Barcelona – Como",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Bayern Munich – Real Betis",
+   "sub": "Allianz Arena"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Borussia Dortmund – AEK Athens",
+   "sub": "Signal Iduna Park"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Club Brugge – Bodo/Glimt",
+   "sub": "Jan Breydel Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Feyenoord Rotterdam – RB Leipzig",
+   "sub": "De Kuip"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "LASK Linz – FC Porto",
+   "sub": "Raiffeisen Arena (Linz)"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Liverpool – Lens",
+   "sub": "Anfield"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Manchester City – Sporting CP",
+   "sub": "Etihad Stadium"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Napoli – Viking FK",
+   "sub": "Stadio Diego Armando Maradona"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Paris Saint-Germain – Galatasaray",
+   "sub": "Parc des Princes"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "PSV Eindhoven – VfB Stuttgart",
+   "sub": "Philips Stadion"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Shakhtar Donetsk – Real Madrid",
+   "sub": "Stamford Bridge"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Slavia Prague – Aston Villa",
+   "sub": "Fortuna Arena"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Slovan Bratislava – Internazionale",
+   "sub": "Národny Futbalovy Stadión"
+  },
+  {
+   "s": "champions",
+   "start": "2027-01-27T20:00:00Z",
+   "title": "Villarreal – Manchester United",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-01-31T05:00:00Z",
+   "title": "TBD – TBD",
+   "sub": ""
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Atlético Madrid – Espanyol",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Barcelona – Valencia",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Celta Vigo – Getafe",
+   "sub": "Balaidos"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Levante – Real Sociedad",
+   "sub": "Estadi Ciutat de València"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Málaga – Alavés",
+   "sub": "La Rosaleda"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Osasuna – Deportivo",
+   "sub": "El Sadar"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Rayo Vallecano – Real Madrid",
+   "sub": "Estadio de Vallecas"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Real Betis – Elche",
+   "sub": "Estadio La Cartuja"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Sevilla – Athletic Club",
+   "sub": "Ramón Sánchez Pizjuán Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-01-31T20:00:00Z",
+   "title": "Villarreal – Racing Santander",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-07T20:00:00Z",
+   "title": "Alavés – Celta Vigo",
+   "sub": "Mendizorrotza"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-07T20:00:00Z",
+   "title": "Athletic Club – Osasuna",
+   "sub": "San Mamés"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-07T20:00:00Z",
+   "title": "Deportivo – Málaga",
+   "sub": "Riazor"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-07T20:00:00Z",
+   "title": "Elche – Levante",
+   "sub": "Estadio Martínez Valero"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-07T20:00:00Z",
+   "title": "Espanyol – Rayo Vallecano",
+   "sub": "RCDE Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-07T20:00:00Z",
+   "title": "Getafe – Villarreal",
+   "sub": "Estadio Coliseum"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-07T20:00:00Z",
+   "title": "Real Betis – Sevilla",
+   "sub": "Estadio La Cartuja"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-07T20:00:00Z",
+   "title": "Valencia – Racing Santander",
+   "sub": "Mestalla Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Celta Vigo – Rayo Vallecano",
+   "sub": "Balaidos"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Elche – Deportivo",
+   "sub": "Estadio Martínez Valero"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Levante – Málaga",
+   "sub": "Estadi Ciutat de València"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Osasuna – Atlético Madrid",
+   "sub": "El Sadar"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Racing Santander – Getafe",
+   "sub": "El Sardineros"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Real Madrid – Athletic Club",
+   "sub": "Santiago Bernabéu"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Real Sociedad – Real Betis",
+   "sub": "Reale Arena"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Sevilla – Espanyol",
+   "sub": "Ramón Sánchez Pizjuán Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Valencia – Alavés",
+   "sub": "Mestalla Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-14T20:00:00Z",
+   "title": "Villarreal – Barcelona",
+   "sub": "Estadio de la Cerámica"
+  },
+  {
+   "s": "nfl",
+   "start": "2027-02-14T23:30:00Z",
+   "title": "TBD – TBD",
+   "sub": "SoFi Stadium"
   }
  ]
 }
