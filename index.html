@@ -25,7 +25,10 @@ h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
 .chip.on{background:var(--c);color:#fff}
 .chip.on.dk,.badge.dk,.dots i.dk{color:#1b1d21}
 [style*="--c:#ffffff"]{box-shadow:0 0 0 1px rgba(120,120,120,.5)}
-.chip{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+*{-webkit-tap-highlight-color:transparent}
+.chips,.chip,#shChips{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.chip{touch-action:manipulation;outline:none}
+.chip:focus-visible{outline:3px solid var(--tx);outline-offset:2px}
 .chip.ft{position:relative}
 .chip.ft::after{content:"";position:absolute;top:4px;right:8px;width:9px;height:9px;border-radius:50%;background:#1b1d21;box-shadow:0 0 0 1.5px #fff}
 #sheet{position:fixed;inset:0;z-index:20;display:flex;align-items:flex-end;justify-content:center}
@@ -92,7 +95,7 @@ async function load(){let j=null;try{const r=await fetch("events.json?"+Date.now
 if(!j){try{j=JSON.parse(localStorage.getItem("agd")||"null")}catch(e){}}
 if(j){setData(j);all()}else $("note").textContent="No se han podido cargar los eventos."}
 let only=null;const DK=new Set(["laliga","champions"]);
-const TM={laliga:[["Real Madrid","Real Madrid"],["FC Barcelona","Barcelona"],["Atlético de Madrid","Atlético"]],nfl:["Seahawks","Patriots","Chiefs","49ers","Bills","Bears"].map(x=>[x,x])};
+const TM={laliga:[["Real Madrid","Real Madrid"],["FC Barcelona","Barcelona"],["Atlético de Madrid","Atlético"]],nfl:["Seahawks","Patriots","Cowboys","49ers","Bills","Bears"].map(x=>[x,x])};
 TM.champions=TM.laliga;
 const tm={laliga:new Set(),champions:new Set(),nfl:new Set()};
 function saveF(){try{localStorage.setItem("agf",JSON.stringify({only,tm:Object.fromEntries(Object.entries(tm).map(([k,v])=>[k,[...v]]))}))}catch(e){}}
