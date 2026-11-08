@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T05:44:00Z",
+ "updated": "2026-11-08T12:11:00Z",
  "events": [
   {
    "s": "f1",
@@ -293,6 +293,12 @@
    "sub": "Mendizorrotza"
   },
   {
+   "s": "motogp",
+   "start": "2026-11-21T15:00:00Z",
+   "title": "Carrera sprint",
+   "sub": "GP Portugal, Portimao (horario previsto)"
+  },
+  {
    "s": "laliga",
    "start": "2026-11-21T15:15:00Z",
    "title": "Rayo Vallecano – Valencia",
@@ -321,6 +327,12 @@
    "start": "2026-11-22T13:00:00Z",
    "title": "Barcelona – Villarreal",
    "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "motogp",
+   "start": "2026-11-22T13:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Portugal, Portimao (horario previsto)"
   },
   {
    "s": "laliga",
@@ -583,6 +595,12 @@
    "sub": "Estadio La Cartuja"
   },
   {
+   "s": "motogp",
+   "start": "2026-11-28T14:00:00Z",
+   "title": "Carrera sprint",
+   "sub": "GP Valencia, Cheste (horario previsto)"
+  },
+  {
    "s": "laliga",
    "start": "2026-11-28T15:15:00Z",
    "title": "Málaga – Athletic Club",
@@ -618,6 +636,12 @@
    "start": "2026-11-29T13:00:00Z",
    "title": "Valencia – Osasuna",
    "sub": "Mestalla Stadium"
+  },
+  {
+   "s": "motogp",
+   "start": "2026-11-29T13:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Valencia, Cheste (horario previsto)"
   },
   {
    "s": "laliga",
