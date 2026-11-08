@@ -13,6 +13,12 @@ TODAY = NOW.date()
 ESPN = "https://site.api.espn.com/apis/site/v2/sports"
 
 
+class HttpFail(Exception):
+    def __init__(self, code, url):
+        super().__init__(f"HTTP {code} en {url}")
+        self.code = code
+
+
 def get_json(url, tries=3):
     last = None
     for i in range(tries):
@@ -23,6 +29,8 @@ def get_json(url, tries=3):
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return None
+            if 400 <= e.code < 500:
+                raise HttpFail(e.code, url)
             last = e
         except Exception as e:
             last = e
@@ -76,14 +84,35 @@ def f1():
 
 
 # ---------- ESPN (NFL, LaLiga, Champions, tenis) ----------
+def scoreboard(path, d, e):
+    """Eventos entre las fechas d y e. Si ESPN rechaza el rango, pide dia a dia."""
+    try:
+        data = get_json(f"{ESPN}/{path}/scoreboard?dates={d:%Y%m%d}-{e:%Y%m%d}&limit=300") or {}
+        return data.get("events", [])
+    except HttpFail as err:
+        if err.code != 400 or d == e:
+            raise
+    out, day, total, fails, last = [], d, 0, 0, None
+    while day <= e:
+        total += 1
+        try:
+            data = get_json(f"{ESPN}/{path}/scoreboard?dates={day:%Y%m%d}&limit=300") or {}
+            out += data.get("events", [])
+        except HttpFail as err:
+            fails, last = fails + 1, err
+        day += timedelta(days=1)
+        time.sleep(0.3)
+    if fails == total:
+        raise last
+    return out
+
+
 def espn_events(path, days, step):
     seen = {}
     d, end = TODAY, TODAY + timedelta(days=days)
     while d <= end:
         e = min(d + timedelta(days=step - 1), end)
-        url = f"{ESPN}/{path}/scoreboard?dates={d:%Y%m%d}-{e:%Y%m%d}&limit=300"
-        data = get_json(url) or {}
-        for ev in data.get("events", []):
+        for ev in scoreboard(path, d, e):
             seen[ev["id"]] = ev
         d = e + timedelta(days=1)
         time.sleep(0.5)
@@ -139,9 +168,9 @@ def tennis(days=21):
 
 SOURCES = {
     "f1": f1,
-    "nfl": lambda: matches("football/nfl", "nfl", 120, 14),
-    "laliga": lambda: matches("soccer/esp.1", "laliga", 120, 30),
-    "champions": lambda: matches("soccer/uefa.champions", "champions", 120, 30),
+    "nfl": lambda: matches("football/nfl", "nfl", 100, 7),
+    "laliga": lambda: matches("soccer/esp.1", "laliga", 100, 7),
+    "champions": lambda: matches("soccer/uefa.champions", "champions", 100, 7),
     "tenis": tennis,
 }
 
@@ -195,3 +224,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
