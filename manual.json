@@ -1,13 +1,17 @@
 {
  "events": [
-  {"s":"padel","date":"2026-11-12","tbc":true,"title":"Cuartos de final","sub":"Dubai P1 (fecha estimada)"},
-  {"s":"padel","date":"2026-11-13","tbc":true,"title":"Semifinal","sub":"Dubai P1 (fecha estimada)"},
-  {"s":"padel","date":"2026-11-14","tbc":true,"title":"Final","sub":"Dubai P1 (fecha estimada)"},
-  {"s":"padel","date":"2026-11-26","tbc":true,"title":"Cuartos de final","sub":"Mexico Major (fecha estimada)"},
-  {"s":"padel","date":"2026-11-27","tbc":true,"title":"Semifinal","sub":"Mexico Major (fecha estimada)"},
-  {"s":"padel","date":"2026-11-28","tbc":true,"title":"Final","sub":"Mexico Major (fecha estimada)"},
-  {"s":"padel","date":"2026-12-10","tbc":true,"title":"Cuartos de final","sub":"Premier Padel Finals, Barcelona (fecha estimada)"},
-  {"s":"padel","date":"2026-12-11","tbc":true,"title":"Semifinal","sub":"Premier Padel Finals, Barcelona (fecha estimada)"},
-  {"s":"padel","date":"2026-12-12","tbc":true,"title":"Final","sub":"Premier Padel Finals, Barcelona (fecha estimada)"}
+  {"s": "padel", "date": "2026-11-12", "tbc": true, "title": "Cuartos de final", "sub": "Dubai P1 (fecha estimada)"},
+  {"s": "padel", "date": "2026-11-13", "tbc": true, "title": "Semifinal", "sub": "Dubai P1 (fecha estimada)"},
+  {"s": "padel", "date": "2026-11-14", "tbc": true, "title": "Final", "sub": "Dubai P1 (fecha estimada)"},
+  {"s": "padel", "date": "2026-11-26", "tbc": true, "title": "Cuartos de final", "sub": "Mexico Major (fecha estimada)"},
+  {"s": "padel", "date": "2026-11-27", "tbc": true, "title": "Semifinal", "sub": "Mexico Major (fecha estimada)"},
+  {"s": "padel", "date": "2026-11-28", "tbc": true, "title": "Final", "sub": "Mexico Major (fecha estimada)"},
+  {"s": "padel", "date": "2026-12-10", "tbc": true, "title": "Cuartos de final", "sub": "Premier Padel Finals, Barcelona (fecha estimada)"},
+  {"s": "padel", "date": "2026-12-11", "tbc": true, "title": "Semifinal", "sub": "Premier Padel Finals, Barcelona (fecha estimada)"},
+  {"s": "padel", "date": "2026-12-12", "tbc": true, "title": "Final", "sub": "Premier Padel Finals, Barcelona (fecha estimada)"},
+  {"s": "motogp", "start": "2026-11-21T15:00:00Z", "title": "Carrera sprint", "sub": "GP Portugal, Portimao (horario previsto)"},
+  {"s": "motogp", "start": "2026-11-22T13:00:00Z", "title": "Carrera", "sub": "GP Portugal, Portimao (horario previsto)"},
+  {"s": "motogp", "start": "2026-11-28T14:00:00Z", "title": "Carrera sprint", "sub": "GP Valencia, Cheste (horario previsto)"},
+  {"s": "motogp", "start": "2026-11-29T13:00:00Z", "title": "Carrera", "sub": "GP Valencia, Cheste (horario previsto)"}
  ]
 }
