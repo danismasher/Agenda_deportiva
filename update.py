@@ -166,12 +166,20 @@ def tennis(days=21):
     return out
 
 
+def padel():
+    f = ROOT / "padel.json"
+    if not f.exists():
+        return []
+    return json.loads(f.read_text("utf-8")).get("events", [])
+
+
 SOURCES = {
     "f1": f1,
     "nfl": lambda: matches("football/nfl", "nfl", 100, 7),
     "laliga": lambda: matches("soccer/esp.1", "laliga", 100, 7),
     "champions": lambda: matches("soccer/uefa.champions", "champions", 100, 7),
     "tenis": tennis,
+    "padel": padel,
 }
 
 
@@ -224,4 +232,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
