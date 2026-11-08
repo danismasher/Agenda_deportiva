@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T12:11:00Z",
+ "updated": "2026-11-08T12:37:00Z",
  "events": [
   {
    "s": "f1",
@@ -164,13 +164,6 @@
    "sub": "U.S. Bank Stadium"
   },
   {
-   "s": "padel",
-   "date": "2026-11-12",
-   "tbc": true,
-   "title": "Cuartos de final",
-   "sub": "Dubai P1 (fecha estimada)"
-  },
-  {
    "s": "nfl",
    "start": "2026-11-13T01:15:00Z",
    "title": "New York Giants – Washington Commanders",
@@ -180,14 +173,14 @@
    "s": "padel",
    "date": "2026-11-13",
    "tbc": true,
-   "title": "Semifinal",
+   "title": "Cuartos de final",
    "sub": "Dubai P1 (fecha estimada)"
   },
   {
    "s": "padel",
    "date": "2026-11-14",
    "tbc": true,
-   "title": "Final",
+   "title": "Semifinal",
    "sub": "Dubai P1 (fecha estimada)"
   },
   {
@@ -255,6 +248,13 @@
    "start": "2026-11-15T21:25:00Z",
    "title": "Dallas Cowboys – San Francisco 49ers",
    "sub": "AT&T Stadium"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-15",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Dubai P1 (fecha estimada)"
   },
   {
    "s": "nfl",
@@ -557,13 +557,6 @@
    "sub": "AT&T Stadium"
   },
   {
-   "s": "padel",
-   "date": "2026-11-26",
-   "tbc": true,
-   "title": "Cuartos de final",
-   "sub": "Mexico Major (fecha estimada)"
-  },
-  {
    "s": "nfl",
    "start": "2026-11-27T01:20:00Z",
    "title": "Buffalo Bills – Kansas City Chiefs",
@@ -585,7 +578,7 @@
    "s": "padel",
    "date": "2026-11-27",
    "tbc": true,
-   "title": "Semifinal",
+   "title": "Cuartos de final",
    "sub": "Mexico Major (fecha estimada)"
   },
   {
@@ -628,7 +621,7 @@
    "s": "padel",
    "date": "2026-11-28",
    "tbc": true,
-   "title": "Final",
+   "title": "Semifinal",
    "sub": "Mexico Major (fecha estimada)"
   },
   {
@@ -720,6 +713,13 @@
    "start": "2026-11-29T21:25:00Z",
    "title": "San Francisco 49ers – Seattle Seahawks",
    "sub": "Levi's Stadium"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-29",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Mexico Major (fecha estimada)"
   },
   {
    "s": "nfl",
@@ -1022,13 +1022,6 @@
    "sub": "MHPArena"
   },
   {
-   "s": "padel",
-   "date": "2026-12-10",
-   "tbc": true,
-   "title": "Cuartos de final",
-   "sub": "Premier Padel Finals, Barcelona (fecha estimada)"
-  },
-  {
    "s": "nfl",
    "start": "2026-12-11T01:15:00Z",
    "title": "New England Patriots – Minnesota Vikings",
@@ -1038,15 +1031,15 @@
    "s": "padel",
    "date": "2026-12-11",
    "tbc": true,
-   "title": "Semifinal",
-   "sub": "Premier Padel Finals, Barcelona (fecha estimada)"
+   "title": "Cuartos de final",
+   "sub": "Premier Padel Finals (fecha estimada)"
   },
   {
    "s": "padel",
    "date": "2026-12-12",
    "tbc": true,
-   "title": "Final",
-   "sub": "Premier Padel Finals, Barcelona (fecha estimada)"
+   "title": "Semifinal",
+   "sub": "Premier Padel Finals (fecha estimada)"
   },
   {
    "s": "nfl",
@@ -1179,6 +1172,13 @@
    "start": "2026-12-13T21:25:00Z",
    "title": "Seattle Seahawks – New York Giants",
    "sub": "Lumen Field"
+  },
+  {
+   "s": "padel",
+   "date": "2026-12-13",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Premier Padel Finals (fecha estimada)"
   },
   {
    "s": "nfl",

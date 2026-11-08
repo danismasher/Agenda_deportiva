@@ -1,0 +1,68 @@
+{
+ "updated": "2026-11-08T12:37:00Z",
+ "events": [
+  {
+   "s": "padel",
+   "date": "2026-11-13",
+   "tbc": true,
+   "title": "Cuartos de final",
+   "sub": "Dubai P1 (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-14",
+   "tbc": true,
+   "title": "Semifinal",
+   "sub": "Dubai P1 (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-15",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Dubai P1 (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-27",
+   "tbc": true,
+   "title": "Cuartos de final",
+   "sub": "Mexico Major (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-28",
+   "tbc": true,
+   "title": "Semifinal",
+   "sub": "Mexico Major (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-11-29",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Mexico Major (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-12-11",
+   "tbc": true,
+   "title": "Cuartos de final",
+   "sub": "Premier Padel Finals (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-12-12",
+   "tbc": true,
+   "title": "Semifinal",
+   "sub": "Premier Padel Finals (fecha estimada)"
+  },
+  {
+   "s": "padel",
+   "date": "2026-12-13",
+   "tbc": true,
+   "title": "Final",
+   "sub": "Premier Padel Finals (fecha estimada)"
+  }
+ ]
+}
