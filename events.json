@@ -1,36 +1,6 @@
 {
- "updated": "2026-11-08T17:30:00Z",
+ "updated": "2026-11-09T05:58:00Z",
  "events": [
-  {
-   "s": "f1",
-   "start": "2026-11-01T20:00:00Z",
-   "title": "Carrera",
-   "sub": "GP Mexico City"
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-04T18:10:00Z",
-   "title": "C. Alcaraz – A. Michelsen",
-   "sub": "Rolex Paris Masters, Round 2"
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-05T18:00:00Z",
-   "title": "C. Alcaraz – M. Berrettini",
-   "sub": "Rolex Paris Masters, Round 3"
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-06T19:00:00Z",
-   "title": "C. Alcaraz – T. Fritz",
-   "sub": "Rolex Paris Masters, Quarterfinal"
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-07T16:25:00Z",
-   "title": "C. Alcaraz – C. Ruud",
-   "sub": "Rolex Paris Masters, Semifinal"
-  },
   {
    "s": "f1",
    "start": "2026-11-07T18:00:00Z",
@@ -38,124 +8,10 @@
    "sub": "GP Brazilian"
   },
   {
-   "s": "laliga",
-   "start": "2026-11-08T13:00:00Z",
-   "title": "Elche – Real Betis",
-   "sub": "Estadio Martínez Valero"
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-08T14:15:00Z",
-   "title": "C. Alcaraz – B. Shelton",
-   "sub": "Rolex Paris Masters, Final"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T14:30:00Z",
-   "title": "Atlanta Falcons – Cincinnati Bengals",
-   "sub": "Santiago Bernabéu"
-  },
-  {
-   "s": "laliga",
-   "start": "2026-11-08T15:15:00Z",
-   "title": "Real Sociedad – Rayo Vallecano",
-   "sub": "Reale Arena"
-  },
-  {
    "s": "f1",
    "start": "2026-11-08T17:00:00Z",
    "title": "Carrera",
    "sub": "GP Brazilian"
-  },
-  {
-   "s": "laliga",
-   "start": "2026-11-08T17:30:00Z",
-   "title": "Celta Vigo – Levante",
-   "sub": "Balaidos"
-  },
-  {
-   "s": "laliga",
-   "start": "2026-11-08T17:30:00Z",
-   "title": "Villarreal – Getafe",
-   "sub": "Estadio de la Cerámica"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T18:00:00Z",
-   "title": "Indianapolis Colts – Dallas Cowboys",
-   "sub": "Lucas Oil Stadium"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T18:00:00Z",
-   "title": "Kansas City Chiefs – New York Jets",
-   "sub": "Arrowhead Stadium"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T18:00:00Z",
-   "title": "Miami Dolphins – Detroit Lions",
-   "sub": "Hard Rock Stadium"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T18:00:00Z",
-   "title": "New Orleans Saints – Cleveland Browns",
-   "sub": "Caesars Superdome"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T18:00:00Z",
-   "title": "Philadelphia Eagles – New York Giants",
-   "sub": "Lincoln Financial Field"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T18:00:00Z",
-   "title": "Washington Commanders – Los Angeles Rams",
-   "sub": "Northwest Stadium"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T18:00:00Z",
-   "title": "Carolina Panthers – Denver Broncos",
-   "sub": "Bank of America Stadium"
-  },
-  {
-   "s": "laliga",
-   "start": "2026-11-08T20:00:00Z",
-   "title": "Atlético Madrid – Barcelona",
-   "sub": "Riyadh Air Metropolitano"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T21:05:00Z",
-   "title": "Los Angeles Chargers – Houston Texans",
-   "sub": "SoFi Stadium"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T21:25:00Z",
-   "title": "New England Patriots – Green Bay Packers",
-   "sub": "Gillette Stadium"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T21:25:00Z",
-   "title": "San Francisco 49ers – Las Vegas Raiders",
-   "sub": "Levi's Stadium"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-08T21:25:00Z",
-   "title": "Seattle Seahawks – Arizona Cardinals",
-   "sub": "Lumen Field"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-09T01:20:00Z",
-   "title": "Chicago Bears – Tampa Bay Buccaneers",
-   "sub": "Soldier Field"
   },
   {
    "s": "nfl",
