@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T17:53:00Z",
+ "updated": "2026-11-10T05:49:00Z",
  "events": [
   {
    "s": "f1",
@@ -12,12 +12,6 @@
    "start": "2026-11-08T17:00:00Z",
    "title": "Carrera",
    "sub": "GP Brazilian"
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-10T01:15:00Z",
-   "title": "Minnesota Vikings – Buffalo Bills",
-   "sub": "U.S. Bank Stadium"
   },
   {
    "s": "nfl",
@@ -235,8 +229,8 @@
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
-   "title": "New York Giants – Jacksonville Jaguars",
-   "sub": "MetLife Stadium"
+   "title": "Philadelphia Eagles – Pittsburgh Steelers",
+   "sub": "Lincoln Financial Field"
   },
   {
    "s": "nfl",
@@ -265,8 +259,8 @@
   {
    "s": "nfl",
    "start": "2026-11-22T21:25:00Z",
-   "title": "Philadelphia Eagles – Pittsburgh Steelers",
-   "sub": "Lincoln Financial Field"
+   "title": "New York Giants – Jacksonville Jaguars",
+   "sub": "MetLife Stadium"
   },
   {
    "s": "nfl",
