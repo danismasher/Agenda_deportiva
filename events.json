@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T05:56:00Z",
+ "updated": "2026-11-12T17:48:00Z",
  "events": [
   {
    "s": "f1",
@@ -21,10 +21,51 @@
   },
   {
    "s": "padel",
-   "date": "2026-11-13",
-   "tbc": true,
-   "title": "Cuartos de final",
-   "sub": "Dubai P1 (fecha estimada)"
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Libaak / Alfonso – Bergamini / Bautista",
+   "sub": "Cuartos de final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Cuartos de final masculino",
+   "sub": "Cuartos de final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Tello / Arce Simo – Lebron / Augsburger",
+   "sub": "Cuartos de final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Abbate / Dal Bianco – Gonzalez / Campagnolo",
+   "sub": "Cuartos de final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Triay Pons / Brea Senesi – Icardo Alcorisa / Jensen",
+   "sub": "Cuartos de final femenino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Sanchez Fallada / Ustero Prieto – Velasco Postiguillo / Eugenio Barrera",
+   "sub": "Cuartos de final femenino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Guinart España / Alonso De Villa – Josemaria Martin / Gonzalez Fernandez",
+   "sub": "Cuartos de final femenino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Rufo Ortiz / Iglesias Segador – Fernandez Sanchez / Calvo Santamaria",
+   "sub": "Cuartos de final femenino, Dubai P1"
   },
   {
    "s": "padel",
@@ -113,10 +154,28 @@
    "sub": "Paycor Stadium"
   },
   {
+   "s": "tenis",
+   "start": "2026-11-16T05:00:00Z",
+   "title": "F. Cobolli – C. Alcaraz",
+   "sub": "Nitto ATP Finals, Group Stage"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-16T13:00:00Z",
+   "title": "F. Tiafoe – C. Alcaraz",
+   "sub": "Nitto ATP Finals, Group Stage"
+  },
+  {
    "s": "nfl",
    "start": "2026-11-17T01:15:00Z",
    "title": "Baltimore Ravens – Los Angeles Chargers",
    "sub": "M&T Bank Stadium"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-17T05:00:00Z",
+   "title": "D. Medvedev – C. Alcaraz",
+   "sub": "Nitto ATP Finals, Group Stage"
   },
   {
    "s": "nfl",

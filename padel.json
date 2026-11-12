@@ -1,12 +1,53 @@
 {
- "updated": "2026-11-12T05:56:00Z",
+ "updated": "2026-11-12T17:48:00Z",
  "events": [
   {
    "s": "padel",
-   "date": "2026-11-13",
-   "tbc": true,
-   "title": "Cuartos de final",
-   "sub": "Dubai P1 (fecha estimada)"
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Libaak / Alfonso – Bergamini / Bautista",
+   "sub": "Cuartos de final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Cuartos de final masculino",
+   "sub": "Cuartos de final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Tello / Arce Simo – Lebron / Augsburger",
+   "sub": "Cuartos de final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Abbate / Dal Bianco – Gonzalez / Campagnolo",
+   "sub": "Cuartos de final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Triay Pons / Brea Senesi – Icardo Alcorisa / Jensen",
+   "sub": "Cuartos de final femenino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Sanchez Fallada / Ustero Prieto – Velasco Postiguillo / Eugenio Barrera",
+   "sub": "Cuartos de final femenino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Guinart España / Alonso De Villa – Josemaria Martin / Gonzalez Fernandez",
+   "sub": "Cuartos de final femenino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-13T08:00:00Z",
+   "title": "Rufo Ortiz / Iglesias Segador – Fernandez Sanchez / Calvo Santamaria",
+   "sub": "Cuartos de final femenino, Dubai P1"
   },
   {
    "s": "padel",
