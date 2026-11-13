@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T17:48:00Z",
+ "updated": "2026-11-13T05:56:00Z",
  "events": [
   {
    "s": "f1",
@@ -14,12 +14,6 @@
    "sub": "GP Brazilian"
   },
   {
-   "s": "nfl",
-   "start": "2026-11-13T01:15:00Z",
-   "title": "New York Giants – Washington Commanders",
-   "sub": "MetLife Stadium"
-  },
-  {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Libaak / Alfonso – Bergamini / Bautista",
@@ -28,7 +22,7 @@
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
-   "title": "Cuartos de final masculino",
+   "title": "Garrido / De Pascual – Stupaczuk / Sanz",
    "sub": "Cuartos de final masculino, Dubai P1"
   },
   {
@@ -2210,6 +2204,66 @@
    "start": "2027-02-14T23:30:00Z",
    "title": "TBD – TBD",
    "sub": "SoFi Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Alavés – Racing Santander",
+   "sub": "Mendizorrotza"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Athletic Club – Celta Vigo",
+   "sub": "San Mamés"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Atlético Madrid – Elche",
+   "sub": "Riyadh Air Metropolitano"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Barcelona – Levante",
+   "sub": "Spotify Camp Nou"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Deportivo – Real Sociedad",
+   "sub": "Riazor"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Espanyol – Osasuna",
+   "sub": "RCDE Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Málaga – Real Betis",
+   "sub": "La Rosaleda"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Rayo Vallecano – Getafe",
+   "sub": "Estadio de Vallecas"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Sevilla – Real Madrid",
+   "sub": "Ramón Sánchez Pizjuán Stadium"
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-21T20:00:00Z",
+   "title": "Villarreal – Valencia",
+   "sub": "Estadio de la Cerámica"
   }
  ]
 }
