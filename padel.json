@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T05:56:00Z",
+ "updated": "2026-11-13T17:45:00Z",
  "events": [
   {
    "s": "padel",
@@ -51,10 +51,27 @@
   },
   {
    "s": "padel",
-   "date": "2026-11-14",
-   "tbc": true,
-   "title": "Semifinal",
-   "sub": "Dubai P1 (fecha estimada)"
+   "start": "2026-11-14T12:00:00Z",
+   "title": "Semifinal masculino",
+   "sub": "Semifinal masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-14T12:00:00Z",
+   "title": "Abbate / Dal Bianco – Lebron / Augsburger",
+   "sub": "Semifinal masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-14T12:00:00Z",
+   "title": "Icardo Alcorisa / Jensen – Fernandez Sanchez / Calvo Santamaria",
+   "sub": "Semifinal femenino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-14T12:00:00Z",
+   "title": "Sanchez Fallada / Ustero Prieto – Josemaria Martin / Gonzalez Fernandez",
+   "sub": "Semifinal femenino, Dubai P1"
   },
   {
    "s": "padel",
