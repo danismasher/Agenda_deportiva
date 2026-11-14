@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T05:45:00Z",
+ "updated": "2026-11-14T17:30:00Z",
  "events": [
   {
    "s": "padel",
@@ -75,10 +75,15 @@
   },
   {
    "s": "padel",
-   "date": "2026-11-15",
-   "tbc": true,
-   "title": "Final",
-   "sub": "Dubai P1 (fecha estimada)"
+   "start": "2026-11-15T14:00:00Z",
+   "title": "Final masculino",
+   "sub": "Final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-15T14:00:00Z",
+   "title": "Fernandez Sanchez / Calvo Santamaria – Josemaria Martin / Gonzalez Fernandez",
+   "sub": "Final femenino, Dubai P1"
   },
   {
    "s": "padel",
