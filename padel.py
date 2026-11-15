@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Lee premierpadel.com y genera padel.json con cuartos, semifinales y finales."""
-import json, sys
+import json, re, sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -11,6 +11,9 @@ LIST = "https://premierpadel.com/es/tournaments"
 TODAY = datetime.now(timezone.utc).date()
 GENDER = {"male": "masculino", "female": "femenino"}
 SEEN_ROUNDS = set()
+DEBUG = []
+MATCH_MIN = {"female": 120, "male": 90}  # minutos supuestos por partido para estimar el siguiente
+HDR = re.compile(r"(\d{1,2})[:.](\d{2})\s*([AaPp])?\.?[Mm]?")
 
 
 def rnd(name):
@@ -30,24 +33,110 @@ def pair(team):
     return " / ".join(n for n in names if n)
 
 
-def real_events(tname, gender, matches):
-    out = []
+def utc_of(txt):
+    return datetime.strptime(txt.strip()[:19], "%Y-%m-%d %H:%M:%S")
+
+
+def header_time(h):
+    """Hora de un texto tipo 'Not before 7:00 PM' o 'No antes de las 19:00'."""
+    m = HDR.search(h or "")
+    if not m:
+        return None
+    hh, mm = int(m.group(1)), int(m.group(2))
+    ap = (m.group(3) or "").lower()
+    if ap == "p" and hh < 12:
+        hh += 12
+    if ap == "a" and hh == 12:
+        hh = 0
+    if hh > 23 or mm > 59:
+        return None
+    return hh, mm
+
+
+def court_offset(matches):
+    """Diferencia hora local - UTC de la sede, sacada de los propios partidos."""
     for m in matches:
-        r = rnd(m.get("round_name"))
-        if not r:
+        try:
+            local = datetime.strptime(f"{m['date']} {m['start_time']}", "%Y-%m-%d %H:%M")
+            diff = local - utc_of(m["start_date_time"])
+            return timedelta(minutes=round(diff.total_seconds() / 900) * 15)
+        except Exception:
             continue
-        teams = sorted(m.get("teams") or [], key=lambda t: t.get("team_no", 0))
-        a, b = (pair(teams[0]), pair(teams[1])) if len(teams) >= 2 else ("", "")
-        title = f"{a} – {b}" if a and b else f"{r} {GENDER[gender]}"
-        sub = f"{r} {GENDER[gender]}, {tname}"
-        sdt = m.get("start_date_time")
-        if sdt:
-            start = sdt.strip().replace(" ", "T")[:19] + "Z"
-            start = start[:16] + ":00Z"
-            out.append({"s": "padel", "start": start, "title": title, "sub": sub, "_round": r})
-        elif m.get("date"):
-            out.append({"s": "padel", "date": m["date"], "tbc": True, "title": title, "sub": sub, "_round": r})
+    return None
+
+
+def court_events(tname, gender, courts):
+    out = []
+    for c in courts:
+        ms = c.get("matches") or []
+        off = court_offset(ms)
+        prev_t, prev_hdr = None, None
+        for m in ms:
+            r = rnd(m.get("round_name"))
+            sdt = m.get("start_date_time")
+            if not sdt:
+                if r and m.get("date"):
+                    out.append(_ev(tname, gender, r, m, None, False))
+                continue
+            base, approx, t, nb = utc_of(sdt), False, None, False
+            hdr = m.get("header") or ""
+            if m.get("status") in ("P", "F"):
+                t = base
+            else:
+                ht = header_time(hdr)
+                if ht and off is not None and hdr != prev_hdr:
+                    cand = datetime.combine(date.fromisoformat(m["date"]), datetime.min.time())
+                    cand = cand.replace(hour=ht[0], minute=ht[1]) - off
+                    if base <= cand <= base + timedelta(hours=10):
+                        t, nb = cand, True
+                if t is None:
+                    if prev_t is not None:
+                        t, approx = prev_t + timedelta(minutes=MATCH_MIN.get(gender, 90)), True
+                    else:
+                        t = base
+            prev_t, prev_hdr = t, hdr
+            if r:
+                out.append(_ev(tname, gender, r, m, t, approx, nb))
+                DEBUG.append(f"{tname} {gender} {c.get('court_name')} {m.get('round_name')} st={m.get('status')} "
+                             f"start_time={m.get('start_time')} start_utc={sdt} header={hdr!r} -> {t} approx={approx}")
     return out
+
+
+def padel_res(m, teams):
+    if m.get("status") != "F" or len(teams) < 2:
+        return None
+    try:
+        sets = []
+        for t in teams[:2]:
+            sc = t.get("score") or {}
+            sets.append([sc.get(f"set{i}") for i in range(1, 6)])
+        pairs = [(x, y) for x, y in zip(sets[0], sets[1]) if x is not None and y is not None]
+        wa = sum(1 for x, y in pairs if x > y)
+        wb = sum(1 for x, y in pairs if y > x)
+        if not pairs or wa == wb:
+            return None
+        win = 0 if wa > wb else 1
+        txt = " ".join(f"{x}-{y}" if win == 0 else f"{y}-{x}" for x, y in pairs)
+        return {"head": f"Ganan {pair(teams[win])}: {txt}"}
+    except Exception:
+        return None
+
+
+def _ev(tname, gender, r, m, t, approx, nb=False):
+    teams = sorted(m.get("teams") or [], key=lambda x: x.get("team_no", 0))
+    a, b = (pair(teams[0]), pair(teams[1])) if len(teams) >= 2 else ("", "")
+    title = f"{a} – {b}" if a and b else f"{r} {GENDER[gender]}"
+    sub = f"{r} {GENDER[gender]}, {tname}" + (" (hora aproximada)" if approx else "")
+    if t is None:
+        ev = {"s": "padel", "date": m["date"], "tbc": True, "title": title, "sub": sub, "_round": r}
+    else:
+        ev = {"s": "padel", "start": t.strftime("%Y-%m-%dT%H:%M:00Z"), "title": title, "sub": sub, "_round": r}
+        if nb:
+            ev["nb"] = True
+    res = padel_res(m, teams)
+    if res:
+        ev["res"] = res
+    return ev
 
 
 def estimates(tname, end, have_rounds):
@@ -71,7 +160,7 @@ def build(tournaments, fetch_matches):
     events = []
     for t in tournaments:
         start, end = day(t["start_date_utc"]), day(t["end_date_utc"])
-        if end < TODAY or start > TODAY + timedelta(days=60):
+        if end < TODAY - timedelta(days=14) or start > TODAY + timedelta(days=60):
             continue
         tname = (t.get("name") or t["slug"]).title()
         real = []
@@ -80,14 +169,14 @@ def build(tournaments, fetch_matches):
                 first = fetch_matches(t["slug"], gender, None)
                 dates = (first.get("data") or {}).get("date") or []
                 for d in dates:
-                    if day(d) < TODAY - timedelta(days=1):
+                    if day(d) < TODAY - timedelta(days=14):
                         continue
                     data = fetch_matches(t["slug"], gender, d)
-                    ms = [m for c in (data.get("data") or {}).get("courts", []) for m in (c.get("matches") or [])]
-                    real += real_events(tname, gender, ms)
+                    real += court_events(tname, gender, (data.get("data") or {}).get("courts") or [])
         have = {e["_round"] for e in real}
         events += [{k: v for k, v in e.items() if k != "_round"} for e in real]
-        events += estimates(tname, end, have)
+        if end >= TODAY:
+            events += estimates(tname, end, have)
     return events
 
 
@@ -143,6 +232,8 @@ def main():
     real = sum(1 for e in events if "start" in e)
     print(f"padel: {len(events)} eventos ({real} con hora real, {len(events) - real} estimados)")
     print("rondas vistas en la web:", sorted(SEEN_ROUNDS))
+    for line in DEBUG[:40]:
+        print("  ", line)
 
 
 if __name__ == "__main__":

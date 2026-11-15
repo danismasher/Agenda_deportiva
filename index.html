@@ -31,16 +31,16 @@ h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
 .chip:focus-visible{outline:3px solid var(--tx);outline-offset:2px}
 .chip.ft{position:relative}
 .chip.ft::after{content:"";position:absolute;top:4px;right:8px;width:9px;height:9px;border-radius:50%;background:#1b1d21;box-shadow:0 0 0 1.5px #fff}
-#sheet{position:fixed;inset:0;z-index:20;display:flex;align-items:flex-end;justify-content:center}
-#sheet[hidden]{display:none}
-#shBg{position:absolute;inset:0;background:rgba(0,0,0,.45)}
+#sheet,#rsheet{position:fixed;inset:0;z-index:20;display:flex;align-items:flex-end;justify-content:center}
+#sheet[hidden],#rsheet[hidden]{display:none}
+#shBg,#rsBg{position:absolute;inset:0;background:rgba(0,0,0,.45)}
 .shBox{position:relative;width:100%;max-width:560px;background:var(--card);border-radius:22px 22px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px))}
-#shT{display:block;font-size:22px;font-weight:700;margin-bottom:12px}
+#shT,#rsT{display:block;font-size:22px;font-weight:700;margin-bottom:12px}
 #shChips{display:flex;flex-wrap:wrap;gap:8px}
 #shChips .chip{padding:10px 16px;font-size:16px}
 .shAct{display:flex;gap:10px;margin-top:18px}
 .shAct button{flex:1;border:0;border-radius:12px;padding:12px;font:inherit;font-weight:700;font-size:17px;cursor:pointer;background:var(--chip);color:var(--tx)}
-.shAct #shOk{background:var(--tx);color:var(--bg)}
+.shAct #shOk,.shAct #rsOk{background:var(--tx);color:var(--bg)}
 .shAct #shAll.on{background:var(--c);color:#fff}
 .shAct #shAll.on.dk{color:#1b1d21}
 .chip:focus-visible,.day:focus-visible,.hd:focus-visible,.nav:focus-visible{outline:3px solid var(--tx);outline-offset:2px}
@@ -65,6 +65,14 @@ h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
 .dh{font-size:21px;font-weight:700;margin:20px 0 10px;text-transform:capitalize}
 .card{display:flex;gap:14px;align-items:center;background:var(--card);border-radius:18px;padding:16px;margin-bottom:10px;border-left:10px solid var(--c)}
 .time{font-size:32px;font-weight:700;line-height:1;min-width:76px;letter-spacing:-.02em}
+.card.past{cursor:pointer}
+.chev{margin-left:auto;color:var(--mu);font-size:28px;line-height:1}
+#rsheet .shBox{max-height:85vh;overflow:auto}
+.rsub{color:var(--mu);font-size:15px;margin:-6px 0 12px}
+.rhead{font-size:21px;font-weight:700;margin:6px 0 10px;line-height:1.2}
+.rr{display:grid;grid-template-columns:30px 1fr auto;gap:8px;padding:8px 0;border-top:1px solid var(--bd);font-size:17px}
+.rr i{font-style:normal;color:var(--mu);font-size:15px}
+.nb{display:block;font-size:13px;font-weight:600;letter-spacing:0;color:var(--mu);margin-bottom:4px}
 .body b{display:block;font-size:20px;line-height:1.15}
 .badge{display:inline-block;margin-top:6px;font-size:14px;font-weight:700;color:#fff;background:var(--c);border-radius:8px;padding:2px 9px}
 .det{color:var(--mu);font-size:15px;margin-top:4px}
@@ -84,13 +92,14 @@ h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
 <section id="list" class="pg"></section>
 </div>
 <p class="note" id="note"></p>
+<div id="rsheet" hidden><div id="rsBg"></div><div class="shBox"><b id="rsT"></b><div id="rsB"></div><div class="shAct"><button id="rsOk">Cerrar</button></div></div></div>
 <div id="sheet" hidden><div id="shBg"></div><div class="shBox"><b id="shT"></b><div id="shChips"></div><div class="shAct"><button id="shAll">Todos los equipos</button><button id="shOk">Listo</button></div></div></div>
 <script>
 const S={f1:["F1","#e10600","🏎️"],motogp:["MotoGP","#e5239d","🏍️"],nfl:["NFL","#1e3a8a","🏈"],tenis:["Tenis","#4d9a0b","🎾"],padel:["Pádel","#2563eb","🏓"],laliga:["LaLiga","#ff6f5e","⚽"],champions:["Champions","#ffffff","🏆"]};
 const key=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 let ev=[];
-const toEv=r=>{if(r.tbc||!r.start)return{date:r.date,time:"–:–",s:r.s,title:r.title,sub:(r.sub?r.sub+", ":"")+"hora por confirmar"};const d=new Date(r.start);return{date:key(d),time:String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"),s:r.s,title:r.title,sub:r.sub||""}};
-function setData(j){ev=(j.events||[]).filter(r=>S[r.s]).map(toEv).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));$("note").textContent=j.updated?"Datos actualizados el "+new Date(j.updated).toLocaleString("es-ES",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):""}
+const toEv=r=>{if(r.tbc||!r.start)return{date:r.date,time:"–:–",s:r.s,title:r.title,sub:(r.sub?r.sub+", ":"")+"hora por confirmar",res:r.res};const d=new Date(r.start);return{date:key(d),time:String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"),s:r.s,title:r.title,sub:r.sub||"",nb:!!r.nb,ts:d.getTime(),res:r.res}};
+function setData(j){ev=(j.events||[]).filter(r=>S[r.s]).map(toEv).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));ev.forEach((e,i)=>e.id=i);$("note").textContent=j.updated?"Datos actualizados el "+new Date(j.updated).toLocaleString("es-ES",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):""}
 async function load(){let j=null;try{const r=await fetch("events.json?"+Date.now(),{cache:"no-cache"});if(r.ok){j=await r.json();try{localStorage.setItem("agd",JSON.stringify(j))}catch(e){}}}catch(e){}
 if(!j){try{j=JSON.parse(localStorage.getItem("agd")||"null")}catch(e){}}
 if(j){setData(j);all()}else $("note").textContent="No se han podido cargar los eventos."}
@@ -106,7 +115,8 @@ const $=id=>document.getElementById(id);
 const fmt=(k,o)=>new Date(k+"T12:00:00").toLocaleDateString("es-ES",o);
 const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const vis=()=>ev.filter(e=>(!only||e.s===only)&&(!tm[e.s]||!tm[e.s].size||[...tm[e.s]].some(w=>norm(e.title).includes(norm(w)))));
-const card=e=>`<div class="card" style="--c:${S[e.s][1]}"><div class="time">${e.time}</div><div class="body"><b>${e.title}</b><span class="badge${DK.has(e.s)?" dk":""}">${S[e.s][0]}</span><div class="det">${e.sub}</div></div></div>`;
+const isPast=e=>e.ts?e.ts<Date.now():e.date<today;
+const card=e=>`<div class="card${isPast(e)?" past":""}" data-i="${e.id}" style="--c:${S[e.s][1]}"><div class="time">${e.nb?'<small class="nb">No antes de</small>':""}${e.time}</div><div class="body"><b>${e.title}</b><span class="badge${DK.has(e.s)?" dk":""}">${S[e.s][0]}</span><div class="det">${e.sub}</div></div>${isPast(e)?'<span class="chev">›</span>':""}</div>`;
 function chips(){$("chips").innerHTML=Object.entries(S).map(([k,[n,c,i]])=>`<button class="chip ${!only||only===k?"on":""}${DK.has(k)?" dk":""}${tm[k]&&tm[k].size?" ft":""}" style="--c:${c}" data-k="${k}">${n}</button>`).join("")}
 function cal(){
   $("mt").textContent=cur.toLocaleDateString("es-ES",{month:"long",year:"numeric"});
@@ -149,6 +159,19 @@ function go(i){if(i<0||i>1||i===pi)return;pi=i;pg.dataset.p=i;pg.style.setProper
 hds.forEach(h=>h.onclick=()=>go(+h.dataset.i));
 pg.addEventListener("touchstart",e=>{tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
 pg.addEventListener("touchend",e=>{const dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5)go(dx<0?1:0)});
+function showRes(i){
+  const e=ev[i];if(!e||!isPast(e))return;
+  $("rsT").textContent=e.title;
+  let b=`<div class="rsub">${S[e.s][0]}, ${fmt(e.date,{weekday:"short",day:"numeric",month:"short"})}${e.time[0]!=="–"?" "+e.time:""}${e.sub?", "+e.sub:""}</div>`;
+  if(e.res){
+    if(e.res.head)b+=`<div class="rhead">${e.res.head}</div>`;
+    b+=(e.res.rows||[]).map(r=>`<div class="rr"><b>${r[0]}</b><span>${r[1]} <i>${r[2]||""}</i></span><i>${r[3]||""}</i></div>`).join("");
+  }else b+=`<div class="empty">${e.s==="motogp"?"Los resultados de MotoGP no se cargan automáticamente.":"Todavía no hay resultado disponible para este evento."}</div>`;
+  $("rsB").innerHTML=b;$("rsheet").hidden=false;
+}
+document.addEventListener("click",x=>{const c=x.target.closest(".card.past");if(c)showRes(+c.dataset.i)});
+$("rsOk").onclick=()=>{$("rsheet").hidden=true};
+$("rsBg").onclick=()=>{$("rsheet").hidden=true};
 all();load();
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>
