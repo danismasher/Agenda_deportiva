@@ -1,45 +1,21 @@
-"""Diagnostico 2: estructura de los datos de premierpadel.com (partidos y calendario)."""
+"""Diagnostico: de donde saca motogp.com sus resultados (el nombre del archivo se mantiene
+para no tocar la automatizacion 'Explorar padel')."""
 import json
-from collections import Counter
 
-DETAIL = "https://premierpadel.com/es/tournaments-detail/dubai-p1-3"
-LIST = "https://premierpadel.com/es/tournaments"
-KEYS = ("slug", "name", "title", "category_id", "country", "gender", "start_date_utc", "end_date_utc")
-
-
-def find_list(obj, depth=0):
-    if isinstance(obj, list) and obj and isinstance(obj[0], dict):
-        return obj
-    if isinstance(obj, dict) and depth < 3:
-        for v in obj.values():
-            r = find_list(v, depth + 1)
-            if r:
-                return r
-    return None
+PAGES = [
+    ("CARRERA", "https://www.motogp.com/es/gp-results/2026/qat/motogp/rac/classification"),
+    ("SPRINT", "https://www.motogp.com/es/gp-results/2026/qat/motogp/spr/classification"),
+]
+SKIP = ("google", "cookiebot", "doubleclick", "facebook", "tiktok", "onetrust", "clarity", "hotjar",
+        "newrelic", "sentry", "gtm", "analytics", "snapchat", "twitter", "linkedin", "adobe", "demdex")
 
 
-def summarize_matches(data):
-    courts = (data.get("data") or {}).get("courts") or []
-    matches = [m for c in courts for m in (c.get("matches") or [])]
-    print(f"  data keys: {list((data.get('data') or {}).keys())}")
-    print(f"  pistas: {len(courts)}, partidos: {len(matches)}")
-    print("  round_name:", dict(Counter(m.get('round_name') for m in matches)))
-    print("  status:", dict(Counter(m.get('status') for m in matches)))
-    if matches:
-        print("  PARTIDO EJEMPLO:", json.dumps(matches[0], ensure_ascii=False)[:1800])
-    others = [m for m in matches if not str(m.get("round_name", "")).upper().startswith("Q")]
-    for m in others[:2]:
-        print("  PARTIDO RONDA PRINCIPAL:", json.dumps(m, ensure_ascii=False)[:1800])
-
-
-def summarize_list(data):
-    items = find_list(data)
-    if not items:
-        print("  (sin lista)")
-        return
-    print(f"  elementos: {len(items)}; claves del primero: {list(items[0].keys())[:25]}")
-    for it in items[:40]:
-        print("   ", {k: it.get(k) for k in KEYS if k in it})
+def shape(obj, depth=0):
+    if isinstance(obj, dict):
+        return {k: (shape(v, depth + 1) if depth < 1 else type(v).__name__) for k, v in list(obj.items())[:15]}
+    if isinstance(obj, list):
+        return f"lista de {len(obj)}: " + (json.dumps(shape(obj[0], depth + 1), ensure_ascii=False)[:300] if obj else "")
+    return type(obj).__name__
 
 
 def main():
@@ -47,36 +23,36 @@ def main():
     store = {}
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        for label, url in (("detalle", DETAIL), ("calendario", LIST)):
+        for label, url in PAGES:
             page = browser.new_page(locale="es-ES")
 
             def on_resp(r, label=label):
-                if "api-prod.premierpadel.com" in r.url and r.request.resource_type in ("xhr", "fetch"):
-                    try:
-                        data = r.json()
-                    except Exception:
-                        return
-                    store.setdefault(label, []).append((r.request, data))
+                u = r.url.lower()
+                if r.request.resource_type not in ("xhr", "fetch") or any(s in u for s in SKIP):
+                    return
+                try:
+                    data = r.json()
+                except Exception:
+                    return
+                store.setdefault(label, []).append((r.request, r.status, data))
 
             page.on("response", on_resp)
             page.goto(url, wait_until="networkidle", timeout=90000)
-            page.wait_for_timeout(5000)
+            page.wait_for_timeout(6000)
+            store.setdefault(label + "_TEXTO", []).append(page.inner_text("body")[:1800])
             page.close()
         browser.close()
 
-    for label, calls in store.items():
-        print(f"\n===== {label.upper()} =====")
-        for req, data in calls:
-            if "ournament" not in req.url and "chedule" not in req.url:
-                continue
-            names = sorted(k for k in req.headers if k.lower() not in ("user-agent", "accept-language", "sec-ch-ua"))
-            print(f"\n{req.method} {req.url}")
+    for label, _ in PAGES:
+        print(f"\n===== {label} =====")
+        for req, status, data in store.get(label, [])[:30]:
+            print(f"\n{req.method} {status} {req.url}")
             print("  post_data:", (req.post_data or "")[:300])
-            print("  cabeceras:", names)
-            if req.url.endswith("getTournamentMatches"):
-                summarize_matches(data)
-            else:
-                summarize_list(data)
+            print("  cabeceras:", sorted(k for k in req.headers if k.lower() not in ("user-agent", "accept-language", "sec-ch-ua")))
+            print("  estructura:", json.dumps(shape(data), ensure_ascii=False)[:600])
+            print("  inicio:", json.dumps(data, ensure_ascii=False)[:500])
+        for t in store.get(label + "_TEXTO", []):
+            print(f"\n--- texto visible ({label}) ---\n{t}")
 
 
 if __name__ == "__main__":
