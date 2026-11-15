@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Genera events.json con los eventos deportivos. Solo usa la libreria estandar."""
-import json, sys, time, unicodedata, urllib.request, urllib.error
+import json, re, sys, time, unicodedata, urllib.request, urllib.error
+from html.parser import HTMLParser
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -11,6 +12,14 @@ UA = {"User-Agent": "agenda-deportiva/1.0 (uso personal)"}
 NOW = datetime.now(timezone.utc)
 TODAY = NOW.date()
 ESPN = "https://site.api.espn.com/apis/site/v2/sports"
+BACK = 14   # dias hacia atras que se vuelven a consultar para recoger resultados
+WSTART = TODAY - timedelta(days=BACK)
+KEEP = 90   # dias que se conservan los eventos pasados
+OLD = {}    # eventos de la ejecucion anterior, por clave
+
+
+def ekey(e):
+    return (e["s"], e.get("start") or e.get("date"), e["title"])
 
 
 class HttpFail(Exception):
@@ -58,7 +67,160 @@ def mk(sport, date, time_, title, sub):
     return {"s": sport, "date": date, "tbc": True, "title": title, "sub": sub}
 
 
-# ---------- F1 (Jolpica, sucesora de Ergast) ----------
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                           "Chrome/124.0 Safari/537.36", "Accept-Language": "en"}
+
+
+def get_html(url, tries=2):
+    last = None
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=BROWSER_UA)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None
+            if 400 <= e.code < 500:
+                raise HttpFail(e.code, url)
+            last = e
+        except Exception as e:
+            last = e
+        time.sleep(2 * (i + 1))
+    raise last
+
+
+class TableParser(HTMLParser):
+    """Lee la primera tabla de una pagina: filas -> celdas -> trozos de texto."""
+
+    def __init__(self):
+        super().__init__()
+        self.rows, self.row, self.cell, self.depth, self.done = [], None, None, 0, False
+
+    def handle_starttag(self, tag, attrs):
+        if self.done:
+            return
+        if tag == "table":
+            self.depth += 1
+        elif self.depth and tag == "tr":
+            self.row = []
+        elif self.depth and tag in ("td", "th"):
+            self.cell = []
+
+    def handle_data(self, data):
+        if self.cell is not None and data.strip():
+            self.cell.append(data.strip())
+
+    def handle_endtag(self, tag):
+        if self.done:
+            return
+        if tag in ("td", "th") and self.cell is not None and self.row is not None:
+            self.row.append(self.cell)
+            self.cell = None
+        elif tag == "tr" and self.row is not None:
+            if self.row:
+                self.rows.append(self.row)
+            self.row = None
+        elif tag == "table" and self.depth:
+            self.depth -= 1
+            if self.depth == 0:
+                self.done = True
+
+
+def ctext(cell):
+    return " ".join(cell).strip()
+
+
+def f1_driver(cell):
+    nodes = list(cell)
+    if len(nodes) >= 2 and re.fullmatch(r"[A-Z]{3}", nodes[-1]):
+        return " ".join(nodes[:-1]).strip()
+    s = " ".join(nodes).strip()
+    m = re.match(r"^(.*?)([A-Z]{3})$", s)
+    return m.group(1).strip() if m else s
+
+
+def short_name(n):
+    p = n.split()
+    return f"{p[0][0]}. {' '.join(p[1:])}" if len(p) > 1 else n
+
+
+def f1_table_res(html, kind):
+    p = TableParser()
+    p.feed(html)
+    rows = p.rows
+    if len(rows) < 2:
+        return None
+    hdr = [ctext(c).lower() for c in rows[0]]
+
+    def col(*keys):
+        for i, h in enumerate(hdr):
+            if any(h.startswith(k) for k in keys):
+                return i
+        return None
+
+    ip, idr, it, tcol = col("pos"), col("driver"), col("team"), col("time")
+    qcols = [i for i, h in enumerate(hdr) if h in ("q1", "q2", "q3")]
+    if idr is None:
+        return None
+    out, full = [], []
+    for r in rows[1:]:
+        if len(r) <= idr:
+            continue
+        pos = ctext(r[ip]) if ip is not None and ip < len(r) else str(len(out) + 1)
+        name = f1_driver(r[idr])
+        team = ctext(r[it]) if it is not None and it < len(r) else ""
+        last = ""
+        if kind in ("qualifying", "sprintq"):
+            for i in reversed(qcols):
+                if i < len(r) and ctext(r[i]):
+                    last = ctext(r[i])
+                    break
+        elif tcol is not None and tcol < len(r):
+            last = ctext(r[tcol])
+        out.append([pos, short_name(name), team, last])
+        full.append(name)
+    if not out:
+        return None
+    label = "Pole" if kind in ("qualifying", "sprintq") else "Ganador"
+    return {"head": f"{label}: {full[0]}", "rows": out}
+
+
+F1_PAGES = {"results": ["race-result"], "sprint": ["sprint-results", "sprint"],
+            "qualifying": ["qualifying"], "sprintq": ["sprint-qualifying", "sprint-shootout"]}
+
+
+def f1_official_index(year):
+    """(id, slug) de cada gran premio, en orden de calendario, segun formula1.com."""
+    html = get_html(f"https://www.formula1.com/en/results/{year}/races")
+    if not html:
+        return []
+    seen, out = set(), []
+    for rid, slug in re.findall(rf"/en/results/{year}/races/(\d+)/([a-z0-9-]+)/race-result", html):
+        if rid not in seen:
+            seen.add(rid)
+            out.append((rid, slug))
+    return out
+
+
+def f1_official_result(year, race, kind, cache):
+    rid, slug = race
+    for page in F1_PAGES.get(kind, []):
+        k = (year, rid, page)
+        if k not in cache:
+            html = None
+            try:
+                html = get_html(f"https://www.formula1.com/en/results/{year}/races/{rid}/{slug}/{page}")
+            except Exception as e:
+                print(f"aviso: formula1.com {slug}/{page}: {e}")
+            cache[k] = f1_table_res(html, kind) if html else None
+            time.sleep(0.5)
+        if cache[k]:
+            return cache[k]
+    return None
+
+
+# ---------- F1 (calendario: Jolpica; resultados: formula1.com) ----------
 F1_SESSIONS = [
     ("Qualifying", "Clasificación"),
     ("SprintQualifying", "Clasificación sprint"),
@@ -67,19 +229,84 @@ F1_SESSIONS = [
 ]
 
 
+RES_KIND = {"Carrera": "results", "Carrera sprint": "sprint", "Clasificación": "qualifying",
+            "Clasificación sprint": "sprintq"}
+
+
+def f1_name(d):
+    return f'{(d.get("givenName") or "?")[:1]}. {d.get("familyName", "")}'
+
+
+def f1_result(year, rd, kind, cache):
+    k = (year, rd, kind)
+    if k not in cache:
+        data = get_json(f"https://api.jolpi.ca/ergast/f1/{year}/{rd}/{kind}.json")
+        races = (((data or {}).get("MRData") or {}).get("RaceTable") or {}).get("Races") or []
+        cache[k] = races[0] if races else None
+        time.sleep(0.5)
+    race = cache[k]
+    if not race:
+        return None
+    field = "QualifyingResults" if kind == "qualifying" else ("SprintResults" if kind == "sprint" else "Results")
+    lst = race.get(field) or []
+    if not lst:
+        return None
+    rows = []
+    for x in lst[:10]:
+        if kind == "qualifying":
+            last = x.get("Q3") or x.get("Q2") or x.get("Q1") or ""
+        else:
+            last = (x.get("Time") or {}).get("time") or x.get("status", "")
+        rows.append([x.get("position", ""), f1_name(x["Driver"]), x["Constructor"]["name"], last])
+    d0 = lst[0]["Driver"]
+    label = "Pole" if kind == "qualifying" else "Ganador"
+    return {"head": f'{label}: {d0.get("givenName", "")} {d0.get("familyName", "")}', "rows": rows}
+
+
 def f1():
-    out = []
+    out, cache, ocache = [], {}, {}
+    now = datetime.now(timezone.utc)
     for year in (TODAY.year, TODAY.year + 1):
         data = get_json(f"https://api.jolpi.ca/ergast/f1/{year}.json")
         if not data:
             continue
-        for race in data["MRData"]["RaceTable"]["Races"]:
+        races = sorted(data["MRData"]["RaceTable"]["Races"], key=lambda r: int(r["round"]))
+        try:
+            official = f1_official_index(year)
+        except Exception as e:
+            print(f"aviso: sin indice de formula1.com ({e})")
+            official = []
+        if official and len(official) != len(races):
+            print(f"aviso: formula1.com tiene {len(official)} carreras y el calendario {len(races)}; se usa Jolpica")
+            official = []
+        for n, race in enumerate(races):
             gp = "GP " + race["raceName"].replace(" Grand Prix", "")
+            rd = int(race["round"])
             sessions = [(race.get(k), t) for k, t in F1_SESSIONS]
             sessions.append(({"date": race["date"], "time": race.get("time")}, "Carrera"))
             for s, title in sessions:
-                if s:
-                    out.append(mk("f1", s["date"], s.get("time"), title, gp))
+                if not s:
+                    continue
+                ev = mk("f1", s["date"], s.get("time"), title, gp)
+                kind = RES_KIND.get(title)
+                if kind and "start" in ev:
+                    st = parse(ev["start"])
+                    old = OLD.get(ekey(ev))
+                    if old and old.get("res"):
+                        ev["res"] = old["res"]
+                    elif st + timedelta(hours=3) < now and st >= now - timedelta(days=KEEP) \
+                            and (old is None or st >= now - timedelta(days=14)):
+                        r = None
+                        if official:
+                            r = f1_official_result(year, official[n], kind, ocache)
+                        if not r and kind in ("results", "sprint", "qualifying"):
+                            try:
+                                r = f1_result(year, rd, kind, cache)
+                            except Exception as e:
+                                print(f"aviso: sin resultado F1 {year}/{rd}/{kind}: {e}")
+                        if r:
+                            ev["res"] = r
+                out.append(ev)
     return out
 
 
@@ -109,7 +336,7 @@ def scoreboard(path, d, e):
 
 def espn_events(path, days, step):
     seen = {}
-    d, end = TODAY, TODAY + timedelta(days=days)
+    d, end = WSTART, TODAY + timedelta(days=days)
     while d <= end:
         e = min(d + timedelta(days=step - 1), end)
         for ev in scoreboard(path, d, e):
@@ -117,6 +344,20 @@ def espn_events(path, days, step):
         d = e + timedelta(days=1)
         time.sleep(0.5)
     return list(seen.values())
+
+
+def txt(v):
+    if isinstance(v, dict):
+        v = v.get("displayValue", v.get("value"))
+    return "" if v is None else str(v).strip()
+
+
+def is_done(*objs):
+    for o in objs:
+        t = ((o or {}).get("status") or {}).get("type") or {}
+        if t.get("completed"):
+            return True
+    return False
 
 
 def matches(path, sport, days, step):
@@ -127,14 +368,35 @@ def matches(path, sport, days, step):
         if "home" not in t or "away" not in t:
             continue
         venue = (comp.get("venue") or {}).get("fullName", "")
-        out.append({"s": sport, "start": iso(parse(ev["date"])),
-                    "title": f'{t["home"]} – {t["away"]}', "sub": venue})
+        item = {"s": sport, "start": iso(parse(ev["date"])),
+                "title": f'{t["home"]} – {t["away"]}', "sub": venue}
+        if is_done(ev, comp):
+            sc = {c["homeAway"]: txt(c.get("score")) for c in comp["competitors"]}
+            if sc.get("home") and sc.get("away"):
+                item["res"] = {"head": f'{t["home"]} {sc["home"]} – {sc["away"]} {t["away"]}'}
+        out.append(item)
     return out
 
 
 def short(name):
     p = name.split()
     return f"{p[0][0]}. {' '.join(p[1:])}" if len(p) > 1 else name
+
+
+def tennis_res(c, names):
+    try:
+        if not is_done(c):
+            return None
+        ps = c.get("competitors") or []
+        ls = [[int(float(s.get("value"))) for s in (p.get("linescores") or []) if s.get("value") is not None]
+              for p in ps]
+        win = next((i for i, p in enumerate(ps) if p.get("winner")), None)
+        if win is None or len(ls) != 2 or not ls[0] or len(ls[0]) != len(ls[1]):
+            return None
+        sets = " ".join(f"{ls[win][i]}-{ls[1 - win][i]}" for i in range(len(ls[0])))
+        return {"head": f"Gana {short(names[win])}: {sets}"}
+    except Exception:
+        return None
 
 
 def tennis(days=21):
@@ -159,6 +421,9 @@ def tennis(days=21):
             item = {"s": "tenis", "start": iso(parse(when)),
                     "title": f"{short(names[0])} – {short(names[1])}",
                     "sub": ", ".join(x for x in (tname, rnd) if x)}
+            res = tennis_res(c, names)
+            if res:
+                item["res"] = res
             k = (item["start"], item["title"])
             if k not in seen:
                 seen.add(k)
@@ -196,6 +461,7 @@ def main():
             old = json.loads(OUT.read_text("utf-8")).get("events", [])
         except Exception:
             pass
+    OLD.update({ekey(e): e for e in old if "s" in e and "title" in e})
     events, report, ok = [], [], 0
     for sport, fn in SOURCES.items():
         try:
@@ -214,7 +480,14 @@ def main():
     except Exception as e:
         report.append(f"manual: ERROR {e!r}")
 
-    keep_from = (TODAY - timedelta(days=7)).isoformat()
+    # eventos antiguos (ya fuera de la ventana de consulta) que se conservan con su resultado
+    wstart = WSTART.isoformat()
+    for o in old:
+        if o.get("s") in ("nfl", "laliga", "champions", "tenis", "padel") and \
+                (o.get("start") or o.get("date") or "9")[:10] < wstart:
+            events.append(o)
+
+    keep_from = (TODAY - timedelta(days=KEEP)).isoformat()
     uniq = {}
     for e in events:
         key = e.get("start") or e.get("date")
@@ -222,6 +495,12 @@ def main():
             continue
         uniq[(e["s"], key, e["title"])] = e
     ordered = sorted(uniq.values(), key=lambda e: ((e.get("start") or e["date"] + "T99"), e["s"]))
+    for e in ordered:
+        o = OLD.get(ekey(e))
+        if "res" not in e and o and o.get("res"):
+            e["res"] = o["res"]
+    n_res = sum(1 for e in ordered if e.get("res"))
+    report.append(f"resultados: {n_res} eventos con resultado")
     OUT.write_text(json.dumps({"updated": iso(NOW), "events": ordered},
                               ensure_ascii=False, indent=1), "utf-8")
     print("\n".join(report))
