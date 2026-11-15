@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:31:00Z",
+ "updated": "2026-11-15T22:01:00Z",
  "events": [
   {
    "s": "padel",
@@ -113,7 +113,10 @@
    "s": "padel",
    "start": "2026-11-15T14:00:00Z",
    "title": "Libaak / Alfonso – Lebron / Augsburger",
-   "sub": "Final masculino, Dubai P1"
+   "sub": "Final masculino, Dubai P1",
+   "res": {
+    "head": "Ganan Lebron / Augsburger: 7-6 5-7 6-3"
+   }
   },
   {
    "s": "padel",

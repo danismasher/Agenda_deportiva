@@ -1,0 +1,2054 @@
+{
+ "updated": "2026-11-15T22:08:00Z",
+ "events": [
+  {
+   "s": "motogp",
+   "date": "2026-08-29",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP Spain",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "19:37.995"
+     ],
+     [
+      "2",
+      "A. Marquez",
+      "Ducati",
+      "1.140"
+     ],
+     [
+      "3",
+      "M. Bezzecchi",
+      "Aprilia",
+      "2.089"
+     ],
+     [
+      "4",
+      "P. Acosta",
+      "KTM",
+      "2.648"
+     ],
+     [
+      "5",
+      "J. Martin",
+      "Aprilia",
+      "6.237"
+     ],
+     [
+      "6",
+      "F. Aldeguer",
+      "Ducati",
+      "10.475"
+     ],
+     [
+      "7",
+      "D. Moreira",
+      "Honda",
+      "11.071"
+     ],
+     [
+      "8",
+      "R. Fernandez",
+      "Aprilia",
+      "11.213"
+     ],
+     [
+      "9",
+      "J. Zarco",
+      "Honda",
+      "12.021"
+     ],
+     [
+      "10",
+      "J. Miller",
+      "Yamaha",
+      "12.166"
+     ],
+     [
+      "11",
+      "F. Bagnaia",
+      "Ducati",
+      "14.575"
+     ],
+     [
+      "12",
+      "A. Rins",
+      "Yamaha",
+      "14.648"
+     ],
+     [
+      "13",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "15.776"
+     ],
+     [
+      "14",
+      "E. Bastianini",
+      "KTM",
+      "16.051"
+     ],
+     [
+      "15",
+      "B. Binder",
+      "KTM",
+      "16.761"
+     ],
+     [
+      "16",
+      "J. Mir",
+      "Honda",
+      "19.845"
+     ],
+     [
+      "17",
+      "P. Espargaro",
+      "KTM",
+      "23.160"
+     ],
+     [
+      "18",
+      "F. Morbidelli",
+      "Ducati",
+      "25.074"
+     ],
+     [
+      "19",
+      "L. Savadori",
+      "Aprilia",
+      "27.798"
+     ],
+     [
+      "–",
+      "F. Quartararo",
+      "Yamaha",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Di Giannantonio",
+      "Ducati",
+      "0.000"
+     ],
+     [
+      "–",
+      "L. Marini",
+      "Honda",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-08-30",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP Spain",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "41:10.969"
+     ],
+     [
+      "2",
+      "P. Acosta",
+      "KTM",
+      "1.754"
+     ],
+     [
+      "3",
+      "M. Bezzecchi",
+      "Aprilia",
+      "3.629"
+     ],
+     [
+      "4",
+      "A. Marquez",
+      "Ducati",
+      "8.687"
+     ],
+     [
+      "5",
+      "J. Martin",
+      "Aprilia",
+      "12.572"
+     ],
+     [
+      "6",
+      "F. Aldeguer",
+      "Ducati",
+      "17.687"
+     ],
+     [
+      "7",
+      "F. Di Giannantonio",
+      "Ducati",
+      "23.136"
+     ],
+     [
+      "8",
+      "E. Bastianini",
+      "KTM",
+      "25.741"
+     ],
+     [
+      "9",
+      "D. Moreira",
+      "Honda",
+      "25.899"
+     ],
+     [
+      "10",
+      "B. Binder",
+      "KTM",
+      "26.441"
+     ],
+     [
+      "11",
+      "J. Miller",
+      "Yamaha",
+      "27.206"
+     ],
+     [
+      "12",
+      "J. Mir",
+      "Honda",
+      "27.999"
+     ],
+     [
+      "13",
+      "A. Rins",
+      "Yamaha",
+      "28.276"
+     ],
+     [
+      "14",
+      "L. Marini",
+      "Honda",
+      "29.794"
+     ],
+     [
+      "15",
+      "J. Zarco",
+      "Honda",
+      "30.003"
+     ],
+     [
+      "16",
+      "P. Espargaro",
+      "KTM",
+      "35.874"
+     ],
+     [
+      "17",
+      "L. Savadori",
+      "Aprilia",
+      "49.761"
+     ],
+     [
+      "18",
+      "F. Quartararo",
+      "Yamaha",
+      "51.657"
+     ],
+     [
+      "–",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "0.000"
+     ],
+     [
+      "–",
+      "R. Fernandez",
+      "Aprilia",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Morbidelli",
+      "Ducati",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Bagnaia",
+      "Ducati",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-09-12",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP San Marino",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "19:48.519"
+     ],
+     [
+      "2",
+      "M. Bezzecchi",
+      "Aprilia",
+      "1.068"
+     ],
+     [
+      "3",
+      "J. Martin",
+      "Aprilia",
+      "3.538"
+     ],
+     [
+      "4",
+      "F. Di Giannantonio",
+      "Ducati",
+      "3.968"
+     ],
+     [
+      "5",
+      "A. Marquez",
+      "Ducati",
+      "4.348"
+     ],
+     [
+      "6",
+      "P. Acosta",
+      "KTM",
+      "6.944"
+     ],
+     [
+      "7",
+      "R. Fernandez",
+      "Aprilia",
+      "7.707"
+     ],
+     [
+      "8",
+      "F. Aldeguer",
+      "Ducati",
+      "8.832"
+     ],
+     [
+      "9",
+      "L. Marini",
+      "Honda",
+      "11.712"
+     ],
+     [
+      "10",
+      "J. Zarco",
+      "Honda",
+      "14.534"
+     ],
+     [
+      "11",
+      "D. Moreira",
+      "Honda",
+      "17.043"
+     ],
+     [
+      "12",
+      "F. Morbidelli",
+      "Ducati",
+      "17.405"
+     ],
+     [
+      "13",
+      "F. Bagnaia",
+      "Ducati",
+      "17.763"
+     ],
+     [
+      "14",
+      "B. Binder",
+      "KTM",
+      "18.181"
+     ],
+     [
+      "15",
+      "E. Bastianini",
+      "KTM",
+      "18.476"
+     ],
+     [
+      "16",
+      "P. Espargaro",
+      "KTM",
+      "18.752"
+     ],
+     [
+      "17",
+      "J. Miller",
+      "Yamaha",
+      "21.113"
+     ],
+     [
+      "18",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "20.698"
+     ],
+     [
+      "19",
+      "A. Rins",
+      "Yamaha",
+      "21.740"
+     ],
+     [
+      "20",
+      "J. Mir",
+      "Honda",
+      "22.054"
+     ],
+     [
+      "21",
+      "F. Quartararo",
+      "Yamaha",
+      "24.419"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-09-13",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP San Marino",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "41:13.013"
+     ],
+     [
+      "2",
+      "A. Marquez",
+      "Ducati",
+      "0.657"
+     ],
+     [
+      "3",
+      "P. Acosta",
+      "KTM",
+      "2.326"
+     ],
+     [
+      "4",
+      "F. Aldeguer",
+      "Ducati",
+      "6.027"
+     ],
+     [
+      "5",
+      "J. Martin",
+      "Aprilia",
+      "14.021"
+     ],
+     [
+      "6",
+      "R. Fernandez",
+      "Aprilia",
+      "18.252"
+     ],
+     [
+      "7",
+      "F. Di Giannantonio",
+      "Ducati",
+      "20.581"
+     ],
+     [
+      "8",
+      "E. Bastianini",
+      "KTM",
+      "20.858"
+     ],
+     [
+      "9",
+      "L. Marini",
+      "Honda",
+      "22.911"
+     ],
+     [
+      "10",
+      "F. Quartararo",
+      "Yamaha",
+      "23.229"
+     ],
+     [
+      "11",
+      "B. Binder",
+      "KTM",
+      "23.905"
+     ],
+     [
+      "12",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "28.031"
+     ],
+     [
+      "13",
+      "F. Morbidelli",
+      "Ducati",
+      "28.927"
+     ],
+     [
+      "14",
+      "P. Espargaro",
+      "KTM",
+      "31.792"
+     ],
+     [
+      "–",
+      "J. Zarco",
+      "Honda",
+      "0.000"
+     ],
+     [
+      "–",
+      "A. Rins",
+      "Yamaha",
+      "0.000"
+     ],
+     [
+      "–",
+      "J. Mir",
+      "Honda",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Bagnaia",
+      "Ducati",
+      "0.000"
+     ],
+     [
+      "–",
+      "D. Moreira",
+      "Honda",
+      "0.000"
+     ],
+     [
+      "–",
+      "J. Miller",
+      "Yamaha",
+      "0.000"
+     ],
+     [
+      "–",
+      "M. Bezzecchi",
+      "Aprilia",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-09-19",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP Austria",
+   "res": {
+    "head": "Ganador: Jorge Martin",
+    "rows": [
+     [
+      "1",
+      "J. Martin",
+      "Aprilia",
+      "20:57.387"
+     ],
+     [
+      "2",
+      "M. Marquez",
+      "Ducati",
+      "1.026"
+     ],
+     [
+      "3",
+      "M. Bezzecchi",
+      "Aprilia",
+      "1.675"
+     ],
+     [
+      "4",
+      "A. Ogura",
+      "Aprilia",
+      "3.495"
+     ],
+     [
+      "5",
+      "A. Marquez",
+      "Ducati",
+      "4.447"
+     ],
+     [
+      "6",
+      "F. Bagnaia",
+      "Ducati",
+      "5.142"
+     ],
+     [
+      "7",
+      "J. Zarco",
+      "Honda",
+      "5.895"
+     ],
+     [
+      "8",
+      "F. Aldeguer",
+      "Ducati",
+      "6.810"
+     ],
+     [
+      "9",
+      "B. Binder",
+      "KTM",
+      "7.233"
+     ],
+     [
+      "10",
+      "F. Di Giannantonio",
+      "Ducati",
+      "9.228"
+     ],
+     [
+      "11",
+      "E. Bastianini",
+      "KTM",
+      "11.580"
+     ],
+     [
+      "12",
+      "F. Quartararo",
+      "Yamaha",
+      "13.050"
+     ],
+     [
+      "13",
+      "L. Marini",
+      "Honda",
+      "15.076"
+     ],
+     [
+      "14",
+      "P. Espargaro",
+      "KTM",
+      "18.373"
+     ],
+     [
+      "15",
+      "T. Nakagami",
+      "Honda",
+      "19.201"
+     ],
+     [
+      "16",
+      "D. Moreira",
+      "Honda",
+      "20.503"
+     ],
+     [
+      "17",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "20.964"
+     ],
+     [
+      "18",
+      "A. Rins",
+      "Yamaha",
+      "21.054"
+     ],
+     [
+      "19",
+      "R. Fernandez",
+      "Aprilia",
+      "22.646"
+     ],
+     [
+      "20",
+      "J. Miller",
+      "Yamaha",
+      "26.053"
+     ],
+     [
+      "–",
+      "P. Acosta",
+      "KTM",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Morbidelli",
+      "Ducati",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-09-20",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP Austria",
+   "res": {
+    "head": "Ganador: Pedro Acosta",
+    "rows": [
+     [
+      "1",
+      "P. Acosta",
+      "KTM",
+      "42:16.996"
+     ],
+     [
+      "2",
+      "J. Martin",
+      "Aprilia",
+      "1.017"
+     ],
+     [
+      "3",
+      "M. Bezzecchi",
+      "Aprilia",
+      "1.209"
+     ],
+     [
+      "4",
+      "A. Ogura",
+      "Aprilia",
+      "2.139"
+     ],
+     [
+      "5",
+      "M. Marquez",
+      "Ducati",
+      "7.339"
+     ],
+     [
+      "6",
+      "B. Binder",
+      "KTM",
+      "8.720"
+     ],
+     [
+      "7",
+      "F. Bagnaia",
+      "Ducati",
+      "9.686"
+     ],
+     [
+      "8",
+      "F. Aldeguer",
+      "Ducati",
+      "12.365"
+     ],
+     [
+      "9",
+      "F. Di Giannantonio",
+      "Ducati",
+      "14.869"
+     ],
+     [
+      "10",
+      "J. Zarco",
+      "Honda",
+      "16.266"
+     ],
+     [
+      "11",
+      "E. Bastianini",
+      "KTM",
+      "16.640"
+     ],
+     [
+      "12",
+      "R. Fernandez",
+      "Aprilia",
+      "20.940"
+     ],
+     [
+      "13",
+      "T. Nakagami",
+      "Honda",
+      "21.032"
+     ],
+     [
+      "14",
+      "L. Marini",
+      "Honda",
+      "22.391"
+     ],
+     [
+      "15",
+      "D. Moreira",
+      "Honda",
+      "24.949"
+     ],
+     [
+      "16",
+      "P. Espargaro",
+      "KTM",
+      "25.148"
+     ],
+     [
+      "17",
+      "F. Quartararo",
+      "Yamaha",
+      "30.140"
+     ],
+     [
+      "18",
+      "F. Morbidelli",
+      "Ducati",
+      "34.200"
+     ],
+     [
+      "19",
+      "A. Rins",
+      "Yamaha",
+      "34.413"
+     ],
+     [
+      "20",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "46.724"
+     ],
+     [
+      "21",
+      "J. Miller",
+      "Yamaha",
+      "67.530"
+     ],
+     [
+      "–",
+      "A. Marquez",
+      "Ducati",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-10-03",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP Japan",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "20:50.376"
+     ],
+     [
+      "2",
+      "D. Moreira",
+      "Honda",
+      "2.754"
+     ],
+     [
+      "3",
+      "J. Martin",
+      "Aprilia",
+      "2.466"
+     ],
+     [
+      "4",
+      "E. Bastianini",
+      "KTM",
+      "2.508"
+     ],
+     [
+      "5",
+      "A. Ogura",
+      "Aprilia",
+      "5.992"
+     ],
+     [
+      "6",
+      "M. Bezzecchi",
+      "Aprilia",
+      "6.984"
+     ],
+     [
+      "7",
+      "J. Zarco",
+      "Honda",
+      "8.088"
+     ],
+     [
+      "8",
+      "R. Fernandez",
+      "Aprilia",
+      "8.817"
+     ],
+     [
+      "9",
+      "F. Quartararo",
+      "Yamaha",
+      "10.586"
+     ],
+     [
+      "10",
+      "F. Aldeguer",
+      "Ducati",
+      "11.129"
+     ],
+     [
+      "11",
+      "L. Marini",
+      "Honda",
+      "13.632"
+     ],
+     [
+      "12",
+      "F. Morbidelli",
+      "Ducati",
+      "15.209"
+     ],
+     [
+      "13",
+      "A. Rins",
+      "Yamaha",
+      "19.873"
+     ],
+     [
+      "14",
+      "S. Chantra",
+      "Honda",
+      "19.983"
+     ],
+     [
+      "15",
+      "M. Viñales",
+      "KTM",
+      "20.469"
+     ],
+     [
+      "16",
+      "J. Miller",
+      "Yamaha",
+      "21.894"
+     ],
+     [
+      "17",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "38.442"
+     ],
+     [
+      "18",
+      "B. Binder",
+      "KTM",
+      "41.284"
+     ],
+     [
+      "–",
+      "F. Bagnaia",
+      "Ducati",
+      "0.000"
+     ],
+     [
+      "–",
+      "P. Acosta",
+      "KTM",
+      "0.000"
+     ],
+     [
+      "–",
+      "A. Marquez",
+      "Ducati",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Di Giannantonio",
+      "Ducati",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-10-04",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP Japan",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "41:31.467"
+     ],
+     [
+      "2",
+      "J. Martin",
+      "Aprilia",
+      "1.363"
+     ],
+     [
+      "3",
+      "M. Bezzecchi",
+      "Aprilia",
+      "2.252"
+     ],
+     [
+      "4",
+      "E. Bastianini",
+      "KTM",
+      "2.330"
+     ],
+     [
+      "5",
+      "R. Fernandez",
+      "Aprilia",
+      "14.815"
+     ],
+     [
+      "6",
+      "A. Ogura",
+      "Aprilia",
+      "15.210"
+     ],
+     [
+      "7",
+      "P. Acosta",
+      "KTM",
+      "16.928"
+     ],
+     [
+      "8",
+      "F. Bagnaia",
+      "Ducati",
+      "20.333"
+     ],
+     [
+      "9",
+      "F. Aldeguer",
+      "Ducati",
+      "23.545"
+     ],
+     [
+      "10",
+      "L. Marini",
+      "Honda",
+      "25.677"
+     ],
+     [
+      "11",
+      "B. Binder",
+      "KTM",
+      "25.853"
+     ],
+     [
+      "12",
+      "F. Quartararo",
+      "Yamaha",
+      "30.867"
+     ],
+     [
+      "13",
+      "S. Chantra",
+      "Honda",
+      "31.333"
+     ],
+     [
+      "14",
+      "M. Viñales",
+      "KTM",
+      "33.995"
+     ],
+     [
+      "15",
+      "F. Morbidelli",
+      "Ducati",
+      "34.590"
+     ],
+     [
+      "16",
+      "A. Rins",
+      "Yamaha",
+      "39.228"
+     ],
+     [
+      "17",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "39.562"
+     ],
+     [
+      "18",
+      "F. Di Giannantonio",
+      "Ducati",
+      "50.816"
+     ],
+     [
+      "19",
+      "J. Miller",
+      "Yamaha",
+      "71.127"
+     ],
+     [
+      "20",
+      "J. Zarco",
+      "Honda",
+      "0.000"
+     ],
+     [
+      "–",
+      "A. Marquez",
+      "Ducati",
+      "0.000"
+     ],
+     [
+      "–",
+      "D. Moreira",
+      "Honda",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-10-10",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP Indonesia",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "19:37.125"
+     ],
+     [
+      "2",
+      "A. Ogura",
+      "Aprilia",
+      "0.509"
+     ],
+     [
+      "3",
+      "F. Di Giannantonio",
+      "Ducati",
+      "0.835"
+     ],
+     [
+      "4",
+      "J. Martin",
+      "Aprilia",
+      "1.947"
+     ],
+     [
+      "5",
+      "A. Marquez",
+      "Ducati",
+      "3.410"
+     ],
+     [
+      "6",
+      "P. Acosta",
+      "KTM",
+      "5.478"
+     ],
+     [
+      "7",
+      "F. Aldeguer",
+      "Ducati",
+      "7.036"
+     ],
+     [
+      "8",
+      "F. Bagnaia",
+      "Ducati",
+      "10.039"
+     ],
+     [
+      "9",
+      "F. Quartararo",
+      "Yamaha",
+      "10.248"
+     ],
+     [
+      "10",
+      "A. Rins",
+      "Yamaha",
+      "13.288"
+     ],
+     [
+      "11",
+      "E. Bastianini",
+      "KTM",
+      "16.834"
+     ],
+     [
+      "12",
+      "J. Zarco",
+      "Honda",
+      "17.646"
+     ],
+     [
+      "13",
+      "J. Miller",
+      "Yamaha",
+      "18.285"
+     ],
+     [
+      "14",
+      "F. Morbidelli",
+      "Ducati",
+      "18.956"
+     ],
+     [
+      "15",
+      "L. Marini",
+      "Honda",
+      "19.227"
+     ],
+     [
+      "16",
+      "B. Binder",
+      "KTM",
+      "19.293"
+     ],
+     [
+      "17",
+      "D. Moreira",
+      "Honda",
+      "19.562"
+     ],
+     [
+      "18",
+      "M. Viñales",
+      "KTM",
+      "23.472"
+     ],
+     [
+      "19",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "23.834"
+     ],
+     [
+      "20",
+      "A. Espargaro",
+      "Honda",
+      "38.336"
+     ],
+     [
+      "–",
+      "M. Bezzecchi",
+      "Aprilia",
+      "0.000"
+     ],
+     [
+      "–",
+      "R. Fernandez",
+      "Aprilia",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-10-11",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP Indonesia",
+   "res": {
+    "head": "Ganador: Marco Bezzecchi",
+    "rows": [
+     [
+      "1",
+      "M. Bezzecchi",
+      "Aprilia",
+      "40:46.582"
+     ],
+     [
+      "2",
+      "R. Fernandez",
+      "Aprilia",
+      "4.260"
+     ],
+     [
+      "3",
+      "J. Martin",
+      "Aprilia",
+      "6.890"
+     ],
+     [
+      "4",
+      "A. Ogura",
+      "Aprilia",
+      "9.378"
+     ],
+     [
+      "5",
+      "P. Acosta",
+      "KTM",
+      "9.492"
+     ],
+     [
+      "6",
+      "M. Marquez",
+      "Ducati",
+      "10.778"
+     ],
+     [
+      "7",
+      "A. Marquez",
+      "Ducati",
+      "16.821"
+     ],
+     [
+      "8",
+      "F. Di Giannantonio",
+      "Ducati",
+      "19.840"
+     ],
+     [
+      "9",
+      "F. Quartararo",
+      "Yamaha",
+      "19.999"
+     ],
+     [
+      "10",
+      "E. Bastianini",
+      "KTM",
+      "21.111"
+     ],
+     [
+      "11",
+      "B. Binder",
+      "KTM",
+      "21.912"
+     ],
+     [
+      "12",
+      "L. Marini",
+      "Honda",
+      "22.656"
+     ],
+     [
+      "13",
+      "J. Zarco",
+      "Honda",
+      "26.260"
+     ],
+     [
+      "14",
+      "F. Morbidelli",
+      "Ducati",
+      "28.012"
+     ],
+     [
+      "15",
+      "A. Rins",
+      "Yamaha",
+      "31.662"
+     ],
+     [
+      "16",
+      "D. Moreira",
+      "Honda",
+      "34.168"
+     ],
+     [
+      "17",
+      "M. Viñales",
+      "KTM",
+      "71.596"
+     ],
+     [
+      "–",
+      "T. Razgatlioglu",
+      "Yamaha",
+      "0.000"
+     ],
+     [
+      "–",
+      "J. Miller",
+      "Yamaha",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Bagnaia",
+      "Ducati",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Aldeguer",
+      "Ducati",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-10-24",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP Australia",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "19:09.411"
+     ],
+     [
+      "2",
+      "A. Marquez",
+      "Ducati",
+      "0.323"
+     ],
+     [
+      "3",
+      "F. Di Giannantonio",
+      "Ducati",
+      "0.590"
+     ],
+     [
+      "4",
+      "M. Bezzecchi",
+      "Aprilia",
+      "1.074"
+     ],
+     [
+      "5",
+      "P. Acosta",
+      "KTM",
+      "3.689"
+     ],
+     [
+      "6",
+      "B. Binder",
+      "KTM",
+      "7.433"
+     ],
+     [
+      "7",
+      "J. Miller",
+      "Yamaha",
+      "7.782"
+     ],
+     [
+      "8",
+      "D. Moreira",
+      "Honda",
+      "10.722"
+     ],
+     [
+      "9",
+      "I. Lecuona",
+      "Ducati",
+      "10.773"
+     ],
+     [
+      "10",
+      "F. Quartararo",
+      "Yamaha",
+      "11.215"
+     ],
+     [
+      "11",
+      "E. Bastianini",
+      "KTM",
+      "11.437"
+     ],
+     [
+      "12",
+      "A. Rins",
+      "Yamaha",
+      "11.568"
+     ],
+     [
+      "13",
+      "A. Ogura",
+      "Aprilia",
+      "14.146"
+     ],
+     [
+      "14",
+      "F. Morbidelli",
+      "Ducati",
+      "18.277"
+     ],
+     [
+      "15",
+      "A. Fernandez",
+      "Yamaha",
+      "45.945"
+     ],
+     [
+      "–",
+      "R. Fernandez",
+      "Aprilia",
+      "0.000"
+     ],
+     [
+      "–",
+      "J. Martin",
+      "Aprilia",
+      "0.000"
+     ],
+     [
+      "–",
+      "M. Viñales",
+      "KTM",
+      "0.000"
+     ],
+     [
+      "–",
+      "J. Zarco",
+      "Honda",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Bagnaia",
+      "Ducati",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-10-31",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP Malaysia",
+   "res": {
+    "head": "Ganador: Pedro Acosta",
+    "rows": [
+     [
+      "1",
+      "P. Acosta",
+      "KTM",
+      "20:04.098"
+     ],
+     [
+      "2",
+      "M. Marquez",
+      "Ducati",
+      "0.578"
+     ],
+     [
+      "3",
+      "M. Bezzecchi",
+      "Aprilia",
+      "1.310"
+     ],
+     [
+      "4",
+      "A. Ogura",
+      "Aprilia",
+      "1.793"
+     ],
+     [
+      "5",
+      "F. Di Giannantonio",
+      "Ducati",
+      "5.053"
+     ],
+     [
+      "6",
+      "F. Bagnaia",
+      "Ducati",
+      "8.330"
+     ],
+     [
+      "7",
+      "B. Binder",
+      "KTM",
+      "8.484"
+     ],
+     [
+      "8",
+      "D. Moreira",
+      "Honda",
+      "9.001"
+     ],
+     [
+      "9",
+      "E. Bastianini",
+      "KTM",
+      "9.101"
+     ],
+     [
+      "10",
+      "J. Zarco",
+      "Honda",
+      "9.545"
+     ],
+     [
+      "11",
+      "F. Quartararo",
+      "Yamaha",
+      "10.076"
+     ],
+     [
+      "12",
+      "A. Rins",
+      "Yamaha",
+      "12.250"
+     ],
+     [
+      "13",
+      "L. Marini",
+      "Honda",
+      "12.715"
+     ],
+     [
+      "14",
+      "A. Fernandez",
+      "Yamaha",
+      "14.878"
+     ],
+     [
+      "15",
+      "M. Viñales",
+      "KTM",
+      "102.843"
+     ],
+     [
+      "16",
+      "J. Mir",
+      "Honda",
+      "103.826"
+     ],
+     [
+      "17",
+      "F. Morbidelli",
+      "Ducati",
+      "105.065"
+     ],
+     [
+      "18",
+      "I. Lecuona",
+      "Ducati",
+      "116.425"
+     ],
+     [
+      "–",
+      "J. Miller",
+      "Yamaha",
+      "0.000"
+     ],
+     [
+      "–",
+      "A. Marquez",
+      "Ducati",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-11-01",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP Malaysia",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "40:14.236"
+     ],
+     [
+      "2",
+      "P. Acosta",
+      "KTM",
+      "4.172"
+     ],
+     [
+      "3",
+      "A. Marquez",
+      "Ducati",
+      "5.955"
+     ],
+     [
+      "4",
+      "A. Ogura",
+      "Aprilia",
+      "6.759"
+     ],
+     [
+      "5",
+      "E. Bastianini",
+      "KTM",
+      "10.896"
+     ],
+     [
+      "6",
+      "M. Bezzecchi",
+      "Aprilia",
+      "11.259"
+     ],
+     [
+      "7",
+      "L. Marini",
+      "Honda",
+      "17.724"
+     ],
+     [
+      "8",
+      "F. Di Giannantonio",
+      "Ducati",
+      "17.790"
+     ],
+     [
+      "9",
+      "B. Binder",
+      "KTM",
+      "23.729"
+     ],
+     [
+      "10",
+      "F. Morbidelli",
+      "Ducati",
+      "25.097"
+     ],
+     [
+      "11",
+      "F. Quartararo",
+      "Yamaha",
+      "25.826"
+     ],
+     [
+      "12",
+      "A. Rins",
+      "Yamaha",
+      "27.063"
+     ],
+     [
+      "13",
+      "F. Bagnaia",
+      "Ducati",
+      "32.960"
+     ],
+     [
+      "14",
+      "M. Viñales",
+      "KTM",
+      "34.597"
+     ],
+     [
+      "15",
+      "I. Lecuona",
+      "Ducati",
+      "38.446"
+     ],
+     [
+      "16",
+      "J. Miller",
+      "Yamaha",
+      "43.327"
+     ],
+     [
+      "–",
+      "J. Zarco",
+      "Honda",
+      "0.000"
+     ],
+     [
+      "–",
+      "D. Moreira",
+      "Honda",
+      "0.000"
+     ],
+     [
+      "–",
+      "J. Mir",
+      "Honda",
+      "0.000"
+     ],
+     [
+      "–",
+      "A. Fernandez",
+      "Yamaha",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-11-07",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP Qatar",
+   "res": {
+    "head": "Ganador: Marc Marquez",
+    "rows": [
+     [
+      "1",
+      "M. Marquez",
+      "Ducati",
+      "18:46.450"
+     ],
+     [
+      "2",
+      "F. Di Giannantonio",
+      "Ducati",
+      "0.862"
+     ],
+     [
+      "3",
+      "J. Martin",
+      "Aprilia",
+      "1.519"
+     ],
+     [
+      "4",
+      "R. Fernandez",
+      "Aprilia",
+      "2.700"
+     ],
+     [
+      "5",
+      "J. Zarco",
+      "Honda",
+      "3.720"
+     ],
+     [
+      "6",
+      "P. Acosta",
+      "KTM",
+      "4.664"
+     ],
+     [
+      "7",
+      "A. Ogura",
+      "Aprilia",
+      "4.858"
+     ],
+     [
+      "8",
+      "E. Bastianini",
+      "KTM",
+      "5.582"
+     ],
+     [
+      "9",
+      "I. Lecuona",
+      "Ducati",
+      "8.082"
+     ],
+     [
+      "10",
+      "D. Moreira",
+      "Honda",
+      "9.220"
+     ],
+     [
+      "11",
+      "F. Aldeguer",
+      "Ducati",
+      "9.429"
+     ],
+     [
+      "12",
+      "B. Binder",
+      "KTM",
+      "9.483"
+     ],
+     [
+      "13",
+      "L. Marini",
+      "Honda",
+      "12.727"
+     ],
+     [
+      "14",
+      "F. Morbidelli",
+      "Ducati",
+      "12.874"
+     ],
+     [
+      "15",
+      "M. Viñales",
+      "KTM",
+      "13.483"
+     ],
+     [
+      "16",
+      "J. Dixon",
+      "Honda",
+      "19.373"
+     ],
+     [
+      "–",
+      "M. Bezzecchi",
+      "Aprilia",
+      "0.000"
+     ],
+     [
+      "–",
+      "F. Bagnaia",
+      "Ducati",
+      "0.000"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-11-08",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP Qatar",
+   "res": {
+    "head": "Ganador: Marco Bezzecchi",
+    "rows": [
+     [
+      "1",
+      "M. Bezzecchi",
+      "Aprilia",
+      "41:29.173"
+     ],
+     [
+      "2",
+      "M. Marquez",
+      "Ducati",
+      "3.083"
+     ],
+     [
+      "3",
+      "R. Fernandez",
+      "Aprilia",
+      "3.614"
+     ],
+     [
+      "4",
+      "A. Ogura",
+      "Aprilia",
+      "4.885"
+     ],
+     [
+      "5",
+      "E. Bastianini",
+      "KTM",
+      "6.948"
+     ],
+     [
+      "6",
+      "P. Acosta",
+      "KTM",
+      "7.413"
+     ],
+     [
+      "7",
+      "J. Martin",
+      "Aprilia",
+      "14.023"
+     ],
+     [
+      "8",
+      "F. Di Giannantonio",
+      "Ducati",
+      "15.517"
+     ],
+     [
+      "9",
+      "J. Zarco",
+      "Honda",
+      "16.257"
+     ],
+     [
+      "10",
+      "I. Lecuona",
+      "Ducati",
+      "17.958"
+     ],
+     [
+      "11",
+      "F. Morbidelli",
+      "Ducati",
+      "20.275"
+     ],
+     [
+      "12",
+      "F. Aldeguer",
+      "Ducati",
+      "20.576"
+     ],
+     [
+      "13",
+      "M. Viñales",
+      "KTM",
+      "21.095"
+     ],
+     [
+      "14",
+      "J. Dixon",
+      "Honda",
+      "28.734"
+     ],
+     [
+      "–",
+      "B. Binder",
+      "KTM",
+      "0.000"
+     ],
+     [
+      "–",
+      "D. Moreira",
+      "Honda",
+      "0.000"
+     ]
+    ]
+   }
+  }
+ ],
+ "tried": [
+  "2026-10-25|Carrera"
+ ]
+}
