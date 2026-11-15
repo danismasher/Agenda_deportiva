@@ -271,6 +271,8 @@ def f1():
         if not data:
             continue
         races = sorted(data["MRData"]["RaceTable"]["Races"], key=lambda r: int(r["round"]))
+        if not races:
+            continue
         try:
             official = f1_official_index(year)
         except Exception as e:
@@ -431,6 +433,13 @@ def tennis(days=21):
     return out
 
 
+def motogp():
+    f = ROOT / "motogp.json"
+    if not f.exists():
+        return []
+    return json.loads(f.read_text("utf-8")).get("events", [])
+
+
 def padel():
     f = ROOT / "padel.json"
     if not f.exists():
@@ -445,6 +454,7 @@ SOURCES = {
     "champions": lambda: matches("soccer/uefa.champions", "champions", 100, 7),
     "tenis": tennis,
     "padel": padel,
+    "motogp": motogp,
 }
 
 
@@ -475,7 +485,17 @@ def main():
             report.append(f"{sport}: ERROR {e!r} (se conservan {len(prev)} anteriores)")
     try:
         m = manual()
-        events += m
+        mkeys = {((x.get("start") or x.get("date"))[:10], x["title"]): x for x in m if x.get("s") == "motogp"}
+        kept = []
+        for e in events:
+            if e["s"] == "motogp":
+                k = ((e.get("start") or e.get("date"))[:10], e["title"])
+                if k in mkeys:  # el manual tiene hora; solo se le pasa el resultado
+                    if e.get("res"):
+                        mkeys[k]["res"] = e["res"]
+                    continue
+            kept.append(e)
+        events = kept + m
         report.append(f"manual: {len(m)} eventos")
     except Exception as e:
         report.append(f"manual: ERROR {e!r}")

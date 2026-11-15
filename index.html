@@ -98,7 +98,7 @@ h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
 const S={f1:["F1","#e10600","🏎️"],motogp:["MotoGP","#e5239d","🏍️"],nfl:["NFL","#1e3a8a","🏈"],tenis:["Tenis","#4d9a0b","🎾"],padel:["Pádel","#2563eb","🏓"],laliga:["LaLiga","#ff6f5e","⚽"],champions:["Champions","#ffffff","🏆"]};
 const key=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 let ev=[];
-const toEv=r=>{if(r.tbc||!r.start)return{date:r.date,time:"–:–",s:r.s,title:r.title,sub:(r.sub?r.sub+", ":"")+"hora por confirmar",res:r.res};const d=new Date(r.start);return{date:key(d),time:String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"),s:r.s,title:r.title,sub:r.sub||"",nb:!!r.nb,ts:d.getTime(),res:r.res}};
+const toEv=r=>{if(r.tbc||!r.start)return{date:r.date,time:"–:–",s:r.s,title:r.title,sub:r.res?(r.sub||""):(r.sub?r.sub+", ":"")+"hora por confirmar",res:r.res};const d=new Date(r.start);return{date:key(d),time:String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"),s:r.s,title:r.title,sub:r.sub||"",nb:!!r.nb,ts:d.getTime(),res:r.res}};
 function setData(j){ev=(j.events||[]).filter(r=>S[r.s]).map(toEv).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));ev.forEach((e,i)=>e.id=i);$("note").textContent=j.updated?"Datos actualizados el "+new Date(j.updated).toLocaleString("es-ES",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):""}
 async function load(){let j=null;try{const r=await fetch("events.json?"+Date.now(),{cache:"no-cache"});if(r.ok){j=await r.json();try{localStorage.setItem("agd",JSON.stringify(j))}catch(e){}}}catch(e){}
 if(!j){try{j=JSON.parse(localStorage.getItem("agd")||"null")}catch(e){}}
