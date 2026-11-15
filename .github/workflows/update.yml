@@ -16,11 +16,14 @@ jobs:
       - run: pip install playwright && playwright install --with-deps chromium
       - run: python padel.py
         continue-on-error: true
+      - run: python motogp.py
+        continue-on-error: true
       - run: python update.py
       - run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add events.json
           git add padel.json || true
+          git add motogp.json || true
           git commit -m "Actualizar eventos" || exit 0
           git push
