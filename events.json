@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T05:49:00Z",
+ "updated": "2026-11-15T17:31:00Z",
  "events": [
   {
    "s": "f1",
@@ -3891,22 +3891,23 @@
   {
    "s": "padel",
    "start": "2026-11-15T14:00:00Z",
+   "title": "Libaak / Alfonso – Lebron / Augsburger",
+   "sub": "Final masculino, Dubai P1"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-15T14:00:00Z",
    "title": "Fernandez Sanchez / Calvo Santamaria – Josemaria Martin / Gonzalez Fernandez",
    "sub": "Final femenino, Dubai P1",
-   "nb": true
+   "res": {
+    "head": "Ganan Fernandez Sanchez / Calvo Santamaria: 7-5 6-1"
+   }
   },
   {
    "s": "nfl",
    "start": "2026-11-15T14:30:00Z",
    "title": "Detroit Lions – New England Patriots",
    "sub": "FC Bayern Munich Stadium"
-  },
-  {
-   "s": "padel",
-   "start": "2026-11-15T16:00:00Z",
-   "title": "Libaak / Alfonso – Lebron / Augsburger",
-   "sub": "Final masculino, Dubai P1",
-   "nb": true
   },
   {
    "s": "nfl",
@@ -3976,12 +3977,6 @@
   },
   {
    "s": "tenis",
-   "start": "2026-11-16T05:00:00Z",
-   "title": "F. Cobolli – C. Alcaraz",
-   "sub": "Nitto ATP Finals, Group Stage"
-  },
-  {
-   "s": "tenis",
    "start": "2026-11-16T13:00:00Z",
    "title": "F. Tiafoe – C. Alcaraz",
    "sub": "Nitto ATP Finals, Group Stage"
@@ -3991,6 +3986,12 @@
    "start": "2026-11-17T01:15:00Z",
    "title": "Baltimore Ravens – Los Angeles Chargers",
    "sub": "M&T Bank Stadium"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-17T05:00:00Z",
+   "title": "F. Cobolli – C. Alcaraz",
+   "sub": "Nitto ATP Finals, Group Stage"
   },
   {
    "s": "tenis",

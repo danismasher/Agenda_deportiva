@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T05:49:00Z",
+ "updated": "2026-11-15T17:31:00Z",
  "events": [
   {
    "s": "padel",
@@ -112,16 +112,17 @@
   {
    "s": "padel",
    "start": "2026-11-15T14:00:00Z",
-   "title": "Fernandez Sanchez / Calvo Santamaria – Josemaria Martin / Gonzalez Fernandez",
-   "sub": "Final femenino, Dubai P1",
-   "nb": true
+   "title": "Libaak / Alfonso – Lebron / Augsburger",
+   "sub": "Final masculino, Dubai P1"
   },
   {
    "s": "padel",
-   "start": "2026-11-15T16:00:00Z",
-   "title": "Libaak / Alfonso – Lebron / Augsburger",
-   "sub": "Final masculino, Dubai P1",
-   "nb": true
+   "start": "2026-11-15T14:00:00Z",
+   "title": "Fernandez Sanchez / Calvo Santamaria – Josemaria Martin / Gonzalez Fernandez",
+   "sub": "Final femenino, Dubai P1",
+   "res": {
+    "head": "Ganan Fernandez Sanchez / Calvo Santamaria: 7-5 6-1"
+   }
   },
   {
    "s": "padel",
