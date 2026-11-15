@@ -1,107 +1,3912 @@
 {
- "updated": "2026-11-14T17:30:00Z",
+ "updated": "2026-11-15T03:40:00Z",
  "events": [
+  {
+   "s": "f1",
+   "start": "2026-08-21T14:30:00Z",
+   "title": "Clasificación sprint",
+   "sub": "GP Dutch",
+   "res": {
+    "head": "Pole: George Russell",
+    "rows": [
+     [
+      "1",
+      "G. Russell",
+      "Mercedes",
+      "1:11.567"
+     ],
+     [
+      "2",
+      "L. Norris",
+      "McLaren",
+      "1:11.608"
+     ],
+     [
+      "3",
+      "C. Leclerc",
+      "Ferrari",
+      "1:11.622"
+     ],
+     [
+      "4",
+      "O. Piastri",
+      "McLaren",
+      "1:11.666"
+     ],
+     [
+      "5",
+      "K. Antonelli",
+      "Mercedes",
+      "1:11.794"
+     ],
+     [
+      "6",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:12.094"
+     ],
+     [
+      "7",
+      "L. Hamilton",
+      "Ferrari",
+      "1:12.191"
+     ],
+     [
+      "8",
+      "P. Gasly",
+      "Alpine",
+      "1:12.578"
+     ],
+     [
+      "9",
+      "G. Bortoleto",
+      "Audi",
+      "1:12.583"
+     ],
+     [
+      "10",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:12.737"
+     ],
+     [
+      "11",
+      "L. Lawson",
+      "Red Bull Racing",
+      "1:13.136"
+     ],
+     [
+      "12",
+      "Y. Tsunoda",
+      "Racing Bulls",
+      "1:13.145"
+     ],
+     [
+      "13",
+      "F. Colapinto",
+      "Alpine",
+      "1:13.439"
+     ],
+     [
+      "14",
+      "N. Hulkenberg",
+      "Audi",
+      "1:13.616"
+     ],
+     [
+      "15",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:13.893"
+     ],
+     [
+      "16",
+      "A. Albon",
+      "Williams",
+      "1:14.294"
+     ],
+     [
+      "17",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:14.728"
+     ],
+     [
+      "18",
+      "C. Sainz",
+      "Williams",
+      "1:14.738"
+     ],
+     [
+      "19",
+      "L. Stroll",
+      "Aston Martin",
+      "1:15.391"
+     ],
+     [
+      "20",
+      "V. Bottas",
+      "Cadillac",
+      "1:15.472"
+     ],
+     [
+      "21",
+      "S. Perez",
+      "Cadillac",
+      "1:15.545"
+     ],
+     [
+      "22",
+      "F. Alonso",
+      "Aston Martin",
+      "1:16.014"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-08-22T10:00:00Z",
+   "title": "Carrera sprint",
+   "sub": "GP Dutch",
+   "res": {
+    "head": "Ganador: George Russell",
+    "rows": [
+     [
+      "1",
+      "G. Russell",
+      "Mercedes",
+      "30:25.318"
+     ],
+     [
+      "2",
+      "C. Leclerc",
+      "Ferrari",
+      "+1.360s"
+     ],
+     [
+      "3",
+      "L. Norris",
+      "McLaren",
+      "+5.196s"
+     ],
+     [
+      "4",
+      "K. Antonelli",
+      "Mercedes",
+      "+5.581s"
+     ],
+     [
+      "5",
+      "O. Piastri",
+      "McLaren",
+      "+10.185s"
+     ],
+     [
+      "6",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "+10.529s"
+     ],
+     [
+      "7",
+      "L. Hamilton",
+      "Ferrari",
+      "+12.188s"
+     ],
+     [
+      "8",
+      "P. Gasly",
+      "Alpine",
+      "+42.510s"
+     ],
+     [
+      "9",
+      "G. Bortoleto",
+      "Audi",
+      "+44.437s"
+     ],
+     [
+      "10",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+44.971s"
+     ],
+     [
+      "11",
+      "L. Lawson",
+      "Red Bull Racing",
+      "+47.471s"
+     ],
+     [
+      "12",
+      "F. Colapinto",
+      "Alpine",
+      "+54.466s"
+     ],
+     [
+      "13",
+      "Y. Tsunoda",
+      "Racing Bulls",
+      "+56.483s"
+     ],
+     [
+      "14",
+      "E. Ocon",
+      "Haas F1 Team",
+      "+66.098s"
+     ],
+     [
+      "15",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+66.588s"
+     ],
+     [
+      "16",
+      "A. Albon",
+      "Williams",
+      "+74.632s"
+     ],
+     [
+      "17",
+      "L. Stroll",
+      "Aston Martin",
+      "+74.650s"
+     ],
+     [
+      "18",
+      "F. Alonso",
+      "Aston Martin",
+      "+75.284s"
+     ],
+     [
+      "19",
+      "V. Bottas",
+      "Cadillac",
+      "+1 lap"
+     ],
+     [
+      "20",
+      "C. Sainz",
+      "Williams",
+      "+1 lap"
+     ],
+     [
+      "21",
+      "S. Perez",
+      "Cadillac",
+      "+3 laps"
+     ],
+     [
+      "NC",
+      "N. Hulkenberg",
+      "Audi",
+      "+17 laps"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-08-22T14:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Dutch",
+   "res": {
+    "head": "Pole: Lando Norris",
+    "rows": [
+     [
+      "1",
+      "L. Norris",
+      "McLaren",
+      "1:11.163"
+     ],
+     [
+      "2",
+      "G. Russell",
+      "Mercedes",
+      "1:11.265"
+     ],
+     [
+      "3",
+      "K. Antonelli",
+      "Mercedes",
+      "1:11.296"
+     ],
+     [
+      "4",
+      "O. Piastri",
+      "McLaren",
+      "1:11.305"
+     ],
+     [
+      "5",
+      "L. Hamilton",
+      "Ferrari",
+      "1:11.494"
+     ],
+     [
+      "6",
+      "C. Leclerc",
+      "Ferrari",
+      "1:11.558"
+     ],
+     [
+      "7",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:11.618"
+     ],
+     [
+      "8",
+      "L. Lawson",
+      "Red Bull Racing",
+      "1:11.733"
+     ],
+     [
+      "9",
+      "G. Bortoleto",
+      "Audi",
+      "1:12.079"
+     ],
+     [
+      "10",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:12.185"
+     ],
+     [
+      "11",
+      "P. Gasly",
+      "Alpine",
+      "1:12.616"
+     ],
+     [
+      "12",
+      "Y. Tsunoda",
+      "Racing Bulls",
+      "1:12.627"
+     ],
+     [
+      "13",
+      "N. Hulkenberg",
+      "Audi",
+      "1:12.797"
+     ],
+     [
+      "14",
+      "F. Colapinto",
+      "Alpine",
+      "1:12.800"
+     ],
+     [
+      "15",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:13.137"
+     ],
+     [
+      "16",
+      "A. Albon",
+      "Williams",
+      "1:13.182"
+     ],
+     [
+      "17",
+      "C. Sainz",
+      "Williams",
+      "1:13.574"
+     ],
+     [
+      "18",
+      "F. Alonso",
+      "Aston Martin",
+      "1:13.650"
+     ],
+     [
+      "19",
+      "L. Stroll",
+      "Aston Martin",
+      "1:13.818"
+     ],
+     [
+      "20",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:13.826"
+     ],
+     [
+      "21",
+      "V. Bottas",
+      "Cadillac",
+      "1:14.371"
+     ],
+     [
+      "22",
+      "S. Perez",
+      "Cadillac",
+      "1:14.600"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-08-23T13:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Dutch",
+   "res": {
+    "head": "Ganador: Lando Norris",
+    "rows": [
+     [
+      "1",
+      "L. Norris",
+      "McLaren",
+      "2:04:44.859"
+     ],
+     [
+      "2",
+      "K. Antonelli",
+      "Mercedes",
+      "+11.536s"
+     ],
+     [
+      "3",
+      "G. Russell",
+      "Mercedes",
+      "+15.906s"
+     ],
+     [
+      "4",
+      "L. Hamilton",
+      "Ferrari",
+      "+16.755s"
+     ],
+     [
+      "5",
+      "C. Leclerc",
+      "Ferrari",
+      "+17.258s"
+     ],
+     [
+      "6",
+      "O. Piastri",
+      "McLaren",
+      "+32.332s"
+     ],
+     [
+      "7",
+      "L. Lawson",
+      "Red Bull Racing",
+      "+79.915s"
+     ],
+     [
+      "8",
+      "N. Hulkenberg",
+      "Audi",
+      "+1 lap"
+     ],
+     [
+      "9",
+      "F. Alonso",
+      "Aston Martin",
+      "+1 lap"
+     ],
+     [
+      "10",
+      "P. Gasly",
+      "Alpine",
+      "+1 lap"
+     ],
+     [
+      "11",
+      "Y. Tsunoda",
+      "Racing Bulls",
+      "+1 lap"
+     ],
+     [
+      "12",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+1 lap"
+     ],
+     [
+      "13",
+      "G. Bortoleto",
+      "Audi",
+      "+1 lap"
+     ],
+     [
+      "14",
+      "F. Colapinto",
+      "Alpine",
+      "+2 laps"
+     ],
+     [
+      "15",
+      "S. Perez",
+      "Cadillac",
+      "+2 laps"
+     ],
+     [
+      "16",
+      "C. Sainz",
+      "Williams",
+      "+2 laps"
+     ],
+     [
+      "17",
+      "A. Albon",
+      "Williams",
+      "DNF"
+     ],
+     [
+      "NC",
+      "V. Bottas",
+      "Cadillac",
+      "DNF"
+     ],
+     [
+      "NC",
+      "E. Ocon",
+      "Haas F1 Team",
+      "DNF"
+     ],
+     [
+      "NC",
+      "L. Stroll",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "O. Bearman",
+      "Haas F1 Team",
+      "DNF"
+     ],
+     [
+      "NC",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-09-05T14:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Italian",
+   "res": {
+    "head": "Pole: Pierre Gasly",
+    "rows": [
+     [
+      "1",
+      "P. Gasly",
+      "Alpine",
+      "1:21.786"
+     ],
+     [
+      "2",
+      "G. Russell",
+      "Mercedes",
+      "1:21.846"
+     ],
+     [
+      "3",
+      "O. Piastri",
+      "McLaren",
+      "1:21.966"
+     ],
+     [
+      "4",
+      "C. Leclerc",
+      "Ferrari",
+      "1:22.004"
+     ],
+     [
+      "5",
+      "L. Hamilton",
+      "Ferrari",
+      "1:22.011"
+     ],
+     [
+      "6",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:22.070"
+     ],
+     [
+      "7",
+      "K. Antonelli",
+      "Mercedes",
+      "1:22.093"
+     ],
+     [
+      "8",
+      "F. Colapinto",
+      "Alpine",
+      "1:22.220"
+     ],
+     [
+      "9",
+      "L. Norris",
+      "McLaren",
+      "1:22.256"
+     ],
+     [
+      "10",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:22.286"
+     ],
+     [
+      "11",
+      "G. Bortoleto",
+      "Audi",
+      "1:22.517"
+     ],
+     [
+      "12",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:22.756"
+     ],
+     [
+      "13",
+      "N. Hulkenberg",
+      "Audi",
+      "1:22.779"
+     ],
+     [
+      "14",
+      "L. Lawson",
+      "Red Bull Racing",
+      "1:22.821"
+     ],
+     [
+      "15",
+      "C. Sainz",
+      "Williams",
+      "1:23.453"
+     ],
+     [
+      "16",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:23.454"
+     ],
+     [
+      "17",
+      "Y. Tsunoda",
+      "Racing Bulls",
+      "1:23.755"
+     ],
+     [
+      "18",
+      "A. Albon",
+      "Williams",
+      "1:24.356"
+     ],
+     [
+      "19",
+      "V. Bottas",
+      "Cadillac",
+      "1:24.364"
+     ],
+     [
+      "20",
+      "S. Perez",
+      "Cadillac",
+      "1:24.595"
+     ],
+     [
+      "21",
+      "F. Alonso",
+      "Aston Martin",
+      "1:25.150"
+     ],
+     [
+      "22",
+      "L. Stroll",
+      "Aston Martin",
+      "1:25.222"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-09-06T13:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Italian",
+   "res": {
+    "head": "Ganador: Kimi Antonelli",
+    "rows": [
+     [
+      "1",
+      "K. Antonelli",
+      "Mercedes",
+      "1:51:15.281"
+     ],
+     [
+      "2",
+      "G. Russell",
+      "Mercedes",
+      "+3.857s"
+     ],
+     [
+      "3",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "+14.718s"
+     ],
+     [
+      "4",
+      "L. Norris",
+      "McLaren",
+      "+19.056s"
+     ],
+     [
+      "5",
+      "O. Piastri",
+      "McLaren",
+      "+19.253s"
+     ],
+     [
+      "6",
+      "L. Hamilton",
+      "Ferrari",
+      "+24.655s"
+     ],
+     [
+      "7",
+      "P. Gasly",
+      "Alpine",
+      "+27.351s"
+     ],
+     [
+      "8",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+45.136s"
+     ],
+     [
+      "9",
+      "F. Colapinto",
+      "Alpine",
+      "+47.353s"
+     ],
+     [
+      "10",
+      "Y. Tsunoda",
+      "Racing Bulls",
+      "+58.187s"
+     ],
+     [
+      "11",
+      "G. Bortoleto",
+      "Audi",
+      "+65.187s"
+     ],
+     [
+      "12",
+      "N. Hulkenberg",
+      "Audi",
+      "+66.187s"
+     ],
+     [
+      "13",
+      "C. Sainz",
+      "Williams",
+      "+74.117s"
+     ],
+     [
+      "14",
+      "L. Lawson",
+      "Red Bull Racing",
+      "+75.609s"
+     ],
+     [
+      "15",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+78.958s"
+     ],
+     [
+      "16",
+      "E. Ocon",
+      "Haas F1 Team",
+      "+1 lap"
+     ],
+     [
+      "17",
+      "A. Albon",
+      "Williams",
+      "+1 lap"
+     ],
+     [
+      "18",
+      "S. Perez",
+      "Cadillac",
+      "+1 lap"
+     ],
+     [
+      "19",
+      "V. Bottas",
+      "Cadillac",
+      "+2 laps"
+     ],
+     [
+      "NC",
+      "L. Stroll",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "F. Alonso",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "C. Leclerc",
+      "Ferrari",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-09-12T14:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Spanish",
+   "res": {
+    "head": "Pole: Lando Norris",
+    "rows": [
+     [
+      "1",
+      "L. Norris",
+      "McLaren",
+      "1:31.824"
+     ],
+     [
+      "2",
+      "K. Antonelli",
+      "Mercedes",
+      "1:31.835"
+     ],
+     [
+      "3",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:31.964"
+     ],
+     [
+      "4",
+      "L. Hamilton",
+      "Ferrari",
+      "1:32.013"
+     ],
+     [
+      "5",
+      "C. Leclerc",
+      "Ferrari",
+      "1:32.019"
+     ],
+     [
+      "6",
+      "G. Russell",
+      "Mercedes",
+      "1:32.149"
+     ],
+     [
+      "7",
+      "O. Piastri",
+      "McLaren",
+      "1:32.294"
+     ],
+     [
+      "8",
+      "L. Lawson",
+      "Red Bull Racing",
+      "1:32.316"
+     ],
+     [
+      "9",
+      "F. Colapinto",
+      "Alpine",
+      "1:32.903"
+     ],
+     [
+      "10",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:33.041"
+     ],
+     [
+      "11",
+      "N. Hulkenberg",
+      "Audi",
+      "1:33.223"
+     ],
+     [
+      "12",
+      "G. Bortoleto",
+      "Audi",
+      "1:33.388"
+     ],
+     [
+      "13",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:33.667"
+     ],
+     [
+      "14",
+      "P. Gasly",
+      "Alpine",
+      "1:33.753"
+     ],
+     [
+      "15",
+      "Y. Tsunoda",
+      "Racing Bulls",
+      "1:34.084"
+     ],
+     [
+      "16",
+      "A. Albon",
+      "Williams",
+      "1:35.532"
+     ],
+     [
+      "17",
+      "C. Sainz",
+      "Williams",
+      "1:35.312"
+     ],
+     [
+      "18",
+      "F. Alonso",
+      "Aston Martin",
+      "1:35.388"
+     ],
+     [
+      "19",
+      "S. Perez",
+      "Cadillac",
+      "1:35.913"
+     ],
+     [
+      "20",
+      "V. Bottas",
+      "Cadillac",
+      "1:38.011"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-09-13T13:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Spanish",
+   "res": {
+    "head": "Ganador: Kimi Antonelli",
+    "rows": [
+     [
+      "1",
+      "K. Antonelli",
+      "Mercedes",
+      "1:34:23.754"
+     ],
+     [
+      "2",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "+4.351s"
+     ],
+     [
+      "3",
+      "L. Norris",
+      "McLaren",
+      "+5.089s"
+     ],
+     [
+      "4",
+      "C. Leclerc",
+      "Ferrari",
+      "+29.116s"
+     ],
+     [
+      "5",
+      "G. Russell",
+      "Mercedes",
+      "+29.829s"
+     ],
+     [
+      "6",
+      "L. Lawson",
+      "Red Bull Racing",
+      "+86.746s"
+     ],
+     [
+      "7",
+      "F. Colapinto",
+      "Alpine",
+      "+94.281s"
+     ],
+     [
+      "8",
+      "O. Piastri",
+      "McLaren",
+      "+95.839s"
+     ],
+     [
+      "9",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+1 lap"
+     ],
+     [
+      "10",
+      "N. Hulkenberg",
+      "Audi",
+      "+1 lap"
+     ],
+     [
+      "11",
+      "E. Ocon",
+      "Haas F1 Team",
+      "+1 lap"
+     ],
+     [
+      "12",
+      "P. Gasly",
+      "Alpine",
+      "+1 lap"
+     ],
+     [
+      "13",
+      "G. Bortoleto",
+      "Audi",
+      "+1 lap"
+     ],
+     [
+      "14",
+      "Y. Tsunoda",
+      "Racing Bulls",
+      "+1 lap"
+     ],
+     [
+      "15",
+      "A. Albon",
+      "Williams",
+      "+1 lap"
+     ],
+     [
+      "16",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+1 lap"
+     ],
+     [
+      "17",
+      "F. Alonso",
+      "Aston Martin",
+      "+2 laps"
+     ],
+     [
+      "18",
+      "V. Bottas",
+      "Cadillac",
+      "+3 laps"
+     ],
+     [
+      "NC",
+      "C. Sainz",
+      "Williams",
+      "DNF"
+     ],
+     [
+      "NC",
+      "S. Perez",
+      "Cadillac",
+      "DNF"
+     ],
+     [
+      "NC",
+      "L. Stroll",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "L. Hamilton",
+      "Ferrari",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-09-25T12:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Azerbaijan",
+   "res": {
+    "head": "Pole: George Russell",
+    "rows": [
+     [
+      "1",
+      "G. Russell",
+      "Mercedes",
+      "1:42.526"
+     ],
+     [
+      "2",
+      "C. Leclerc",
+      "Ferrari",
+      "1:43.363"
+     ],
+     [
+      "3",
+      "O. Piastri",
+      "McLaren",
+      "1:43.364"
+     ],
+     [
+      "4",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "1:43.500"
+     ],
+     [
+      "5",
+      "L. Norris",
+      "McLaren",
+      "1:43.672"
+     ],
+     [
+      "6",
+      "L. Hamilton",
+      "Ferrari",
+      "1:43.858"
+     ],
+     [
+      "7",
+      "P. Gasly",
+      "Alpine",
+      "1:44.047"
+     ],
+     [
+      "8",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:44.081"
+     ],
+     [
+      "9",
+      "C. Sainz",
+      "Williams",
+      "1:44.566"
+     ],
+     [
+      "10",
+      "F. Colapinto",
+      "Alpine",
+      "1:44.963"
+     ],
+     [
+      "11",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:44.775"
+     ],
+     [
+      "12",
+      "L. Lawson",
+      "Racing Bulls",
+      "1:44.860"
+     ],
+     [
+      "13",
+      "A. Albon",
+      "Williams",
+      "1:45.001"
+     ],
+     [
+      "14",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:45.016"
+     ],
+     [
+      "15",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:45.106"
+     ],
+     [
+      "16",
+      "K. Antonelli",
+      "Mercedes",
+      "1:45.504"
+     ],
+     [
+      "17",
+      "G. Bortoleto",
+      "Audi",
+      "1:45.799"
+     ],
+     [
+      "18",
+      "N. Hulkenberg",
+      "Audi",
+      "1:45.920"
+     ],
+     [
+      "19",
+      "F. Alonso",
+      "Aston Martin",
+      "1:46.593"
+     ],
+     [
+      "20",
+      "S. Perez",
+      "Cadillac",
+      "1:46.658"
+     ],
+     [
+      "21",
+      "L. Stroll",
+      "Aston Martin",
+      "1:47.337"
+     ],
+     [
+      "22",
+      "V. Bottas",
+      "Cadillac",
+      "1:48.290"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-09-26T11:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Azerbaijan",
+   "res": {
+    "head": "Ganador: George Russell",
+    "rows": [
+     [
+      "1",
+      "G. Russell",
+      "Mercedes",
+      "1:38:02.143"
+     ],
+     [
+      "2",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "+0.196s"
+     ],
+     [
+      "3",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "+10.704s"
+     ],
+     [
+      "4",
+      "C. Leclerc",
+      "Ferrari",
+      "+14.136s"
+     ],
+     [
+      "5",
+      "K. Antonelli",
+      "Mercedes",
+      "+14.512s"
+     ],
+     [
+      "6",
+      "L. Hamilton",
+      "Ferrari",
+      "+22.382s"
+     ],
+     [
+      "7",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+31.159s"
+     ],
+     [
+      "8",
+      "E. Ocon",
+      "Haas F1 Team",
+      "+31.189s"
+     ],
+     [
+      "9",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+31.929s"
+     ],
+     [
+      "10",
+      "C. Sainz",
+      "Williams",
+      "+32.416s"
+     ],
+     [
+      "11",
+      "N. Hulkenberg",
+      "Audi",
+      "+33.231s"
+     ],
+     [
+      "12",
+      "L. Lawson",
+      "Racing Bulls",
+      "+34.013s"
+     ],
+     [
+      "13",
+      "O. Piastri",
+      "McLaren",
+      "+36.401s"
+     ],
+     [
+      "14",
+      "S. Perez",
+      "Cadillac",
+      "+41.400s"
+     ],
+     [
+      "15",
+      "G. Bortoleto",
+      "Audi",
+      "+44.230s"
+     ],
+     [
+      "16",
+      "V. Bottas",
+      "Cadillac",
+      "DNF"
+     ],
+     [
+      "NC",
+      "F. Colapinto",
+      "Alpine",
+      "DNF"
+     ],
+     [
+      "NC",
+      "P. Gasly",
+      "Alpine",
+      "DNF"
+     ],
+     [
+      "NC",
+      "L. Norris",
+      "McLaren",
+      "DNF"
+     ],
+     [
+      "NC",
+      "A. Albon",
+      "Williams",
+      "DNF"
+     ],
+     [
+      "NC",
+      "F. Alonso",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "L. Stroll",
+      "Aston Martin",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-03T08:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Bahrain in Malaysia",
+   "res": {
+    "head": "Pole: Max Verstappen",
+    "rows": [
+     [
+      "1",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:35.130"
+     ],
+     [
+      "2",
+      "L. Hamilton",
+      "Ferrari",
+      "1:35.428"
+     ],
+     [
+      "3",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "1:35.558"
+     ],
+     [
+      "4",
+      "K. Antonelli",
+      "Mercedes",
+      "1:35.631"
+     ],
+     [
+      "5",
+      "C. Leclerc",
+      "Ferrari",
+      "1:35.666"
+     ],
+     [
+      "6",
+      "L. Norris",
+      "McLaren",
+      "1:35.757"
+     ],
+     [
+      "7",
+      "O. Piastri",
+      "McLaren",
+      "1:35.762"
+     ],
+     [
+      "8",
+      "G. Russell",
+      "Mercedes",
+      "1:35.871"
+     ],
+     [
+      "9",
+      "P. Gasly",
+      "Alpine",
+      "1:37.210"
+     ],
+     [
+      "10",
+      "G. Bortoleto",
+      "Audi",
+      "1:37.673"
+     ],
+     [
+      "11",
+      "L. Lawson",
+      "Racing Bulls",
+      "1:37.023"
+     ],
+     [
+      "12",
+      "F. Alonso",
+      "Aston Martin",
+      "1:37.220"
+     ],
+     [
+      "13",
+      "C. Sainz",
+      "Williams",
+      "1:37.527"
+     ],
+     [
+      "14",
+      "L. Stroll",
+      "Aston Martin",
+      "1:37.566"
+     ],
+     [
+      "15",
+      "F. Colapinto",
+      "Alpine",
+      "DNF"
+     ],
+     [
+      "16",
+      "A. Lindblad",
+      "Racing Bulls",
+      "DNF"
+     ],
+     [
+      "17",
+      "N. Hulkenberg",
+      "Audi",
+      "1:37.970"
+     ],
+     [
+      "18",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:37.980"
+     ],
+     [
+      "19",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:38.233"
+     ],
+     [
+      "20",
+      "A. Albon",
+      "Williams",
+      "1:38.600"
+     ],
+     [
+      "21",
+      "V. Bottas",
+      "Cadillac",
+      "1:38.611"
+     ],
+     [
+      "22",
+      "S. Perez",
+      "Cadillac",
+      "1:38.933"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-04T07:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Bahrain in Malaysia",
+   "res": {
+    "head": "Ganador: Max Verstappen",
+    "rows": [
+     [
+      "1",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:47:14.808"
+     ],
+     [
+      "2",
+      "K. Antonelli",
+      "Mercedes",
+      "+2.307s"
+     ],
+     [
+      "3",
+      "L. Hamilton",
+      "Ferrari",
+      "+4.919s"
+     ],
+     [
+      "4",
+      "C. Leclerc",
+      "Ferrari",
+      "+7.258s"
+     ],
+     [
+      "5",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "+8.571s"
+     ],
+     [
+      "6",
+      "O. Piastri",
+      "McLaren",
+      "+9.454s"
+     ],
+     [
+      "7",
+      "L. Lawson",
+      "Racing Bulls",
+      "+12.753s"
+     ],
+     [
+      "8",
+      "F. Alonso",
+      "Aston Martin",
+      "+13.372s"
+     ],
+     [
+      "9",
+      "L. Norris",
+      "McLaren",
+      "+13.993s"
+     ],
+     [
+      "10",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+15.928s"
+     ],
+     [
+      "11",
+      "N. Hulkenberg",
+      "Audi",
+      "+17.404s"
+     ],
+     [
+      "12",
+      "L. Stroll",
+      "Aston Martin",
+      "+18.052s"
+     ],
+     [
+      "13",
+      "F. Colapinto",
+      "Alpine",
+      "+18.997s"
+     ],
+     [
+      "14",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+22.305s"
+     ],
+     [
+      "15",
+      "E. Ocon",
+      "Haas F1 Team",
+      "+22.532s"
+     ],
+     [
+      "16",
+      "P. Gasly",
+      "Alpine",
+      "+23.315s"
+     ],
+     [
+      "17",
+      "C. Sainz",
+      "Williams",
+      "+25.431s"
+     ],
+     [
+      "18",
+      "G. Bortoleto",
+      "Audi",
+      "+28.233s"
+     ],
+     [
+      "19",
+      "S. Perez",
+      "Cadillac",
+      "+29.310s"
+     ],
+     [
+      "20",
+      "G. Russell",
+      "Mercedes",
+      "DNF"
+     ],
+     [
+      "NC",
+      "A. Albon",
+      "Williams",
+      "DNF"
+     ],
+     [
+      "NC",
+      "V. Bottas",
+      "Cadillac",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-09T12:30:00Z",
+   "title": "Clasificación sprint",
+   "sub": "GP Singapore",
+   "res": {
+    "head": "Pole: Max Verstappen",
+    "rows": [
+     [
+      "1",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:31.156"
+     ],
+     [
+      "2",
+      "G. Russell",
+      "Mercedes",
+      "1:31.276"
+     ],
+     [
+      "3",
+      "C. Leclerc",
+      "Ferrari",
+      "1:31.399"
+     ],
+     [
+      "4",
+      "O. Piastri",
+      "McLaren",
+      "1:31.454"
+     ],
+     [
+      "5",
+      "L. Norris",
+      "McLaren",
+      "1:31.587"
+     ],
+     [
+      "6",
+      "L. Hamilton",
+      "Ferrari",
+      "1:31.702"
+     ],
+     [
+      "7",
+      "K. Antonelli",
+      "Mercedes",
+      "1:31.849"
+     ],
+     [
+      "8",
+      "L. Lawson",
+      "Racing Bulls",
+      "1:32.341"
+     ],
+     [
+      "9",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "DNF"
+     ],
+     [
+      "10",
+      "P. Gasly",
+      "Alpine",
+      "DNF"
+     ],
+     [
+      "11",
+      "F. Colapinto",
+      "Alpine",
+      "1:33.249"
+     ],
+     [
+      "12",
+      "N. Hulkenberg",
+      "Audi",
+      "1:33.420"
+     ],
+     [
+      "13",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:33.423"
+     ],
+     [
+      "14",
+      "G. Bortoleto",
+      "Audi",
+      "1:33.466"
+     ],
+     [
+      "15",
+      "F. Alonso",
+      "Aston Martin",
+      "1:33.734"
+     ],
+     [
+      "16",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:34.368"
+     ],
+     [
+      "17",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:35.136"
+     ],
+     [
+      "18",
+      "L. Stroll",
+      "Aston Martin",
+      "1:35.662"
+     ],
+     [
+      "19",
+      "A. Albon",
+      "Williams",
+      "1:36.130"
+     ],
+     [
+      "20",
+      "S. Perez",
+      "Cadillac",
+      "1:36.760"
+     ],
+     [
+      "21",
+      "V. Bottas",
+      "Cadillac",
+      "1:36.868"
+     ],
+     [
+      "22",
+      "C. Sainz",
+      "Williams",
+      "1:37.376"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-10T09:00:00Z",
+   "title": "Carrera sprint",
+   "sub": "GP Singapore",
+   "res": {
+    "head": "Ganador: Max Verstappen",
+    "rows": [
+     [
+      "1",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "39:48.162"
+     ],
+     [
+      "2",
+      "L. Hamilton",
+      "Ferrari",
+      "+2.591s"
+     ],
+     [
+      "3",
+      "C. Leclerc",
+      "Ferrari",
+      "+16.871s"
+     ],
+     [
+      "4",
+      "K. Antonelli",
+      "Mercedes",
+      "+17.238s"
+     ],
+     [
+      "5",
+      "L. Lawson",
+      "Racing Bulls",
+      "+20.632s"
+     ],
+     [
+      "6",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+24.321s"
+     ],
+     [
+      "7",
+      "N. Hulkenberg",
+      "Audi",
+      "+27.525s"
+     ],
+     [
+      "8",
+      "L. Norris",
+      "McLaren",
+      "+28.272s"
+     ],
+     [
+      "9",
+      "P. Gasly",
+      "Alpine",
+      "+36.220s"
+     ],
+     [
+      "10",
+      "E. Ocon",
+      "Haas F1 Team",
+      "+37.640s"
+     ],
+     [
+      "11",
+      "F. Alonso",
+      "Aston Martin",
+      "+50.464s"
+     ],
+     [
+      "12",
+      "C. Sainz",
+      "Williams",
+      "+52.467s"
+     ],
+     [
+      "13",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+55.792s"
+     ],
+     [
+      "14",
+      "O. Piastri",
+      "McLaren",
+      "DNF"
+     ],
+     [
+      "NC",
+      "A. Albon",
+      "Williams",
+      "DNF"
+     ],
+     [
+      "NC",
+      "G. Bortoleto",
+      "Audi",
+      "DNF"
+     ],
+     [
+      "NC",
+      "V. Bottas",
+      "Cadillac",
+      "DNF"
+     ],
+     [
+      "NC",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "DNF"
+     ],
+     [
+      "NC",
+      "F. Colapinto",
+      "Alpine",
+      "DNF"
+     ],
+     [
+      "NC",
+      "G. Russell",
+      "Mercedes",
+      "DNF"
+     ],
+     [
+      "NC",
+      "S. Perez",
+      "Cadillac",
+      "DNF"
+     ],
+     [
+      "NC",
+      "L. Stroll",
+      "Aston Martin",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-10T13:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Singapore",
+   "res": {
+    "head": "Pole: Max Verstappen",
+    "rows": [
+     [
+      "1",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:31.373"
+     ],
+     [
+      "2",
+      "C. Leclerc",
+      "Ferrari",
+      "1:31.427"
+     ],
+     [
+      "3",
+      "L. Hamilton",
+      "Ferrari",
+      "1:31.496"
+     ],
+     [
+      "4",
+      "K. Antonelli",
+      "Mercedes",
+      "1:31.562"
+     ],
+     [
+      "5",
+      "L. Norris",
+      "McLaren",
+      "1:31.712"
+     ],
+     [
+      "6",
+      "G. Russell",
+      "Mercedes",
+      "1:31.747"
+     ],
+     [
+      "7",
+      "O. Piastri",
+      "McLaren",
+      "1:31.860"
+     ],
+     [
+      "8",
+      "P. Gasly",
+      "Alpine",
+      "1:32.225"
+     ],
+     [
+      "9",
+      "L. Lawson",
+      "Racing Bulls",
+      "1:32.369"
+     ],
+     [
+      "10",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:32.781"
+     ],
+     [
+      "11",
+      "N. Hulkenberg",
+      "Audi",
+      "1:32.784"
+     ],
+     [
+      "12",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:32.908"
+     ],
+     [
+      "13",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:33.323"
+     ],
+     [
+      "14",
+      "C. Sainz",
+      "Williams",
+      "1:33.526"
+     ],
+     [
+      "15",
+      "G. Bortoleto",
+      "Audi",
+      "1:33.658"
+     ],
+     [
+      "16",
+      "F. Colapinto",
+      "Alpine",
+      "1:33.787"
+     ],
+     [
+      "17",
+      "F. Alonso",
+      "Aston Martin",
+      "1:34.223"
+     ],
+     [
+      "18",
+      "A. Albon",
+      "Williams",
+      "1:34.289"
+     ],
+     [
+      "19",
+      "L. Stroll",
+      "Aston Martin",
+      "1:34.946"
+     ],
+     [
+      "20",
+      "S. Perez",
+      "Cadillac",
+      "1:35.123"
+     ],
+     [
+      "21",
+      "V. Bottas",
+      "Cadillac",
+      "1:35.984"
+     ],
+     [
+      "RT",
+      "I. Hadjar",
+      "Red Bull Racing",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-11T12:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Singapore",
+   "res": {
+    "head": "Ganador: Max Verstappen",
+    "rows": [
+     [
+      "1",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:42:00.785"
+     ],
+     [
+      "2",
+      "C. Leclerc",
+      "Ferrari",
+      "+7.335s"
+     ],
+     [
+      "3",
+      "K. Antonelli",
+      "Mercedes",
+      "+24.573s"
+     ],
+     [
+      "4",
+      "L. Norris",
+      "McLaren",
+      "+40.506s"
+     ],
+     [
+      "5",
+      "O. Piastri",
+      "McLaren",
+      "+49.644s"
+     ],
+     [
+      "6",
+      "L. Hamilton",
+      "Ferrari",
+      "+53.188s"
+     ],
+     [
+      "7",
+      "L. Lawson",
+      "Racing Bulls",
+      "+81.666s"
+     ],
+     [
+      "8",
+      "N. Hulkenberg",
+      "Audi",
+      "+83.386s"
+     ],
+     [
+      "9",
+      "G. Russell",
+      "Mercedes",
+      "+84.677s"
+     ],
+     [
+      "10",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "+90.862s"
+     ],
+     [
+      "11",
+      "P. Gasly",
+      "Alpine",
+      "+1 lap"
+     ],
+     [
+      "12",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+1 lap"
+     ],
+     [
+      "13",
+      "E. Ocon",
+      "Haas F1 Team",
+      "+1 lap"
+     ],
+     [
+      "14",
+      "C. Sainz",
+      "Williams",
+      "+1 lap"
+     ],
+     [
+      "15",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+1 lap"
+     ],
+     [
+      "16",
+      "F. Alonso",
+      "Aston Martin",
+      "+1 lap"
+     ],
+     [
+      "17",
+      "S. Perez",
+      "Cadillac",
+      "+2 laps"
+     ],
+     [
+      "18",
+      "A. Albon",
+      "Williams",
+      "DNF"
+     ],
+     [
+      "19",
+      "V. Bottas",
+      "Cadillac",
+      "+3 laps"
+     ],
+     [
+      "NC",
+      "L. Stroll",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "F. Colapinto",
+      "Alpine",
+      "DNF"
+     ],
+     [
+      "NC",
+      "G. Bortoleto",
+      "Audi",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-24T21:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP United States",
+   "res": {
+    "head": "Pole: Kimi Antonelli",
+    "rows": [
+     [
+      "1",
+      "K. Antonelli",
+      "Mercedes",
+      "1:34.035"
+     ],
+     [
+      "2",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:34.214"
+     ],
+     [
+      "3",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "1:34.250"
+     ],
+     [
+      "4",
+      "C. Leclerc",
+      "Ferrari",
+      "1:34.267"
+     ],
+     [
+      "5",
+      "L. Hamilton",
+      "Ferrari",
+      "1:34.311"
+     ],
+     [
+      "6",
+      "G. Russell",
+      "Mercedes",
+      "1:34.476"
+     ],
+     [
+      "7",
+      "O. Piastri",
+      "McLaren",
+      "1:34.803"
+     ],
+     [
+      "8",
+      "L. Norris",
+      "McLaren",
+      "1:35.049"
+     ],
+     [
+      "9",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:36.049"
+     ],
+     [
+      "10",
+      "L. Lawson",
+      "Racing Bulls",
+      "1:35.058"
+     ],
+     [
+      "11",
+      "P. Gasly",
+      "Alpine",
+      "1:35.080"
+     ],
+     [
+      "12",
+      "N. Hulkenberg",
+      "Audi",
+      "1:35.158"
+     ],
+     [
+      "13",
+      "G. Bortoleto",
+      "Audi",
+      "1:35.691"
+     ],
+     [
+      "14",
+      "F. Colapinto",
+      "Alpine",
+      "1:35.722"
+     ],
+     [
+      "15",
+      "F. Alonso",
+      "Aston Martin",
+      "1:35.818"
+     ],
+     [
+      "16",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:36.031"
+     ],
+     [
+      "17",
+      "E. Ocon",
+      "Haas F1 Team",
+      "1:36.531"
+     ],
+     [
+      "18",
+      "L. Stroll",
+      "Aston Martin",
+      "1:36.677"
+     ],
+     [
+      "19",
+      "C. Sainz",
+      "Williams",
+      "1:36.770"
+     ],
+     [
+      "20",
+      "A. Albon",
+      "Williams",
+      "1:36.967"
+     ],
+     [
+      "21",
+      "S. Perez",
+      "Cadillac",
+      "1:37.433"
+     ],
+     [
+      "22",
+      "V. Bottas",
+      "Cadillac",
+      "1:37.523"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-25T20:00:00Z",
+   "title": "Carrera",
+   "sub": "GP United States",
+   "res": {
+    "head": "Ganador: Kimi Antonelli",
+    "rows": [
+     [
+      "1",
+      "K. Antonelli",
+      "Mercedes",
+      "1:35:16.650"
+     ],
+     [
+      "2",
+      "C. Leclerc",
+      "Ferrari",
+      "+13.078s"
+     ],
+     [
+      "3",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "+17.485s"
+     ],
+     [
+      "4",
+      "L. Hamilton",
+      "Ferrari",
+      "+18.515s"
+     ],
+     [
+      "5",
+      "L. Norris",
+      "McLaren",
+      "+30.521s"
+     ],
+     [
+      "6",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "+34.373s"
+     ],
+     [
+      "7",
+      "O. Piastri",
+      "McLaren",
+      "+52.674s"
+     ],
+     [
+      "8",
+      "G. Russell",
+      "Mercedes",
+      "+54.303s"
+     ],
+     [
+      "9",
+      "L. Lawson",
+      "Racing Bulls",
+      "+79.183s"
+     ],
+     [
+      "10",
+      "P. Gasly",
+      "Alpine",
+      "+87.516s"
+     ],
+     [
+      "11",
+      "N. Hulkenberg",
+      "Audi",
+      "+94.945s"
+     ],
+     [
+      "12",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+1 lap"
+     ],
+     [
+      "13",
+      "G. Bortoleto",
+      "Audi",
+      "+1 lap"
+     ],
+     [
+      "14",
+      "E. Ocon",
+      "Haas F1 Team",
+      "+1 lap"
+     ],
+     [
+      "15",
+      "L. Stroll",
+      "Aston Martin",
+      "+1 lap"
+     ],
+     [
+      "16",
+      "F. Alonso",
+      "Aston Martin",
+      "+1 lap"
+     ],
+     [
+      "17",
+      "A. Albon",
+      "Williams",
+      "+1 lap"
+     ],
+     [
+      "18",
+      "C. Sainz",
+      "Williams",
+      "+1 lap"
+     ],
+     [
+      "19",
+      "S. Perez",
+      "Cadillac",
+      "+1 lap"
+     ],
+     [
+      "NC",
+      "V. Bottas",
+      "Cadillac",
+      "DNF"
+     ],
+     [
+      "NC",
+      "F. Colapinto",
+      "Alpine",
+      "DNF"
+     ],
+     [
+      "NC",
+      "O. Bearman",
+      "Haas F1 Team",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-10-27T14:30:00Z",
+   "title": "C. Alcaraz – K. Khachanov",
+   "sub": "Erste Bank Open, Round 1",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-4 7-6"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-10-29T15:35:00Z",
+   "title": "C. Alcaraz – N. Basilashvili",
+   "sub": "Erste Bank Open, Round 2",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-1 7-6"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-10-30T14:35:00Z",
+   "title": "C. Alcaraz – T. Paul",
+   "sub": "Erste Bank Open, Quarterfinal",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-4 7-6"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-10-31T14:10:00Z",
+   "title": "C. Alcaraz – D. Medvedev",
+   "sub": "Erste Bank Open, Semifinal",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-4 7-6"
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-10-31T21:00:00Z",
+   "title": "Clasificación",
+   "sub": "GP Mexico City",
+   "res": {
+    "head": "Pole: Lewis Hamilton",
+    "rows": [
+     [
+      "1",
+      "L. Hamilton",
+      "Ferrari",
+      "1:16.514"
+     ],
+     [
+      "2",
+      "G. Russell",
+      "Mercedes",
+      "1:16.523"
+     ],
+     [
+      "3",
+      "C. Leclerc",
+      "Ferrari",
+      "1:16.633"
+     ],
+     [
+      "4",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:16.692"
+     ],
+     [
+      "5",
+      "K. Antonelli",
+      "Mercedes",
+      "1:16.707"
+     ],
+     [
+      "6",
+      "L. Norris",
+      "McLaren",
+      "1:16.824"
+     ],
+     [
+      "7",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "1:16.900"
+     ],
+     [
+      "8",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:17.117"
+     ],
+     [
+      "9",
+      "P. Gasly",
+      "Alpine",
+      "1:17.153"
+     ],
+     [
+      "10",
+      "N. Hulkenberg",
+      "Audi",
+      "1:17.306"
+     ],
+     [
+      "11",
+      "F. Colapinto",
+      "Alpine",
+      "1:17.640"
+     ],
+     [
+      "12",
+      "O. Piastri",
+      "McLaren",
+      "1:17.646"
+     ],
+     [
+      "13",
+      "G. Bortoleto",
+      "Audi",
+      "1:17.680"
+     ],
+     [
+      "14",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:18.083"
+     ],
+     [
+      "15",
+      "C. Sainz",
+      "Williams",
+      "1:18.885"
+     ],
+     [
+      "16",
+      "A. Albon",
+      "Williams",
+      "1:18.630"
+     ],
+     [
+      "17",
+      "F. Alonso",
+      "Aston Martin",
+      "1:18.908"
+     ],
+     [
+      "18",
+      "R. Hirakawa",
+      "Haas F1 Team",
+      "1:18.958"
+     ],
+     [
+      "19",
+      "L. Stroll",
+      "Aston Martin",
+      "1:19.072"
+     ],
+     [
+      "20",
+      "S. Perez",
+      "Cadillac",
+      "1:19.105"
+     ],
+     [
+      "21",
+      "V. Bottas",
+      "Cadillac",
+      "1:19.852"
+     ],
+     [
+      "DQ",
+      "L. Lawson",
+      "Racing Bulls",
+      "1:17.029"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-01T13:00:00Z",
+   "title": "Getafe – Sevilla",
+   "sub": "Estadio Coliseum",
+   "res": {
+    "head": "Getafe 3 – 1 Sevilla"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-01T13:10:00Z",
+   "title": "C. Alcaraz – A. de Minaur",
+   "sub": "Erste Bank Open, Final",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-1 6-4"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-01T15:15:00Z",
+   "title": "Racing Santander – Real Madrid",
+   "sub": "El Sardineros",
+   "res": {
+    "head": "Racing Santander 0 – 3 Real Madrid"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-01T17:30:00Z",
+   "title": "Elche – Valencia",
+   "sub": "Estadio Martínez Valero",
+   "res": {
+    "head": "Elche 0 – 1 Valencia"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T18:00:00Z",
+   "title": "Buffalo Bills – Baltimore Ravens",
+   "sub": "Highmark Stadium",
+   "res": {
+    "head": "Buffalo Bills 36 – 10 Baltimore Ravens"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T18:00:00Z",
+   "title": "Cincinnati Bengals – Tennessee Titans",
+   "sub": "Paycor Stadium",
+   "res": {
+    "head": "Cincinnati Bengals 43 – 36 Tennessee Titans"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T18:00:00Z",
+   "title": "Dallas Cowboys – Arizona Cardinals",
+   "sub": "AT&T Stadium",
+   "res": {
+    "head": "Dallas Cowboys 30 – 33 Arizona Cardinals"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T18:00:00Z",
+   "title": "Detroit Lions – Minnesota Vikings",
+   "sub": "Ford Field",
+   "res": {
+    "head": "Detroit Lions 19 – 15 Minnesota Vikings"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T18:00:00Z",
+   "title": "New York Jets – Las Vegas Raiders",
+   "sub": "MetLife Stadium",
+   "res": {
+    "head": "New York Jets 33 – 38 Las Vegas Raiders"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T18:00:00Z",
+   "title": "Pittsburgh Steelers – Cleveland Browns",
+   "sub": "Acrisure Stadium",
+   "res": {
+    "head": "Pittsburgh Steelers 27 – 6 Cleveland Browns"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T18:00:00Z",
+   "title": "Tampa Bay Buccaneers – Atlanta Falcons",
+   "sub": "Raymond James Stadium",
+   "res": {
+    "head": "Tampa Bay Buccaneers 16 – 0 Atlanta Falcons"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T18:00:00Z",
+   "title": "Jacksonville Jaguars – Indianapolis Colts",
+   "sub": "EverBank Stadium",
+   "res": {
+    "head": "Jacksonville Jaguars 42 – 7 Indianapolis Colts"
+   }
+  },
+  {
+   "s": "f1",
+   "start": "2026-11-01T20:00:00Z",
+   "title": "Carrera",
+   "sub": "GP Mexico City",
+   "res": {
+    "head": "Ganador: Max Verstappen",
+    "rows": [
+     [
+      "1",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "2:20:28.772"
+     ],
+     [
+      "2",
+      "L. Hamilton",
+      "Ferrari",
+      "+0.799s"
+     ],
+     [
+      "3",
+      "K. Antonelli",
+      "Mercedes",
+      "+4.006s"
+     ],
+     [
+      "4",
+      "C. Leclerc",
+      "Ferrari",
+      "+10.707s"
+     ],
+     [
+      "5",
+      "L. Norris",
+      "McLaren",
+      "+11.778s"
+     ],
+     [
+      "6",
+      "G. Russell",
+      "Mercedes",
+      "+12.263s"
+     ],
+     [
+      "7",
+      "L. Lawson",
+      "Racing Bulls",
+      "+20.899s"
+     ],
+     [
+      "8",
+      "G. Bortoleto",
+      "Audi",
+      "+22.041s"
+     ],
+     [
+      "9",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "+22.503s"
+     ],
+     [
+      "10",
+      "R. Hirakawa",
+      "Haas F1 Team",
+      "+25.373s"
+     ],
+     [
+      "11",
+      "A. Albon",
+      "Williams",
+      "+27.562s"
+     ],
+     [
+      "12",
+      "C. Sainz",
+      "Williams",
+      "+28.638s"
+     ],
+     [
+      "13",
+      "O. Piastri",
+      "McLaren",
+      "+29.475s"
+     ],
+     [
+      "14",
+      "N. Hulkenberg",
+      "Audi",
+      "+29.977s"
+     ],
+     [
+      "15",
+      "F. Colapinto",
+      "Alpine",
+      "+30.204s"
+     ],
+     [
+      "16",
+      "S. Perez",
+      "Cadillac",
+      "+30.695s"
+     ],
+     [
+      "17",
+      "P. Gasly",
+      "Alpine",
+      "+51.483s"
+     ],
+     [
+      "NC",
+      "A. Lindblad",
+      "Racing Bulls",
+      "DNF"
+     ],
+     [
+      "NC",
+      "O. Bearman",
+      "Haas F1 Team",
+      "DNF"
+     ],
+     [
+      "NC",
+      "V. Bottas",
+      "Cadillac",
+      "DNF"
+     ],
+     [
+      "NC",
+      "L. Stroll",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "F. Alonso",
+      "Aston Martin",
+      "DNF"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-01T20:00:00Z",
+   "title": "Athletic Club – Real Sociedad",
+   "sub": "San Mamés",
+   "res": {
+    "head": "Athletic Club 2 – 1 Real Sociedad"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T21:05:00Z",
+   "title": "Los Angeles Rams – Los Angeles Chargers",
+   "sub": "SoFi Stadium",
+   "res": {
+    "head": "Los Angeles Rams 24 – 9 Los Angeles Chargers"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T21:25:00Z",
+   "title": "Denver Broncos – Kansas City Chiefs",
+   "sub": "Empower Field at Mile High",
+   "res": {
+    "head": "Denver Broncos 28 – 24 Kansas City Chiefs"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-01T21:25:00Z",
+   "title": "Miami Dolphins – New England Patriots",
+   "sub": "Hard Rock Stadium",
+   "res": {
+    "head": "Miami Dolphins 19 – 24 New England Patriots"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-02T01:20:00Z",
+   "title": "Washington Commanders – Philadelphia Eagles",
+   "sub": "Northwest Stadium",
+   "res": {
+    "head": "Washington Commanders 27 – 10 Philadelphia Eagles"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-02T20:00:00Z",
+   "title": "Deportivo – Osasuna",
+   "sub": "Riazor",
+   "res": {
+    "head": "Deportivo 2 – 1 Osasuna"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-03T01:15:00Z",
+   "title": "Seattle Seahawks – Chicago Bears",
+   "sub": "Lumen Field",
+   "res": {
+    "head": "Seattle Seahawks 17 – 34 Chicago Bears"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T17:45:00Z",
+   "title": "Galatasaray – VfB Stuttgart",
+   "sub": "RAMS Park",
+   "res": {
+    "head": "Galatasaray 2 – 0 VfB Stuttgart"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T17:45:00Z",
+   "title": "Shakhtar Donetsk – Sporting CP",
+   "sub": "Stamford Bridge",
+   "res": {
+    "head": "Shakhtar Donetsk 0 – 1 Sporting CP"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T20:00:00Z",
+   "title": "Atlético Madrid – Bayern Munich",
+   "sub": "Riyadh Air Metropolitano",
+   "res": {
+    "head": "Atlético Madrid 0 – 2 Bayern Munich"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T20:00:00Z",
+   "title": "Barcelona – Aston Villa",
+   "sub": "Spotify Camp Nou",
+   "res": {
+    "head": "Barcelona 3 – 0 Aston Villa"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T20:00:00Z",
+   "title": "Bodo/Glimt – Lille",
+   "sub": "Aspmyra Stadion",
+   "res": {
+    "head": "Bodo/Glimt 0 – 0 Lille"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T20:00:00Z",
+   "title": "Feyenoord Rotterdam – Internazionale",
+   "sub": "De Kuip",
+   "res": {
+    "head": "Feyenoord Rotterdam 0 – 3 Internazionale"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T20:00:00Z",
+   "title": "LASK Linz – Slovan Bratislava",
+   "sub": "Raiffeisen Arena (Linz)",
+   "res": {
+    "head": "LASK Linz 4 – 0 Slovan Bratislava"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T20:00:00Z",
+   "title": "Manchester United – AS Roma",
+   "sub": "Old Trafford",
+   "res": {
+    "head": "Manchester United 3 – 2 AS Roma"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-03T20:00:00Z",
+   "title": "Villarreal – Paris Saint-Germain",
+   "sub": "Estadio de la Cerámica",
+   "res": {
+    "head": "Villarreal 0 – 6 Paris Saint-Germain"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T17:45:00Z",
+   "title": "AEK Athens – Real Madrid",
+   "sub": "OPAP Arena",
+   "res": {
+    "head": "AEK Athens 2 – 3 Real Madrid"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T17:45:00Z",
+   "title": "Fenerbahce – Liverpool",
+   "sub": "Şükrü Saracoğlu Stadium",
+   "res": {
+    "head": "Fenerbahce 3 – 2 Liverpool"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-04T18:10:00Z",
+   "title": "C. Alcaraz – A. Michelsen",
+   "sub": "Rolex Paris Masters, Round 2",
+   "res": {
+    "head": "Gana C. Alcaraz: 7-6 6-3"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T20:00:00Z",
+   "title": "Borussia Dortmund – Real Betis",
+   "sub": "Signal Iduna Park",
+   "res": {
+    "head": "Borussia Dortmund 2 – 1 Real Betis"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T20:00:00Z",
+   "title": "FC Porto – Napoli",
+   "sub": "Estádio do Dragão",
+   "res": {
+    "head": "FC Porto 4 – 1 Napoli"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T20:00:00Z",
+   "title": "Lens – Como",
+   "sub": "Stade Bollaert-Delelis",
+   "res": {
+    "head": "Lens 1 – 9 Como"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T20:00:00Z",
+   "title": "PSV Eindhoven – Club Brugge",
+   "sub": "Philips Stadion",
+   "res": {
+    "head": "PSV Eindhoven 1 – 2 Club Brugge"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T20:00:00Z",
+   "title": "RB Leipzig – Manchester City",
+   "sub": "Red Bull Arena",
+   "res": {
+    "head": "RB Leipzig 2 – 3 Manchester City"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T20:00:00Z",
+   "title": "Slavia Prague – Arsenal",
+   "sub": "Fortuna Arena",
+   "res": {
+    "head": "Slavia Prague 1 – 2 Arsenal"
+   }
+  },
+  {
+   "s": "champions",
+   "start": "2026-11-04T20:00:00Z",
+   "title": "Viking FK – Sabah FK",
+   "sub": "Viking Stadion",
+   "res": {
+    "head": "Viking FK 4 – 1 Sabah FK"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-05T18:00:00Z",
+   "title": "C. Alcaraz – M. Berrettini",
+   "sub": "Rolex Paris Masters, Round 3"
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-06T01:15:00Z",
+   "title": "Baltimore Ravens – Jacksonville Jaguars",
+   "sub": "M&T Bank Stadium",
+   "res": {
+    "head": "Baltimore Ravens 10 – 33 Jacksonville Jaguars"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-06T19:00:00Z",
+   "title": "C. Alcaraz – T. Fritz",
+   "sub": "Rolex Paris Masters, Quarterfinal",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-7 7-5 6-3"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-06T20:00:00Z",
+   "title": "Sevilla – Alavés",
+   "sub": "Ramón Sánchez Pizjuán Stadium",
+   "res": {
+    "head": "Sevilla 0 – 0 Alavés"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-07T13:00:00Z",
+   "title": "Málaga – Racing Santander",
+   "sub": "La Rosaleda",
+   "res": {
+    "head": "Málaga 1 – 2 Racing Santander"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-07T15:15:00Z",
+   "title": "Espanyol – Deportivo",
+   "sub": "RCDE Stadium",
+   "res": {
+    "head": "Espanyol 0 – 0 Deportivo"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-07T16:25:00Z",
+   "title": "C. Alcaraz – C. Ruud",
+   "sub": "Rolex Paris Masters, Semifinal",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-4 6-4"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-07T17:30:00Z",
+   "title": "Osasuna – Athletic Club",
+   "sub": "El Sadar",
+   "res": {
+    "head": "Osasuna 1 – 1 Athletic Club"
+   }
+  },
   {
    "s": "f1",
    "start": "2026-11-07T18:00:00Z",
    "title": "Clasificación",
-   "sub": "GP Brazilian"
+   "sub": "GP Brazilian",
+   "res": {
+    "head": "Pole: Lando Norris",
+    "rows": [
+     [
+      "1",
+      "L. Norris",
+      "McLaren",
+      "1:27.470"
+     ],
+     [
+      "2",
+      "G. Russell",
+      "Mercedes",
+      "1:27.674"
+     ],
+     [
+      "3",
+      "K. Antonelli",
+      "Mercedes",
+      "1:28.095"
+     ],
+     [
+      "4",
+      "C. Leclerc",
+      "Ferrari",
+      "1:28.289"
+     ],
+     [
+      "5",
+      "L. Lawson",
+      "Racing Bulls",
+      "1:28.321"
+     ],
+     [
+      "6",
+      "N. Hulkenberg",
+      "Audi",
+      "1:28.668"
+     ],
+     [
+      "7",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "1:28.763"
+     ],
+     [
+      "8",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:29.831"
+     ],
+     [
+      "9",
+      "F. Alonso",
+      "Aston Martin",
+      "1:30.311"
+     ],
+     [
+      "10",
+      "A. Albon",
+      "Williams",
+      "1:30.456"
+     ],
+     [
+      "11",
+      "L. Hamilton",
+      "Ferrari",
+      "1:30.001"
+     ],
+     [
+      "12",
+      "O. Piastri",
+      "McLaren",
+      "1:30.369"
+     ],
+     [
+      "13",
+      "R. Câmara",
+      "Haas F1 Team",
+      "1:31.515"
+     ],
+     [
+      "14",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:31.687"
+     ],
+     [
+      "15",
+      "C. Sainz",
+      "Williams",
+      "1:31.785"
+     ],
+     [
+      "16",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:31.238"
+     ],
+     [
+      "17",
+      "F. Colapinto",
+      "Alpine",
+      "1:33.327"
+     ],
+     [
+      "18",
+      "P. Gasly",
+      "Alpine",
+      "1:33.449"
+     ],
+     [
+      "19",
+      "L. Stroll",
+      "Aston Martin",
+      "1:33.653"
+     ],
+     [
+      "20",
+      "V. Bottas",
+      "Cadillac",
+      "1:33.774"
+     ],
+     [
+      "21",
+      "S. Perez",
+      "Cadillac",
+      "1:34.509"
+     ],
+     [
+      "22",
+      "G. Bortoleto",
+      "Audi",
+      "1:41.564"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-07T20:00:00Z",
+   "title": "Valencia – Real Madrid",
+   "sub": "Mestalla Stadium",
+   "res": {
+    "head": "Valencia 0 – 3 Real Madrid"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-08T13:00:00Z",
+   "title": "Elche – Real Betis",
+   "sub": "Estadio Martínez Valero",
+   "res": {
+    "head": "Elche 0 – 2 Real Betis"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-08T14:15:00Z",
+   "title": "C. Alcaraz – B. Shelton",
+   "sub": "Rolex Paris Masters, Final",
+   "res": {
+    "head": "Gana C. Alcaraz: 7-6 7-5"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T14:30:00Z",
+   "title": "Atlanta Falcons – Cincinnati Bengals",
+   "sub": "Santiago Bernabéu",
+   "res": {
+    "head": "Atlanta Falcons 17 – 34 Cincinnati Bengals"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-08T15:15:00Z",
+   "title": "Real Sociedad – Rayo Vallecano",
+   "sub": "Reale Arena",
+   "res": {
+    "head": "Real Sociedad 1 – 0 Rayo Vallecano"
+   }
   },
   {
    "s": "f1",
    "start": "2026-11-08T17:00:00Z",
    "title": "Carrera",
-   "sub": "GP Brazilian"
+   "sub": "GP Brazilian",
+   "res": {
+    "head": "Ganador: Lando Norris",
+    "rows": [
+     [
+      "1",
+      "L. Norris",
+      "McLaren",
+      "1:35:23.504"
+     ],
+     [
+      "2",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "+14.602s"
+     ],
+     [
+      "3",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "+24.485s"
+     ],
+     [
+      "4",
+      "G. Russell",
+      "Mercedes",
+      "+33.991s"
+     ],
+     [
+      "5",
+      "K. Antonelli",
+      "Mercedes",
+      "+41.017s"
+     ],
+     [
+      "6",
+      "O. Piastri",
+      "McLaren",
+      "+56.475s"
+     ],
+     [
+      "7",
+      "L. Lawson",
+      "Racing Bulls",
+      "+75.402s"
+     ],
+     [
+      "8",
+      "C. Leclerc",
+      "Ferrari",
+      "+78.586s"
+     ],
+     [
+      "9",
+      "L. Hamilton",
+      "Ferrari",
+      "+1 lap"
+     ],
+     [
+      "10",
+      "N. Hulkenberg",
+      "Audi",
+      "+1 lap"
+     ],
+     [
+      "11",
+      "A. Lindblad",
+      "Racing Bulls",
+      "+1 lap"
+     ],
+     [
+      "12",
+      "F. Alonso",
+      "Aston Martin",
+      "+1 lap"
+     ],
+     [
+      "13",
+      "F. Colapinto",
+      "Alpine",
+      "+1 lap"
+     ],
+     [
+      "14",
+      "P. Gasly",
+      "Alpine",
+      "+1 lap"
+     ],
+     [
+      "15",
+      "A. Albon",
+      "Williams",
+      "+1 lap"
+     ],
+     [
+      "16",
+      "G. Bortoleto",
+      "Audi",
+      "+1 lap"
+     ],
+     [
+      "17",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+1 lap"
+     ],
+     [
+      "18",
+      "S. Perez",
+      "Cadillac",
+      "+2 laps"
+     ],
+     [
+      "19",
+      "C. Sainz",
+      "Williams",
+      "+2 laps"
+     ],
+     [
+      "20",
+      "R. Câmara",
+      "Haas F1 Team",
+      "+2 laps"
+     ],
+     [
+      "NC",
+      "L. Stroll",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "V. Bottas",
+      "Cadillac",
+      "DNS"
+     ]
+    ]
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-08T17:30:00Z",
+   "title": "Celta Vigo – Levante",
+   "sub": "Balaidos",
+   "res": {
+    "head": "Celta Vigo 0 – 0 Levante"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-08T17:30:00Z",
+   "title": "Villarreal – Getafe",
+   "sub": "Estadio de la Cerámica",
+   "res": {
+    "head": "Villarreal 2 – 0 Getafe"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Indianapolis Colts – Dallas Cowboys",
+   "sub": "Lucas Oil Stadium",
+   "res": {
+    "head": "Indianapolis Colts 23 – 27 Dallas Cowboys"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Kansas City Chiefs – New York Jets",
+   "sub": "Arrowhead Stadium",
+   "res": {
+    "head": "Kansas City Chiefs 35 – 12 New York Jets"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Miami Dolphins – Detroit Lions",
+   "sub": "Hard Rock Stadium",
+   "res": {
+    "head": "Miami Dolphins 9 – 19 Detroit Lions"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "New Orleans Saints – Cleveland Browns",
+   "sub": "Caesars Superdome",
+   "res": {
+    "head": "New Orleans Saints 23 – 22 Cleveland Browns"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Philadelphia Eagles – New York Giants",
+   "sub": "Lincoln Financial Field",
+   "res": {
+    "head": "Philadelphia Eagles 11 – 19 New York Giants"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Washington Commanders – Los Angeles Rams",
+   "sub": "Northwest Stadium",
+   "res": {
+    "head": "Washington Commanders 13 – 20 Los Angeles Rams"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T18:00:00Z",
+   "title": "Carolina Panthers – Denver Broncos",
+   "sub": "Bank of America Stadium",
+   "res": {
+    "head": "Carolina Panthers 21 – 26 Denver Broncos"
+   }
+  },
+  {
+   "s": "laliga",
+   "start": "2026-11-08T20:00:00Z",
+   "title": "Atlético Madrid – Barcelona",
+   "sub": "Riyadh Air Metropolitano",
+   "res": {
+    "head": "Atlético Madrid 1 – 2 Barcelona"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T21:05:00Z",
+   "title": "Los Angeles Chargers – Houston Texans",
+   "sub": "SoFi Stadium",
+   "res": {
+    "head": "Los Angeles Chargers 22 – 44 Houston Texans"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T21:25:00Z",
+   "title": "New England Patriots – Green Bay Packers",
+   "sub": "Gillette Stadium",
+   "res": {
+    "head": "New England Patriots 27 – 45 Green Bay Packers"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T21:25:00Z",
+   "title": "San Francisco 49ers – Las Vegas Raiders",
+   "sub": "Levi's Stadium",
+   "res": {
+    "head": "San Francisco 49ers 38 – 17 Las Vegas Raiders"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-08T21:25:00Z",
+   "title": "Seattle Seahawks – Arizona Cardinals",
+   "sub": "Lumen Field",
+   "res": {
+    "head": "Seattle Seahawks 17 – 3 Arizona Cardinals"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-09T01:20:00Z",
+   "title": "Chicago Bears – Tampa Bay Buccaneers",
+   "sub": "Soldier Field",
+   "res": {
+    "head": "Chicago Bears 27 – 24 Tampa Bay Buccaneers"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-10T01:15:00Z",
+   "title": "Minnesota Vikings – Buffalo Bills",
+   "sub": "U.S. Bank Stadium",
+   "res": {
+    "head": "Minnesota Vikings 6 – 23 Buffalo Bills"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-13T01:15:00Z",
+   "title": "New York Giants – Washington Commanders",
+   "sub": "MetLife Stadium",
+   "res": {
+    "head": "New York Giants 21 – 24 Washington Commanders"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Libaak / Alfonso – Bergamini / Bautista",
-   "sub": "Cuartos de final masculino, Dubai P1"
+   "sub": "Cuartos de final masculino, Dubai P1",
+   "res": {
+    "head": "Ganan Libaak / Alfonso: 4-6 6-3 7-6"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Garrido / De Pascual – Stupaczuk / Sanz",
-   "sub": "Cuartos de final masculino, Dubai P1"
+   "sub": "Cuartos de final masculino, Dubai P1",
+   "res": {
+    "head": "Ganan Garrido / De Pascual: 6-1 7-5"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Tello / Arce Simo – Lebron / Augsburger",
-   "sub": "Cuartos de final masculino, Dubai P1"
+   "sub": "Cuartos de final masculino, Dubai P1",
+   "res": {
+    "head": "Ganan Lebron / Augsburger: 6-3 3-6 6-2"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Abbate / Dal Bianco – Gonzalez / Campagnolo",
-   "sub": "Cuartos de final masculino, Dubai P1"
+   "sub": "Cuartos de final masculino, Dubai P1",
+   "res": {
+    "head": "Ganan Abbate / Dal Bianco: 7-6 3-6 6-2"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Triay Pons / Brea Senesi – Icardo Alcorisa / Jensen",
-   "sub": "Cuartos de final femenino, Dubai P1"
+   "sub": "Cuartos de final femenino, Dubai P1",
+   "res": {
+    "head": "Ganan Icardo Alcorisa / Jensen: 6-3 3-6 6-1"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Sanchez Fallada / Ustero Prieto – Velasco Postiguillo / Eugenio Barrera",
-   "sub": "Cuartos de final femenino, Dubai P1"
+   "sub": "Cuartos de final femenino, Dubai P1",
+   "res": {
+    "head": "Ganan Sanchez Fallada / Ustero Prieto: 6-2 6-3"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Guinart España / Alonso De Villa – Josemaria Martin / Gonzalez Fernandez",
-   "sub": "Cuartos de final femenino, Dubai P1"
+   "sub": "Cuartos de final femenino, Dubai P1",
+   "res": {
+    "head": "Ganan Josemaria Martin / Gonzalez Fernandez: 6-3 6-1"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-13T08:00:00Z",
    "title": "Rufo Ortiz / Iglesias Segador – Fernandez Sanchez / Calvo Santamaria",
-   "sub": "Cuartos de final femenino, Dubai P1"
+   "sub": "Cuartos de final femenino, Dubai P1",
+   "res": {
+    "head": "Ganan Fernandez Sanchez / Calvo Santamaria: 7-6 6-4"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-14T12:00:00Z",
    "title": "Libaak / Alfonso – Garrido / De Pascual",
-   "sub": "Semifinal masculino, Dubai P1"
+   "sub": "Semifinal masculino, Dubai P1",
+   "res": {
+    "head": "Ganan Libaak / Alfonso: 6-1 6-4"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-14T12:00:00Z",
    "title": "Abbate / Dal Bianco – Lebron / Augsburger",
-   "sub": "Semifinal masculino, Dubai P1"
+   "sub": "Semifinal masculino, Dubai P1",
+   "res": {
+    "head": "Ganan Lebron / Augsburger: 6-4 6-2"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-14T12:00:00Z",
    "title": "Icardo Alcorisa / Jensen – Fernandez Sanchez / Calvo Santamaria",
-   "sub": "Semifinal femenino, Dubai P1"
+   "sub": "Semifinal femenino, Dubai P1",
+   "res": {
+    "head": "Ganan Fernandez Sanchez / Calvo Santamaria: 6-3 6-1"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-14T12:00:00Z",
    "title": "Sanchez Fallada / Ustero Prieto – Josemaria Martin / Gonzalez Fernandez",
-   "sub": "Semifinal femenino, Dubai P1"
-  },
-  {
-   "s": "padel",
-   "start": "2026-11-15T14:00:00Z",
-   "title": "Final masculino",
-   "sub": "Final masculino, Dubai P1"
+   "sub": "Semifinal femenino, Dubai P1",
+   "res": {
+    "head": "Ganan Josemaria Martin / Gonzalez Fernandez: 6-4 7-5"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-15T14:00:00Z",
    "title": "Fernandez Sanchez / Calvo Santamaria – Josemaria Martin / Gonzalez Fernandez",
-   "sub": "Final femenino, Dubai P1"
+   "sub": "Final femenino, Dubai P1",
+   "nb": true
   },
   {
    "s": "nfl",
    "start": "2026-11-15T14:30:00Z",
    "title": "Detroit Lions – New England Patriots",
    "sub": "FC Bayern Munich Stadium"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-15T16:00:00Z",
+   "title": "Libaak / Alfonso – Lebron / Augsburger",
+   "sub": "Final masculino, Dubai P1",
+   "nb": true
   },
   {
    "s": "nfl",
