@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:08:00Z",
+ "updated": "2026-11-16T06:02:00Z",
  "events": [
   {
    "s": "f1",
@@ -4848,15 +4848,6 @@
    }
   },
   {
-   "s": "nfl",
-   "start": "2026-11-02T01:20:00Z",
-   "title": "Washington Commanders – Philadelphia Eagles",
-   "sub": "Northwest Stadium",
-   "res": {
-    "head": "Washington Commanders 27 – 10 Philadelphia Eagles"
-   }
-  },
-  {
    "s": "laliga",
    "start": "2026-11-02T20:00:00Z",
    "title": "Deportivo – Osasuna",
@@ -4974,15 +4965,6 @@
    }
   },
   {
-   "s": "tenis",
-   "start": "2026-11-04T18:10:00Z",
-   "title": "C. Alcaraz – A. Michelsen",
-   "sub": "Rolex Paris Masters, Round 2",
-   "res": {
-    "head": "Gana C. Alcaraz: 7-6 6-3"
-   }
-  },
-  {
    "s": "champions",
    "start": "2026-11-04T20:00:00Z",
    "title": "Borussia Dortmund – Real Betis",
@@ -5046,27 +5028,12 @@
    }
   },
   {
-   "s": "tenis",
-   "start": "2026-11-05T18:00:00Z",
-   "title": "C. Alcaraz – M. Berrettini",
-   "sub": "Rolex Paris Masters, Round 3"
-  },
-  {
    "s": "nfl",
    "start": "2026-11-06T01:15:00Z",
    "title": "Baltimore Ravens – Jacksonville Jaguars",
    "sub": "M&T Bank Stadium",
    "res": {
     "head": "Baltimore Ravens 10 – 33 Jacksonville Jaguars"
-   }
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-06T19:00:00Z",
-   "title": "C. Alcaraz – T. Fritz",
-   "sub": "Rolex Paris Masters, Quarterfinal",
-   "res": {
-    "head": "Gana C. Alcaraz: 6-7 7-5 6-3"
    }
   },
   {
@@ -5094,15 +5061,6 @@
    "sub": "RCDE Stadium",
    "res": {
     "head": "Espanyol 0 – 0 Deportivo"
-   }
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-07T16:25:00Z",
-   "title": "C. Alcaraz – C. Ruud",
-   "sub": "Rolex Paris Masters, Semifinal",
-   "res": {
-    "head": "Gana C. Alcaraz: 6-4 6-4"
    }
   },
   {
@@ -5393,15 +5351,6 @@
    "sub": "Estadio Martínez Valero",
    "res": {
     "head": "Elche 0 – 2 Real Betis"
-   }
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-08T14:15:00Z",
-   "title": "C. Alcaraz – B. Shelton",
-   "sub": "Rolex Paris Masters, Final",
-   "res": {
-    "head": "Gana C. Alcaraz: 7-6 7-5"
    }
   },
   {
@@ -6028,25 +5977,37 @@
    "s": "nfl",
    "start": "2026-11-15T21:05:00Z",
    "title": "Las Vegas Raiders – Seattle Seahawks",
-   "sub": "Allegiant Stadium"
+   "sub": "Allegiant Stadium",
+   "res": {
+    "head": "Las Vegas Raiders 13 – 21 Seattle Seahawks"
+   }
   },
   {
    "s": "nfl",
    "start": "2026-11-15T21:05:00Z",
    "title": "Arizona Cardinals – Los Angeles Rams",
-   "sub": "State Farm Stadium"
+   "sub": "State Farm Stadium",
+   "res": {
+    "head": "Arizona Cardinals 6 – 34 Los Angeles Rams"
+   }
   },
   {
    "s": "nfl",
    "start": "2026-11-15T21:25:00Z",
    "title": "Dallas Cowboys – San Francisco 49ers",
-   "sub": "AT&T Stadium"
+   "sub": "AT&T Stadium",
+   "res": {
+    "head": "Dallas Cowboys 40 – 46 San Francisco 49ers"
+   }
   },
   {
    "s": "nfl",
    "start": "2026-11-16T01:20:00Z",
    "title": "Cincinnati Bengals – Pittsburgh Steelers",
-   "sub": "Paycor Stadium"
+   "sub": "Paycor Stadium",
+   "res": {
+    "head": "Cincinnati Bengals 38 – 18 Pittsburgh Steelers"
+   }
   },
   {
    "s": "tenis",
