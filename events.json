@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:02:00Z",
+ "updated": "2026-11-16T17:57:00Z",
  "events": [
   {
    "s": "f1",
@@ -6011,9 +6011,12 @@
   },
   {
    "s": "tenis",
-   "start": "2026-11-16T13:00:00Z",
+   "start": "2026-11-16T13:10:00Z",
    "title": "F. Tiafoe – C. Alcaraz",
-   "sub": "Nitto ATP Finals, Group Stage"
+   "sub": "Nitto ATP Finals, Group Stage",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-2 6-2"
+   }
   },
   {
    "s": "nfl",
