@@ -63,9 +63,15 @@ h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
 .dots i{display:flex;align-items:center;justify-content:center;flex:none;height:6px;border-radius:3px;background:var(--c);color:#fff;font-size:11px;font-weight:700;line-height:1;font-style:normal}
 .dots i.n{height:13px;border-radius:7px}
 .dh{font-size:21px;font-weight:700;margin:20px 0 10px;text-transform:capitalize}
-.card{display:flex;gap:14px;align-items:center;background:var(--card);border-radius:18px;padding:16px;margin-bottom:10px;border-left:10px solid var(--c)}
+.card{position:relative;display:flex;gap:14px;align-items:center;background:var(--card);border-radius:18px;padding:16px;margin-bottom:10px;border-left:10px solid var(--c)}
 .time{font-size:32px;font-weight:700;line-height:1;min-width:76px;letter-spacing:-.02em}
 .card.past{cursor:pointer}
+.card.cr .det{padding-right:64px}
+.crests{position:absolute;right:16px;bottom:14px;display:flex;align-items:center;pointer-events:none}
+.card.past .crests{right:42px}
+.crests img{width:38px;height:38px;object-fit:contain;filter:drop-shadow(0 0 1px rgba(255,255,255,.7))}
+.crests img+img{margin-left:-16px}
+.crests img:first-child{position:relative;z-index:2}
 .chev{margin-left:auto;color:var(--mu);font-size:28px;line-height:1}
 #rsheet .shBox{max-height:85vh;overflow:auto}
 .rsub{color:var(--mu);font-size:15px;margin:-6px 0 12px}
@@ -98,7 +104,7 @@ h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
 const S={f1:["F1","#e10600","🏎️"],motogp:["MotoGP","#e5239d","🏍️"],nfl:["NFL","#1e3a8a","🏈"],tenis:["Tenis","#4d9a0b","🎾"],padel:["Pádel","#2563eb","🏓"],laliga:["LaLiga","#ff6f5e","⚽"],champions:["Champions","#ffffff","🏆"]};
 const key=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 let ev=[];
-const toEv=r=>{if(r.tbc||!r.start)return{date:r.date,time:"–:–",s:r.s,title:r.title,sub:r.res?(r.sub||""):(r.sub?r.sub+", ":"")+"hora por confirmar",res:r.res};const d=new Date(r.start);return{date:key(d),time:String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"),s:r.s,title:r.title,sub:r.sub||"",nb:!!r.nb,ts:d.getTime(),res:r.res}};
+const toEv=r=>{if(r.tbc||!r.start)return{date:r.date,time:"–:–",s:r.s,title:r.title,sub:r.res?(r.sub||""):(r.sub?r.sub+", ":"")+"hora por confirmar",res:r.res};const d=new Date(r.start);return{date:key(d),time:String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"),s:r.s,title:r.title,sub:r.sub||"",nb:!!r.nb,ts:d.getTime(),res:r.res,ic:r.ic}};
 function setData(j){ev=(j.events||[]).filter(r=>S[r.s]).map(toEv).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));ev.forEach((e,i)=>e.id=i);$("note").textContent=j.updated?"Datos actualizados el "+new Date(j.updated).toLocaleString("es-ES",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):""}
 let lastLoad=0;
 async function load(){lastLoad=Date.now();let j=null;try{const r=await fetch("events.json?"+Date.now(),{cache:"no-cache"});if(r.ok){j=await r.json();try{localStorage.setItem("agd",JSON.stringify(j))}catch(e){}}}catch(e){}
@@ -117,7 +123,9 @@ const fmt=(k,o)=>new Date(k+"T12:00:00").toLocaleDateString("es-ES",o);
 const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const vis=()=>ev.filter(e=>(!only||e.s===only)&&(!tm[e.s]||!tm[e.s].size||[...tm[e.s]].some(w=>norm(e.title).includes(norm(w)))));
 const isPast=e=>e.ts?e.ts<Date.now():e.date<today;
-const card=e=>`<div class="card${isPast(e)?" past":""}" data-i="${e.id}" style="--c:${S[e.s][1]}"><div class="time">${e.nb?'<small class="nb">No antes de</small>':""}${e.time}</div><div class="body"><b>${e.title}</b><span class="badge${DK.has(e.s)?" dk":""}">${S[e.s][0]}</span><div class="det">${e.sub}</div></div>${isPast(e)?'<span class="chev">›</span>':""}</div>`;
+const small=u=>u.replace(/^https:\/\/a\.espncdn\.com(\/.*)$/,"https://a.espncdn.com/combiner/i?img=$1&w=96&h=96");
+const crest=u=>`<img src="${small(u)}" data-o="${u}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=this.dataset.o">`;
+const card=e=>`<div class="card${isPast(e)?" past":""}${e.ic?" cr":""}" data-i="${e.id}" style="--c:${S[e.s][1]}"><div class="time">${e.nb?'<small class="nb">No antes de</small>':""}${e.time}</div><div class="body"><b>${e.title}</b><span class="badge${DK.has(e.s)?" dk":""}">${S[e.s][0]}</span><div class="det">${e.sub}</div></div>${e.ic?`<div class="crests">${crest(e.ic[0])}${crest(e.ic[1])}</div>`:""}${isPast(e)?'<span class="chev">›</span>':""}</div>`;
 function chips(){$("chips").innerHTML=Object.entries(S).map(([k,[n,c,i]])=>`<button class="chip ${!only||only===k?"on":""}${DK.has(k)?" dk":""}${tm[k]&&tm[k].size?" ft":""}" style="--c:${c}" data-k="${k}">${n}</button>`).join("")}
 function cal(){
   $("mt").textContent=cur.toLocaleDateString("es-ES",{month:"long",year:"numeric"});

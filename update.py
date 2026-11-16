@@ -362,6 +362,69 @@ def is_done(*objs):
     return False
 
 
+# nombres cortos de estadios: (fragmento normalizado, nombre corto). Gana el primero que encaje.
+VENUES = [
+    # LaLiga
+    ("bernabeu", "Bernabéu"), ("metropolitano", "Metropolitano"), ("camp nou", "Camp Nou"),
+    ("sanchez pizjuan", "Sánchez Pizjuán"), ("benito villamarin", "Benito Villamarín"),
+    ("ceramica", "La Cerámica"), ("mestalla", "Mestalla"), ("san mames", "San Mamés"),
+    ("reale arena", "Reale Arena"), ("anoeta", "Reale Arena"), ("balaidos", "Balaídos"),
+    ("mendizorrotza", "Mendizorrotza"), ("vallecas", "Vallecas"), ("coliseum", "Coliseum"),
+    ("el sadar", "El Sadar"), ("montjuic", "Montjuïc"), ("rcde", "RCDE Stadium"), ("son moix", "Son Moix"),
+    ("ipurua", "Ipurua"), ("rosaleda", "La Rosaleda"), ("riazor", "Riazor"), ("gran canaria", "Gran Canaria"),
+    ("carmenes", "Los Cármenes"), ("molinon", "El Molinón"), ("montilivi", "Montilivi"),
+    ("romareda", "La Romareda"), ("alcoraz", "El Alcoraz"), ("zorrilla", "Zorrilla"), ("butarque", "Butarque"),
+    ("ciutat de valencia", "Ciutat de València"), ("carranza", "Carranza"), ("la cartuja", "La Cartuja"),
+    # Champions
+    ("emirates", "Emirates"), ("anfield", "Anfield"), ("etihad", "Etihad"), ("old trafford", "Old Trafford"),
+    ("stamford bridge", "Stamford Bridge"), ("tottenham hotspur", "Tottenham"), ("allianz arena", "Allianz Arena"),
+    ("allianz stadium", "Allianz Stadium"), ("signal iduna", "Signal Iduna Park"), ("giuseppe meazza", "San Siro"),
+    ("san siro", "San Siro"), ("parc des princes", "Parc des Princes"), ("cruijff", "Johan Cruyff Arena"),
+    ("cruyff", "Johan Cruyff Arena"), ("de kuip", "De Kuip"), ("da luz", "Estádio da Luz"),
+    ("alvalade", "Alvalade"), ("dragao", "Estádio do Dragão"), ("olimpico", "Olímpico"), ("bombonera", "La Bombonera"),
+    # NFL
+    ("superdome", "Superdome"), ("state farm", "State Farm"), ("mercedes-benz", "Mercedes-Benz"),
+    ("m&t bank", "M&T Bank"), ("highmark", "Highmark"), ("bank of america", "Bank of America"),
+    ("soldier field", "Soldier Field"), ("paycor", "Paycor"), ("huntington bank", "Huntington Bank"),
+    ("at&t", "AT&T"), ("mile high", "Mile High"), ("ford field", "Ford Field"), ("lambeau", "Lambeau"),
+    ("nrg", "NRG"), ("lucas oil", "Lucas Oil"), ("everbank", "EverBank"), ("arrowhead", "Arrowhead"),
+    ("allegiant", "Allegiant"), ("sofi", "SoFi"), ("hard rock", "Hard Rock"), ("u.s. bank", "U.S. Bank"),
+    ("gillette", "Gillette"), ("metlife", "MetLife"), ("lincoln financial", "Lincoln Financial"),
+    ("acrisure", "Acrisure"), ("levi", "Levi's"), ("lumen", "Lumen Field"), ("raymond james", "Raymond James"),
+    ("nissan stadium", "Nissan"), ("northwest stadium", "Northwest"), ("fedex", "FedEx"),
+    ("wembley", "Wembley"), ("maracana", "Maracanã"), ("azteca", "Azteca"), ("croke park", "Croke Park"),
+]
+GENERIC = {"estadio", "estadi", "estadio", "estádio", "stadium", "stadion", "stadio", "stade", "municipal", "de", "del",
+           "la", "el", "los", "las", "do", "da", "di"}
+
+
+def short_venue(name, limit=20):
+    """Nombre de estadio recortado para la tarjeta, sin perder lo importante."""
+    name = (name or "").strip()
+    n = norm(name)
+    for key, val in VENUES:
+        if key in n:
+            return val
+    words = [w for w in name.replace("-", " - ").split() if norm(w) not in GENERIC and w != "-"] or name.split()
+    s = " ".join(words)
+    while len(s) > limit and len(words) > 2:
+        words = words[1:]
+        s = " ".join(words)
+    if len(s) > limit:
+        s = s[: limit - 1].rstrip() + "…"
+    return s
+
+
+def team_logo(team):
+    u = team.get("logo")
+    if not u:
+        for lg in team.get("logos") or []:
+            if lg.get("href"):
+                u = lg["href"]
+                break
+    return (u or "").replace("http://", "https://")
+
+
 def matches(path, sport, days, step):
     out = []
     for ev in espn_events(path, days, step):
@@ -369,9 +432,12 @@ def matches(path, sport, days, step):
         t = {c["homeAway"]: c["team"]["displayName"] for c in comp["competitors"]}
         if "home" not in t or "away" not in t:
             continue
-        venue = (comp.get("venue") or {}).get("fullName", "")
+        venue = short_venue((comp.get("venue") or {}).get("fullName", ""))
         item = {"s": sport, "start": iso(parse(ev["date"])),
                 "title": f'{t["home"]} – {t["away"]}', "sub": venue}
+        lg = {c["homeAway"]: team_logo(c["team"]) for c in comp["competitors"]}
+        if lg.get("home") and lg.get("away"):
+            item["ic"] = [lg["home"], lg["away"]]
         if is_done(ev, comp):
             sc = {c["homeAway"]: txt(c.get("score")) for c in comp["competitors"]}
             if sc.get("home") and sc.get("away"):
