@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:25:00Z",
+ "updated": "2026-11-16T21:34:00Z",
  "events": [
   {
    "s": "f1",
@@ -4852,6 +4852,10 @@
    "start": "2026-11-02T20:00:00Z",
    "title": "Deportivo – Osasuna",
    "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+   ],
    "res": {
     "head": "Deportivo 2 – 1 Osasuna"
    }
@@ -4861,6 +4865,10 @@
    "start": "2026-11-03T01:15:00Z",
    "title": "Seattle Seahawks – Chicago Bears",
    "sub": "Lumen Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+   ],
    "res": {
     "head": "Seattle Seahawks 17 – 34 Chicago Bears"
    }
@@ -4870,6 +4878,10 @@
    "start": "2026-11-03T17:45:00Z",
    "title": "Galatasaray – VfB Stuttgart",
    "sub": "RAMS Park",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
+   ],
    "res": {
     "head": "Galatasaray 2 – 0 VfB Stuttgart"
    }
@@ -4879,6 +4891,10 @@
    "start": "2026-11-03T17:45:00Z",
    "title": "Shakhtar Donetsk – Sporting CP",
    "sub": "Stamford Bridge",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
+   ],
    "res": {
     "head": "Shakhtar Donetsk 0 – 1 Sporting CP"
    }
@@ -4887,7 +4903,11 @@
    "s": "champions",
    "start": "2026-11-03T20:00:00Z",
    "title": "Atlético Madrid – Bayern Munich",
-   "sub": "Riyadh Air Metropolitano",
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
+   ],
    "res": {
     "head": "Atlético Madrid 0 – 2 Bayern Munich"
    }
@@ -4896,7 +4916,11 @@
    "s": "champions",
    "start": "2026-11-03T20:00:00Z",
    "title": "Barcelona – Aston Villa",
-   "sub": "Spotify Camp Nou",
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+   ],
    "res": {
     "head": "Barcelona 3 – 0 Aston Villa"
    }
@@ -4905,7 +4929,11 @@
    "s": "champions",
    "start": "2026-11-03T20:00:00Z",
    "title": "Bodo/Glimt – Lille",
-   "sub": "Aspmyra Stadion",
+   "sub": "Aspmyra",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
+   ],
    "res": {
     "head": "Bodo/Glimt 0 – 0 Lille"
    }
@@ -4915,6 +4943,10 @@
    "start": "2026-11-03T20:00:00Z",
    "title": "Feyenoord Rotterdam – Internazionale",
    "sub": "De Kuip",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+   ],
    "res": {
     "head": "Feyenoord Rotterdam 0 – 3 Internazionale"
    }
@@ -4923,7 +4955,11 @@
    "s": "champions",
    "start": "2026-11-03T20:00:00Z",
    "title": "LASK Linz – Slovan Bratislava",
-   "sub": "Raiffeisen Arena (Linz)",
+   "sub": "Arena (Linz)",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/521.png"
+   ],
    "res": {
     "head": "LASK Linz 4 – 0 Slovan Bratislava"
    }
@@ -4933,6 +4969,10 @@
    "start": "2026-11-03T20:00:00Z",
    "title": "Manchester United – AS Roma",
    "sub": "Old Trafford",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+   ],
    "res": {
     "head": "Manchester United 3 – 2 AS Roma"
    }
@@ -4941,7 +4981,11 @@
    "s": "champions",
    "start": "2026-11-03T20:00:00Z",
    "title": "Villarreal – Paris Saint-Germain",
-   "sub": "Estadio de la Cerámica",
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
+   ],
    "res": {
     "head": "Villarreal 0 – 6 Paris Saint-Germain"
    }
@@ -4951,6 +4995,10 @@
    "start": "2026-11-04T17:45:00Z",
    "title": "AEK Athens – Real Madrid",
    "sub": "OPAP Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ],
    "res": {
     "head": "AEK Athens 2 – 3 Real Madrid"
    }
@@ -4959,7 +5007,11 @@
    "s": "champions",
    "start": "2026-11-04T17:45:00Z",
    "title": "Fenerbahce – Liverpool",
-   "sub": "Şükrü Saracoğlu Stadium",
+   "sub": "Şükrü Saracoğlu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+   ],
    "res": {
     "head": "Fenerbahce 3 – 2 Liverpool"
    }
@@ -4969,6 +5021,10 @@
    "start": "2026-11-04T20:00:00Z",
    "title": "Borussia Dortmund – Real Betis",
    "sub": "Signal Iduna Park",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ],
    "res": {
     "head": "Borussia Dortmund 2 – 1 Real Betis"
    }
@@ -4978,6 +5034,10 @@
    "start": "2026-11-04T20:00:00Z",
    "title": "FC Porto – Napoli",
    "sub": "Estádio do Dragão",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
+   ],
    "res": {
     "head": "FC Porto 4 – 1 Napoli"
    }
@@ -4986,7 +5046,11 @@
    "s": "champions",
    "start": "2026-11-04T20:00:00Z",
    "title": "Lens – Como",
-   "sub": "Stade Bollaert-Delelis",
+   "sub": "Bollaert Delelis",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+   ],
    "res": {
     "head": "Lens 1 – 9 Como"
    }
@@ -4995,7 +5059,11 @@
    "s": "champions",
    "start": "2026-11-04T20:00:00Z",
    "title": "PSV Eindhoven – Club Brugge",
-   "sub": "Philips Stadion",
+   "sub": "Philips",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/570.png"
+   ],
    "res": {
     "head": "PSV Eindhoven 1 – 2 Club Brugge"
    }
@@ -5005,6 +5073,10 @@
    "start": "2026-11-04T20:00:00Z",
    "title": "RB Leipzig – Manchester City",
    "sub": "Red Bull Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+   ],
    "res": {
     "head": "RB Leipzig 2 – 3 Manchester City"
    }
@@ -5014,6 +5086,10 @@
    "start": "2026-11-04T20:00:00Z",
    "title": "Slavia Prague – Arsenal",
    "sub": "Fortuna Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+   ],
    "res": {
     "head": "Slavia Prague 1 – 2 Arsenal"
    }
@@ -5022,7 +5098,11 @@
    "s": "champions",
    "start": "2026-11-04T20:00:00Z",
    "title": "Viking FK – Sabah FK",
-   "sub": "Viking Stadion",
+   "sub": "Viking",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png"
+   ],
    "res": {
     "head": "Viking FK 4 – 1 Sabah FK"
    }
@@ -5031,7 +5111,11 @@
    "s": "nfl",
    "start": "2026-11-06T01:15:00Z",
    "title": "Baltimore Ravens – Jacksonville Jaguars",
-   "sub": "M&T Bank Stadium",
+   "sub": "M&T Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+   ],
    "res": {
     "head": "Baltimore Ravens 10 – 33 Jacksonville Jaguars"
    }
@@ -5040,7 +5124,11 @@
    "s": "laliga",
    "start": "2026-11-06T20:00:00Z",
    "title": "Sevilla – Alavés",
-   "sub": "Ramón Sánchez Pizjuán Stadium",
+   "sub": "Sánchez Pizjuán",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ],
    "res": {
     "head": "Sevilla 0 – 0 Alavés"
    }
@@ -5050,6 +5138,10 @@
    "start": "2026-11-07T13:00:00Z",
    "title": "Málaga – Racing Santander",
    "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+   ],
    "res": {
     "head": "Málaga 1 – 2 Racing Santander"
    }
@@ -5059,6 +5151,10 @@
    "start": "2026-11-07T15:15:00Z",
    "title": "Espanyol – Deportivo",
    "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+   ],
    "res": {
     "head": "Espanyol 0 – 0 Deportivo"
    }
@@ -5068,6 +5164,10 @@
    "start": "2026-11-07T17:30:00Z",
    "title": "Osasuna – Athletic Club",
    "sub": "El Sadar",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ],
    "res": {
     "head": "Osasuna 1 – 1 Athletic Club"
    }
@@ -5219,7 +5319,11 @@
    "s": "laliga",
    "start": "2026-11-07T20:00:00Z",
    "title": "Valencia – Real Madrid",
-   "sub": "Mestalla Stadium",
+   "sub": "Mestalla",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ],
    "res": {
     "head": "Valencia 0 – 3 Real Madrid"
    }
@@ -5348,7 +5452,11 @@
    "s": "laliga",
    "start": "2026-11-08T13:00:00Z",
    "title": "Elche – Real Betis",
-   "sub": "Estadio Martínez Valero",
+   "sub": "Martínez Valero",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ],
    "res": {
     "head": "Elche 0 – 2 Real Betis"
    }
@@ -5357,7 +5465,11 @@
    "s": "nfl",
    "start": "2026-11-08T14:30:00Z",
    "title": "Atlanta Falcons – Cincinnati Bengals",
-   "sub": "Santiago Bernabéu",
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+   ],
    "res": {
     "head": "Atlanta Falcons 17 – 34 Cincinnati Bengals"
    }
@@ -5367,6 +5479,10 @@
    "start": "2026-11-08T15:15:00Z",
    "title": "Real Sociedad – Rayo Vallecano",
    "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ],
    "res": {
     "head": "Real Sociedad 1 – 0 Rayo Vallecano"
    }
@@ -5518,7 +5634,11 @@
    "s": "laliga",
    "start": "2026-11-08T17:30:00Z",
    "title": "Celta Vigo – Levante",
-   "sub": "Balaidos",
+   "sub": "Balaídos",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+   ],
    "res": {
     "head": "Celta Vigo 0 – 0 Levante"
    }
@@ -5527,7 +5647,11 @@
    "s": "laliga",
    "start": "2026-11-08T17:30:00Z",
    "title": "Villarreal – Getafe",
-   "sub": "Estadio de la Cerámica",
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ],
    "res": {
     "head": "Villarreal 2 – 0 Getafe"
    }
@@ -5536,7 +5660,11 @@
    "s": "nfl",
    "start": "2026-11-08T18:00:00Z",
    "title": "Indianapolis Colts – Dallas Cowboys",
-   "sub": "Lucas Oil Stadium",
+   "sub": "Lucas Oil",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+   ],
    "res": {
     "head": "Indianapolis Colts 23 – 27 Dallas Cowboys"
    }
@@ -5545,7 +5673,11 @@
    "s": "nfl",
    "start": "2026-11-08T18:00:00Z",
    "title": "Kansas City Chiefs – New York Jets",
-   "sub": "Arrowhead Stadium",
+   "sub": "Arrowhead",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+   ],
    "res": {
     "head": "Kansas City Chiefs 35 – 12 New York Jets"
    }
@@ -5554,7 +5686,11 @@
    "s": "nfl",
    "start": "2026-11-08T18:00:00Z",
    "title": "Miami Dolphins – Detroit Lions",
-   "sub": "Hard Rock Stadium",
+   "sub": "Hard Rock",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+   ],
    "res": {
     "head": "Miami Dolphins 9 – 19 Detroit Lions"
    }
@@ -5563,7 +5699,11 @@
    "s": "nfl",
    "start": "2026-11-08T18:00:00Z",
    "title": "New Orleans Saints – Cleveland Browns",
-   "sub": "Caesars Superdome",
+   "sub": "Superdome",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png"
+   ],
    "res": {
     "head": "New Orleans Saints 23 – 22 Cleveland Browns"
    }
@@ -5572,7 +5712,11 @@
    "s": "nfl",
    "start": "2026-11-08T18:00:00Z",
    "title": "Philadelphia Eagles – New York Giants",
-   "sub": "Lincoln Financial Field",
+   "sub": "Lincoln Financial",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+   ],
    "res": {
     "head": "Philadelphia Eagles 11 – 19 New York Giants"
    }
@@ -5581,7 +5725,11 @@
    "s": "nfl",
    "start": "2026-11-08T18:00:00Z",
    "title": "Washington Commanders – Los Angeles Rams",
-   "sub": "Northwest Stadium",
+   "sub": "Northwest",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+   ],
    "res": {
     "head": "Washington Commanders 13 – 20 Los Angeles Rams"
    }
@@ -5590,7 +5738,11 @@
    "s": "nfl",
    "start": "2026-11-08T18:00:00Z",
    "title": "Carolina Panthers – Denver Broncos",
-   "sub": "Bank of America Stadium",
+   "sub": "Bank of America",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+   ],
    "res": {
     "head": "Carolina Panthers 21 – 26 Denver Broncos"
    }
@@ -5599,7 +5751,11 @@
    "s": "laliga",
    "start": "2026-11-08T20:00:00Z",
    "title": "Atlético Madrid – Barcelona",
-   "sub": "Riyadh Air Metropolitano",
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ],
    "res": {
     "head": "Atlético Madrid 1 – 2 Barcelona"
    }
@@ -5608,7 +5764,11 @@
    "s": "nfl",
    "start": "2026-11-08T21:05:00Z",
    "title": "Los Angeles Chargers – Houston Texans",
-   "sub": "SoFi Stadium",
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+   ],
    "res": {
     "head": "Los Angeles Chargers 22 – 44 Houston Texans"
    }
@@ -5617,7 +5777,11 @@
    "s": "nfl",
    "start": "2026-11-08T21:25:00Z",
    "title": "New England Patriots – Green Bay Packers",
-   "sub": "Gillette Stadium",
+   "sub": "Gillette",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+   ],
    "res": {
     "head": "New England Patriots 27 – 45 Green Bay Packers"
    }
@@ -5626,7 +5790,11 @@
    "s": "nfl",
    "start": "2026-11-08T21:25:00Z",
    "title": "San Francisco 49ers – Las Vegas Raiders",
-   "sub": "Levi's Stadium",
+   "sub": "Levi's",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
+   ],
    "res": {
     "head": "San Francisco 49ers 38 – 17 Las Vegas Raiders"
    }
@@ -5636,6 +5804,10 @@
    "start": "2026-11-08T21:25:00Z",
    "title": "Seattle Seahawks – Arizona Cardinals",
    "sub": "Lumen Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+   ],
    "res": {
     "head": "Seattle Seahawks 17 – 3 Arizona Cardinals"
    }
@@ -5753,6 +5925,10 @@
    "start": "2026-11-09T01:20:00Z",
    "title": "Chicago Bears – Tampa Bay Buccaneers",
    "sub": "Soldier Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+   ],
    "res": {
     "head": "Chicago Bears 27 – 24 Tampa Bay Buccaneers"
    }
@@ -5761,7 +5937,11 @@
    "s": "nfl",
    "start": "2026-11-10T01:15:00Z",
    "title": "Minnesota Vikings – Buffalo Bills",
-   "sub": "U.S. Bank Stadium",
+   "sub": "U.S. Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+   ],
    "res": {
     "head": "Minnesota Vikings 6 – 23 Buffalo Bills"
    }
@@ -5770,7 +5950,11 @@
    "s": "nfl",
    "start": "2026-11-13T01:15:00Z",
    "title": "New York Giants – Washington Commanders",
-   "sub": "MetLife Stadium",
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+   ],
    "res": {
     "head": "New York Giants 21 – 24 Washington Commanders"
    }
@@ -5905,7 +6089,11 @@
    "s": "nfl",
    "start": "2026-11-15T14:30:00Z",
    "title": "Detroit Lions – New England Patriots",
-   "sub": "FC Bayern Munich Stadium",
+   "sub": "FC Bayern Munich",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+   ],
    "res": {
     "head": "Detroit Lions 35 – 10 New England Patriots"
    }
@@ -5914,7 +6102,11 @@
    "s": "nfl",
    "start": "2026-11-15T18:00:00Z",
    "title": "Atlanta Falcons – Kansas City Chiefs",
-   "sub": "Mercedes-Benz Stadium",
+   "sub": "Mercedes-Benz",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+   ],
    "res": {
     "head": "Atlanta Falcons 13 – 35 Kansas City Chiefs"
    }
@@ -5923,7 +6115,11 @@
    "s": "nfl",
    "start": "2026-11-15T18:00:00Z",
    "title": "Cleveland Browns – Houston Texans",
-   "sub": "Huntington Bank Field",
+   "sub": "Huntington Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+   ],
    "res": {
     "head": "Cleveland Browns 27 – 24 Houston Texans"
    }
@@ -5932,7 +6128,11 @@
    "s": "nfl",
    "start": "2026-11-15T18:00:00Z",
    "title": "Green Bay Packers – Minnesota Vikings",
-   "sub": "Lambeau Field",
+   "sub": "Lambeau",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
+   ],
    "res": {
     "head": "Green Bay Packers 10 – 30 Minnesota Vikings"
    }
@@ -5941,7 +6141,11 @@
    "s": "nfl",
    "start": "2026-11-15T18:00:00Z",
    "title": "Tennessee Titans – Jacksonville Jaguars",
-   "sub": "Nissan Stadium",
+   "sub": "Nissan",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+   ],
    "res": {
     "head": "Tennessee Titans 23 – 40 Jacksonville Jaguars"
    }
@@ -5950,7 +6154,11 @@
    "s": "nfl",
    "start": "2026-11-15T18:00:00Z",
    "title": "Indianapolis Colts – Miami Dolphins",
-   "sub": "Lucas Oil Stadium",
+   "sub": "Lucas Oil",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+   ],
    "res": {
     "head": "Indianapolis Colts 24 – 22 Miami Dolphins"
    }
@@ -5959,7 +6167,11 @@
    "s": "nfl",
    "start": "2026-11-15T18:00:00Z",
    "title": "New Orleans Saints – Carolina Panthers",
-   "sub": "Caesars Superdome",
+   "sub": "Superdome",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
+   ],
    "res": {
     "head": "New Orleans Saints 17 – 20 Carolina Panthers"
    }
@@ -5968,7 +6180,11 @@
    "s": "nfl",
    "start": "2026-11-15T18:00:00Z",
    "title": "New York Jets – Buffalo Bills",
-   "sub": "MetLife Stadium",
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+   ],
    "res": {
     "head": "New York Jets 12 – 31 Buffalo Bills"
    }
@@ -5977,7 +6193,11 @@
    "s": "nfl",
    "start": "2026-11-15T21:05:00Z",
    "title": "Las Vegas Raiders – Seattle Seahawks",
-   "sub": "Allegiant Stadium",
+   "sub": "Allegiant",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+   ],
    "res": {
     "head": "Las Vegas Raiders 13 – 21 Seattle Seahawks"
    }
@@ -5986,7 +6206,11 @@
    "s": "nfl",
    "start": "2026-11-15T21:05:00Z",
    "title": "Arizona Cardinals – Los Angeles Rams",
-   "sub": "State Farm Stadium",
+   "sub": "State Farm",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+   ],
    "res": {
     "head": "Arizona Cardinals 6 – 34 Los Angeles Rams"
    }
@@ -5995,7 +6219,11 @@
    "s": "nfl",
    "start": "2026-11-15T21:25:00Z",
    "title": "Dallas Cowboys – San Francisco 49ers",
-   "sub": "AT&T Stadium",
+   "sub": "AT&T",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+   ],
    "res": {
     "head": "Dallas Cowboys 40 – 46 San Francisco 49ers"
    }
@@ -6004,7 +6232,11 @@
    "s": "nfl",
    "start": "2026-11-16T01:20:00Z",
    "title": "Cincinnati Bengals – Pittsburgh Steelers",
-   "sub": "Paycor Stadium",
+   "sub": "Paycor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+   ],
    "res": {
     "head": "Cincinnati Bengals 38 – 18 Pittsburgh Steelers"
    }
@@ -6022,7 +6254,11 @@
    "s": "nfl",
    "start": "2026-11-17T01:15:00Z",
    "title": "Baltimore Ravens – Los Angeles Chargers",
-   "sub": "M&T Bank Stadium"
+   "sub": "M&T Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png"
+   ]
   },
   {
    "s": "tenis",
@@ -6040,13 +6276,21 @@
    "s": "nfl",
    "start": "2026-11-20T01:15:00Z",
    "title": "Houston Texans – Indianapolis Colts",
-   "sub": "Reliant Stadium"
+   "sub": "Reliant",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-20T20:00:00Z",
    "title": "Athletic Club – Espanyol",
-   "sub": "San Mamés"
+   "sub": "San Mamés",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+   ]
   },
   {
    "s": "f1",
@@ -6058,7 +6302,11 @@
    "s": "laliga",
    "start": "2026-11-21T13:00:00Z",
    "title": "Alavés – Deportivo",
-   "sub": "Mendizorrotza"
+   "sub": "Mendizorrotza",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+   ]
   },
   {
    "s": "motogp",
@@ -6070,19 +6318,31 @@
    "s": "laliga",
    "start": "2026-11-21T15:15:00Z",
    "title": "Rayo Vallecano – Valencia",
-   "sub": "Estadio de Vallecas"
+   "sub": "Vallecas",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-21T17:30:00Z",
    "title": "Sevilla – Real Betis",
-   "sub": "Ramón Sánchez Pizjuán Stadium"
+   "sub": "Sánchez Pizjuán",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-21T20:00:00Z",
    "title": "Real Madrid – Celta Vigo",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+   ]
   },
   {
    "s": "f1",
@@ -6094,7 +6354,11 @@
    "s": "laliga",
    "start": "2026-11-22T13:00:00Z",
    "title": "Barcelona – Villarreal",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
   },
   {
    "s": "motogp",
@@ -6106,241 +6370,401 @@
    "s": "laliga",
    "start": "2026-11-22T15:15:00Z",
    "title": "Racing Santander – Real Sociedad",
-   "sub": "El Sardineros"
+   "sub": "Sardineros",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-22T17:30:00Z",
    "title": "Osasuna – Málaga",
-   "sub": "El Sadar"
+   "sub": "El Sadar",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
    "title": "Buffalo Bills – Miami Dolphins",
-   "sub": "Highmark Stadium"
+   "sub": "Highmark",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
    "title": "Chicago Bears – New Orleans Saints",
-   "sub": "Soldier Field"
+   "sub": "Soldier Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
    "title": "Dallas Cowboys – Tennessee Titans",
-   "sub": "AT&T Stadium"
+   "sub": "AT&T",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
    "title": "Detroit Lions – Tampa Bay Buccaneers",
-   "sub": "Ford Field"
+   "sub": "Ford Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
    "title": "Kansas City Chiefs – Arizona Cardinals",
-   "sub": "Arrowhead Stadium"
+   "sub": "Arrowhead",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
    "title": "Philadelphia Eagles – Pittsburgh Steelers",
-   "sub": "Lincoln Financial Field"
+   "sub": "Lincoln Financial",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
    "title": "Carolina Panthers – Baltimore Ravens",
-   "sub": "Bank of America Stadium"
+   "sub": "Bank of America",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-22T20:00:00Z",
    "title": "Getafe – Atlético Madrid",
-   "sub": "Estadio Coliseum"
+   "sub": "Coliseum",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T21:05:00Z",
    "title": "Los Angeles Chargers – New York Jets",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T21:25:00Z",
    "title": "Denver Broncos – Las Vegas Raiders",
-   "sub": "Empower Field at Mile High"
+   "sub": "Mile High",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-22T21:25:00Z",
    "title": "New York Giants – Jacksonville Jaguars",
-   "sub": "MetLife Stadium"
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-23T01:20:00Z",
    "title": "San Francisco 49ers – Minnesota Vikings",
-   "sub": "Estadio Banorte"
+   "sub": "Banorte",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-23T20:00:00Z",
    "title": "Levante – Elche",
-   "sub": "Estadi Ciutat de València"
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-24T01:15:00Z",
    "title": "Washington Commanders – Cincinnati Bengals",
-   "sub": "Northwest Stadium"
+   "sub": "Northwest",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T17:45:00Z",
    "title": "Bodo/Glimt – LASK Linz",
-   "sub": "Aspmyra Stadion"
+   "sub": "Aspmyra",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T17:45:00Z",
    "title": "Galatasaray – Aston Villa",
-   "sub": "RAMS Park"
+   "sub": "RAMS Park",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T20:00:00Z",
    "title": "Arsenal – Borussia Dortmund",
-   "sub": "Emirates Stadium"
+   "sub": "Emirates",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T20:00:00Z",
    "title": "Como – AEK Athens",
-   "sub": "Giuseppe Sinigaglia"
+   "sub": "Giuseppe Sinigaglia",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/887.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T20:00:00Z",
    "title": "Feyenoord Rotterdam – FC Porto",
-   "sub": "De Kuip"
+   "sub": "De Kuip",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/437.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T20:00:00Z",
    "title": "Manchester City – Napoli",
-   "sub": "Etihad Stadium"
+   "sub": "Etihad",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T20:00:00Z",
    "title": "RB Leipzig – Lens",
-   "sub": "Red Bull Arena"
+   "sub": "Red Bull Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/175.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T20:00:00Z",
    "title": "Real Madrid – PSV Eindhoven",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/148.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-24T20:00:00Z",
    "title": "Slovan Bratislava – Real Betis",
-   "sub": "Národny Futbalovy Stadión"
+   "sub": "Národny Futbalovy",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T17:45:00Z",
    "title": "Sabah FK – Barcelona",
-   "sub": "Baku Olympic Stadium"
+   "sub": "Baku Olympic",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T17:45:00Z",
    "title": "Slavia Prague – Villarreal",
-   "sub": "Fortuna Arena"
+   "sub": "Fortuna Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T20:00:00Z",
    "title": "Atlético Madrid – Viking FK",
-   "sub": "Riyadh Air Metropolitano"
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/510.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T20:00:00Z",
    "title": "Club Brugge – Liverpool",
-   "sub": "Jan Breydel Stadium"
+   "sub": "Jan Breydel",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T20:00:00Z",
    "title": "Internazionale – VfB Stuttgart",
-   "sub": "San Siro"
+   "sub": "San Siro",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T20:00:00Z",
    "title": "Lille – Bayern Munich",
-   "sub": "Decathlon Arena - Stade Pierre-Mauroy"
+   "sub": "Arena Pierre Mauroy",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T20:00:00Z",
    "title": "Paris Saint-Germain – AS Roma",
-   "sub": "Parc des Princes"
+   "sub": "Parc des Princes",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T20:00:00Z",
    "title": "Shakhtar Donetsk – Fenerbahce",
-   "sub": "Stamford Bridge"
+   "sub": "Stamford Bridge",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-11-25T20:00:00Z",
    "title": "Sporting CP – Manchester United",
-   "sub": "Estádio José Alvalade"
+   "sub": "Alvalade",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-26T01:00:00Z",
    "title": "Los Angeles Rams – Green Bay Packers",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-26T18:00:00Z",
    "title": "Detroit Lions – Chicago Bears",
-   "sub": "Ford Field"
+   "sub": "Ford Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-26T21:30:00Z",
    "title": "Dallas Cowboys – Philadelphia Eagles",
-   "sub": "AT&T Stadium"
+   "sub": "AT&T",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-27T01:20:00Z",
    "title": "Buffalo Bills – Kansas City Chiefs",
-   "sub": "Highmark Stadium"
+   "sub": "Highmark",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-27T20:00:00Z",
    "title": "Levante – Racing Santander",
-   "sub": "Estadi Ciutat de València"
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-27T20:00:00Z",
    "title": "Pittsburgh Steelers – Denver Broncos",
-   "sub": "Acrisure Stadium"
+   "sub": "Acrisure",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+   ]
   },
   {
    "s": "padel",
@@ -6353,7 +6777,11 @@
    "s": "laliga",
    "start": "2026-11-28T13:00:00Z",
    "title": "Real Betis – Rayo Vallecano",
-   "sub": "Estadio La Cartuja"
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ]
   },
   {
    "s": "motogp",
@@ -6365,13 +6793,21 @@
    "s": "laliga",
    "start": "2026-11-28T15:15:00Z",
    "title": "Málaga – Athletic Club",
-   "sub": "La Rosaleda"
+   "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-28T17:30:00Z",
    "title": "Elche – Atlético Madrid",
-   "sub": "Estadio Martínez Valero"
+   "sub": "Martínez Valero",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "f1",
@@ -6383,7 +6819,11 @@
    "s": "laliga",
    "start": "2026-11-28T20:00:00Z",
    "title": "Real Madrid – Alavés",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ]
   },
   {
    "s": "padel",
@@ -6396,7 +6836,11 @@
    "s": "laliga",
    "start": "2026-11-29T13:00:00Z",
    "title": "Valencia – Osasuna",
-   "sub": "Mestalla Stadium"
+   "sub": "Mestalla",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+   ]
   },
   {
    "s": "motogp",
@@ -6408,7 +6852,11 @@
    "s": "laliga",
    "start": "2026-11-29T15:15:00Z",
    "title": "Deportivo – Barcelona",
-   "sub": "Riazor"
+   "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
   },
   {
    "s": "f1",
@@ -6420,67 +6868,111 @@
    "s": "laliga",
    "start": "2026-11-29T17:30:00Z",
    "title": "Celta Vigo – Villarreal",
-   "sub": "Balaidos"
+   "sub": "Balaídos",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T18:00:00Z",
    "title": "Cincinnati Bengals – New Orleans Saints",
-   "sub": "Paycor Stadium"
+   "sub": "Paycor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T18:00:00Z",
    "title": "Cleveland Browns – Las Vegas Raiders",
-   "sub": "Huntington Bank Field"
+   "sub": "Huntington Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T18:00:00Z",
    "title": "Indianapolis Colts – New York Giants",
-   "sub": "Lucas Oil Stadium"
+   "sub": "Lucas Oil",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T18:00:00Z",
    "title": "Miami Dolphins – New York Jets",
-   "sub": "Hard Rock Stadium"
+   "sub": "Hard Rock",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T18:00:00Z",
    "title": "Minnesota Vikings – Atlanta Falcons",
-   "sub": "U.S. Bank Stadium"
+   "sub": "U.S. Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T18:00:00Z",
    "title": "Houston Texans – Baltimore Ravens",
-   "sub": "Reliant Stadium"
+   "sub": "Reliant",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-29T20:00:00Z",
    "title": "Real Sociedad – Sevilla",
-   "sub": "Reale Arena"
+   "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T21:05:00Z",
    "title": "Jacksonville Jaguars – Tennessee Titans",
-   "sub": "EverBank Stadium"
+   "sub": "EverBank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T21:25:00Z",
    "title": "Arizona Cardinals – Washington Commanders",
-   "sub": "State Farm Stadium"
+   "sub": "State Farm",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-11-29T21:25:00Z",
    "title": "San Francisco 49ers – Seattle Seahawks",
-   "sub": "Levi's Stadium"
+   "sub": "Levi's",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+   ]
   },
   {
    "s": "padel",
@@ -6493,49 +6985,81 @@
    "s": "nfl",
    "start": "2026-11-30T01:20:00Z",
    "title": "Los Angeles Chargers – New England Patriots",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-11-30T20:00:00Z",
    "title": "Espanyol – Getafe",
-   "sub": "RCDE Stadium"
+   "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-01T01:15:00Z",
    "title": "Tampa Bay Buccaneers – Carolina Panthers",
-   "sub": "Raymond James Stadium"
+   "sub": "Raymond James",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-02T18:00:00Z",
    "title": "Real Sociedad – Real Madrid",
-   "sub": "Reale Arena"
+   "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-02T20:30:00Z",
    "title": "Barcelona – Atlético Madrid",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-04T01:15:00Z",
    "title": "Los Angeles Rams – Kansas City Chiefs",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-04T20:00:00Z",
    "title": "Alavés – Espanyol",
-   "sub": "Mendizorrotza"
+   "sub": "Mendizorrotza",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-05T13:00:00Z",
    "title": "Racing Santander – Deportivo",
-   "sub": "El Sardineros"
+   "sub": "Sardineros",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+   ]
   },
   {
    "s": "f1",
@@ -6547,19 +7071,31 @@
    "s": "laliga",
    "start": "2026-12-05T15:15:00Z",
    "title": "Rayo Vallecano – Levante",
-   "sub": "Estadio de Vallecas"
+   "sub": "Vallecas",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-05T17:30:00Z",
    "title": "Villarreal – Real Sociedad",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-05T20:00:00Z",
    "title": "Barcelona – Celta Vigo",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+   ]
   },
   {
    "s": "f1",
@@ -6571,229 +7107,381 @@
    "s": "laliga",
    "start": "2026-12-06T13:00:00Z",
    "title": "Osasuna – Elche",
-   "sub": "El Sadar"
+   "sub": "El Sadar",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-06T15:15:00Z",
    "title": "Athletic Club – Real Madrid",
-   "sub": "San Mamés"
+   "sub": "San Mamés",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-06T17:30:00Z",
    "title": "Getafe – Valencia",
-   "sub": "Estadio Coliseum"
+   "sub": "Coliseum",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T18:00:00Z",
    "title": "Atlanta Falcons – Detroit Lions",
-   "sub": "Mercedes-Benz Stadium"
+   "sub": "Mercedes-Benz",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T18:00:00Z",
    "title": "Chicago Bears – Jacksonville Jaguars",
-   "sub": "Soldier Field"
+   "sub": "Soldier Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T18:00:00Z",
    "title": "Cleveland Browns – Cincinnati Bengals",
-   "sub": "Huntington Bank Field"
+   "sub": "Huntington Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T18:00:00Z",
    "title": "Tennessee Titans – Washington Commanders",
-   "sub": "Nissan Stadium"
+   "sub": "Nissan",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T18:00:00Z",
    "title": "New Orleans Saints – Green Bay Packers",
-   "sub": "Caesars Superdome"
+   "sub": "Superdome",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T18:00:00Z",
    "title": "New York Giants – San Francisco 49ers",
-   "sub": "MetLife Stadium"
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T18:00:00Z",
    "title": "Tampa Bay Buccaneers – Los Angeles Chargers",
-   "sub": "Raymond James Stadium"
+   "sub": "Raymond James",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-06T20:00:00Z",
    "title": "Atlético Madrid – Real Betis",
-   "sub": "Riyadh Air Metropolitano"
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T21:05:00Z",
    "title": "Denver Broncos – Miami Dolphins",
-   "sub": "Empower Field at Mile High"
+   "sub": "Mile High",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T21:05:00Z",
    "title": "Arizona Cardinals – Philadelphia Eagles",
-   "sub": "State Farm Stadium"
+   "sub": "State Farm",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T21:25:00Z",
    "title": "Minnesota Vikings – Carolina Panthers",
-   "sub": "U.S. Bank Stadium"
+   "sub": "U.S. Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-06T21:25:00Z",
    "title": "New England Patriots – Buffalo Bills",
-   "sub": "Gillette Stadium"
+   "sub": "Gillette",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-07T01:20:00Z",
    "title": "Pittsburgh Steelers – Houston Texans",
-   "sub": "Acrisure Stadium"
+   "sub": "Acrisure",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-07T20:00:00Z",
    "title": "Sevilla – Málaga",
-   "sub": "Ramón Sánchez Pizjuán Stadium"
+   "sub": "Sánchez Pizjuán",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-08T01:15:00Z",
    "title": "Seattle Seahawks – Dallas Cowboys",
-   "sub": "Lumen Field"
+   "sub": "Lumen Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T17:45:00Z",
    "title": "Viking FK – Feyenoord Rotterdam",
-   "sub": "Viking Stadion"
+   "sub": "Viking",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/142.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T17:45:00Z",
    "title": "Villarreal – Sabah FK",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T20:00:00Z",
    "title": "AEK Athens – Galatasaray",
-   "sub": "OPAP Arena"
+   "sub": "OPAP Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T20:00:00Z",
    "title": "AS Roma – Sporting CP",
-   "sub": "Olimpico"
+   "sub": "Olímpico",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T20:00:00Z",
    "title": "Aston Villa – Paris Saint-Germain",
-   "sub": "Villa Park"
+   "sub": "Villa Park",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T20:00:00Z",
    "title": "Barcelona – Manchester City",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T20:00:00Z",
    "title": "Bayern Munich – Slavia Prague",
-   "sub": "Allianz Arena"
+   "sub": "Allianz Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/494.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T20:00:00Z",
    "title": "Manchester United – RB Leipzig",
-   "sub": "Old Trafford"
+   "sub": "Old Trafford",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-08T20:00:00Z",
    "title": "Napoli – Club Brugge",
-   "sub": "Stadio Diego Armando Maradona"
+   "sub": "Armando Maradona",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/570.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T17:45:00Z",
    "title": "Real Betis – Como",
-   "sub": "Estadio La Cartuja"
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T17:45:00Z",
    "title": "Slovan Bratislava – Shakhtar Donetsk",
-   "sub": "Národny Futbalovy Stadión"
+   "sub": "Národny Futbalovy",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/493.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-09T19:00:00Z",
    "title": "Rayo Vallecano – Athletic Club",
-   "sub": "Estadio de Vallecas"
+   "sub": "Vallecas",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T20:00:00Z",
    "title": "Arsenal – Real Madrid",
-   "sub": "Emirates Stadium"
+   "sub": "Emirates",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T20:00:00Z",
    "title": "Borussia Dortmund – Internazionale",
-   "sub": "Signal Iduna Park"
+   "sub": "Signal Iduna Park",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T20:00:00Z",
    "title": "LASK Linz – Fenerbahce",
-   "sub": "Raiffeisen Arena (Linz)"
+   "sub": "Arena (Linz)",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T20:00:00Z",
    "title": "Lens – Bodo/Glimt",
-   "sub": "Stade Bollaert-Delelis"
+   "sub": "Bollaert Delelis",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T20:00:00Z",
    "title": "Liverpool – FC Porto",
-   "sub": "Anfield"
+   "sub": "Anfield",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/437.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T20:00:00Z",
    "title": "PSV Eindhoven – Atlético Madrid",
-   "sub": "Philips Stadion"
+   "sub": "Philips",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2026-12-09T20:00:00Z",
    "title": "VfB Stuttgart – Lille",
-   "sub": "MHPArena"
+   "sub": "MHPArena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-11T01:15:00Z",
    "title": "New England Patriots – Minnesota Vikings",
-   "sub": "Gillette Stadium"
+   "sub": "Gillette",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
+   ]
   },
   {
    "s": "padel",
@@ -6813,133 +7501,221 @@
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "Cleveland Browns – Atlanta Falcons",
-   "sub": "Huntington Bank Field"
+   "sub": "Huntington Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "Detroit Lions – Tennessee Titans",
-   "sub": "Ford Field"
+   "sub": "Ford Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "Miami Dolphins – Chicago Bears",
-   "sub": "Hard Rock Stadium"
+   "sub": "Hard Rock",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "New York Jets – Denver Broncos",
-   "sub": "MetLife Stadium"
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "Philadelphia Eagles – Indianapolis Colts",
-   "sub": "Lincoln Financial Field"
+   "sub": "Lincoln Financial",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "Washington Commanders – Houston Texans",
-   "sub": "Northwest Stadium"
+   "sub": "Northwest",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "Carolina Panthers – New Orleans Saints",
-   "sub": "Bank of America Stadium"
+   "sub": "Bank of America",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "Baltimore Ravens – Tampa Bay Buccaneers",
-   "sub": "M&T Bank Stadium"
+   "sub": "M&T Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Atlético Madrid – Valencia",
-   "sub": "Riyadh Air Metropolitano"
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Deportivo – Athletic Club",
-   "sub": "Riazor"
+   "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Elche – Sevilla",
-   "sub": "Estadio Martínez Valero"
+   "sub": "Martínez Valero",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Espanyol – Celta Vigo",
-   "sub": "RCDE Stadium"
+   "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Levante – Alavés",
-   "sub": "Estadi Ciutat de València"
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Málaga – Barcelona",
-   "sub": "La Rosaleda"
+   "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Real Betis – Racing Santander",
-   "sub": "Estadio La Cartuja"
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Real Madrid – Osasuna",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Real Sociedad – Getafe",
-   "sub": "Reale Arena"
+   "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
    "title": "Villarreal – Rayo Vallecano",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T21:05:00Z",
    "title": "Las Vegas Raiders – Los Angeles Chargers",
-   "sub": "Allegiant Stadium"
+   "sub": "Allegiant",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T21:25:00Z",
    "title": "Cincinnati Bengals – Kansas City Chiefs",
-   "sub": "Paycor Stadium"
+   "sub": "Paycor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T21:25:00Z",
    "title": "San Francisco 49ers – Los Angeles Rams",
-   "sub": "Levi's Stadium"
+   "sub": "Levi's",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-13T21:25:00Z",
    "title": "Seattle Seahawks – New York Giants",
-   "sub": "Lumen Field"
+   "sub": "Lumen Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+   ]
   },
   {
    "s": "padel",
@@ -6952,577 +7728,961 @@
    "s": "nfl",
    "start": "2026-12-14T01:20:00Z",
    "title": "Green Bay Packers – Buffalo Bills",
-   "sub": "Lambeau Field"
+   "sub": "Lambeau",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-15T01:15:00Z",
    "title": "Jacksonville Jaguars – Pittsburgh Steelers",
-   "sub": "EverBank Stadium"
+   "sub": "EverBank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-18T01:15:00Z",
    "title": "Los Angeles Chargers – San Francisco 49ers",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-19T22:00:00Z",
    "title": "Philadelphia Eagles – Seattle Seahawks",
-   "sub": "Lincoln Financial Field"
+   "sub": "Lincoln Financial",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T01:20:00Z",
    "title": "Buffalo Bills – Chicago Bears",
-   "sub": "Highmark Stadium"
+   "sub": "Highmark",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T18:00:00Z",
    "title": "Green Bay Packers – Miami Dolphins",
-   "sub": "Lambeau Field"
+   "sub": "Lambeau",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T18:00:00Z",
    "title": "Tennessee Titans – Indianapolis Colts",
-   "sub": "Nissan Stadium"
+   "sub": "Nissan",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T18:00:00Z",
    "title": "New York Giants – Cleveland Browns",
-   "sub": "MetLife Stadium"
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T18:00:00Z",
    "title": "Pittsburgh Steelers – Baltimore Ravens",
-   "sub": "Acrisure Stadium"
+   "sub": "Acrisure",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T18:00:00Z",
    "title": "Tampa Bay Buccaneers – New Orleans Saints",
-   "sub": "Raymond James Stadium"
+   "sub": "Raymond James",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T18:00:00Z",
    "title": "Washington Commanders – Atlanta Falcons",
-   "sub": "Northwest Stadium"
+   "sub": "Northwest",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T18:00:00Z",
    "title": "Carolina Panthers – Cincinnati Bengals",
-   "sub": "Bank of America Stadium"
+   "sub": "Bank of America",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T18:00:00Z",
    "title": "Houston Texans – Jacksonville Jaguars",
-   "sub": "Reliant Stadium"
+   "sub": "Reliant",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Alavés – Elche",
-   "sub": "Mendizorrotza"
+   "sub": "Mendizorrotza",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Athletic Club – Real Betis",
-   "sub": "San Mamés"
+   "sub": "San Mamés",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Barcelona – Real Sociedad",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Celta Vigo – Atlético Madrid",
-   "sub": "Balaidos"
+   "sub": "Balaídos",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Deportivo – Real Madrid",
-   "sub": "Riazor"
+   "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Getafe – Levante",
-   "sub": "Estadio Coliseum"
+   "sub": "Coliseum",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Osasuna – Villarreal",
-   "sub": "El Sadar"
+   "sub": "El Sadar",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Rayo Vallecano – Málaga",
-   "sub": "Estadio de Vallecas"
+   "sub": "Vallecas",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Sevilla – Racing Santander",
-   "sub": "Ramón Sánchez Pizjuán Stadium"
+   "sub": "Sánchez Pizjuán",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2026-12-20T20:00:00Z",
    "title": "Valencia – Espanyol",
-   "sub": "Mestalla Stadium"
+   "sub": "Mestalla",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T21:05:00Z",
    "title": "Arizona Cardinals – New York Jets",
-   "sub": "State Farm Stadium"
+   "sub": "State Farm",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T21:25:00Z",
    "title": "Las Vegas Raiders – Denver Broncos",
-   "sub": "Allegiant Stadium"
+   "sub": "Allegiant",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-20T21:25:00Z",
    "title": "Los Angeles Rams – Dallas Cowboys",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-21T01:20:00Z",
    "title": "Minnesota Vikings – Detroit Lions",
-   "sub": "U.S. Bank Stadium"
+   "sub": "U.S. Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-22T01:15:00Z",
    "title": "Kansas City Chiefs – New England Patriots",
-   "sub": "Arrowhead Stadium"
+   "sub": "Arrowhead",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-25T01:15:00Z",
    "title": "Philadelphia Eagles – Houston Texans",
-   "sub": "Lincoln Financial Field"
+   "sub": "Lincoln Financial",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-25T18:00:00Z",
    "title": "Chicago Bears – Green Bay Packers",
-   "sub": "Soldier Field"
+   "sub": "Soldier Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-25T21:30:00Z",
    "title": "Denver Broncos – Buffalo Bills",
-   "sub": "Empower Field at Mile High"
+   "sub": "Mile High",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-26T01:15:00Z",
    "title": "Seattle Seahawks – Los Angeles Rams",
-   "sub": "Lumen Field"
+   "sub": "Lumen Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T05:00:00Z",
    "title": "Atlanta Falcons – Tampa Bay Buccaneers",
-   "sub": "Mercedes-Benz Stadium"
+   "sub": "Mercedes-Benz",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T05:00:00Z",
    "title": "Indianapolis Colts – Cincinnati Bengals",
-   "sub": "Lucas Oil Stadium"
+   "sub": "Lucas Oil",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T05:00:00Z",
    "title": "Minnesota Vikings – Washington Commanders",
-   "sub": "U.S. Bank Stadium"
+   "sub": "U.S. Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T05:00:00Z",
    "title": "Pittsburgh Steelers – Carolina Panthers",
-   "sub": "Acrisure Stadium"
+   "sub": "Acrisure",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T18:00:00Z",
    "title": "Miami Dolphins – Los Angeles Chargers",
-   "sub": "Hard Rock Stadium"
+   "sub": "Hard Rock",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T18:00:00Z",
    "title": "New Orleans Saints – Arizona Cardinals",
-   "sub": "Caesars Superdome"
+   "sub": "Superdome",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T18:00:00Z",
    "title": "New York Jets – New England Patriots",
-   "sub": "MetLife Stadium"
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T18:00:00Z",
    "title": "Baltimore Ravens – Cleveland Browns",
-   "sub": "M&T Bank Stadium"
+   "sub": "M&T Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T21:05:00Z",
    "title": "Las Vegas Raiders – Tennessee Titans",
-   "sub": "Allegiant Stadium"
+   "sub": "Allegiant",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-27T21:25:00Z",
    "title": "Kansas City Chiefs – San Francisco 49ers",
-   "sub": "Arrowhead Stadium"
+   "sub": "Arrowhead",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-28T01:20:00Z",
    "title": "Dallas Cowboys – Jacksonville Jaguars",
-   "sub": "AT&T Stadium"
+   "sub": "AT&T",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2026-12-29T01:15:00Z",
    "title": "Detroit Lions – New York Giants",
-   "sub": "Ford Field"
+   "sub": "Ford Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-01T01:15:00Z",
    "title": "Cincinnati Bengals – Baltimore Ravens",
-   "sub": "Paycor Stadium"
+   "sub": "Paycor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T05:00:00Z",
    "title": "New England Patriots – Denver Broncos",
-   "sub": "Gillette Stadium"
+   "sub": "Gillette",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T05:00:00Z",
    "title": "Los Angeles Chargers – Kansas City Chiefs",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T05:00:00Z",
    "title": "Tampa Bay Buccaneers – Los Angeles Rams",
-   "sub": "Raymond James Stadium"
+   "sub": "Raymond James",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T05:00:00Z",
    "title": "Jacksonville Jaguars – Washington Commanders",
-   "sub": "EverBank Stadium"
+   "sub": "EverBank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T18:00:00Z",
    "title": "Atlanta Falcons – New Orleans Saints",
-   "sub": "Mercedes-Benz Stadium"
+   "sub": "Mercedes-Benz",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T18:00:00Z",
    "title": "Cleveland Browns – Indianapolis Colts",
-   "sub": "Huntington Bank Field"
+   "sub": "Huntington Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T18:00:00Z",
    "title": "Dallas Cowboys – New York Giants",
-   "sub": "AT&T Stadium"
+   "sub": "AT&T",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T18:00:00Z",
    "title": "Tennessee Titans – Pittsburgh Steelers",
-   "sub": "Nissan Stadium"
+   "sub": "Nissan",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T18:00:00Z",
    "title": "Miami Dolphins – Buffalo Bills",
-   "sub": "Hard Rock Stadium"
+   "sub": "Hard Rock",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T18:00:00Z",
    "title": "New York Jets – Minnesota Vikings",
-   "sub": "MetLife Stadium"
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T18:00:00Z",
    "title": "Carolina Panthers – Seattle Seahawks",
-   "sub": "Bank of America Stadium"
+   "sub": "Bank of America",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Celta Vigo – Deportivo",
-   "sub": "Balaidos"
+   "sub": "Balaídos",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Espanyol – Barcelona",
-   "sub": "RCDE Stadium"
+   "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Levante – Valencia",
-   "sub": "Estadi Ciutat de València"
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Málaga – Elche",
-   "sub": "La Rosaleda"
+   "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Racing Santander – Athletic Club",
-   "sub": "El Sardineros"
+   "sub": "Sardineros",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Rayo Vallecano – Atlético Madrid",
-   "sub": "Estadio de Vallecas"
+   "sub": "Vallecas",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Real Betis – Alavés",
-   "sub": "Estadio La Cartuja"
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Real Madrid – Getafe",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Real Sociedad – Osasuna",
-   "sub": "Reale Arena"
+   "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-03T20:00:00Z",
    "title": "Villarreal – Sevilla",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T21:05:00Z",
    "title": "Arizona Cardinals – Las Vegas Raiders",
-   "sub": "State Farm Stadium"
+   "sub": "State Farm",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-03T21:25:00Z",
    "title": "Chicago Bears – Detroit Lions",
-   "sub": "Soldier Field"
+   "sub": "Soldier Field",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-04T01:20:00Z",
    "title": "San Francisco 49ers – Philadelphia Eagles",
-   "sub": "Levi's Stadium"
+   "sub": "Levi's",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-05T01:15:00Z",
    "title": "Green Bay Packers – Houston Texans",
-   "sub": "Lambeau Field"
+   "sub": "Lambeau",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Buffalo Bills – New York Jets",
-   "sub": "Highmark Stadium"
+   "sub": "Highmark",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Cincinnati Bengals – Cleveland Browns",
-   "sub": "Paycor Stadium"
+   "sub": "Paycor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Denver Broncos – Los Angeles Chargers",
-   "sub": "Empower Field at Mile High"
+   "sub": "Mile High",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Green Bay Packers – Detroit Lions",
-   "sub": "Lambeau Field"
+   "sub": "Lambeau",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Indianapolis Colts – Jacksonville Jaguars",
-   "sub": "Lucas Oil Stadium"
+   "sub": "Lucas Oil",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Kansas City Chiefs – Las Vegas Raiders",
-   "sub": "Arrowhead Stadium"
+   "sub": "Arrowhead",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Los Angeles Rams – Seattle Seahawks",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Minnesota Vikings – Chicago Bears",
-   "sub": "U.S. Bank Stadium"
+   "sub": "U.S. Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "New England Patriots – Miami Dolphins",
-   "sub": "Gillette Stadium"
+   "sub": "Gillette",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "New Orleans Saints – Tampa Bay Buccaneers",
-   "sub": "Caesars Superdome"
+   "sub": "Superdome",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "New York Giants – Philadelphia Eagles",
-   "sub": "MetLife Stadium"
+   "sub": "MetLife",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Arizona Cardinals – San Francisco 49ers",
-   "sub": "State Farm Stadium"
+   "sub": "State Farm",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Washington Commanders – Dallas Cowboys",
-   "sub": "Northwest Stadium"
+   "sub": "Northwest",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Carolina Panthers – Atlanta Falcons",
-   "sub": "Bank of America Stadium"
+   "sub": "Bank of America",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Baltimore Ravens – Pittsburgh Steelers",
-   "sub": "M&T Bank Stadium"
+   "sub": "M&T Bank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-01-10T05:00:00Z",
    "title": "Houston Texans – Tennessee Titans",
-   "sub": "Reliant Stadium"
+   "sub": "Reliant",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Alavés – Real Sociedad",
-   "sub": "Mendizorrotza"
+   "sub": "Mendizorrotza",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Athletic Club – Villarreal",
-   "sub": "San Mamés"
+   "sub": "San Mamés",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Atlético Madrid – Racing Santander",
-   "sub": "Riyadh Air Metropolitano"
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Deportivo – Rayo Vallecano",
-   "sub": "Riazor"
+   "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Elche – Getafe",
-   "sub": "Estadio Martínez Valero"
+   "sub": "Martínez Valero",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Espanyol – Real Betis",
-   "sub": "RCDE Stadium"
+   "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Osasuna – Barcelona",
-   "sub": "El Sadar"
+   "sub": "El Sadar",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Real Madrid – Levante",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Sevilla – Celta Vigo",
-   "sub": "Ramón Sánchez Pizjuán Stadium"
+   "sub": "Sánchez Pizjuán",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-10T20:00:00Z",
    "title": "Valencia – Málaga",
-   "sub": "Mestalla Stadium"
+   "sub": "Mestalla",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+   ]
   },
   {
    "s": "nfl",
@@ -7540,61 +8700,101 @@
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Atlético Madrid – Real Sociedad",
-   "sub": "Riyadh Air Metropolitano"
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Barcelona – Elche",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Celta Vigo – Valencia",
-   "sub": "Balaidos"
+   "sub": "Balaídos",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Getafe – Athletic Club",
-   "sub": "Estadio Coliseum"
+   "sub": "Coliseum",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Levante – Espanyol",
-   "sub": "Estadi Ciutat de València"
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Málaga – Real Madrid",
-   "sub": "La Rosaleda"
+   "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Racing Santander – Osasuna",
-   "sub": "El Sardineros"
+   "sub": "Sardineros",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Rayo Vallecano – Sevilla",
-   "sub": "Estadio de Vallecas"
+   "sub": "Vallecas",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Real Betis – Deportivo",
-   "sub": "Estadio La Cartuja"
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-17T20:00:00Z",
    "title": "Villarreal – Alavés",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ]
   },
   {
    "s": "nfl",
@@ -7606,109 +8806,181 @@
    "s": "champions",
    "start": "2027-01-19T17:45:00Z",
    "title": "Bodo/Glimt – Atlético Madrid",
-   "sub": "Aspmyra Stadion"
+   "sub": "Aspmyra",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-19T17:45:00Z",
    "title": "Galatasaray – Feyenoord Rotterdam",
-   "sub": "RAMS Park"
+   "sub": "RAMS Park",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/142.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-19T20:00:00Z",
    "title": "AEK Athens – AS Roma",
-   "sub": "OPAP Arena"
+   "sub": "OPAP Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-19T20:00:00Z",
    "title": "Aston Villa – Borussia Dortmund",
-   "sub": "Villa Park"
+   "sub": "Villa Park",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-19T20:00:00Z",
    "title": "FC Porto – Slavia Prague",
-   "sub": "Estádio do Dragão"
+   "sub": "Estádio do Dragão",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/494.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-19T20:00:00Z",
    "title": "Internazionale – Liverpool",
-   "sub": "San Siro"
+   "sub": "San Siro",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-19T20:00:00Z",
    "title": "Lille – Slovan Bratislava",
-   "sub": "Decathlon Arena - Stade Pierre-Mauroy"
+   "sub": "Arena Pierre Mauroy",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/521.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-19T20:00:00Z",
    "title": "Real Madrid – LASK Linz",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-19T20:00:00Z",
    "title": "VfB Stuttgart – Club Brugge",
-   "sub": "MHPArena"
+   "sub": "MHPArena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/570.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T17:45:00Z",
    "title": "Fenerbahce – Villarreal",
-   "sub": "Şükrü Saracoğlu Stadium"
+   "sub": "Şükrü Saracoğlu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T17:45:00Z",
    "title": "Sabah FK – Napoli",
-   "sub": "Baku Olympic Stadium"
+   "sub": "Baku Olympic",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T20:00:00Z",
    "title": "Como – Paris Saint-Germain",
-   "sub": "Giuseppe Sinigaglia"
+   "sub": "Giuseppe Sinigaglia",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T20:00:00Z",
    "title": "Lens – Manchester City",
-   "sub": "Stade Bollaert-Delelis"
+   "sub": "Bollaert Delelis",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T20:00:00Z",
    "title": "Manchester United – Bayern Munich",
-   "sub": "Old Trafford"
+   "sub": "Old Trafford",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T20:00:00Z",
    "title": "RB Leipzig – Shakhtar Donetsk",
-   "sub": "Red Bull Arena"
+   "sub": "Red Bull Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/493.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T20:00:00Z",
    "title": "Real Betis – Arsenal",
-   "sub": "Estadio La Cartuja"
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T20:00:00Z",
    "title": "Sporting CP – Barcelona",
-   "sub": "Estádio José Alvalade"
+   "sub": "Alvalade",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-20T20:00:00Z",
    "title": "Viking FK – PSV Eindhoven",
-   "sub": "Viking Stadion"
+   "sub": "Viking",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/148.png"
+   ]
   },
   {
    "s": "nfl",
@@ -7726,169 +8998,281 @@
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Alavés – Barcelona",
-   "sub": "Mendizorrotza"
+   "sub": "Mendizorrotza",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Athletic Club – Levante",
-   "sub": "San Mamés"
+   "sub": "San Mamés",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Deportivo – Atlético Madrid",
-   "sub": "Riazor"
+   "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Elche – Rayo Vallecano",
-   "sub": "Estadio Martínez Valero"
+   "sub": "Martínez Valero",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Espanyol – Villarreal",
-   "sub": "RCDE Stadium"
+   "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Getafe – Osasuna",
-   "sub": "Estadio Coliseum"
+   "sub": "Coliseum",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Racing Santander – Celta Vigo",
-   "sub": "El Sardineros"
+   "sub": "Sardineros",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Real Madrid – Real Betis",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Real Sociedad – Málaga",
-   "sub": "Reale Arena"
+   "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-24T20:00:00Z",
    "title": "Valencia – Sevilla",
-   "sub": "Mestalla Stadium"
+   "sub": "Mestalla",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Arsenal – Sabah FK",
-   "sub": "Emirates Stadium"
+   "sub": "Emirates",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "AS Roma – Lille",
-   "sub": "Olimpico"
+   "sub": "Olímpico",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Atlético Madrid – Fenerbahce",
-   "sub": "Riyadh Air Metropolitano"
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Barcelona – Como",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Bayern Munich – Real Betis",
-   "sub": "Allianz Arena"
+   "sub": "Allianz Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Borussia Dortmund – AEK Athens",
-   "sub": "Signal Iduna Park"
+   "sub": "Signal Iduna Park",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/887.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Club Brugge – Bodo/Glimt",
-   "sub": "Jan Breydel Stadium"
+   "sub": "Jan Breydel",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Feyenoord Rotterdam – RB Leipzig",
-   "sub": "De Kuip"
+   "sub": "De Kuip",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "LASK Linz – FC Porto",
-   "sub": "Raiffeisen Arena (Linz)"
+   "sub": "Arena (Linz)",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/437.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Liverpool – Lens",
-   "sub": "Anfield"
+   "sub": "Anfield",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/175.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Manchester City – Sporting CP",
-   "sub": "Etihad Stadium"
+   "sub": "Etihad",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Napoli – Viking FK",
-   "sub": "Stadio Diego Armando Maradona"
+   "sub": "Armando Maradona",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/510.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Paris Saint-Germain – Galatasaray",
-   "sub": "Parc des Princes"
+   "sub": "Parc des Princes",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "PSV Eindhoven – VfB Stuttgart",
-   "sub": "Philips Stadion"
+   "sub": "Philips",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Shakhtar Donetsk – Real Madrid",
-   "sub": "Stamford Bridge"
+   "sub": "Stamford Bridge",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Slavia Prague – Aston Villa",
-   "sub": "Fortuna Arena"
+   "sub": "Fortuna Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Slovan Bratislava – Internazionale",
-   "sub": "Národny Futbalovy Stadión"
+   "sub": "Národny Futbalovy",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+   ]
   },
   {
    "s": "champions",
    "start": "2027-01-27T20:00:00Z",
    "title": "Villarreal – Manchester United",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+   ]
   },
   {
    "s": "nfl",
@@ -7900,235 +9284,387 @@
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Atlético Madrid – Espanyol",
-   "sub": "Riyadh Air Metropolitano"
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Barcelona – Valencia",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Celta Vigo – Getafe",
-   "sub": "Balaidos"
+   "sub": "Balaídos",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Levante – Real Sociedad",
-   "sub": "Estadi Ciutat de València"
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Málaga – Alavés",
-   "sub": "La Rosaleda"
+   "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Osasuna – Deportivo",
-   "sub": "El Sadar"
+   "sub": "El Sadar",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Rayo Vallecano – Real Madrid",
-   "sub": "Estadio de Vallecas"
+   "sub": "Vallecas",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Real Betis – Elche",
-   "sub": "Estadio La Cartuja"
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Sevilla – Athletic Club",
-   "sub": "Ramón Sánchez Pizjuán Stadium"
+   "sub": "Sánchez Pizjuán",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-01-31T20:00:00Z",
    "title": "Villarreal – Racing Santander",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-07T20:00:00Z",
    "title": "Alavés – Celta Vigo",
-   "sub": "Mendizorrotza"
+   "sub": "Mendizorrotza",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-07T20:00:00Z",
    "title": "Athletic Club – Osasuna",
-   "sub": "San Mamés"
+   "sub": "San Mamés",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-07T20:00:00Z",
    "title": "Deportivo – Málaga",
-   "sub": "Riazor"
+   "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-07T20:00:00Z",
    "title": "Elche – Levante",
-   "sub": "Estadio Martínez Valero"
+   "sub": "Martínez Valero",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-07T20:00:00Z",
    "title": "Espanyol – Rayo Vallecano",
-   "sub": "RCDE Stadium"
+   "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-07T20:00:00Z",
    "title": "Getafe – Villarreal",
-   "sub": "Estadio Coliseum"
+   "sub": "Coliseum",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-07T20:00:00Z",
    "title": "Real Betis – Sevilla",
-   "sub": "Estadio La Cartuja"
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-07T20:00:00Z",
    "title": "Valencia – Racing Santander",
-   "sub": "Mestalla Stadium"
+   "sub": "Mestalla",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Celta Vigo – Rayo Vallecano",
-   "sub": "Balaidos"
+   "sub": "Balaídos",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Elche – Deportivo",
-   "sub": "Estadio Martínez Valero"
+   "sub": "Martínez Valero",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Levante – Málaga",
-   "sub": "Estadi Ciutat de València"
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Osasuna – Atlético Madrid",
-   "sub": "El Sadar"
+   "sub": "El Sadar",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Racing Santander – Getafe",
-   "sub": "El Sardineros"
+   "sub": "Sardineros",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Real Madrid – Athletic Club",
-   "sub": "Santiago Bernabéu"
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Real Sociedad – Real Betis",
-   "sub": "Reale Arena"
+   "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Sevilla – Espanyol",
-   "sub": "Ramón Sánchez Pizjuán Stadium"
+   "sub": "Sánchez Pizjuán",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Valencia – Alavés",
-   "sub": "Mestalla Stadium"
+   "sub": "Mestalla",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-14T20:00:00Z",
    "title": "Villarreal – Barcelona",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
   },
   {
    "s": "nfl",
    "start": "2027-02-14T23:30:00Z",
    "title": "TBD – TBD",
-   "sub": "SoFi Stadium"
+   "sub": "SoFi"
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Alavés – Racing Santander",
-   "sub": "Mendizorrotza"
+   "sub": "Mendizorrotza",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Athletic Club – Celta Vigo",
-   "sub": "San Mamés"
+   "sub": "San Mamés",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Atlético Madrid – Elche",
-   "sub": "Riyadh Air Metropolitano"
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Barcelona – Levante",
-   "sub": "Spotify Camp Nou"
+   "sub": "Camp Nou",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Deportivo – Real Sociedad",
-   "sub": "Riazor"
+   "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Espanyol – Osasuna",
-   "sub": "RCDE Stadium"
+   "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Málaga – Real Betis",
-   "sub": "La Rosaleda"
+   "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Rayo Vallecano – Getafe",
-   "sub": "Estadio de Vallecas"
+   "sub": "Vallecas",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Sevilla – Real Madrid",
-   "sub": "Ramón Sánchez Pizjuán Stadium"
+   "sub": "Sánchez Pizjuán",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+   ]
   },
   {
    "s": "laliga",
    "start": "2027-02-21T20:00:00Z",
    "title": "Villarreal – Valencia",
-   "sub": "Estadio de la Cerámica"
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
   }
  ]
 }
