@@ -227,8 +227,13 @@ def main():
 
     uniq = {(e["s"], e.get("start") or e["date"], e["title"]): e for e in events}
     events = sorted(uniq.values(), key=lambda e: (e.get("start") or e["date"] + "T99"))
-    OUT.write_text(json.dumps({"updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:00Z"),
-                               "events": events}, ensure_ascii=False, indent=1), "utf-8")
+    try:
+        same = json.loads(OUT.read_text("utf-8")).get("events") == events
+    except Exception:
+        same = False
+    if not same:
+        OUT.write_text(json.dumps({"updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:00Z"),
+                                   "events": events}, ensure_ascii=False, indent=1), "utf-8")
     real = sum(1 for e in events if "start" in e)
     print(f"padel: {len(events)} eventos ({real} con hora real, {len(events) - real} estimados)")
     print("rondas vistas en la web:", sorted(SEEN_ROUNDS))

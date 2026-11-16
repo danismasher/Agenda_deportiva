@@ -521,8 +521,11 @@ def main():
             e["res"] = o["res"]
     n_res = sum(1 for e in ordered if e.get("res"))
     report.append(f"resultados: {n_res} eventos con resultado")
-    OUT.write_text(json.dumps({"updated": iso(NOW), "events": ordered},
-                              ensure_ascii=False, indent=1), "utf-8")
+    if old == ordered:
+        report.append("sin cambios: no se reescribe events.json")
+    else:
+        OUT.write_text(json.dumps({"updated": iso(NOW), "events": ordered},
+                                  ensure_ascii=False, indent=1), "utf-8")
     print("\n".join(report))
     print(f"Total: {len(ordered)} eventos")
     if ok == 0:

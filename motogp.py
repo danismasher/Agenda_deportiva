@@ -13,6 +13,7 @@ KEEP = 90
 RETRY_DAYS = 14
 SESSIONS = (("spr", "Carrera sprint", 1), ("rac", "Carrera", 0))  # codigo, titulo, dias antes del fin del GP
 DEBUG = []
+FMT = 2  # version del formato; si cambia, se vuelven a leer los resultados
 
 
 def find_rows(obj, depth=0):
@@ -49,19 +50,20 @@ def rider_name(it):
 
 def last_col(it):
     gap = it.get("gap")
-    g = gap.get("first") if isinstance(gap, dict) else gap
-    t = it.get("time")
-    return str(g or t or it.get("status") or "").strip()
+    g = str((gap.get("first") if isinstance(gap, dict) else gap) or "").strip()
+    if it.get("position") == 1 and it.get("time"):
+        return str(it["time"]).strip()
+    if g and g not in ("0", "0.0", "0.000"):
+        return g if g[0] in "+-" else "+" + g
+    return str(it.get("time") or "").strip()
 
 
 def to_res(rows):
     out = []
     for it in rows:
         pos = it.get("position")
-        team = nm(it.get("team")) or nm(it.get("constructor")) or str(it.get("team_name") or "")
+        team = str(it.get("team_name") or "").strip() or nm(it.get("team")) or nm(it.get("constructor"))
         t = last_col(it)
-        if it.get("position") == 1 and it.get("time"):
-            t = str(it["time"]).strip()
         out.append(["–" if pos in (None, "") else str(pos), short(rider_name(it)), team, t])
     if not out:
         return None
@@ -133,8 +135,9 @@ def main():
     if OUT.exists():
         try:
             j = json.loads(OUT.read_text("utf-8"))
-            prev = {f'{e.get("date")}|{e["title"]}': e for e in j.get("events", [])}
-            tried = set(j.get("tried", []))
+            if j.get("fmt") == FMT:
+                prev = {f'{e.get("date")}|{e["title"]}': e for e in j.get("events", [])}
+                tried = set(j.get("tried", []))
         except Exception:
             pass
     with sync_playwright() as p:
@@ -163,8 +166,15 @@ def main():
 
         events, now_tried = collect(load, prev, tried)
         browser.close()
-    OUT.write_text(json.dumps({"updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:00Z"),
-                               "events": events, "tried": sorted(now_tried)}, ensure_ascii=False, indent=1), "utf-8")
+    new = {"fmt": FMT, "events": events, "tried": sorted(now_tried)}
+    try:
+        j = json.loads(OUT.read_text("utf-8"))
+        same = {"fmt": j.get("fmt"), "events": j.get("events"), "tried": j.get("tried")} == new
+    except Exception:
+        same = False
+    if not same:
+        OUT.write_text(json.dumps({"updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:00Z"), **new},
+                                  ensure_ascii=False, indent=1), "utf-8")
     print(f"motogp: {len(events)} sesiones con resultado")
     for line in DEBUG[:30]:
         print("  ", line)
