@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:34:00Z",
+ "updated": "2026-11-17T01:55:00Z",
  "events": [
   {
    "s": "f1",
@@ -4861,19 +4861,6 @@
    }
   },
   {
-   "s": "nfl",
-   "start": "2026-11-03T01:15:00Z",
-   "title": "Seattle Seahawks – Chicago Bears",
-   "sub": "Lumen Field",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
-   ],
-   "res": {
-    "head": "Seattle Seahawks 17 – 34 Chicago Bears"
-   }
-  },
-  {
    "s": "champions",
    "start": "2026-11-03T17:45:00Z",
    "title": "Galatasaray – VfB Stuttgart",
@@ -5017,6 +5004,15 @@
    }
   },
   {
+   "s": "tenis",
+   "start": "2026-11-04T18:10:00Z",
+   "title": "C. Alcaraz – A. Michelsen",
+   "sub": "Rolex Paris Masters, Round 2",
+   "res": {
+    "head": "Gana C. Alcaraz: 7-6 6-3"
+   }
+  },
+  {
    "s": "champions",
    "start": "2026-11-04T20:00:00Z",
    "title": "Borussia Dortmund – Real Betis",
@@ -5108,6 +5104,12 @@
    }
   },
   {
+   "s": "tenis",
+   "start": "2026-11-05T18:00:00Z",
+   "title": "C. Alcaraz – M. Berrettini",
+   "sub": "Rolex Paris Masters, Round 3"
+  },
+  {
    "s": "nfl",
    "start": "2026-11-06T01:15:00Z",
    "title": "Baltimore Ravens – Jacksonville Jaguars",
@@ -5118,6 +5120,15 @@
    ],
    "res": {
     "head": "Baltimore Ravens 10 – 33 Jacksonville Jaguars"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-06T19:00:00Z",
+   "title": "C. Alcaraz – T. Fritz",
+   "sub": "Rolex Paris Masters, Quarterfinal",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-7 7-5 6-3"
    }
   },
   {
@@ -5157,6 +5168,15 @@
    ],
    "res": {
     "head": "Espanyol 0 – 0 Deportivo"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-07T16:25:00Z",
+   "title": "C. Alcaraz – C. Ruud",
+   "sub": "Rolex Paris Masters, Semifinal",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-4 6-4"
    }
   },
   {
@@ -5459,6 +5479,15 @@
    ],
    "res": {
     "head": "Elche 0 – 2 Real Betis"
+   }
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-08T14:15:00Z",
+   "title": "C. Alcaraz – B. Shelton",
+   "sub": "Rolex Paris Masters, Final",
+   "res": {
+    "head": "Gana C. Alcaraz: 7-6 7-5"
    }
   },
   {
@@ -6262,14 +6291,14 @@
   },
   {
    "s": "tenis",
-   "start": "2026-11-18T05:00:00Z",
-   "title": "F. Cobolli – C. Alcaraz",
+   "start": "2026-11-18T13:00:00Z",
+   "title": "D. Medvedev – C. Alcaraz",
    "sub": "Nitto ATP Finals, Group Stage"
   },
   {
    "s": "tenis",
-   "start": "2026-11-18T05:00:00Z",
-   "title": "D. Medvedev – C. Alcaraz",
+   "start": "2026-11-19T05:00:00Z",
+   "title": "F. Cobolli – C. Alcaraz",
    "sub": "Nitto ATP Finals, Group Stage"
   },
   {
