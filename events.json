@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:40:00Z",
+ "updated": "2026-11-18T13:50:00Z",
  "events": [
   {
    "s": "f1",
@@ -6294,14 +6294,8 @@
   },
   {
    "s": "tenis",
-   "start": "2026-11-18T13:00:00Z",
+   "start": "2026-11-18T13:10:00Z",
    "title": "D. Medvedev – C. Alcaraz",
-   "sub": "Nitto ATP Finals, Group Stage"
-  },
-  {
-   "s": "tenis",
-   "start": "2026-11-19T05:00:00Z",
-   "title": "F. Cobolli – C. Alcaraz",
    "sub": "Nitto ATP Finals, Group Stage"
   },
   {
@@ -6313,6 +6307,12 @@
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
    ]
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-20T05:00:00Z",
+   "title": "F. Cobolli – C. Alcaraz",
+   "sub": "Nitto ATP Finals, Group Stage"
   },
   {
    "s": "laliga",
@@ -6919,16 +6919,6 @@
   {
    "s": "nfl",
    "start": "2026-11-29T18:00:00Z",
-   "title": "Cleveland Browns – Las Vegas Raiders",
-   "sub": "Huntington Bank",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
-   ]
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-29T18:00:00Z",
    "title": "Indianapolis Colts – New York Giants",
    "sub": "Lucas Oil",
    "ic": [
@@ -6959,6 +6949,16 @@
   {
    "s": "nfl",
    "start": "2026-11-29T18:00:00Z",
+   "title": "Jacksonville Jaguars – Tennessee Titans",
+   "sub": "EverBank",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+   ]
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-29T18:00:00Z",
    "title": "Houston Texans – Baltimore Ravens",
    "sub": "Reliant",
    "ic": [
@@ -6979,11 +6979,11 @@
   {
    "s": "nfl",
    "start": "2026-11-29T21:05:00Z",
-   "title": "Jacksonville Jaguars – Tennessee Titans",
-   "sub": "EverBank",
+   "title": "Los Angeles Chargers – New England Patriots",
+   "sub": "SoFi",
    "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
    ]
   },
   {
@@ -7016,11 +7016,11 @@
   {
    "s": "nfl",
    "start": "2026-11-30T01:20:00Z",
-   "title": "Los Angeles Chargers – New England Patriots",
-   "sub": "SoFi",
+   "title": "Cleveland Browns – Las Vegas Raiders",
+   "sub": "Huntington Bank",
    "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
    ]
   },
   {
