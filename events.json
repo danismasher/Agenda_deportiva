@@ -1,149 +1,6 @@
 {
- "updated": "2026-11-18T16:49:00Z",
+ "updated": "2026-11-20T01:33:00Z",
  "events": [
-  {
-   "s": "f1",
-   "start": "2026-08-21T14:30:00Z",
-   "title": "Clasificación sprint",
-   "sub": "GP Dutch",
-   "res": {
-    "head": "Pole: George Russell",
-    "rows": [
-     [
-      "1",
-      "G. Russell",
-      "Mercedes",
-      "1:11.567"
-     ],
-     [
-      "2",
-      "L. Norris",
-      "McLaren",
-      "1:11.608"
-     ],
-     [
-      "3",
-      "C. Leclerc",
-      "Ferrari",
-      "1:11.622"
-     ],
-     [
-      "4",
-      "O. Piastri",
-      "McLaren",
-      "1:11.666"
-     ],
-     [
-      "5",
-      "K. Antonelli",
-      "Mercedes",
-      "1:11.794"
-     ],
-     [
-      "6",
-      "M. Verstappen",
-      "Red Bull Racing",
-      "1:12.094"
-     ],
-     [
-      "7",
-      "L. Hamilton",
-      "Ferrari",
-      "1:12.191"
-     ],
-     [
-      "8",
-      "P. Gasly",
-      "Alpine",
-      "1:12.578"
-     ],
-     [
-      "9",
-      "G. Bortoleto",
-      "Audi",
-      "1:12.583"
-     ],
-     [
-      "10",
-      "A. Lindblad",
-      "Racing Bulls",
-      "1:12.737"
-     ],
-     [
-      "11",
-      "L. Lawson",
-      "Red Bull Racing",
-      "1:13.136"
-     ],
-     [
-      "12",
-      "Y. Tsunoda",
-      "Racing Bulls",
-      "1:13.145"
-     ],
-     [
-      "13",
-      "F. Colapinto",
-      "Alpine",
-      "1:13.439"
-     ],
-     [
-      "14",
-      "N. Hulkenberg",
-      "Audi",
-      "1:13.616"
-     ],
-     [
-      "15",
-      "E. Ocon",
-      "Haas F1 Team",
-      "1:13.893"
-     ],
-     [
-      "16",
-      "A. Albon",
-      "Williams",
-      "1:14.294"
-     ],
-     [
-      "17",
-      "O. Bearman",
-      "Haas F1 Team",
-      "1:14.728"
-     ],
-     [
-      "18",
-      "C. Sainz",
-      "Williams",
-      "1:14.738"
-     ],
-     [
-      "19",
-      "L. Stroll",
-      "Aston Martin",
-      "1:15.391"
-     ],
-     [
-      "20",
-      "V. Bottas",
-      "Cadillac",
-      "1:15.472"
-     ],
-     [
-      "21",
-      "S. Perez",
-      "Cadillac",
-      "1:15.545"
-     ],
-     [
-      "22",
-      "F. Alonso",
-      "Aston Martin",
-      "1:16.014"
-     ]
-    ]
-   }
-  },
   {
    "s": "f1",
    "start": "2026-08-22T10:00:00Z",
@@ -5110,19 +4967,6 @@
    "sub": "Rolex Paris Masters, Round 3"
   },
   {
-   "s": "nfl",
-   "start": "2026-11-06T01:15:00Z",
-   "title": "Baltimore Ravens – Jacksonville Jaguars",
-   "sub": "M&T Bank",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
-   ],
-   "res": {
-    "head": "Baltimore Ravens 10 – 33 Jacksonville Jaguars"
-   }
-  },
-  {
    "s": "tenis",
    "start": "2026-11-06T19:00:00Z",
    "title": "C. Alcaraz – T. Fritz",
@@ -6313,7 +6157,7 @@
   },
   {
    "s": "tenis",
-   "start": "2026-11-20T05:00:00Z",
+   "start": "2026-11-20T13:00:00Z",
    "title": "F. Cobolli – C. Alcaraz",
    "sub": "Nitto ATP Finals, Group Stage"
   },
@@ -9699,6 +9543,106 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Athletic Club – Barcelona",
+   "sub": "San Mamés",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Celta Vigo – Espanyol",
+   "sub": "Balaídos",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Getafe – Alavés",
+   "sub": "Coliseum",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Levante – Deportivo",
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Málaga – Atlético Madrid",
+   "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Osasuna – Sevilla",
+   "sub": "El Sadar",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Racing Santander – Rayo Vallecano",
+   "sub": "Sardineros",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Real Betis – Villarreal",
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Real Madrid – Valencia",
+   "sub": "Bernabéu",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2027-02-28T20:00:00Z",
+   "title": "Real Sociedad – Elche",
+   "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
    ]
   }
  ]
