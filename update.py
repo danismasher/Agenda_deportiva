@@ -2,7 +2,7 @@
 """Genera events.json con los eventos deportivos. Solo usa la libreria estandar."""
 import json, re, sys, time, unicodedata, urllib.request, urllib.error
 from html.parser import HTMLParser
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -392,6 +392,18 @@ VENUES = [
     ("gillette", "Gillette"), ("metlife", "MetLife"), ("lincoln financial", "Lincoln Financial"),
     ("acrisure", "Acrisure"), ("levi", "Levi's"), ("lumen", "Lumen Field"), ("raymond james", "Raymond James"),
     ("nissan stadium", "Nissan"), ("northwest stadium", "Northwest"), ("fedex", "FedEx"),
+    # NHL
+    ("td garden", "TD Garden"), ("madison square", "MSG"), ("scotiabank arena", "Scotiabank Arena"),
+    ("bell centre", "Bell Centre"), ("rogers place", "Rogers Place"), ("saddledome", "Saddledome"),
+    ("t-mobile arena", "T-Mobile Arena"), ("ball arena", "Ball Arena"), ("amalie", "Amalie Arena"),
+    ("amerant", "Amerant"), ("crypto.com", "Crypto.com"), ("sap center", "SAP Center"), ("ppg paints", "PPG Paints"),
+    ("capital one", "Capital One"), ("american airlines", "American Airlines"), ("united center", "United Center"),
+    ("wells fargo", "Wells Fargo"), ("prudential center", "Prudential"), ("ubs arena", "UBS Arena"),
+    ("nationwide", "Nationwide"), ("pnc arena", "PNC Arena"), ("lenovo center", "Lenovo Center"),
+    ("keybank", "KeyBank"), ("little caesars", "Little Caesars"), ("xcel energy", "Xcel Energy"),
+    ("enterprise center", "Enterprise Center"), ("bridgestone arena", "Bridgestone"), ("climate pledge", "Climate Pledge"),
+    ("rogers arena", "Rogers Arena"), ("honda center", "Honda Center"), ("canada life", "Canada Life"),
+    ("delta center", "Delta Center"), ("grand casino", "Grand Casino"), ("mullett", "Mullett Arena"),
     ("wembley", "Wembley"), ("maracana", "Maracanã"), ("azteca", "Azteca"), ("croke park", "Croke Park"),
 ]
 GENERIC = {"estadio", "estadi", "estadio", "estádio", "stadium", "stadion", "stadio", "stade", "municipal", "de", "del",
@@ -444,6 +456,59 @@ def matches(path, sport, days, step):
                 item["res"] = {"head": f'{t["home"]} {sc["home"]} – {sc["away"]} {t["away"]}'}
         out.append(item)
     return out
+
+
+def nhl_name(t):
+    pn = (t.get("placeName") or {}).get("default", "")
+    cn = (t.get("commonName") or {}).get("default", "")
+    return f"{pn} {cn}".strip() or t.get("abbrev", "")
+
+
+def nhl_official(days=60):
+    """Calendario y resultados de la API oficial de la NHL (api-web.nhle.com)."""
+    out, seen = [], set()
+    d, end = WSTART, TODAY + timedelta(days=days)
+    while d <= end:
+        data = get_json(f"https://api-web.nhle.com/v1/schedule/{d.isoformat()}") or {}
+        for day in data.get("gameWeek") or []:
+            for g in day.get("games") or []:
+                try:
+                    if g["id"] in seen or g.get("gameType") not in (2, 3):
+                        continue
+                    seen.add(g["id"])
+                    home, away = g["homeTeam"], g["awayTeam"]
+                    item = {"s": "nhl", "start": iso(parse(g["startTimeUTC"])),
+                            "title": f"{nhl_name(home)} – {nhl_name(away)}",
+                            "sub": short_venue((g.get("venue") or {}).get("default", ""))}
+                    if home.get("logo") and away.get("logo"):
+                        item["ic"] = [home["logo"], away["logo"]]
+                    hs, as_ = home.get("score"), away.get("score")
+                    if g.get("gameState") in ("FINAL", "OFF") and hs is not None and as_ is not None:
+                        extra = {"OT": " (prórroga)", "SO": " (penaltis)"}.get(
+                            (g.get("gameOutcome") or {}).get("lastPeriodType"), "")
+                        item["res"] = {"head": f"{nhl_name(home)} {hs} – {as_} {nhl_name(away)}{extra}"}
+                    out.append(item)
+                except Exception:
+                    continue
+        nxt = data.get("nextStartDate")
+        try:
+            nd = date.fromisoformat(nxt) if nxt else None
+        except Exception:
+            nd = None
+        d = nd if nd and nd > d else d + timedelta(days=7)
+        time.sleep(0.3)
+    return out
+
+
+def nhl():
+    try:
+        out = nhl_official()
+        if out:
+            return out
+        print("aviso: la API oficial de la NHL no devolvió partidos; se usa ESPN")
+    except Exception as e:
+        print(f"aviso: API oficial de la NHL no disponible ({e}); se usa ESPN")
+    return matches("hockey/nhl", "nhl", 60, 7)
 
 
 def short(name):
@@ -516,6 +581,7 @@ def padel():
 SOURCES = {
     "f1": f1,
     "nfl": lambda: matches("football/nfl", "nfl", 100, 7),
+    "nhl": nhl,
     "laliga": lambda: matches("soccer/esp.1", "laliga", 100, 7),
     "champions": lambda: matches("soccer/uefa.champions", "champions", 100, 7),
     "tenis": tennis,
@@ -569,7 +635,7 @@ def main():
     # eventos antiguos (ya fuera de la ventana de consulta) que se conservan con su resultado
     wstart = WSTART.isoformat()
     for o in old:
-        if o.get("s") in ("nfl", "laliga", "champions", "tenis", "padel") and \
+        if o.get("s") in ("nfl", "nhl", "laliga", "champions", "tenis", "padel") and \
                 (o.get("start") or o.get("date") or "9")[:10] < wstart:
             events.append(o)
 

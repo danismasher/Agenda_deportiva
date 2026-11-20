@@ -1,58 +1,60 @@
-"""Diagnostico: de donde saca motogp.com sus resultados (el nombre del archivo se mantiene
-para no tocar la automatizacion 'Explorar padel')."""
+"""Diagnostico: de donde saca indycar.com su calendario y sus resultados (el nombre del archivo se
+mantiene para no tocar la automatizacion 'Explorar padel')."""
 import json
 
-PAGES = [
-    ("CARRERA", "https://www.motogp.com/es/gp-results/2026/qat/motogp/rac/classification"),
-    ("SPRINT", "https://www.motogp.com/es/gp-results/2026/qat/motogp/spr/classification"),
-]
-SKIP = ("google", "cookiebot", "doubleclick", "facebook", "tiktok", "onetrust", "clarity", "hotjar",
-        "newrelic", "sentry", "gtm", "analytics", "snapchat", "twitter", "linkedin", "adobe", "demdex")
+START = "https://www.indycar.com/schedule?year=2026"
+SKIP = ("google", "cookiebot", "doubleclick", "facebook", "tiktok", "onetrust", "cookielaw", "clarity", "hotjar",
+        "newrelic", "sentry", "gtm", "analytics", "snapchat", "twitter", "linkedin", "adobe", "demdex", "optimizely")
 
 
-def shape(obj, depth=0):
-    if isinstance(obj, dict):
-        return {k: (shape(v, depth + 1) if depth < 1 else type(v).__name__) for k, v in list(obj.items())[:15]}
-    if isinstance(obj, list):
-        return f"lista de {len(obj)}: " + (json.dumps(shape(obj[0], depth + 1), ensure_ascii=False)[:300] if obj else "")
-    return type(obj).__name__
+def visit(ctx, url, label, show_text=1200):
+    page = ctx.new_page()
+    caps = []
+
+    def on_resp(r):
+        u = r.url.lower()
+        if r.request.resource_type in ("xhr", "fetch") and not any(s in u for s in SKIP):
+            try:
+                caps.append((r.request.method, r.status, r.url, json.dumps(r.json(), ensure_ascii=False)[:350]))
+            except Exception:
+                caps.append((r.request.method, r.status, r.url, "(no es JSON)"))
+
+    page.on("response", on_resp)
+    try:
+        page.goto(url, wait_until="networkidle", timeout=90000)
+        page.wait_for_timeout(4000)
+    except Exception as e:
+        print(f"fallo al abrir {url}: {e!r}")
+    links = page.eval_on_selector_all("a", "els => els.map(e => e.href)")
+    text = page.inner_text("body")[:show_text]
+    title = page.title()
+    page.close()
+    print(f"\n===== {label}: {url} =====\ntitulo: {title}")
+    for c in caps[:15]:
+        print(f"  API {c[0]} {c[1]} {c[2]}\n      {c[3]}")
+    return links, text
 
 
 def main():
     from playwright.sync_api import sync_playwright
-    store = {}
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        for label, url in PAGES:
-            page = browser.new_page(locale="es-ES")
-
-            def on_resp(r, label=label):
-                u = r.url.lower()
-                if r.request.resource_type not in ("xhr", "fetch") or any(s in u for s in SKIP):
-                    return
-                try:
-                    data = r.json()
-                except Exception:
-                    return
-                store.setdefault(label, []).append((r.request, r.status, data))
-
-            page.on("response", on_resp)
-            page.goto(url, wait_until="networkidle", timeout=90000)
-            page.wait_for_timeout(6000)
-            store.setdefault(label + "_TEXTO", []).append(page.inner_text("body")[:1800])
-            page.close()
+        ctx = browser.new_context(locale="en-US")
+        links, text = visit(ctx, START, "CALENDARIO 2026", show_text=900)
+        print("\n--- texto ---\n" + text)
+        uniq = []
+        for l in links:
+            ll = l.lower()
+            if l not in uniq and ("result" in ll or "/race" in ll or "schedule/" in ll or "/event" in ll):
+                uniq.append(l)
+        print("\n--- enlaces de resultados/carreras ---")
+        for l in uniq[:50]:
+            print("  ", l)
+        cand = [l for l in uniq if "result" in l.lower() and "2026" in l][:2] or [l for l in uniq if "result" in l.lower()][:2]
+        for n, l in enumerate(cand):
+            _, t = visit(ctx, l, f"RESULTADOS {n + 1}")
+            print("\n--- texto ---\n" + t)
         browser.close()
-
-    for label, _ in PAGES:
-        print(f"\n===== {label} =====")
-        for req, status, data in store.get(label, [])[:30]:
-            print(f"\n{req.method} {status} {req.url}")
-            print("  post_data:", (req.post_data or "")[:300])
-            print("  cabeceras:", sorted(k for k in req.headers if k.lower() not in ("user-agent", "accept-language", "sec-ch-ua")))
-            print("  estructura:", json.dumps(shape(data), ensure_ascii=False)[:600])
-            print("  inicio:", json.dumps(data, ensure_ascii=False)[:500])
-        for t in store.get(label + "_TEXTO", []):
-            print(f"\n--- texto visible ({label}) ---\n{t}")
 
 
 if __name__ == "__main__":
