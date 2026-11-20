@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T04:34:00Z",
+ "updated": "2026-11-20T14:41:00Z",
  "events": [
   {
    "s": "f1",
@@ -6160,9 +6160,12 @@
   },
   {
    "s": "tenis",
-   "start": "2026-11-20T13:00:00Z",
+   "start": "2026-11-20T13:10:00Z",
    "title": "F. Cobolli – C. Alcaraz",
-   "sub": "Nitto ATP Finals, Group Stage"
+   "sub": "Nitto ATP Finals, Group Stage",
+   "res": {
+    "head": "Gana C. Alcaraz: 6-4 6-1"
+   }
   },
   {
    "s": "laliga",
