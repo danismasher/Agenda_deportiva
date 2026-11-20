@@ -36,5 +36,9 @@ jobs:
           git add padel.json || true
           git add motogp.json || true
           git commit -m "Actualizar eventos" || exit 0
-          git pull --rebase
-          git push
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            git rebase --abort || true
+            sleep 5
+          done
+          exit 1
