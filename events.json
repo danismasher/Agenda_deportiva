@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T01:33:00Z",
+ "updated": "2026-11-20T04:34:00Z",
  "events": [
   {
    "s": "f1",
@@ -6153,7 +6153,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
-   ]
+   ],
+   "res": {
+    "head": "Houston Texans 26 – 3 Indianapolis Colts"
+   }
   },
   {
    "s": "tenis",
