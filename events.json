@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T16:26:00Z",
+ "updated": "2026-11-21T17:16:00Z",
  "events": [
   {
    "s": "f1",
@@ -8574,7 +8574,10 @@
    "s": "tenis",
    "start": "2026-11-21T13:40:00Z",
    "title": "B. Shelton – C. Alcaraz",
-   "sub": "Nitto ATP Finals, Semifinal"
+   "sub": "Nitto ATP Finals, Semifinal",
+   "res": {
+    "head": "Gana C. Alcaraz: 3-6 6-3 7-6"
+   }
   },
   {
    "s": "motogp",
@@ -8590,7 +8593,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
-   ]
+   ],
+   "res": {
+    "head": "Rayo Vallecano 0 – 1 Valencia"
+   }
   },
   {
    "s": "laliga",
@@ -8757,6 +8763,12 @@
    "start": "2026-11-22T04:00:00Z",
    "title": "Carrera",
    "sub": "GP Las Vegas"
+  },
+  {
+   "s": "tenis",
+   "start": "2026-11-22T05:00:00Z",
+   "title": "C. Alcaraz – TBD",
+   "sub": "Nitto ATP Finals, Final"
   },
   {
    "s": "laliga",
