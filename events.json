@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:35:00Z",
+ "updated": "2026-11-21T21:14:00Z",
  "events": [
   {
    "s": "f1",
@@ -8619,7 +8619,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Carolina Hurricanes 7 – 4 Edmonton Oilers"
+   }
   },
   {
    "s": "laliga",
