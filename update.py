@@ -564,6 +564,13 @@ def tennis(days=21):
     return out
 
 
+def indycar():
+    f = ROOT / "indycar.json"
+    if not f.exists():
+        return []
+    return json.loads(f.read_text("utf-8")).get("events", [])
+
+
 def motogp():
     f = ROOT / "motogp.json"
     if not f.exists():
@@ -587,6 +594,7 @@ SOURCES = {
     "tenis": tennis,
     "padel": padel,
     "motogp": motogp,
+    "indy": indycar,
 }
 
 
