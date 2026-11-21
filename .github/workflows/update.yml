@@ -27,6 +27,9 @@ jobs:
         run: python motogp.py
         continue-on-error: true
       - if: steps.gate.outputs.run == 'true'
+        run: python indycar.py
+        continue-on-error: true
+      - if: steps.gate.outputs.run == 'true'
         run: python update.py
       - if: steps.gate.outputs.run == 'true'
         run: |
@@ -35,6 +38,7 @@ jobs:
           git add events.json
           git add padel.json || true
           git add motogp.json || true
+          git add indycar.json || true
           git commit -m "Actualizar eventos" || exit 0
           for i in 1 2 3; do
             git pull --rebase -X theirs && git push && exit 0
