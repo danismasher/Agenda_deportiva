@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:43:00Z",
+ "updated": "2026-11-21T07:38:00Z",
  "events": [
   {
    "s": "f1",
@@ -8418,7 +8418,144 @@
    "s": "f1",
    "start": "2026-11-21T04:00:00Z",
    "title": "Clasificación",
-   "sub": "GP Las Vegas"
+   "sub": "GP Las Vegas",
+   "res": {
+    "head": "Pole: Kimi Antonelli",
+    "rows": [
+     [
+      "1",
+      "K. Antonelli",
+      "Mercedes",
+      "1:33.893"
+     ],
+     [
+      "2",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:34.151"
+     ],
+     [
+      "3",
+      "G. Russell",
+      "Mercedes",
+      "1:34.224"
+     ],
+     [
+      "4",
+      "L. Norris",
+      "McLaren",
+      "1:34.244"
+     ],
+     [
+      "5",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "1:34.592"
+     ],
+     [
+      "6",
+      "A. Lindblad",
+      "Racing Bulls",
+      "1:34.668"
+     ],
+     [
+      "7",
+      "O. Piastri",
+      "McLaren",
+      "1:34.899"
+     ],
+     [
+      "8",
+      "L. Lawson",
+      "Racing Bulls",
+      "1:35.090"
+     ],
+     [
+      "9",
+      "P. Gasly",
+      "Alpine",
+      "1:35.105"
+     ],
+     [
+      "10",
+      "F. Colapinto",
+      "Alpine",
+      "1:35.314"
+     ],
+     [
+      "11",
+      "C. Leclerc",
+      "Ferrari",
+      "1:35.197"
+     ],
+     [
+      "12",
+      "L. Hamilton",
+      "Ferrari",
+      "1:35.253"
+     ],
+     [
+      "13",
+      "N. Hulkenberg",
+      "Audi",
+      "1:35.460"
+     ],
+     [
+      "14",
+      "C. Sainz",
+      "Williams",
+      "1:35.641"
+     ],
+     [
+      "15",
+      "G. Bortoleto",
+      "Audi",
+      "1:35.993"
+     ],
+     [
+      "16",
+      "A. Albon",
+      "Williams",
+      "1:36.125"
+     ],
+     [
+      "17",
+      "R. Camara",
+      "Haas F1 Team",
+      "1:36.220"
+     ],
+     [
+      "18",
+      "S. Perez",
+      "Cadillac",
+      "1:37.383"
+     ],
+     [
+      "19",
+      "F. Alonso",
+      "Aston Martin",
+      "1:37.400"
+     ],
+     [
+      "20",
+      "L. Stroll",
+      "Aston Martin",
+      "1:37.550"
+     ],
+     [
+      "21",
+      "V. Bottas",
+      "Cadillac",
+      "1:37.601"
+     ],
+     [
+      "NC",
+      "O. Bearman",
+      "Haas F1 Team",
+      "1:48.005"
+     ]
+    ]
+   }
   },
   {
    "s": "laliga",
