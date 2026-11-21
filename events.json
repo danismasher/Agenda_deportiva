@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T14:51:00Z",
+ "updated": "2026-11-21T15:40:00Z",
  "events": [
   {
    "s": "f1",
@@ -8565,11 +8565,14 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
-   ]
+   ],
+   "res": {
+    "head": "Alavés 3 – 1 Deportivo"
+   }
   },
   {
    "s": "tenis",
-   "start": "2026-11-21T13:40:00Z",
+   "start": "2026-11-21T13:30:00Z",
    "title": "B. Shelton – C. Alcaraz",
    "sub": "Nitto ATP Finals, Semifinal"
   },
