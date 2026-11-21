@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:14:00Z",
+ "updated": "2026-11-21T22:42:00Z",
  "events": [
   {
    "s": "f1",
@@ -8632,7 +8632,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
-   ]
+   ],
+   "res": {
+    "head": "Real Madrid 2 – 1 Celta Vigo"
+   }
   },
   {
    "s": "nhl",
@@ -8773,7 +8776,7 @@
   {
    "s": "tenis",
    "start": "2026-11-22T05:00:00Z",
-   "title": "C. Alcaraz – TBD",
+   "title": "C. Alcaraz – A. Zverev",
    "sub": "Nitto ATP Finals, Final"
   },
   {
