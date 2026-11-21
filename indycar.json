@@ -1,0 +1,1474 @@
+{
+ "updated": "2026-11-21T01:43:00Z",
+ "events": [
+  {
+   "s": "indy",
+   "date": "2026-09-06",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP Monterey",
+   "res": {
+    "head": "Ganador: Scott McLaughlin",
+    "rows": [
+     [
+      "1",
+      "S. McLaughlin",
+      "Team Penske",
+      "01:59:29.6163"
+     ],
+     [
+      "2",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      "01:59:30.9902"
+     ],
+     [
+      "3",
+      "A. Rossi",
+      "ECR",
+      "01:59:32.4271"
+     ],
+     [
+      "4",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:59:34.9049"
+     ],
+     [
+      "5",
+      "D. Malukas",
+      "Team Penske",
+      "01:59:44.2043"
+     ],
+     [
+      "6",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      "01:59:46.1163"
+     ],
+     [
+      "7",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:59:51.4288"
+     ],
+     [
+      "8",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      "01:59:57.6605"
+     ],
+     [
+      "9",
+      "M. Ericsson",
+      "Andretti Global",
+      "02:00:09.8425"
+     ],
+     [
+      "10",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      "02:00:10.3839"
+     ],
+     [
+      "11",
+      "P. O'Ward",
+      "Arrow McLaren",
+      "02:00:12.6371"
+     ],
+     [
+      "12",
+      "S. Ferrucci",
+      "A.J. Foyt Enterprises",
+      "02:00:13.3631"
+     ],
+     [
+      "13",
+      "W. Power",
+      "Andretti Global",
+      "02:00:18.9698"
+     ],
+     [
+      "14",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      "02:00:23.0217"
+     ],
+     [
+      "15",
+      "J. Newgarden",
+      "Team Penske",
+      "02:00:24.7191"
+     ],
+     [
+      "16",
+      "R. VeeKay",
+      "Juncos Hollinger Racing",
+      "02:00:25.3464"
+     ],
+     [
+      "17",
+      "S. Dixon",
+      "Chip Ganassi Racing",
+      "02:00:27.2406"
+     ],
+     [
+      "18",
+      "R. Grosjean",
+      "Dale Coyne Racing",
+      "02:00:30.3083"
+     ],
+     [
+      "19",
+      "G. Rahal",
+      "Rahal Letterman Lanigan Racing",
+      "02:00:34.2846"
+     ],
+     [
+      "20",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      "02:00:37.7903"
+     ],
+     [
+      "21",
+      "C. Rasmussen",
+      "ECR",
+      "02:00:38.7439"
+     ],
+     [
+      "22",
+      "M. Schumacher",
+      "Rahal Letterman Lanigan Racing",
+      "02:00:40.3876"
+     ],
+     [
+      "23",
+      "S. Ray Robb",
+      "Juncos Hollinger Racing",
+      "01:59:49.8805"
+     ],
+     [
+      "24",
+      "N. Siegel",
+      "Arrow McLaren",
+      "01:59:51.9087"
+     ],
+     [
+      "25",
+      "D. Hauger",
+      "Dale Coyne Racing",
+      "00:00:03.3766"
+     ]
+    ]
+   },
+   "sid": "6736",
+   "d": "2026-09-06"
+  },
+  {
+   "s": "indy",
+   "date": "2026-09-05",
+   "tbc": true,
+   "title": "Clasificación",
+   "sub": "GP Monterey",
+   "res": {
+    "head": "Pole: Scott McLaughlin",
+    "rows": [
+     [
+      "1",
+      "S. McLaughlin",
+      "Team Penske",
+      "01:09.1363"
+     ],
+     [
+      "2",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      "01:09.1540"
+     ],
+     [
+      "3",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:09.1931"
+     ],
+     [
+      "4",
+      "A. Rossi",
+      "ECR",
+      "01:09.3247"
+     ],
+     [
+      "5",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      "01:10.2227"
+     ],
+     [
+      "6",
+      "D. Malukas",
+      "Team Penske",
+      "01:12.8461"
+     ],
+     [
+      "7",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      "01:09.5726"
+     ],
+     [
+      "8",
+      "M. Ericsson",
+      "Andretti Global",
+      "01:09.6961"
+     ],
+     [
+      "9",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      "01:09.6993"
+     ],
+     [
+      "10",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:09.9951"
+     ],
+     [
+      "11",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      "01:10.1123"
+     ],
+     [
+      "12",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      "01:10.1446"
+     ],
+     [
+      "13",
+      "P. O'Ward",
+      "Arrow McLaren",
+      "01:09.5544"
+     ],
+     [
+      "14",
+      "W. Power",
+      "Andretti Global",
+      "01:09.8617"
+     ],
+     [
+      "15",
+      "M. Schumacher",
+      "Rahal Letterman Lanigan Racing",
+      "01:09.5721"
+     ],
+     [
+      "16",
+      "N. Siegel",
+      "Arrow McLaren",
+      "01:09.8620"
+     ],
+     [
+      "17",
+      "S. Dixon",
+      "Chip Ganassi Racing",
+      "01:09.6184"
+     ],
+     [
+      "18",
+      "C. Rasmussen",
+      "ECR",
+      "01:09.8726"
+     ],
+     [
+      "19",
+      "R. VeeKay",
+      "Juncos Hollinger Racing",
+      "01:09.8411"
+     ],
+     [
+      "20",
+      "J. Newgarden",
+      "Team Penske",
+      "01:09.9549"
+     ],
+     [
+      "21",
+      "S. Ferrucci",
+      "A.J. Foyt Enterprises",
+      "01:09.9460"
+     ],
+     [
+      "22",
+      "G. Rahal",
+      "Rahal Letterman Lanigan Racing",
+      "01:09.9593"
+     ],
+     [
+      "23",
+      "R. Grosjean",
+      "Dale Coyne Racing",
+      "01:10.3840"
+     ],
+     [
+      "24",
+      "D. Hauger",
+      "Dale Coyne Racing",
+      "01:09.9611"
+     ],
+     [
+      "25",
+      "S. Ray Robb",
+      "Juncos Hollinger Racing",
+      "01:10.1619"
+     ]
+    ]
+   },
+   "sid": "6945",
+   "d": "2026-09-05"
+  },
+  {
+   "s": "indy",
+   "date": "2026-09-05",
+   "tbc": true,
+   "title": "Clasificación, Fast 6",
+   "sub": "GP Monterey",
+   "res": {
+    "head": "Pole: Scott McLaughlin",
+    "rows": [
+     [
+      "1",
+      "S. McLaughlin",
+      "Team Penske",
+      "01:09.1363"
+     ],
+     [
+      "2",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      "01:09.1540"
+     ],
+     [
+      "3",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:09.1931"
+     ],
+     [
+      "4",
+      "A. Rossi",
+      "ECR",
+      "01:09.3247"
+     ],
+     [
+      "5",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      "01:10.2227"
+     ],
+     [
+      "6",
+      "D. Malukas",
+      "Team Penske",
+      "01:12.8461"
+     ]
+    ]
+   },
+   "sid": "6944",
+   "d": "2026-09-05"
+  },
+  {
+   "s": "indy",
+   "date": "2026-09-05",
+   "tbc": true,
+   "title": "Clasificación, Ronda 2",
+   "sub": "GP Monterey",
+   "res": {
+    "head": "Mejor: Alex Palou",
+    "rows": [
+     [
+      "1",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      "01:09.1496"
+     ],
+     [
+      "2",
+      "S. McLaughlin",
+      "Team Penske",
+      "01:09.2725"
+     ],
+     [
+      "3",
+      "D. Malukas",
+      "Team Penske",
+      "01:09.3208"
+     ],
+     [
+      "4",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      "01:09.3244"
+     ],
+     [
+      "5",
+      "A. Rossi",
+      "ECR",
+      "01:09.4002"
+     ],
+     [
+      "6",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:09.4098"
+     ],
+     [
+      "7",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      "01:09.5726"
+     ],
+     [
+      "8",
+      "M. Ericsson",
+      "Andretti Global",
+      "01:09.6961"
+     ],
+     [
+      "9",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      "01:09.6993"
+     ],
+     [
+      "10",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:09.9951"
+     ],
+     [
+      "11",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      "01:10.1123"
+     ],
+     [
+      "12",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      "01:10.1446"
+     ]
+    ]
+   },
+   "sid": "6943",
+   "d": "2026-09-05"
+  },
+  {
+   "s": "indy",
+   "date": "2026-09-05",
+   "tbc": true,
+   "title": "Clasificación, Ronda 1, grupo 2",
+   "sub": "GP Monterey",
+   "res": {
+    "head": "Mejor: Alex Palou",
+    "rows": [
+     [
+      "1",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      "01:09.1398"
+     ],
+     [
+      "2",
+      "M. Ericsson",
+      "Andretti Global",
+      "01:09.2481"
+     ],
+     [
+      "3",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:09.4188"
+     ],
+     [
+      "4",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:09.5916"
+     ],
+     [
+      "5",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      "01:09.6858"
+     ],
+     [
+      "6",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      "01:09.8042"
+     ],
+     [
+      "7",
+      "W. Power",
+      "Andretti Global",
+      "01:09.8617"
+     ],
+     [
+      "8",
+      "N. Siegel",
+      "Arrow McLaren",
+      "01:09.8620"
+     ],
+     [
+      "9",
+      "C. Rasmussen",
+      "ECR",
+      "01:09.8726"
+     ],
+     [
+      "10",
+      "J. Newgarden",
+      "Team Penske",
+      "01:09.9549"
+     ],
+     [
+      "11",
+      "G. Rahal",
+      "Rahal Letterman Lanigan Racing",
+      "01:09.9593"
+     ],
+     [
+      "12",
+      "D. Hauger",
+      "Dale Coyne Racing",
+      "01:09.9611"
+     ],
+     [
+      "13",
+      "S. Ray Robb",
+      "Juncos Hollinger Racing",
+      "01:10.1619"
+     ]
+    ]
+   },
+   "sid": "6942",
+   "d": "2026-09-05"
+  },
+  {
+   "s": "indy",
+   "date": "2026-09-05",
+   "tbc": true,
+   "title": "Clasificación, Ronda 1, grupo 1",
+   "sub": "GP Monterey",
+   "res": {
+    "head": "Mejor: David Malukas",
+    "rows": [
+     [
+      "1",
+      "D. Malukas",
+      "Team Penske",
+      "01:09.4090"
+     ],
+     [
+      "2",
+      "S. McLaughlin",
+      "Team Penske",
+      "01:09.4136"
+     ],
+     [
+      "3",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      "01:09.4202"
+     ],
+     [
+      "4",
+      "A. Rossi",
+      "ECR",
+      "01:09.4974"
+     ],
+     [
+      "5",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      "01:09.5423"
+     ],
+     [
+      "6",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      "01:09.5454"
+     ],
+     [
+      "7",
+      "P. O'Ward",
+      "Arrow McLaren",
+      "01:09.5544"
+     ],
+     [
+      "8",
+      "M. Schumacher",
+      "Rahal Letterman Lanigan Racing",
+      "01:09.5721"
+     ],
+     [
+      "9",
+      "S. Dixon",
+      "Chip Ganassi Racing",
+      "01:09.6184"
+     ],
+     [
+      "10",
+      "R. VeeKay",
+      "Juncos Hollinger Racing",
+      "01:09.8411"
+     ],
+     [
+      "11",
+      "S. Ferrucci",
+      "A.J. Foyt Enterprises",
+      "01:09.9460"
+     ],
+     [
+      "12",
+      "R. Grosjean",
+      "Dale Coyne Racing",
+      "01:10.3840"
+     ]
+    ]
+   },
+   "sid": "6941",
+   "d": "2026-09-05"
+  },
+  {
+   "s": "indy",
+   "date": "2026-08-30",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "Snap-on Makers and Fixers 250",
+   "res": {
+    "head": "Ganador: Pato O'Ward",
+    "rows": [
+     [
+      "1",
+      "P. O'Ward",
+      "Arrow McLaren",
+      "02:11:42.1669"
+     ],
+     [
+      "2",
+      "D. Malukas",
+      "Team Penske",
+      "02:11:43.9204"
+     ],
+     [
+      "3",
+      "R. VeeKay",
+      "Juncos Hollinger Racing",
+      "02:11:45.0310"
+     ],
+     [
+      "4",
+      "S. McLaughlin",
+      "Team Penske",
+      "02:11:47.3894"
+     ],
+     [
+      "5",
+      "C. Rasmussen",
+      "ECR",
+      "02:11:49.3777"
+     ],
+     [
+      "6",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      "02:11:49.8948"
+     ],
+     [
+      "7",
+      "J. Newgarden",
+      "Team Penske",
+      "02:11:50.9940"
+     ],
+     [
+      "8",
+      "M. Ericsson",
+      "Andretti Global",
+      "02:11:52.0104"
+     ],
+     [
+      "9",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      "02:11:57.3818"
+     ],
+     [
+      "10",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      "02:11:58.0695"
+     ],
+     [
+      "11",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      "02:11:58.2530"
+     ],
+     [
+      "12",
+      "M. Schumacher",
+      "Rahal Letterman Lanigan Racing",
+      "02:11:59.2154"
+     ],
+     [
+      "13",
+      "N. Siegel",
+      "Arrow McLaren",
+      "02:11:59.7684"
+     ],
+     [
+      "14",
+      "A. Rossi",
+      "ECR",
+      "02:12:00.2916"
+     ],
+     [
+      "15",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      "02:12:02.9886"
+     ],
+     [
+      "16",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      "02:12:04.7175"
+     ],
+     [
+      "17",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      "02:12:06.7667"
+     ],
+     [
+      "18",
+      "S. Dixon",
+      "Chip Ganassi Racing",
+      "02:11:48.4201"
+     ],
+     [
+      "19",
+      "R. Grosjean",
+      "Dale Coyne Racing",
+      "02:12:02.5034"
+     ],
+     [
+      "20",
+      "S. Ferrucci",
+      "A.J. Foyt Enterprises",
+      "02:11:46.7480"
+     ],
+     [
+      "21",
+      "D. Hauger",
+      "Dale Coyne Racing",
+      "02:12:01.9211"
+     ],
+     [
+      "22",
+      "S. Ray Robb",
+      "Juncos Hollinger Racing",
+      "02:12:04.7806"
+     ],
+     [
+      "23",
+      "G. Rahal",
+      "Rahal Letterman Lanigan Racing",
+      "02:11:55.1341"
+     ],
+     [
+      "24",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      "01:53:10.1985"
+     ],
+     [
+      "25",
+      "W. Power",
+      "Andretti Global",
+      "01:44:46.8677"
+     ]
+    ]
+   },
+   "sid": "6739",
+   "d": "2026-08-30"
+  },
+  {
+   "s": "indy",
+   "date": "2026-08-29",
+   "tbc": true,
+   "title": "Clasificación, Race 1",
+   "sub": "Snap-on Makers and Fixers 250",
+   "res": {
+    "head": "Mejor: Scott McLaughlin",
+    "rows": [
+     [
+      "1",
+      "S. McLaughlin",
+      "Team Penske",
+      ""
+     ],
+     [
+      "2",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      ""
+     ],
+     [
+      "3",
+      "D. Malukas",
+      "Team Penske",
+      ""
+     ],
+     [
+      "4",
+      "P. O'Ward",
+      "Arrow McLaren",
+      ""
+     ],
+     [
+      "5",
+      "J. Newgarden",
+      "Team Penske",
+      ""
+     ],
+     [
+      "6",
+      "W. Power",
+      "Andretti Global",
+      ""
+     ],
+     [
+      "7",
+      "D. Hauger",
+      "Dale Coyne Racing",
+      ""
+     ],
+     [
+      "8",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      ""
+     ],
+     [
+      "9",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      ""
+     ],
+     [
+      "10",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      ""
+     ],
+     [
+      "11",
+      "A. Rossi",
+      "ECR",
+      ""
+     ],
+     [
+      "12",
+      "R. Grosjean",
+      "Dale Coyne Racing",
+      ""
+     ],
+     [
+      "13",
+      "M. Schumacher",
+      "Rahal Letterman Lanigan Racing",
+      ""
+     ],
+     [
+      "14",
+      "M. Ericsson",
+      "Andretti Global",
+      ""
+     ],
+     [
+      "15",
+      "S. Dixon",
+      "Chip Ganassi Racing",
+      ""
+     ],
+     [
+      "16",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      ""
+     ],
+     [
+      "17",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      ""
+     ],
+     [
+      "18",
+      "C. Rasmussen",
+      "ECR",
+      ""
+     ],
+     [
+      "19",
+      "R. VeeKay",
+      "Juncos Hollinger Racing",
+      ""
+     ],
+     [
+      "20",
+      "G. Rahal",
+      "Rahal Letterman Lanigan Racing",
+      ""
+     ],
+     [
+      "21",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      ""
+     ],
+     [
+      "22",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      ""
+     ],
+     [
+      "23",
+      "S. Ray Robb",
+      "Juncos Hollinger Racing",
+      ""
+     ],
+     [
+      "24",
+      "S. Ferrucci",
+      "A.J. Foyt Enterprises",
+      ""
+     ],
+     [
+      "25",
+      "N. Siegel",
+      "Arrow McLaren",
+      ""
+     ]
+    ]
+   },
+   "sid": "6937",
+   "d": "2026-08-29"
+  },
+  {
+   "s": "indy",
+   "date": "2026-08-30",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "Snap-on Milwaukee Mile 250",
+   "res": {
+    "head": "Ganador: Pato O'Ward",
+    "rows": [
+     [
+      "1",
+      "P. O'Ward",
+      "Arrow McLaren",
+      "01:57:50.2411"
+     ],
+     [
+      "2",
+      "S. McLaughlin",
+      "Team Penske",
+      "01:57:51.0327"
+     ],
+     [
+      "3",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      "01:57:52.9868"
+     ],
+     [
+      "4",
+      "D. Malukas",
+      "Team Penske",
+      "01:57:53.5296"
+     ],
+     [
+      "5",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      "01:58:02.2850"
+     ],
+     [
+      "6",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      "01:58:07.7721"
+     ],
+     [
+      "7",
+      "R. VeeKay",
+      "Juncos Hollinger Racing",
+      "01:58:08.9411"
+     ],
+     [
+      "8",
+      "C. Rasmussen",
+      "ECR",
+      "01:58:13.0248"
+     ],
+     [
+      "9",
+      "M. Ericsson",
+      "Andretti Global",
+      "01:58:14.3249"
+     ],
+     [
+      "10",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      "01:58:17.1028"
+     ],
+     [
+      "11",
+      "A. Rossi",
+      "ECR",
+      "01:57:52.5731"
+     ],
+     [
+      "12",
+      "S. Ferrucci",
+      "A.J. Foyt Enterprises",
+      "01:57:53.0768"
+     ],
+     [
+      "13",
+      "M. Schumacher",
+      "Rahal Letterman Lanigan Racing",
+      "01:57:55.4059"
+     ],
+     [
+      "14",
+      "W. Power",
+      "Andretti Global",
+      "01:57:55.9223"
+     ],
+     [
+      "15",
+      "S. Dixon",
+      "Chip Ganassi Racing",
+      "01:57:58.1829"
+     ],
+     [
+      "16",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:58:14.0740"
+     ],
+     [
+      "17",
+      "N. Siegel",
+      "Arrow McLaren",
+      "01:58:14.6986"
+     ],
+     [
+      "18",
+      "S. Ray Robb",
+      "Juncos Hollinger Racing",
+      "01:57:59.6236"
+     ],
+     [
+      "19",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      "01:58:06.4200"
+     ],
+     [
+      "20",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      "01:58:06.9745"
+     ],
+     [
+      "21",
+      "D. Hauger",
+      "Dale Coyne Racing",
+      "01:58:10.6482"
+     ],
+     [
+      "22",
+      "G. Rahal",
+      "Rahal Letterman Lanigan Racing",
+      "01:58:05.9776"
+     ],
+     [
+      "23",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      "01:58:05.2528"
+     ],
+     [
+      "24",
+      "R. Grosjean",
+      "Dale Coyne Racing",
+      "01:14:27.2482"
+     ],
+     [
+      "25",
+      "J. Newgarden",
+      "Team Penske",
+      "01:44:53.2142"
+     ]
+    ]
+   },
+   "sid": "6738",
+   "d": "2026-08-30"
+  },
+  {
+   "s": "indy",
+   "date": "2026-08-29",
+   "tbc": true,
+   "title": "Clasificación, Race 2",
+   "sub": "Snap-on Milwaukee Mile 250",
+   "res": {
+    "head": "Mejor: Alex Palou",
+    "rows": [
+     [
+      "1",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      ""
+     ],
+     [
+      "2",
+      "P. O'Ward",
+      "Arrow McLaren",
+      ""
+     ],
+     [
+      "3",
+      "J. Newgarden",
+      "Team Penske",
+      ""
+     ],
+     [
+      "4",
+      "M. Schumacher",
+      "Rahal Letterman Lanigan Racing",
+      ""
+     ],
+     [
+      "5",
+      "W. Power",
+      "Andretti Global",
+      ""
+     ],
+     [
+      "6",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      ""
+     ],
+     [
+      "7",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      ""
+     ],
+     [
+      "8",
+      "S. McLaughlin",
+      "Team Penske",
+      ""
+     ],
+     [
+      "9",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      ""
+     ],
+     [
+      "10",
+      "S. Dixon",
+      "Chip Ganassi Racing",
+      ""
+     ],
+     [
+      "11",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      ""
+     ],
+     [
+      "12",
+      "R. VeeKay",
+      "Juncos Hollinger Racing",
+      ""
+     ],
+     [
+      "13",
+      "M. Ericsson",
+      "Andretti Global",
+      ""
+     ],
+     [
+      "14",
+      "D. Malukas",
+      "Team Penske",
+      ""
+     ],
+     [
+      "15",
+      "D. Hauger",
+      "Dale Coyne Racing",
+      ""
+     ],
+     [
+      "16",
+      "A. Rossi",
+      "ECR",
+      ""
+     ],
+     [
+      "17",
+      "C. Rasmussen",
+      "ECR",
+      ""
+     ],
+     [
+      "18",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      ""
+     ],
+     [
+      "19",
+      "G. Rahal",
+      "Rahal Letterman Lanigan Racing",
+      ""
+     ],
+     [
+      "20",
+      "R. Grosjean",
+      "Dale Coyne Racing",
+      ""
+     ],
+     [
+      "21",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      ""
+     ],
+     [
+      "22",
+      "S. Ferrucci",
+      "A.J. Foyt Enterprises",
+      ""
+     ],
+     [
+      "23",
+      "S. Ray Robb",
+      "Juncos Hollinger Racing",
+      ""
+     ],
+     [
+      "24",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      ""
+     ],
+     [
+      "25",
+      "N. Siegel",
+      "Arrow McLaren",
+      ""
+     ]
+    ]
+   },
+   "sid": "6938",
+   "d": "2026-08-29"
+  },
+  {
+   "s": "indy",
+   "date": "2026-08-23",
+   "tbc": true,
+   "title": "Carrera",
+   "sub": "GP Washington DC",
+   "res": {
+    "head": "Ganador: Kyle Kirkwood",
+    "rows": [
+     [
+      "1",
+      "K. Kirkwood",
+      "Andretti Global w/ Curb-Agajanian",
+      "02:40:42.9548"
+     ],
+     [
+      "2",
+      "C. Lundgaard",
+      "Arrow McLaren",
+      "02:40:46.0454"
+     ],
+     [
+      "3",
+      "W. Power",
+      "Andretti Global",
+      "02:40:47.1390"
+     ],
+     [
+      "4",
+      "M. Ericsson",
+      "Andretti Global",
+      "02:40:55.4185"
+     ],
+     [
+      "5",
+      "K. Simpson",
+      "Chip Ganassi Racing",
+      "02:40:56.8176"
+     ],
+     [
+      "6",
+      "N. Siegel",
+      "Arrow McLaren",
+      "02:40:58.6061"
+     ],
+     [
+      "7",
+      "S. Dixon",
+      "Chip Ganassi Racing",
+      "02:41:01.5414"
+     ],
+     [
+      "8",
+      "J. Newgarden",
+      "Team Penske",
+      "02:41:02.4309"
+     ],
+     [
+      "9",
+      "C. Collet",
+      "A.J. Foyt Enterprises",
+      "02:41:03.1451"
+     ],
+     [
+      "10",
+      "R. Grosjean",
+      "Dale Coyne Racing",
+      "02:41:05.1730"
+     ],
+     [
+      "11",
+      "M. Schumacher",
+      "Rahal Letterman Lanigan Racing",
+      "02:41:09.5991"
+     ],
+     [
+      "12",
+      "A. Rossi",
+      "ECR",
+      "02:41:13.8889"
+     ],
+     [
+      "13",
+      "G. Rahal",
+      "Rahal Letterman Lanigan Racing",
+      "02:41:15.0044"
+     ],
+     [
+      "14",
+      "C. Rasmussen",
+      "ECR",
+      "02:41:15.6915"
+     ],
+     [
+      "15",
+      "D. Hauger",
+      "Dale Coyne Racing",
+      "02:41:16.2241"
+     ],
+     [
+      "16",
+      "P. O'Ward",
+      "Arrow McLaren",
+      "02:41:17.4900"
+     ],
+     [
+      "17",
+      "M. Armstrong",
+      "Meyer Shank w/ Curb-Agajanian",
+      "02:41:19.4357"
+     ],
+     [
+      "18",
+      "L. Foster",
+      "Rahal Letterman Lanigan Racing",
+      "02:41:21.1323"
+     ],
+     [
+      "19",
+      "F. Rosenqvist",
+      "Meyer Shank w/ Curb-Agajanian",
+      "02:41:21.8620"
+     ],
+     [
+      "20",
+      "A. Palou",
+      "Chip Ganassi Racing",
+      "02:41:23.5769"
+     ],
+     [
+      "21",
+      "S. Ferrucci",
+      "A.J. Foyt Enterprises",
+      "02:35:25.9940"
+     ],
+     [
+      "22",
+      "S. McLaughlin",
+      "Team Penske",
+      "02:19:51.5433"
+     ],
+     [
+      "23",
+      "R. VeeKay",
+      "Juncos Hollinger Racing",
+      "00:49:49.3201"
+     ],
+     [
+      "24",
+      "D. Malukas",
+      "Team Penske",
+      "00:38:52.1679"
+     ],
+     [
+      "25",
+      "S. Ray Robb",
+      "Juncos Hollinger Racing",
+      "00:38:54.7667"
+     ]
+    ]
+   },
+   "sid": "6796",
+   "d": "2026-08-23"
+  }
+ ],
+ "tried": {
+  "6932": "2026-08-22",
+  "6931": "2026-08-22",
+  "6930": "2026-08-22",
+  "6929": "2026-08-22",
+  "6928": "2026-08-22"
+ }
+}
