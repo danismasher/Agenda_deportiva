@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:16:00Z",
+ "updated": "2026-11-21T19:35:00Z",
  "events": [
   {
    "s": "f1",
@@ -8606,7 +8606,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
-   ]
+   ],
+   "res": {
+    "head": "Sevilla 1 – 1 Real Betis"
+   }
   },
   {
    "s": "nhl",
