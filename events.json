@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:26:00Z",
+ "updated": "2026-11-22T07:45:00Z",
  "events": [
   {
    "s": "indy",
@@ -8523,7 +8523,144 @@
    "s": "f1",
    "start": "2026-11-22T04:00:00Z",
    "title": "Carrera",
-   "sub": "GP Las Vegas"
+   "sub": "GP Las Vegas",
+   "res": {
+    "head": "Ganador: Max Verstappen",
+    "rows": [
+     [
+      "1",
+      "M. Verstappen",
+      "Red Bull Racing",
+      "1:27:39.624"
+     ],
+     [
+      "2",
+      "L. Norris",
+      "McLaren",
+      "+0.639s"
+     ],
+     [
+      "3",
+      "O. Piastri",
+      "McLaren",
+      "+1.529s"
+     ],
+     [
+      "4",
+      "K. Antonelli",
+      "Mercedes",
+      "+2.574s"
+     ],
+     [
+      "5",
+      "P. Gasly",
+      "Alpine",
+      "+2.927s"
+     ],
+     [
+      "6",
+      "F. Colapinto",
+      "Alpine",
+      "+7.955s"
+     ],
+     [
+      "7",
+      "L. Hamilton",
+      "Ferrari",
+      "+12.795s"
+     ],
+     [
+      "8",
+      "C. Sainz",
+      "Williams",
+      "+12.938s"
+     ],
+     [
+      "9",
+      "G. Russell",
+      "Mercedes",
+      "+13.192s"
+     ],
+     [
+      "10",
+      "C. Leclerc",
+      "Ferrari",
+      "+17.554s"
+     ],
+     [
+      "11",
+      "N. Hulkenberg",
+      "Audi",
+      "+22.720s"
+     ],
+     [
+      "12",
+      "G. Bortoleto",
+      "Audi",
+      "+28.602s"
+     ],
+     [
+      "13",
+      "O. Bearman",
+      "Haas F1 Team",
+      "+28.843s"
+     ],
+     [
+      "14",
+      "I. Hadjar",
+      "Red Bull Racing",
+      "+36.488s"
+     ],
+     [
+      "15",
+      "L. Lawson",
+      "Racing Bulls",
+      "+36.588s"
+     ],
+     [
+      "16",
+      "R. Camara",
+      "Haas F1 Team",
+      "+47.814s"
+     ],
+     [
+      "17",
+      "L. Stroll",
+      "Aston Martin",
+      "+68.353s"
+     ],
+     [
+      "18",
+      "V. Bottas",
+      "Cadillac",
+      "+71.673s"
+     ],
+     [
+      "19",
+      "F. Alonso",
+      "Aston Martin",
+      "DNF"
+     ],
+     [
+      "NC",
+      "A. Lindblad",
+      "Racing Bulls",
+      "DNF"
+     ],
+     [
+      "NC",
+      "S. Perez",
+      "Cadillac",
+      "DNF"
+     ],
+     [
+      "NC",
+      "A. Albon",
+      "Williams",
+      "DNS"
+     ]
+    ]
+   }
   },
   {
    "s": "laliga",
