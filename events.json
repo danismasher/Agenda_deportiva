@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T05:27:00Z",
+ "updated": "2026-11-22T06:26:00Z",
  "events": [
   {
    "s": "indy",
@@ -8501,7 +8501,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Vancouver Canucks 4 – 3 Minnesota Wild (penaltis)"
+   }
   },
   {
    "s": "nhl",
@@ -8511,7 +8514,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "San Jose Sharks 4 – 3 Seattle Kraken"
+   }
   },
   {
    "s": "f1",
