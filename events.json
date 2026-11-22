@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:19:00Z",
+ "updated": "2026-11-22T22:04:00Z",
  "events": [
   {
    "s": "indy",
@@ -8889,6 +8889,19 @@
   {
    "s": "nfl",
    "start": "2026-11-22T18:00:00Z",
+   "title": "Dallas Cowboys – Tennessee Titans",
+   "sub": "AT&T",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+   ],
+   "res": {
+    "head": "Dallas Cowboys 51 – 30 Tennessee Titans"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
    "title": "Detroit Lions – Tampa Bay Buccaneers",
    "sub": "Ford Field",
    "ic": [
@@ -8897,6 +8910,19 @@
    ],
    "res": {
     "head": "Detroit Lions 31 – 21 Tampa Bay Buccaneers"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Kansas City Chiefs – Arizona Cardinals",
+   "sub": "Arrowhead",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+   ],
+   "res": {
+    "head": "Kansas City Chiefs 34 – 7 Arizona Cardinals"
    }
   },
   {
@@ -8926,32 +8952,6 @@
    }
   },
   {
-   "s": "nfl",
-   "start": "2026-11-22T18:00:00Z",
-   "title": "Dallas Cowboys – Tennessee Titans",
-   "sub": "AT&T",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
-   ],
-   "res": {
-    "head": "Dallas Cowboys 51 – 30 Tennessee Titans"
-   }
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-22T18:00:00Z",
-   "title": "Kansas City Chiefs – Arizona Cardinals",
-   "sub": "Arrowhead",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
-   ],
-   "res": {
-    "head": "Kansas City Chiefs 34 – 7 Arizona Cardinals"
-   }
-  },
-  {
    "s": "laliga",
    "start": "2026-11-22T20:00:00Z",
    "title": "Getafe – Atlético Madrid",
@@ -8959,7 +8959,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
-   ]
+   ],
+   "res": {
+    "head": "Getafe 0 – 3 Atlético Madrid"
+   }
   },
   {
    "s": "nfl",
