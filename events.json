@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T03:20:00Z",
+ "updated": "2026-11-22T05:27:00Z",
  "events": [
   {
    "s": "indy",
@@ -8488,7 +8488,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Utah Mammoth 3 – 2 Anaheim Ducks"
+   }
   },
   {
    "s": "nhl",
