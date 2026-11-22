@@ -112,7 +112,9 @@ const S={f1:["F1","#e10600","🏎️"],indy:["IndyCar","#ff4a5a","🏁"],motogp:
 const key=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 let ev=[];
 const toEv=r=>{if(r.tbc||!r.start)return{date:r.date,time:"–:–",s:r.s,title:r.title,sub:r.res?(r.sub||""):(r.sub?r.sub+", ":"")+"hora por confirmar",res:r.res};const d=new Date(r.start);return{date:key(d),time:String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"),s:r.s,title:r.title,sub:r.sub||"",nb:!!r.nb,ts:d.getTime(),res:r.res,ic:r.ic}};
-function setData(j){ev=(j.events||[]).filter(r=>S[r.s]).map(toEv).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));ev.forEach((e,i)=>e.id=i);$("note").textContent=j.updated?"Datos actualizados el "+new Date(j.updated).toLocaleString("es-ES",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):""}
+let noteBase="";
+const liveNote=m=>{$("note").textContent=(noteBase?noteBase+". ":"")+m};
+function setData(j){ev=(j.events||[]).filter(r=>S[r.s]).map(toEv).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));ev.forEach((e,i)=>e.id=i);$("note").textContent=j.updated?"Datos actualizados el "+new Date(j.updated).toLocaleString("es-ES",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}):"";noteBase=$("note").textContent}
 let lastLoad=0;
 async function load(){lastLoad=Date.now();let j=null;try{const r=await fetch("events.json?"+Date.now(),{cache:"no-cache"});if(r.ok){j=await r.json();try{localStorage.setItem("agd",JSON.stringify(j))}catch(e){}}}catch(e){}
 if(!j){try{j=JSON.parse(localStorage.getItem("agd")||"null")}catch(e){}}
@@ -177,7 +179,7 @@ async function pollLive(){
   const now=Date.now();
   const cand=ev.filter(e=>e.ts&&LIVE_PATH[e.s]&&!e.res&&e.ts<=now+10*60000&&now-e.ts<LIVE_WIN[e.s]*36e5);
   const sports=[...new Set(cand.map(e=>e.s))];
-  if(!sports.length)return;
+  if(!sports.length){liveNote("Directo: ningún partido en juego ahora.");return}
   let changed=false,fails=0;
   await Promise.all(sports.map(async s=>{
     try{
@@ -195,7 +197,9 @@ async function pollLive(){
       });
     }catch(_){fails++}
   }));
-  if(fails===sports.length){$("note").textContent="Directo no disponible ahora (no se pudo conectar con la fuente)."}
+  const hh=new Date().toLocaleTimeString("es-ES");
+  if(fails===sports.length)liveNote("Directo no disponible (no se pudo conectar con la fuente), último intento "+hh+".");
+  else liveNote("Directo comprobado a las "+hh+" ("+cand.length+" en juego"+(Object.keys(live).length?"":", sin coincidencias")+").");
   if(changed){cal();list()}
 }
 const liveTag=e=>{const L=!e.res&&live[lk(e)];return L?`<span class="lv${L.state==="in"?"":" fin"}">${L.state==="in"?'<i class="pt"></i>EN VIVO':"FINAL"}&nbsp;${L.text}${L.state==="in"&&L.detail?",&nbsp;"+L.detail:""}</span>`:""};
@@ -272,7 +276,7 @@ $("rsOk").onclick=()=>{$("rsheet").hidden=true};
 $("rsBg").onclick=()=>{$("rsheet").hidden=true};
 all();load();
 document.addEventListener("visibilitychange",()=>{if(!document.hidden){pollLive();if(Date.now()-lastLoad>120000)load()}});
-setInterval(pollLive,45000);
+setInterval(pollLive,30000);
 setInterval(()=>{if(!document.hidden)load()},300000);
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>
