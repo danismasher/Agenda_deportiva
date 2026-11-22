@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T15:30:00Z",
+ "updated": "2026-11-22T17:15:00Z",
  "events": [
   {
    "s": "indy",
@@ -8820,7 +8820,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
-   ]
+   ],
+   "res": {
+    "head": "Racing Santander 3 – 2 Real Sociedad"
+   }
   },
   {
    "s": "tenis",
