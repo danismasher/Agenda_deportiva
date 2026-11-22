@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:23:00Z",
+ "updated": "2026-11-22T03:20:00Z",
  "events": [
   {
    "s": "indy",
@@ -8397,7 +8397,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Boston Bruins 7 – 5 Washington Capitals"
+   }
   },
   {
    "s": "nhl",
@@ -8407,7 +8410,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Toronto Maple Leafs 3 – 4 Columbus Blue Jackets"
+   }
   },
   {
    "s": "nhl",
@@ -8417,7 +8423,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Montréal Canadiens 3 – 4 Philadelphia Flyers"
+   }
   },
   {
    "s": "nhl",
@@ -8427,7 +8436,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Ottawa Senators 4 – 2 Los Angeles Kings"
+   }
   },
   {
    "s": "nhl",
@@ -8437,7 +8449,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Detroit Red Wings 2 – 3 New York Islanders"
+   }
   },
   {
    "s": "nhl",
@@ -8447,7 +8462,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "St. Louis Blues 9 – 6 New Jersey Devils"
+   }
   },
   {
    "s": "nhl",
@@ -8457,7 +8475,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Winnipeg Jets 4 – 5 Vegas Golden Knights (penaltis)"
+   }
   },
   {
    "s": "nhl",
