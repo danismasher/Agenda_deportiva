@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:59:00Z",
+ "updated": "2026-11-22T19:38:00Z",
  "events": [
   {
    "s": "indy",
@@ -8839,7 +8839,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
-   ]
+   ],
+   "res": {
+    "head": "Osasuna 1 – 0 Málaga"
+   }
   },
   {
    "s": "nhl",
