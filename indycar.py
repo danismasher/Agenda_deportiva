@@ -14,6 +14,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KH
 TODAY = datetime.now(timezone.utc).date()
 KEEP = 90
 DEBUG = []
+FMT = 2  # version del formato; si cambia, se vuelven a leer los resultados
 
 
 def get_json(url, tries=3):
@@ -71,19 +72,47 @@ def short(n):
     return f"{p[0][0]}. {' '.join(p[1:])}" if len(p) > 1 else n
 
 
+def team_of(r):
+    for k in ("TeamName", "Team", "TeamFullName", "TeamDisplayName", "Entrant", "TeamNameShort"):
+        if r.get(k):
+            return str(r[k])
+    for k, v in r.items():
+        if "team" in k.lower() and isinstance(v, str) and v and not v.isdigit():
+            return v
+    return ""
+
+
+def num(x):
+    try:
+        return float(x)
+    except Exception:
+        return None
+
+
 def to_res(records, is_race, title):
     rows = []
     for i, r in enumerate(records):
         name = f'{r.get("FirstName", "")} {r.get("LastName", "")}'.strip()
-        pos = pick(r, ("position", "finish", "pos"), bad=("start", "grid", "led"))
-        team = pick(r, ("team",)) or ""
+        pos = r.get("PositionFinish")
+        if pos is None:
+            pos = pick(r, ("position", "finish", "pos"), bad=("start", "grid", "led"))
+        status = str(r.get("Status") or "").strip()
         if is_race:
-            t = pick(r, ("elapsed",)) or pick(r, ("time",), bad=("pit",)) or ""
-            if str(pick(r, ("status",)) or "").lower() not in ("", "running") and not t:
-                t = str(pick(r, ("status",)))
+            down = num(r.get("LapsDown"))
+            diff = str(r.get("Difference") or "").strip()
+            if i == 0:
+                t = str(r.get("ElapsedTime") or "")
+            elif status and status.lower() != "running":
+                t = status
+            elif down and down > 0:
+                t = f"+{int(down)} v."
+            elif diff and num(diff) is not None:
+                t = "+" + diff
+            else:
+                t = str(r.get("ElapsedTime") or "")
         else:
-            t = pick(r, ("besttime", "best_time", "bestlap", "best lap")) or pick(r, ("time", "lap"), bad=("pit", "laps", "led")) or ""
-        rows.append([str(pos if pos is not None else i + 1), short(name), str(team), str(t)])
+            t = str(r.get("BestLapTime") or pick(r, ("bestlap", "best")) or "")
+        rows.append([str(pos if pos is not None else i + 1), short(name), team_of(r), t])
     if not rows:
         return None
     first = f'{records[0].get("FirstName", "")} {records[0].get("LastName", "")}'.strip()
@@ -139,7 +168,7 @@ def collect(prev, tried):
                     continue
                 if records and title not in shown and len(shown) < 2:
                     shown.add(title)
-                    DEBUG.append(f"ejemplo de registro ({title}): " + json.dumps(records[0], ensure_ascii=False)[:600])
+                    DEBUG.append(f"claves del registro ({title}): " + ", ".join(records[0].keys()))
                 res = to_res(records, title == "Carrera", title)
                 if res:
                     out.append({"s": "indy", "date": d.isoformat(), "tbc": True, "title": title,
@@ -156,15 +185,16 @@ def main():
     if OUT.exists():
         try:
             j = json.loads(OUT.read_text("utf-8"))
-            prev = {e["sid"]: e for e in j.get("events", []) if e.get("sid")}
-            tried = j.get("tried", {})
+            if j.get("fmt") == FMT:
+                prev = {e["sid"]: e for e in j.get("events", []) if e.get("sid")}
+                tried = j.get("tried", {})
         except Exception:
             pass
     events, new_tried = collect(prev, tried)
-    new = {"events": events, "tried": new_tried}
+    new = {"fmt": FMT, "events": events, "tried": new_tried}
     try:
         j = json.loads(OUT.read_text("utf-8"))
-        same = {"events": j.get("events"), "tried": j.get("tried")} == new
+        same = {"fmt": j.get("fmt"), "events": j.get("events"), "tried": j.get("tried")} == new
     except Exception:
         same = False
     if not same:
