@@ -69,6 +69,10 @@ h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
 .card{position:relative;display:flex;gap:14px;align-items:center;background:var(--card);border-radius:18px;padding:16px;margin-bottom:10px;border-left:10px solid var(--c)}
 .time{font-size:32px;font-weight:700;line-height:1;min-width:76px;letter-spacing:-.02em}
 .card.past{cursor:pointer}
+.lv{display:inline-flex;align-items:center;gap:6px;margin-left:8px;font-size:14px;font-weight:700;color:#ff5a5a;vertical-align:middle}
+.lv.fin{color:var(--mu)}
+.lv .pt{width:8px;height:8px;border-radius:50%;background:#ff5a5a;animation:pulse 1.2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
 .card.cr .det{padding-right:64px}
 .crests{position:absolute;right:16px;bottom:14px;display:flex;align-items:center;pointer-events:none}
 .card.past .crests{right:42px}
@@ -112,7 +116,7 @@ function setData(j){ev=(j.events||[]).filter(r=>S[r.s]).map(toEv).sort((a,b)=>(a
 let lastLoad=0;
 async function load(){lastLoad=Date.now();let j=null;try{const r=await fetch("events.json?"+Date.now(),{cache:"no-cache"});if(r.ok){j=await r.json();try{localStorage.setItem("agd",JSON.stringify(j))}catch(e){}}}catch(e){}
 if(!j){try{j=JSON.parse(localStorage.getItem("agd")||"null")}catch(e){}}
-if(j){setData(j);all()}else $("note").textContent="No se han podido cargar los eventos."}
+if(j){setData(j);all();pollLive()}else $("note").textContent="No se han podido cargar los eventos."}
 let only=null;let hidden=new Set();const DK=new Set(["laliga","champions","nhl"]);
 const TM={laliga:[["Real Madrid","Real Madrid"],["FC Barcelona","Barcelona"],["Atlético de Madrid","Atlético"]],nfl:["Seahawks","Patriots","Cowboys","49ers","Bills","Bears"].map(x=>[x,x]),nhl:["Bruins","Kraken","Oilers","Maple Leafs","Golden Knights","Canadiens"].map(x=>[x,x])};
 TM.champions=TM.laliga;
@@ -126,9 +130,78 @@ const fmt=(k,o)=>new Date(k+"T12:00:00").toLocaleDateString("es-ES",o);
 const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 const vis=()=>ev.filter(e=>!hidden.has(e.s)&&(!only||e.s===only)&&(!tm[e.s]||!tm[e.s].size||[...tm[e.s]].some(w=>norm(e.title).includes(norm(w)))));
 const isPast=e=>e.ts?e.ts<Date.now():e.date<today;
+// ---- resultados en directo (ESPN, leidos desde el movil mientras la app esta abierta) ----
+const ESPN="https://site.api.espn.com/apis/site/v2/sports/";
+const LIVE_PATH={laliga:"soccer/esp.1",champions:"soccer/uefa.champions",nfl:"football/nfl",nhl:"hockey/nhl",tenis:"tennis/atp"};
+const LIVE_WIN={laliga:3.3,champions:3.3,nfl:4.6,nhl:3.7,tenis:8};
+let live={};
+const lk=e=>e.s+"|"+e.ts+"|"+e.title;
+const ymd=ms=>new Date(ms).toISOString().slice(0,10).replace(/-/g,"");
+const lw=s=>norm(s||"").replace(/[^a-z0-9 ]/g,"").trim().split(/\s+/).pop();
+const vtx=v=>v&&typeof v==="object"?String(v.displayValue??v.value??""):(v==null?"":String(v));
+function liveDetail(s,st){
+  const ty=st.type||{};
+  if(ty.name==="STATUS_HALFTIME")return "Descanso";
+  if(s==="nfl")return "Q"+(st.period||"")+" "+(st.displayClock||"");
+  if(s==="nhl"){const p=st.period||0;return (p<=3?"P"+p:p===4?"Prórroga":"Penaltis")+(p<=4?" "+(st.displayClock||""):"")}
+  return st.displayClock||ty.shortDetail||"";
+}
+function parseGames(s,j){
+  const out=[];
+  const addT=c=>{const ps=c.competitors||[];if(ps.length!==2)return;
+    const names=ps.map(p=>(p.athlete&&p.athlete.displayName)||(p.team&&p.team.displayName)||"");
+    const ls=ps.map(p=>(p.linescores||[]).map(x=>vtx(x.value).replace(/\.0$/,"")));
+    const st=c.status||{},ty=st.type||{};
+    out.push({names,t:Date.parse(c.date||c.startDate||""),state:ty.state,ls,detail:ty.shortDetail||(ls[0].length?"Set "+ls[0].length:"")})};
+  for(const ev of j.events||[]){
+    if(s==="tenis"){(ev.groupings||[]).forEach(g=>(g.competitions||[]).forEach(addT));(ev.competitions||[]).forEach(addT);continue}
+    const c=(ev.competitions||[])[0];if(!c)continue;
+    const cs=c.competitors||[],hm=cs.find(x=>x.homeAway==="home"),aw=cs.find(x=>x.homeAway==="away");if(!hm||!aw)continue;
+    const st=ev.status||c.status||{},ty=st.type||{};
+    out.push({names:[hm.team.displayName,aw.team.displayName],t:Date.parse(ev.date),state:ty.state,sc:[vtx(hm.score),vtx(aw.score)],detail:liveDetail(s,st)});
+  }
+  return out;
+}
+function matchGame(e,games){
+  const [a,b]=e.title.split(" – ");
+  for(const g of games){
+    if(!(Math.abs(g.t-e.ts)<12*36e5))continue;
+    const fwd=lw(a)===lw(g.names[0])&&lw(b)===lw(g.names[1]);
+    const rev=lw(a)===lw(g.names[1])&&lw(b)===lw(g.names[0]);
+    if(fwd||rev)return {g,rev:!fwd};
+  }
+  return null;
+}
+async function pollLive(){
+  if(document.hidden||!ev.length)return;
+  const now=Date.now();
+  const cand=ev.filter(e=>e.ts&&LIVE_PATH[e.s]&&!e.res&&e.ts<=now+10*60000&&now-e.ts<LIVE_WIN[e.s]*36e5);
+  const sports=[...new Set(cand.map(e=>e.s))];
+  if(!sports.length)return;
+  let changed=false,fails=0;
+  await Promise.all(sports.map(async s=>{
+    try{
+      const r=await fetch(`${ESPN}${LIVE_PATH[s]}/scoreboard?dates=${ymd(now-864e5)}-${ymd(now+864e5)}&limit=300`);
+      if(!r.ok)throw 0;
+      const games=parseGames(s,await r.json());
+      cand.filter(e=>e.s===s).forEach(e=>{
+        const m=matchGame(e,games);if(!m||(m.g.state!=="in"&&m.g.state!=="post"))return;
+        let text;
+        if(s==="tenis"){const w=m.rev?1:0;text=(m.g.ls[w]||[]).map((x,i)=>x+"-"+((m.g.ls[1-w]||[])[i]??"")).join(" ")||"–"}
+        else text=m.rev?m.g.sc[1]+" – "+m.g.sc[0]:m.g.sc[0]+" – "+m.g.sc[1];
+        const v={state:m.g.state,text,detail:m.g.state==="in"?m.g.detail:"Final"};
+        const old=live[lk(e)];
+        if(!old||old.text!==v.text||old.detail!==v.detail||old.state!==v.state){live[lk(e)]=v;changed=true}
+      });
+    }catch(_){fails++}
+  }));
+  if(fails===sports.length){$("note").textContent="Directo no disponible ahora (no se pudo conectar con la fuente)."}
+  if(changed){cal();list()}
+}
+const liveTag=e=>{const L=!e.res&&live[lk(e)];return L?`<span class="lv${L.state==="in"?"":" fin"}">${L.state==="in"?'<i class="pt"></i>EN VIVO':"FINAL"}&nbsp;${L.text}${L.state==="in"&&L.detail?",&nbsp;"+L.detail:""}</span>`:""};
 const small=u=>u.replace(/^https:\/\/a\.espncdn\.com(\/.*)$/,"https://a.espncdn.com/combiner/i?img=$1&w=96&h=96");
 const crest=u=>`<img src="${small(u)}" data-o="${u}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=this.dataset.o">`;
-const card=e=>`<div class="card${isPast(e)?" past":""}${e.ic?" cr":""}" data-i="${e.id}" style="--c:${S[e.s][1]}"><div class="time">${e.nb?'<small class="nb">No antes de</small>':""}${e.time}</div><div class="body"><b>${e.title}</b><span class="badge${DK.has(e.s)?" dk":""}">${S[e.s][0]}</span><div class="det">${e.sub}</div></div>${e.ic?`<div class="crests">${crest(e.ic[0])}${crest(e.ic[1])}</div>`:""}${isPast(e)?'<span class="chev">›</span>':""}</div>`;
+const card=e=>`<div class="card${isPast(e)?" past":""}${e.ic?" cr":""}" data-i="${e.id}" style="--c:${S[e.s][1]}"><div class="time">${e.nb?'<small class="nb">No antes de</small>':""}${e.time}</div><div class="body"><b>${e.title}</b><span class="badge${DK.has(e.s)?" dk":""}">${S[e.s][0]}</span>${liveTag(e)}<div class="det">${e.sub}</div></div>${e.ic?`<div class="crests">${crest(e.ic[0])}${crest(e.ic[1])}</div>`:""}${isPast(e)?'<span class="chev">›</span>':""}</div>`;
 function chips(){$("chips").innerHTML=Object.entries(S).map(([k,[n,c,i]])=>`<button class="chip ${hidden.has(k)?"off":(!only||only===k?"on":"")}${DK.has(k)?" dk":""}${tm[k]&&tm[k].size?" ft":""}" style="--c:${c}" data-k="${k}">${n}</button>`).join("")}
 function cal(){
   $("mt").textContent=cur.toLocaleDateString("es-ES",{month:"long",year:"numeric"});
@@ -186,7 +259,9 @@ function showRes(i){
   const e=ev[i];if(!e||!isPast(e))return;
   $("rsT").textContent=e.title;
   let b=`<div class="rsub">${S[e.s][0]}, ${fmt(e.date,{weekday:"short",day:"numeric",month:"short"})}${e.time[0]!=="–"?" "+e.time:""}${e.sub?", "+e.sub:""}</div>`;
-  if(e.res){
+  const L=!e.res&&live[lk(e)];
+  if(L){b+=`<div class="rhead">${L.text} <small>${L.state==="in"?(L.detail||""):"Final"}</small></div><div class="empty">${L.state==="in"?"Resultado en directo, se actualiza solo.":"Resultado provisional, se confirma en unos minutos."}</div>`}
+  else if(e.res){
     if(e.res.head)b+=`<div class="rhead">${e.res.head}</div>`;
     b+=(e.res.rows||[]).map(r=>`<div class="rr"><b>${r[0]}</b><span>${r[1]} <i>${r[2]||""}</i></span><i>${r[3]||""}</i></div>`).join("");
   }else b+=`<div class="empty">${e.s==="motogp"?"Los resultados de MotoGP no se cargan automáticamente.":"Todavía no hay resultado disponible para este evento."}</div>`;
@@ -196,7 +271,8 @@ document.addEventListener("click",x=>{const c=x.target.closest(".card.past");if(
 $("rsOk").onclick=()=>{$("rsheet").hidden=true};
 $("rsBg").onclick=()=>{$("rsheet").hidden=true};
 all();load();
-document.addEventListener("visibilitychange",()=>{if(!document.hidden&&Date.now()-lastLoad>120000)load()});
+document.addEventListener("visibilitychange",()=>{if(!document.hidden){pollLive();if(Date.now()-lastLoad>120000)load()}});
+setInterval(pollLive,45000);
 setInterval(()=>{if(!document.hidden)load()},300000);
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 </script>
