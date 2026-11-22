@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:28:00Z",
+ "updated": "2026-11-22T21:19:00Z",
  "events": [
   {
    "s": "indy",
@@ -8868,7 +8868,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
-   ]
+   ],
+   "res": {
+    "head": "Buffalo Bills 26 – 9 Miami Dolphins"
+   }
   },
   {
    "s": "nfl",
@@ -8878,17 +8881,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png"
-   ]
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-22T18:00:00Z",
-   "title": "Dallas Cowboys – Tennessee Titans",
-   "sub": "AT&T",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
-   ]
+   ],
+   "res": {
+    "head": "Chicago Bears 21 – 13 New Orleans Saints"
+   }
   },
   {
    "s": "nfl",
@@ -8898,17 +8894,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
-   ]
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-22T18:00:00Z",
-   "title": "Kansas City Chiefs – Arizona Cardinals",
-   "sub": "Arrowhead",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
-   ]
+   ],
+   "res": {
+    "head": "Detroit Lions 31 – 21 Tampa Bay Buccaneers"
+   }
   },
   {
    "s": "nfl",
@@ -8918,7 +8907,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
-   ]
+   ],
+   "res": {
+    "head": "Philadelphia Eagles 19 – 16 Pittsburgh Steelers"
+   }
   },
   {
    "s": "nfl",
@@ -8928,7 +8920,36 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
-   ]
+   ],
+   "res": {
+    "head": "Carolina Panthers 35 – 33 Baltimore Ravens"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Dallas Cowboys – Tennessee Titans",
+   "sub": "AT&T",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+   ],
+   "res": {
+    "head": "Dallas Cowboys 51 – 30 Tennessee Titans"
+   }
+  },
+  {
+   "s": "nfl",
+   "start": "2026-11-22T18:00:00Z",
+   "title": "Kansas City Chiefs – Arizona Cardinals",
+   "sub": "Arrowhead",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+   ],
+   "res": {
+    "head": "Kansas City Chiefs 34 – 7 Arizona Cardinals"
+   }
   },
   {
    "s": "laliga",
