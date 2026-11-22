@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:45:00Z",
+ "updated": "2026-11-22T13:00:00Z",
  "events": [
   {
    "s": "indy",
@@ -492,145 +492,145 @@
       "2",
       "S. McLaughlin",
       "Team Penske",
-      "01:57:51.0327"
+      "+0.7916"
      ],
      [
       "3",
       "C. Lundgaard",
       "Arrow McLaren",
-      "01:57:52.9868"
+      "+2.7457"
      ],
      [
       "4",
       "D. Malukas",
       "Team Penske",
-      "01:57:53.5296"
+      "+3.2885"
      ],
      [
       "5",
       "A. Palou",
       "Chip Ganassi Racing",
-      "01:58:02.2850"
+      "+12.0439"
      ],
      [
       "6",
       "K. Kirkwood",
       "Andretti Global w/ Curb-Agajanian",
-      "01:58:07.7721"
+      "+17.5310"
      ],
      [
       "7",
       "R. VeeKay",
       "Juncos Hollinger Racing",
-      "01:58:08.9411"
+      "+18.7000"
      ],
      [
       "8",
       "C. Rasmussen",
       "ECR",
-      "01:58:13.0248"
+      "+22.7837"
      ],
      [
       "9",
       "M. Ericsson",
       "Andretti Global",
-      "01:58:14.3249"
+      "+24.0838"
      ],
      [
       "10",
       "L. Foster",
       "Rahal Letterman Lanigan Racing",
-      "01:58:17.1028"
+      "+26.8617"
      ],
      [
       "11",
       "A. Rossi",
       "ECR",
-      "01:57:52.5731"
+      "+1 v."
      ],
      [
       "12",
       "S. Ferrucci",
       "A.J. Foyt Enterprises",
-      "01:57:53.0768"
+      "+1 v."
      ],
      [
       "13",
       "M. Schumacher",
       "Rahal Letterman Lanigan Racing",
-      "01:57:55.4059"
+      "+1 v."
      ],
      [
       "14",
       "W. Power",
       "Andretti Global",
-      "01:57:55.9223"
+      "+1 v."
      ],
      [
       "15",
       "S. Dixon",
       "Chip Ganassi Racing",
-      "01:57:58.1829"
+      "+1 v."
      ],
      [
       "16",
       "M. Armstrong",
       "Meyer Shank w/ Curb-Agajanian",
-      "01:58:14.0740"
+      "+1 v."
      ],
      [
       "17",
       "N. Siegel",
       "Arrow McLaren",
-      "01:58:14.6986"
+      "+1 v."
      ],
      [
       "18",
       "S. Ray Robb",
       "Juncos Hollinger Racing",
-      "01:57:59.6236"
+      "+2 v."
      ],
      [
       "19",
       "K. Simpson",
       "Chip Ganassi Racing",
-      "01:58:06.4200"
+      "+2 v."
      ],
      [
       "20",
       "F. Rosenqvist",
       "Meyer Shank w/ Curb-Agajanian",
-      "01:58:06.9745"
+      "+2 v."
      ],
      [
       "21",
       "D. Hauger",
       "Dale Coyne Racing",
-      "01:58:10.6482"
+      "+2 v."
      ],
      [
       "22",
       "G. Rahal",
       "Rahal Letterman Lanigan Racing",
-      "01:58:05.9776"
+      "+3 v."
      ],
      [
       "23",
       "C. Collet",
       "A.J. Foyt Enterprises",
-      "01:58:05.2528"
+      "+4 v."
      ],
      [
       "24",
       "R. Grosjean",
       "Dale Coyne Racing",
-      "01:14:27.2482"
+      "Contact"
      ],
      [
       "25",
       "J. Newgarden",
       "Team Penske",
-      "01:44:53.2142"
+      "Contact"
      ]
     ]
    },
@@ -1564,97 +1564,97 @@
       "2",
       "K. Kirkwood",
       "Andretti Global w/ Curb-Agajanian",
-      "01:59:30.9902"
+      "+1.3739"
      ],
      [
       "3",
       "A. Rossi",
       "ECR",
-      "01:59:32.4271"
+      "+2.8108"
      ],
      [
       "4",
       "F. Rosenqvist",
       "Meyer Shank w/ Curb-Agajanian",
-      "01:59:34.9049"
+      "+5.2886"
      ],
      [
       "5",
       "D. Malukas",
       "Team Penske",
-      "01:59:44.2043"
+      "+14.5880"
      ],
      [
       "6",
       "C. Lundgaard",
       "Arrow McLaren",
-      "01:59:46.1163"
+      "+16.5000"
      ],
      [
       "7",
       "M. Armstrong",
       "Meyer Shank w/ Curb-Agajanian",
-      "01:59:51.4288"
+      "+21.8125"
      ],
      [
       "8",
       "A. Palou",
       "Chip Ganassi Racing",
-      "01:59:57.6605"
+      "+28.0442"
      ],
      [
       "9",
       "M. Ericsson",
       "Andretti Global",
-      "02:00:09.8425"
+      "+40.2262"
      ],
      [
       "10",
       "K. Simpson",
       "Chip Ganassi Racing",
-      "02:00:10.3839"
+      "+40.7676"
      ],
      [
       "11",
       "P. O'Ward",
       "Arrow McLaren",
-      "02:00:12.6371"
+      "+43.0208"
      ],
      [
       "12",
       "S. Ferrucci",
       "A.J. Foyt Enterprises",
-      "02:00:13.3631"
+      "+43.7468"
      ],
      [
       "13",
       "W. Power",
       "Andretti Global",
-      "02:00:18.9698"
+      "+49.3535"
      ],
      [
       "14",
       "L. Foster",
       "Rahal Letterman Lanigan Racing",
-      "02:00:23.0217"
+      "+53.4054"
      ],
      [
       "15",
       "J. Newgarden",
       "Team Penske",
-      "02:00:24.7191"
+      "+55.1028"
      ],
      [
       "16",
       "R. VeeKay",
       "Juncos Hollinger Racing",
-      "02:00:25.3464"
+      "+55.7301"
      ],
      [
       "17",
       "S. Dixon",
       "Chip Ganassi Racing",
-      "02:00:27.2406"
+      "+57.6243"
      ],
      [
       "18",
@@ -1690,19 +1690,19 @@
       "23",
       "S. Ray Robb",
       "Juncos Hollinger Racing",
-      "01:59:49.8805"
+      "+1 v."
      ],
      [
       "24",
       "N. Siegel",
       "Arrow McLaren",
-      "01:59:51.9087"
+      "+1 v."
      ],
      [
       "25",
       "D. Hauger",
       "Dale Coyne Racing",
-      "00:00:03.3766"
+      "Contact"
      ]
     ]
    },
