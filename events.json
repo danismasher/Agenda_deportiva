@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T00:07:00Z",
+ "updated": "2026-11-22T02:23:00Z",
  "events": [
   {
    "s": "indy",
@@ -8371,7 +8371,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Florida Panthers 4 – 3 Buffalo Sabres"
+   }
   },
   {
    "s": "nhl",
@@ -8381,7 +8384,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Nashville Predators 4 – 3 Pittsburgh Penguins"
+   }
   },
   {
    "s": "nhl",
