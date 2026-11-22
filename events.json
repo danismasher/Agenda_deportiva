@@ -1,313 +1,6 @@
 {
- "updated": "2026-11-21T23:25:00Z",
+ "updated": "2026-11-22T00:07:00Z",
  "events": [
-  {
-   "s": "f1",
-   "start": "2026-08-23T13:00:00Z",
-   "title": "Carrera",
-   "sub": "GP Dutch",
-   "res": {
-    "head": "Ganador: Lando Norris",
-    "rows": [
-     [
-      "1",
-      "L. Norris",
-      "McLaren",
-      "2:04:44.859"
-     ],
-     [
-      "2",
-      "K. Antonelli",
-      "Mercedes",
-      "+11.536s"
-     ],
-     [
-      "3",
-      "G. Russell",
-      "Mercedes",
-      "+15.906s"
-     ],
-     [
-      "4",
-      "L. Hamilton",
-      "Ferrari",
-      "+16.755s"
-     ],
-     [
-      "5",
-      "C. Leclerc",
-      "Ferrari",
-      "+17.258s"
-     ],
-     [
-      "6",
-      "O. Piastri",
-      "McLaren",
-      "+32.332s"
-     ],
-     [
-      "7",
-      "L. Lawson",
-      "Red Bull Racing",
-      "+79.915s"
-     ],
-     [
-      "8",
-      "N. Hulkenberg",
-      "Audi",
-      "+1 lap"
-     ],
-     [
-      "9",
-      "F. Alonso",
-      "Aston Martin",
-      "+1 lap"
-     ],
-     [
-      "10",
-      "P. Gasly",
-      "Alpine",
-      "+1 lap"
-     ],
-     [
-      "11",
-      "Y. Tsunoda",
-      "Racing Bulls",
-      "+1 lap"
-     ],
-     [
-      "12",
-      "A. Lindblad",
-      "Racing Bulls",
-      "+1 lap"
-     ],
-     [
-      "13",
-      "G. Bortoleto",
-      "Audi",
-      "+1 lap"
-     ],
-     [
-      "14",
-      "F. Colapinto",
-      "Alpine",
-      "+2 laps"
-     ],
-     [
-      "15",
-      "S. Perez",
-      "Cadillac",
-      "+2 laps"
-     ],
-     [
-      "16",
-      "C. Sainz",
-      "Williams",
-      "+2 laps"
-     ],
-     [
-      "17",
-      "A. Albon",
-      "Williams",
-      "DNF"
-     ],
-     [
-      "NC",
-      "V. Bottas",
-      "Cadillac",
-      "DNF"
-     ],
-     [
-      "NC",
-      "E. Ocon",
-      "Haas F1 Team",
-      "DNF"
-     ],
-     [
-      "NC",
-      "L. Stroll",
-      "Aston Martin",
-      "DNF"
-     ],
-     [
-      "NC",
-      "O. Bearman",
-      "Haas F1 Team",
-      "DNF"
-     ],
-     [
-      "NC",
-      "M. Verstappen",
-      "Red Bull Racing",
-      "DNF"
-     ]
-    ]
-   }
-  },
-  {
-   "s": "indy",
-   "date": "2026-08-23",
-   "tbc": true,
-   "title": "Carrera",
-   "sub": "GP Washington DC",
-   "res": {
-    "head": "Ganador: Kyle Kirkwood",
-    "rows": [
-     [
-      "1",
-      "K. Kirkwood",
-      "Andretti Global w/ Curb-Agajanian",
-      "02:40:42.9548"
-     ],
-     [
-      "2",
-      "C. Lundgaard",
-      "Arrow McLaren",
-      "02:40:46.0454"
-     ],
-     [
-      "3",
-      "W. Power",
-      "Andretti Global",
-      "02:40:47.1390"
-     ],
-     [
-      "4",
-      "M. Ericsson",
-      "Andretti Global",
-      "02:40:55.4185"
-     ],
-     [
-      "5",
-      "K. Simpson",
-      "Chip Ganassi Racing",
-      "02:40:56.8176"
-     ],
-     [
-      "6",
-      "N. Siegel",
-      "Arrow McLaren",
-      "02:40:58.6061"
-     ],
-     [
-      "7",
-      "S. Dixon",
-      "Chip Ganassi Racing",
-      "02:41:01.5414"
-     ],
-     [
-      "8",
-      "J. Newgarden",
-      "Team Penske",
-      "02:41:02.4309"
-     ],
-     [
-      "9",
-      "C. Collet",
-      "A.J. Foyt Enterprises",
-      "02:41:03.1451"
-     ],
-     [
-      "10",
-      "R. Grosjean",
-      "Dale Coyne Racing",
-      "02:41:05.1730"
-     ],
-     [
-      "11",
-      "M. Schumacher",
-      "Rahal Letterman Lanigan Racing",
-      "02:41:09.5991"
-     ],
-     [
-      "12",
-      "A. Rossi",
-      "ECR",
-      "02:41:13.8889"
-     ],
-     [
-      "13",
-      "G. Rahal",
-      "Rahal Letterman Lanigan Racing",
-      "02:41:15.0044"
-     ],
-     [
-      "14",
-      "C. Rasmussen",
-      "ECR",
-      "02:41:15.6915"
-     ],
-     [
-      "15",
-      "D. Hauger",
-      "Dale Coyne Racing",
-      "02:41:16.2241"
-     ],
-     [
-      "16",
-      "P. O'Ward",
-      "Arrow McLaren",
-      "02:41:17.4900"
-     ],
-     [
-      "17",
-      "M. Armstrong",
-      "Meyer Shank w/ Curb-Agajanian",
-      "02:41:19.4357"
-     ],
-     [
-      "18",
-      "L. Foster",
-      "Rahal Letterman Lanigan Racing",
-      "02:41:21.1323"
-     ],
-     [
-      "19",
-      "F. Rosenqvist",
-      "Meyer Shank w/ Curb-Agajanian",
-      "02:41:21.8620"
-     ],
-     [
-      "20",
-      "A. Palou",
-      "Chip Ganassi Racing",
-      "02:41:23.5769"
-     ],
-     [
-      "21",
-      "S. Ferrucci",
-      "A.J. Foyt Enterprises",
-      "02:35:25.9940"
-     ],
-     [
-      "22",
-      "S. McLaughlin",
-      "Team Penske",
-      "02:19:51.5433"
-     ],
-     [
-      "23",
-      "R. VeeKay",
-      "Juncos Hollinger Racing",
-      "00:49:49.3201"
-     ],
-     [
-      "24",
-      "D. Malukas",
-      "Team Penske",
-      "00:38:52.1679"
-     ],
-     [
-      "25",
-      "S. Ray Robb",
-      "Juncos Hollinger Racing",
-      "00:38:54.7667"
-     ]
-    ]
-   },
-   "sid": "6796",
-   "d": "2026-08-23"
-  },
   {
    "s": "indy",
    "date": "2026-08-29",
@@ -6364,123 +6057,6 @@
    }
   },
   {
-   "s": "nhl",
-   "start": "2026-11-08T00:00:00Z",
-   "title": "Toronto Maple Leafs – Montréal Canadiens",
-   "sub": "Scotiabank Arena",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg"
-   ],
-   "res": {
-    "head": "Toronto Maple Leafs 2 – 4 Montréal Canadiens"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-08T00:00:00Z",
-   "title": "Ottawa Senators – Utah Mammoth",
-   "sub": "Canadian Tire Centre",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
-   ],
-   "res": {
-    "head": "Ottawa Senators 4 – 2 Utah Mammoth"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-08T00:00:00Z",
-   "title": "New York Islanders – New Jersey Devils",
-   "sub": "UBS Arena",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
-   ],
-   "res": {
-    "head": "New York Islanders 4 – 5 New Jersey Devils (prórroga)"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-08T01:00:00Z",
-   "title": "Carolina Hurricanes – Chicago Blackhawks",
-   "sub": "Lenovo Center",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg"
-   ],
-   "res": {
-    "head": "Carolina Hurricanes 9 – 2 Chicago Blackhawks"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-08T01:00:00Z",
-   "title": "Dallas Stars – San Jose Sharks",
-   "sub": "American Airlines",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg"
-   ],
-   "res": {
-    "head": "Dallas Stars 4 – 3 San Jose Sharks"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-08T01:00:00Z",
-   "title": "Minnesota Wild – Tampa Bay Lightning",
-   "sub": "Grand Casino",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg"
-   ],
-   "res": {
-    "head": "Minnesota Wild 3 – 4 Tampa Bay Lightning (prórroga)"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-08T02:00:00Z",
-   "title": "Colorado Avalanche – Detroit Red Wings",
-   "sub": "Ball Arena",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/DET_light.svg"
-   ],
-   "res": {
-    "head": "Colorado Avalanche 4 – 0 Detroit Red Wings"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-08T02:00:00Z",
-   "title": "Los Angeles Kings – Pittsburgh Penguins",
-   "sub": "Crypto.com",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
-   ],
-   "res": {
-    "head": "Los Angeles Kings 2 – 5 Pittsburgh Penguins"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-08T03:00:00Z",
-   "title": "Edmonton Oilers – Vancouver Canucks",
-   "sub": "Rogers Place",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg"
-   ],
-   "res": {
-    "head": "Edmonton Oilers 4 – 2 Vancouver Canucks"
-   }
-  },
-  {
    "s": "laliga",
    "start": "2026-11-08T13:00:00Z",
    "title": "Elche – Real Betis",
@@ -8583,7 +8159,144 @@
    "s": "motogp",
    "start": "2026-11-21T15:00:00Z",
    "title": "Carrera sprint",
-   "sub": "GP Portugal, Portimao (horario previsto)"
+   "sub": "GP Portugal, Portimao (horario previsto)",
+   "res": {
+    "head": "Ganador: Marco Bezzecchi",
+    "rows": [
+     [
+      "1",
+      "M. Bezzecchi",
+      "Aprilia Racing",
+      "19:48.999"
+     ],
+     [
+      "2",
+      "R. Fernandez",
+      "SuperFile Trackhouse MotoGP Team",
+      "+8.378"
+     ],
+     [
+      "3",
+      "A. Marquez",
+      "BK8 Gresini Racing MotoGP",
+      "+11.568"
+     ],
+     [
+      "4",
+      "P. Acosta",
+      "Red Bull KTM Factory Racing",
+      "+11.888"
+     ],
+     [
+      "5",
+      "J. Martin",
+      "Aprilia Racing",
+      "+12.058"
+     ],
+     [
+      "6",
+      "A. Ogura",
+      "SuperFile Trackhouse MotoGP Team",
+      "+12.217"
+     ],
+     [
+      "7",
+      "F. Di Giannantonio",
+      "Pertamina Enduro VR46 Racing Team",
+      "+12.658"
+     ],
+     [
+      "8",
+      "F. Quartararo",
+      "Monster Energy Yamaha MotoGP Team",
+      "+18.392"
+     ],
+     [
+      "9",
+      "I. Lecuona",
+      "Ducati Lenovo Team",
+      "+19.077"
+     ],
+     [
+      "10",
+      "J. Miller",
+      "Prima Pramac Yamaha MotoGP",
+      "+19.467"
+     ],
+     [
+      "11",
+      "E. Bastianini",
+      "Red Bull KTM Tech3",
+      "+21.898"
+     ],
+     [
+      "12",
+      "J. Dixon",
+      "Honda HRC Castrol",
+      "+22.380"
+     ],
+     [
+      "13",
+      "P. Espargaro",
+      "Red Bull KTM Tech3",
+      "+22.569"
+     ],
+     [
+      "14",
+      "A. Rins",
+      "Monster Energy Yamaha MotoGP Team",
+      "+26.136"
+     ],
+     [
+      "15",
+      "L. Marini",
+      "Honda HRC Castrol",
+      "+27.065"
+     ],
+     [
+      "16",
+      "F. Morbidelli",
+      "Pertamina Enduro VR46 Racing Team",
+      "+99.024"
+     ],
+     [
+      "–",
+      "M. Marquez",
+      "Ducati Lenovo Team",
+      "16:34.407"
+     ],
+     [
+      "–",
+      "B. Binder",
+      "Red Bull KTM Factory Racing",
+      "13:20.083"
+     ],
+     [
+      "–",
+      "F. Aldeguer",
+      "BK8 Gresini Racing MotoGP",
+      "12:34.737"
+     ],
+     [
+      "–",
+      "J. Zarco",
+      "Castrol Honda LCR",
+      "11:39.959"
+     ],
+     [
+      "–",
+      "D. Moreira",
+      "Pro Honda LCR",
+      "06:18.802"
+     ],
+     [
+      "–",
+      "A. Fernandez",
+      "Prima Pramac Yamaha MotoGP",
+      "05:08.825"
+     ]
+    ]
+   }
   },
   {
    "s": "laliga",
@@ -8645,7 +8358,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Calgary Flames 3 – 4 Chicago Blackhawks (prórroga)"
+   }
   },
   {
    "s": "nhl",
@@ -15806,6 +15522,126 @@
    "start": "2027-01-23T05:00:00Z",
    "title": "TBD – TBD",
    "sub": ""
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-23T17:30:00Z",
+   "title": "Detroit Red Wings – Tampa Bay Lightning",
+   "sub": "Little Caesars",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-23T20:30:00Z",
+   "title": "Ottawa Senators – Columbus Blue Jackets",
+   "sub": "Canadian Tire Centre",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-23T22:00:00Z",
+   "title": "Nashville Predators – Los Angeles Kings",
+   "sub": "Bridgestone",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T00:00:00Z",
+   "title": "Montréal Canadiens – Calgary Flames",
+   "sub": "Centre Bell",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T00:00:00Z",
+   "title": "Pittsburgh Penguins – Vancouver Canucks",
+   "sub": "PPG Paints",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T00:00:00Z",
+   "title": "Carolina Hurricanes – Anaheim Ducks",
+   "sub": "Lenovo Center",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T00:00:00Z",
+   "title": "St. Louis Blues – Toronto Maple Leafs",
+   "sub": "Enterprise Center",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T00:30:00Z",
+   "title": "New York Islanders – Seattle Kraken",
+   "sub": "UBS Arena",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T00:30:00Z",
+   "title": "Philadelphia Flyers – New Jersey Devils",
+   "sub": "Xfinity Mobile Arena",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T01:00:00Z",
+   "title": "Minnesota Wild – New York Rangers",
+   "sub": "Grand Casino",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T02:00:00Z",
+   "title": "Utah Mammoth – Boston Bruins",
+   "sub": "Delta Center",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T03:00:00Z",
+   "title": "San Jose Sharks – Edmonton Oilers",
+   "sub": "SAP Center",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
+   ]
   },
   {
    "s": "nfl",

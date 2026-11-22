@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:25:00Z",
+ "updated": "2026-11-22T00:07:00Z",
  "fmt": 2,
  "events": [
   {
@@ -2047,9 +2047,154 @@
      ]
     ]
    }
+  },
+  {
+   "s": "motogp",
+   "date": "2026-11-21",
+   "tbc": true,
+   "title": "Carrera sprint",
+   "sub": "GP Portugal",
+   "res": {
+    "head": "Ganador: Marco Bezzecchi",
+    "rows": [
+     [
+      "1",
+      "M. Bezzecchi",
+      "Aprilia Racing",
+      "19:48.999"
+     ],
+     [
+      "2",
+      "R. Fernandez",
+      "SuperFile Trackhouse MotoGP Team",
+      "+8.378"
+     ],
+     [
+      "3",
+      "A. Marquez",
+      "BK8 Gresini Racing MotoGP",
+      "+11.568"
+     ],
+     [
+      "4",
+      "P. Acosta",
+      "Red Bull KTM Factory Racing",
+      "+11.888"
+     ],
+     [
+      "5",
+      "J. Martin",
+      "Aprilia Racing",
+      "+12.058"
+     ],
+     [
+      "6",
+      "A. Ogura",
+      "SuperFile Trackhouse MotoGP Team",
+      "+12.217"
+     ],
+     [
+      "7",
+      "F. Di Giannantonio",
+      "Pertamina Enduro VR46 Racing Team",
+      "+12.658"
+     ],
+     [
+      "8",
+      "F. Quartararo",
+      "Monster Energy Yamaha MotoGP Team",
+      "+18.392"
+     ],
+     [
+      "9",
+      "I. Lecuona",
+      "Ducati Lenovo Team",
+      "+19.077"
+     ],
+     [
+      "10",
+      "J. Miller",
+      "Prima Pramac Yamaha MotoGP",
+      "+19.467"
+     ],
+     [
+      "11",
+      "E. Bastianini",
+      "Red Bull KTM Tech3",
+      "+21.898"
+     ],
+     [
+      "12",
+      "J. Dixon",
+      "Honda HRC Castrol",
+      "+22.380"
+     ],
+     [
+      "13",
+      "P. Espargaro",
+      "Red Bull KTM Tech3",
+      "+22.569"
+     ],
+     [
+      "14",
+      "A. Rins",
+      "Monster Energy Yamaha MotoGP Team",
+      "+26.136"
+     ],
+     [
+      "15",
+      "L. Marini",
+      "Honda HRC Castrol",
+      "+27.065"
+     ],
+     [
+      "16",
+      "F. Morbidelli",
+      "Pertamina Enduro VR46 Racing Team",
+      "+99.024"
+     ],
+     [
+      "–",
+      "M. Marquez",
+      "Ducati Lenovo Team",
+      "16:34.407"
+     ],
+     [
+      "–",
+      "B. Binder",
+      "Red Bull KTM Factory Racing",
+      "13:20.083"
+     ],
+     [
+      "–",
+      "F. Aldeguer",
+      "BK8 Gresini Racing MotoGP",
+      "12:34.737"
+     ],
+     [
+      "–",
+      "J. Zarco",
+      "Castrol Honda LCR",
+      "11:39.959"
+     ],
+     [
+      "–",
+      "D. Moreira",
+      "Pro Honda LCR",
+      "06:18.802"
+     ],
+     [
+      "–",
+      "A. Fernandez",
+      "Prima Pramac Yamaha MotoGP",
+      "05:08.825"
+     ]
+    ]
+   }
   }
  ],
  "tried": [
-  "2026-10-25|Carrera"
+  "2026-10-25|Carrera",
+  "2026-11-22|Carrera"
  ]
 }
