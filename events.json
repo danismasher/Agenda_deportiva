@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T05:17:00Z",
+ "updated": "2026-11-23T20:28:00Z",
  "events": [
   {
    "s": "indy",
@@ -11314,6 +11314,16 @@
    ]
   },
   {
+   "s": "laliga",
+   "start": "2026-12-11T20:00:00Z",
+   "title": "Elche – Sevilla",
+   "sub": "Martínez Valero",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
+  },
+  {
    "s": "padel",
    "date": "2026-12-11",
    "tbc": true,
@@ -11361,6 +11371,36 @@
    ]
   },
   {
+   "s": "laliga",
+   "start": "2026-12-12T13:00:00Z",
+   "title": "Levante – Alavés",
+   "sub": "Ciutat de València",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-12T15:15:00Z",
+   "title": "Villarreal – Rayo Vallecano",
+   "sub": "La Cerámica",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-12T17:30:00Z",
+   "title": "Málaga – Barcelona",
+   "sub": "La Rosaleda",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+   ]
+  },
+  {
    "s": "nhl",
    "start": "2026-12-12T18:00:00Z",
    "title": "Boston Bruins – New Jersey Devils",
@@ -11378,6 +11418,16 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-12T20:00:00Z",
+   "title": "Real Betis – Racing Santander",
+   "sub": "La Cartuja",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
    ]
   },
   {
@@ -11498,6 +11548,36 @@
    ]
   },
   {
+   "s": "laliga",
+   "start": "2026-12-13T13:00:00Z",
+   "title": "Atlético Madrid – Valencia",
+   "sub": "Metropolitano",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T15:15:00Z",
+   "title": "Deportivo – Athletic Club",
+   "sub": "Riazor",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-13T17:30:00Z",
+   "title": "Real Sociedad – Getafe",
+   "sub": "Reale Arena",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+   ]
+  },
+  {
    "s": "nfl",
    "start": "2026-12-13T18:00:00Z",
    "title": "Cleveland Browns – Atlanta Falcons",
@@ -11590,101 +11670,11 @@
   {
    "s": "laliga",
    "start": "2026-12-13T20:00:00Z",
-   "title": "Atlético Madrid – Valencia",
-   "sub": "Metropolitano",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
-   "title": "Deportivo – Athletic Club",
-   "sub": "Riazor",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
-   "title": "Elche – Sevilla",
-   "sub": "Martínez Valero",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
-   "title": "Espanyol – Celta Vigo",
-   "sub": "RCDE Stadium",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
-   "title": "Levante – Alavés",
-   "sub": "Ciutat de València",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/96.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
-   "title": "Málaga – Barcelona",
-   "sub": "La Rosaleda",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
-   "title": "Real Betis – Racing Santander",
-   "sub": "La Cartuja",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
    "title": "Real Madrid – Osasuna",
    "sub": "Bernabéu",
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
-   "title": "Real Sociedad – Getafe",
-   "sub": "Reale Arena",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
-   ]
-  },
-  {
-   "s": "laliga",
-   "start": "2026-12-13T20:00:00Z",
-   "title": "Villarreal – Rayo Vallecano",
-   "sub": "La Cerámica",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-    "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
    ]
   },
   {
@@ -11782,6 +11772,16 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
+   ]
+  },
+  {
+   "s": "laliga",
+   "start": "2026-12-14T20:00:00Z",
+   "title": "Espanyol – Celta Vigo",
+   "sub": "RCDE Stadium",
+   "ic": [
+    "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+    "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
    ]
   },
   {
