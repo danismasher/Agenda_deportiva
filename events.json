@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:28:00Z",
+ "updated": "2026-11-23T22:21:00Z",
  "events": [
   {
    "s": "indy",
@@ -9024,7 +9024,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
-   ]
+   ],
+   "res": {
+    "head": "Levante 1 – 1 Elche"
+   }
   },
   {
    "s": "nhl",
