@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T03:58:00Z",
+ "updated": "2026-11-23T05:17:00Z",
  "events": [
   {
    "s": "indy",
@@ -9011,7 +9011,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png"
-   ]
+   ],
+   "res": {
+    "head": "San Francisco 49ers 35 – 10 Minnesota Vikings"
+   }
   },
   {
    "s": "laliga",
