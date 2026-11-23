@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:26:00Z",
+ "updated": "2026-11-23T01:52:00Z",
  "events": [
   {
    "s": "indy",
@@ -8933,7 +8933,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
-   ]
+   ],
+   "res": {
+    "head": "Denver Broncos 38 – 24 Las Vegas Raiders"
+   }
   },
   {
    "s": "nfl",
@@ -8943,7 +8946,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png"
-   ]
+   ],
+   "res": {
+    "head": "New York Giants 23 – 18 Jacksonville Jaguars"
+   }
   },
   {
    "s": "nhl",
@@ -8953,7 +8959,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Tampa Bay Lightning 2 – 6 Buffalo Sabres"
+   }
   },
   {
    "s": "nhl",
