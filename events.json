@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:04:00Z",
+ "updated": "2026-11-23T00:26:00Z",
  "events": [
   {
    "s": "indy",
@@ -6578,58 +6578,6 @@
   },
   {
    "s": "nhl",
-   "start": "2026-11-09T00:00:00Z",
-   "title": "Toronto Maple Leafs – New Jersey Devils",
-   "sub": "Scotiabank Arena",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
-   ],
-   "res": {
-    "head": "Toronto Maple Leafs 0 – 4 New Jersey Devils"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-09T00:00:00Z",
-   "title": "Calgary Flames – Philadelphia Flyers",
-   "sub": "Saddledome",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg"
-   ],
-   "res": {
-    "head": "Calgary Flames 4 – 3 Philadelphia Flyers (prórroga)"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-09T01:00:00Z",
-   "title": "Anaheim Ducks – Pittsburgh Penguins",
-   "sub": "Honda Center",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
-   ],
-   "res": {
-    "head": "Anaheim Ducks 5 – 2 Pittsburgh Penguins"
-   }
-  },
-  {
-   "s": "nfl",
-   "start": "2026-11-09T01:20:00Z",
-   "title": "Chicago Bears – Tampa Bay Buccaneers",
-   "sub": "Soldier Field",
-   "ic": [
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-    "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
-   ],
-   "res": {
-    "head": "Chicago Bears 27 – 24 Tampa Bay Buccaneers"
-   }
-  },
-  {
-   "s": "nhl",
    "start": "2026-11-10T01:00:00Z",
    "title": "Edmonton Oilers – New York Rangers",
    "sub": "Rogers Place",
@@ -8972,7 +8920,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
-   ]
+   ],
+   "res": {
+    "head": "Los Angeles Chargers 24 – 27 New York Jets"
+   }
   },
   {
    "s": "nfl",
@@ -16090,6 +16041,66 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T20:00:00Z",
+   "title": "Winnipeg Jets – Buffalo Sabres",
+   "sub": "Canada Life",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T22:00:00Z",
+   "title": "Columbus Blue Jackets – Anaheim Ducks",
+   "sub": "Nationwide",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T22:00:00Z",
+   "title": "Colorado Avalanche – Dallas Stars",
+   "sub": "Ball Arena",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-24T23:00:00Z",
+   "title": "Florida Panthers – Los Angeles Kings",
+   "sub": "Amerant",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-25T00:00:00Z",
+   "title": "New Jersey Devils – Washington Capitals",
+   "sub": "Prudential",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-25T00:00:00Z",
+   "title": "Chicago Blackhawks – Vegas Golden Knights",
+   "sub": "United Center",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
    ]
   },
   {
