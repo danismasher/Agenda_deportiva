@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:52:00Z",
+ "updated": "2026-11-23T02:53:00Z",
  "events": [
   {
    "s": "indy",
@@ -8982,7 +8982,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Dallas Stars 1 – 0 Pittsburgh Penguins"
+   }
   },
   {
    "s": "nhl",
