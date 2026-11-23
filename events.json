@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T02:53:00Z",
+ "updated": "2026-11-23T03:58:00Z",
  "events": [
   {
    "s": "indy",
@@ -8972,7 +8972,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "St. Louis Blues 5 – 4 Edmonton Oilers (penaltis)"
+   }
   },
   {
    "s": "nhl",
@@ -8995,7 +8998,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Vancouver Canucks 3 – 6 Chicago Blackhawks"
+   }
   },
   {
    "s": "nfl",
