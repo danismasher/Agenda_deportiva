@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:56:00Z",
+ "updated": "2026-11-24T20:27:00Z",
  "events": [
   {
    "s": "indy",
@@ -9089,7 +9089,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png"
-   ]
+   ],
+   "res": {
+    "head": "Bodo/Glimt 1 – 0 LASK Linz"
+   }
   },
   {
    "s": "champions",
@@ -9099,7 +9102,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
-   ]
+   ],
+   "res": {
+    "head": "Galatasaray 1 – 0 Aston Villa"
+   }
   },
   {
    "s": "champions",
