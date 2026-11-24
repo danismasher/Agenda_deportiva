@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T04:51:00Z",
+ "updated": "2026-11-24T05:56:00Z",
  "events": [
   {
    "s": "indy",
@@ -9063,7 +9063,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Seattle Kraken 3 – 2 Anaheim Ducks"
+   }
   },
   {
    "s": "nhl",
@@ -9073,7 +9076,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "San Jose Sharks 2 – 5 Minnesota Wild"
+   }
   },
   {
    "s": "champions",
