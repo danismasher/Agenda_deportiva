@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T00:19:00Z",
+ "updated": "2026-11-24T02:43:00Z",
  "events": [
   {
    "s": "indy",
@@ -8985,7 +8985,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "New Jersey Devils 3 – 2 Columbus Blue Jackets"
+   }
   },
   {
    "s": "nhl",
