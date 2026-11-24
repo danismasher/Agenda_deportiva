@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T02:43:00Z",
+ "updated": "2026-11-24T03:44:00Z",
  "events": [
   {
    "s": "indy",
@@ -8998,7 +8998,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Montréal Canadiens 1 – 2 Los Angeles Kings"
+   }
   },
   {
    "s": "nhl",
@@ -9008,7 +9011,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Ottawa Senators 2 – 1 Calgary Flames"
+   }
   },
   {
    "s": "nhl",
@@ -9018,7 +9024,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "New York Islanders 2 – 4 Toronto Maple Leafs"
+   }
   },
   {
    "s": "nhl",
@@ -9028,7 +9037,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Winnipeg Jets 4 – 2 Utah Mammoth"
+   }
   },
   {
    "s": "nfl",
