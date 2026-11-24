@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:27:00Z",
+ "updated": "2026-11-24T22:29:00Z",
  "events": [
   {
    "s": "indy",
@@ -9115,7 +9115,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
-   ]
+   ],
+   "res": {
+    "head": "Arsenal 1 – 1 Borussia Dortmund"
+   }
   },
   {
    "s": "champions",
@@ -9125,7 +9128,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/887.png"
-   ]
+   ],
+   "res": {
+    "head": "Como 1 – 0 AEK Athens"
+   }
   },
   {
    "s": "champions",
@@ -9135,7 +9141,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/437.png"
-   ]
+   ],
+   "res": {
+    "head": "Feyenoord Rotterdam 0 – 1 FC Porto"
+   }
   },
   {
    "s": "champions",
@@ -9145,7 +9154,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
-   ]
+   ],
+   "res": {
+    "head": "Manchester City 2 – 2 Napoli"
+   }
   },
   {
    "s": "champions",
@@ -9155,7 +9167,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/175.png"
-   ]
+   ],
+   "res": {
+    "head": "RB Leipzig 3 – 1 Lens"
+   }
   },
   {
    "s": "champions",
@@ -9165,7 +9180,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/148.png"
-   ]
+   ],
+   "res": {
+    "head": "Real Madrid 5 – 1 PSV Eindhoven"
+   }
   },
   {
    "s": "champions",
@@ -9175,7 +9193,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
-   ]
+   ],
+   "res": {
+    "head": "Slovan Bratislava 0 – 2 Real Betis"
+   }
   },
   {
    "s": "nhl",
