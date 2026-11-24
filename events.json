@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T03:44:00Z",
+ "updated": "2026-11-24T04:51:00Z",
  "events": [
   {
    "s": "indy",
@@ -9050,7 +9050,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
-   ]
+   ],
+   "res": {
+    "head": "Washington Commanders 22 – 20 Cincinnati Bengals"
+   }
   },
   {
    "s": "nhl",
