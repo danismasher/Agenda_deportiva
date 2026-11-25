@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:28:00Z",
+ "updated": "2026-11-25T22:30:00Z",
  "events": [
   {
    "s": "indy",
@@ -9154,7 +9154,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/510.png"
-   ]
+   ],
+   "res": {
+    "head": "Atlético Madrid 2 – 0 Viking FK"
+   }
   },
   {
    "s": "champions",
@@ -9164,7 +9167,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
-   ]
+   ],
+   "res": {
+    "head": "Club Brugge 0 – 3 Liverpool"
+   }
   },
   {
    "s": "champions",
@@ -9174,7 +9180,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
-   ]
+   ],
+   "res": {
+    "head": "Internazionale 2 – 0 VfB Stuttgart"
+   }
   },
   {
    "s": "champions",
@@ -9184,7 +9193,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
-   ]
+   ],
+   "res": {
+    "head": "Lille 2 – 1 Bayern Munich"
+   }
   },
   {
    "s": "champions",
@@ -9194,7 +9206,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
-   ]
+   ],
+   "res": {
+    "head": "Paris Saint-Germain 2 – 2 AS Roma"
+   }
   },
   {
    "s": "champions",
@@ -9204,7 +9219,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
-   ]
+   ],
+   "res": {
+    "head": "Shakhtar Donetsk 0 – 1 Fenerbahce"
+   }
   },
   {
    "s": "champions",
@@ -9214,7 +9232,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
-   ]
+   ],
+   "res": {
+    "head": "Sporting CP 2 – 2 Manchester United"
+   }
   },
   {
    "s": "nhl",
