@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:46:00Z",
+ "updated": "2026-11-25T20:28:00Z",
  "events": [
   {
    "s": "indy",
@@ -9128,7 +9128,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
-   ]
+   ],
+   "res": {
+    "head": "Sabah FK 1 – 4 Barcelona"
+   }
   },
   {
    "s": "champions",
@@ -9138,7 +9141,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
-   ]
+   ],
+   "res": {
+    "head": "Slavia Prague 0 – 1 Villarreal"
+   }
   },
   {
    "s": "champions",
