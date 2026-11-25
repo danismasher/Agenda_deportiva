@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:46:00Z",
+ "updated": "2026-11-25T03:46:00Z",
  "events": [
   {
    "s": "indy",
@@ -9115,7 +9115,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Edmonton Oilers 3 – 5 Vegas Golden Knights"
+   }
   },
   {
    "s": "champions",
