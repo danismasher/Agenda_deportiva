@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:29:00Z",
+ "updated": "2026-11-25T01:46:00Z",
  "events": [
   {
    "s": "indy",
@@ -6574,97 +6574,6 @@
       "28:56.916"
      ]
     ]
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-11T00:00:00Z",
-   "title": "Toronto Maple Leafs – Colorado Avalanche",
-   "sub": "Scotiabank Arena",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/COL_light.svg"
-   ],
-   "res": {
-    "head": "Toronto Maple Leafs 3 – 6 Colorado Avalanche"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-11T00:00:00Z",
-   "title": "Montréal Canadiens – Minnesota Wild",
-   "sub": "Centre Bell",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg"
-   ],
-   "res": {
-    "head": "Montréal Canadiens 1 – 2 Minnesota Wild (prórroga)"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-11T00:00:00Z",
-   "title": "Ottawa Senators – Washington Capitals",
-   "sub": "Canadian Tire Centre",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg"
-   ],
-   "res": {
-    "head": "Ottawa Senators 2 – 3 Washington Capitals (prórroga)"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-11T00:00:00Z",
-   "title": "Winnipeg Jets – New Jersey Devils",
-   "sub": "Canada Life",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
-   ],
-   "res": {
-    "head": "Winnipeg Jets 4 – 2 New Jersey Devils"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-11T00:30:00Z",
-   "title": "Columbus Blue Jackets – Florida Panthers",
-   "sub": "Nationwide",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg"
-   ],
-   "res": {
-    "head": "Columbus Blue Jackets 1 – 4 Florida Panthers"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-11T01:00:00Z",
-   "title": "St. Louis Blues – Detroit Red Wings",
-   "sub": "Enterprise Center",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/DET_light.svg"
-   ],
-   "res": {
-    "head": "St. Louis Blues 3 – 2 Detroit Red Wings"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-11T03:00:00Z",
-   "title": "Los Angeles Kings – Nashville Predators",
-   "sub": "Crypto.com",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg"
-   ],
-   "res": {
-    "head": "Los Angeles Kings 0 – 3 Nashville Predators"
    }
   },
   {
@@ -16164,6 +16073,126 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T00:00:00Z",
+   "title": "Boston Bruins – Columbus Blue Jackets",
+   "sub": "TD Garden",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T00:00:00Z",
+   "title": "Toronto Maple Leafs – Calgary Flames",
+   "sub": "Scotiabank Arena",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T00:00:00Z",
+   "title": "Montréal Canadiens – Carolina Hurricanes",
+   "sub": "Centre Bell",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T00:00:00Z",
+   "title": "Tampa Bay Lightning – Los Angeles Kings",
+   "sub": "International Arena",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T00:00:00Z",
+   "title": "New Jersey Devils – Seattle Kraken",
+   "sub": "Prudential",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T00:00:00Z",
+   "title": "Philadelphia Flyers – Florida Panthers",
+   "sub": "Xfinity Mobile Arena",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T00:00:00Z",
+   "title": "Pittsburgh Penguins – New York Islanders",
+   "sub": "PPG Paints",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T01:00:00Z",
+   "title": "St. Louis Blues – Chicago Blackhawks",
+   "sub": "Enterprise Center",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T01:00:00Z",
+   "title": "Nashville Predators – Vegas Golden Knights",
+   "sub": "Bridgestone",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T01:00:00Z",
+   "title": "Dallas Stars – Anaheim Ducks",
+   "sub": "American Airlines",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T01:00:00Z",
+   "title": "Minnesota Wild – Vancouver Canucks",
+   "sub": "Grand Casino",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-27T02:00:00Z",
+   "title": "Colorado Avalanche – Edmonton Oilers",
+   "sub": "Ball Arena",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
    ]
   },
   {
