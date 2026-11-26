@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T05:57:00Z",
+ "updated": "2026-11-26T21:34:00Z",
  "events": [
   {
    "s": "indy",
@@ -9362,7 +9362,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
-   ]
+   ],
+   "res": {
+    "head": "Detroit Lions 35 – 39 Chicago Bears"
+   }
   },
   {
    "s": "nfl",
