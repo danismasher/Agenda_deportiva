@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T00:20:00Z",
+ "updated": "2026-11-26T02:44:00Z",
  "events": [
   {
    "s": "indy",
@@ -9167,7 +9167,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Boston Bruins 2 – 4 Winnipeg Jets"
+   }
   },
   {
    "s": "nhl",
@@ -9177,7 +9180,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Buffalo Sabres 5 – 1 New York Rangers"
+   }
   },
   {
    "s": "nhl",
@@ -9187,7 +9193,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Tampa Bay Lightning 1 – 3 Carolina Hurricanes"
+   }
   },
   {
    "s": "nhl",
@@ -9217,7 +9226,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Pittsburgh Penguins 3 – 6 Calgary Flames"
+   }
   },
   {
    "s": "nhl",
