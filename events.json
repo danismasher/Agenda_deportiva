@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:44:00Z",
+ "updated": "2026-11-26T04:53:00Z",
  "events": [
   {
    "s": "indy",
@@ -9284,7 +9284,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
-   ]
+   ],
+   "res": {
+    "head": "Los Angeles Rams 26 – 13 Green Bay Packers"
+   }
   },
   {
    "s": "nhl",
@@ -9307,7 +9310,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Minnesota Wild 3 – 4 Utah Mammoth"
+   }
   },
   {
    "s": "nhl",
