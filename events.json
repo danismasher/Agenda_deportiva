@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:44:00Z",
+ "updated": "2026-11-26T03:44:00Z",
  "events": [
   {
    "s": "indy",
@@ -9206,7 +9206,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Florida Panthers 5 – 3 Ottawa Senators"
+   }
   },
   {
    "s": "nhl",
@@ -9216,7 +9219,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/STL_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "New York Islanders 3 – 2 St. Louis Blues (penaltis)"
+   }
   },
   {
    "s": "nhl",
@@ -9239,7 +9245,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Washington Capitals 7 – 3 Philadelphia Flyers"
+   }
   },
   {
    "s": "nhl",
@@ -9249,7 +9258,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Columbus Blue Jackets 2 – 3 New Jersey Devils (penaltis)"
+   }
   },
   {
    "s": "nhl",
@@ -9259,7 +9271,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Detroit Red Wings 5 – 1 Vancouver Canucks"
+   }
   },
   {
    "s": "nfl",
@@ -9279,7 +9294,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Dallas Stars 1 – 3 Nashville Predators"
+   }
   },
   {
    "s": "nhl",
