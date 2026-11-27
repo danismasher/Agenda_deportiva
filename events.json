@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:35:00Z",
+ "updated": "2026-11-27T02:00:00Z",
  "events": [
   {
    "s": "indy",
@@ -9232,7 +9232,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
-   ]
+   ],
+   "res": {
+    "head": "Dallas Cowboys 38 – 39 Philadelphia Eagles"
+   }
   },
   {
    "s": "nfl",
