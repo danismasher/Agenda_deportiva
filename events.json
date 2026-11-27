@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T04:00:00Z",
+ "updated": "2026-11-27T05:09:00Z",
  "events": [
   {
    "s": "indy",
@@ -9245,7 +9245,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
-   ]
+   ],
+   "res": {
+    "head": "Buffalo Bills 13 – 10 Kansas City Chiefs"
+   }
   },
   {
    "s": "nhl",
@@ -9458,7 +9461,7 @@
   {
    "s": "padel",
    "start": "2026-11-28T01:00:00Z",
-   "title": "Cuartos de final femenino",
+   "title": "Triay Pons / Brea Senesi – Caldera Sanchez / Goenaga Garcia",
    "sub": "Cuartos de final femenino, Mexico Major",
    "nb": true
   },
