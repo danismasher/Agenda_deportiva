@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:38:00Z",
+ "updated": "2026-11-27T20:41:00Z",
  "events": [
   {
    "s": "indy",
@@ -9258,7 +9258,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Boston Bruins 1 – 3 Toronto Maple Leafs"
+   }
   },
   {
    "s": "nhl",
@@ -9268,7 +9271,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "New Jersey Devils 5 – 3 Calgary Flames"
+   }
   },
   {
    "s": "nhl",
