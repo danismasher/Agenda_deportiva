@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:57:00Z",
+ "updated": "2026-11-27T02:57:00Z",
  "events": [
   {
    "s": "padel",
@@ -129,10 +129,48 @@
   },
   {
    "s": "padel",
-   "date": "2026-11-27",
-   "tbc": true,
-   "title": "Cuartos de final",
-   "sub": "Mexico Major (fecha estimada)"
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Cuartos de final masculino",
+   "sub": "Cuartos de final masculino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Cuartos de final femenino",
+   "sub": "Cuartos de final femenino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Sanchez Fallada / Ustero Prieto – Guinart España / Alonso De Villa",
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "nb": true
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Icardo Alcorisa / Jensen – Josemaria Martin / Gonzalez Fernandez",
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "nb": true
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T23:30:00Z",
+   "title": "Libaak / Alfonso – Leal / Guerrero",
+   "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T23:30:00Z",
+   "title": "Esbri / Jofre – Lebron / Augsburger",
+   "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-28T01:00:00Z",
+   "title": "Cuartos de final femenino",
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "nb": true
   },
   {
    "s": "padel",
