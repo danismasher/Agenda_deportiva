@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:42:00Z",
+ "updated": "2026-11-27T23:39:00Z",
  "events": [
   {
    "s": "indy",
@@ -9323,7 +9323,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
     "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png"
-   ]
+   ],
+   "res": {
+    "head": "Pittsburgh Steelers 27 – 5 Denver Broncos"
+   }
   },
   {
    "s": "nhl",
@@ -9359,7 +9362,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Washington Capitals 2 – 3 Florida Panthers"
+   }
   },
   {
    "s": "nhl",
@@ -9402,31 +9408,46 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "San Jose Sharks 4 – 1 Vegas Golden Knights"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
-   "title": "Bergamini / Bautista – Navarro / Di Nenno",
+   "title": "Libaak / Alfonso – Leal / Guerrero",
    "sub": "Cuartos de final masculino, Mexico Major"
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
-   "title": "Coello / Tapia – Gil / Valenzuela",
+   "title": "Esbri / Jofre – Lebron / Augsburger",
    "sub": "Cuartos de final masculino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Araujo / Ortega Gallego – Fernandez Sanchez / Calvo Santamaria",
+   "sub": "Cuartos de final femenino, Mexico Major"
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Sanchez Fallada / Ustero Prieto – Guinart España / Alonso De Villa",
-   "sub": "Cuartos de final femenino, Mexico Major"
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "res": {
+    "head": "Ganan Sanchez Fallada / Ustero Prieto: 6-3 6-2"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Icardo Alcorisa / Jensen – Josemaria Martin / Gonzalez Fernandez",
-   "sub": "Cuartos de final femenino, Mexico Major"
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "res": {
+    "head": "Ganan Josemaria Martin / Gonzalez Fernandez: 6-1 6-0"
+   }
   },
   {
    "s": "nhl",
@@ -9441,20 +9462,14 @@
   {
    "s": "padel",
    "start": "2026-11-27T23:30:00Z",
-   "title": "Libaak / Alfonso – Leal / Guerrero",
+   "title": "Bergamini / Bautista – Navarro / Di Nenno",
    "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
   },
   {
    "s": "padel",
    "start": "2026-11-27T23:30:00Z",
-   "title": "Esbri / Jofre – Lebron / Augsburger",
+   "title": "Coello / Tapia – Gil / Valenzuela",
    "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
-  },
-  {
-   "s": "padel",
-   "start": "2026-11-28T00:00:00Z",
-   "title": "Araujo / Ortega Gallego – Fernandez Sanchez / Calvo Santamaria",
-   "sub": "Cuartos de final femenino, Mexico Major (hora aproximada)"
   },
   {
    "s": "nhl",

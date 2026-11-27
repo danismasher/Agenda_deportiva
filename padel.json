@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:42:00Z",
+ "updated": "2026-11-27T23:39:00Z",
  "events": [
   {
    "s": "padel",
@@ -130,44 +130,50 @@
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
-   "title": "Bergamini / Bautista – Navarro / Di Nenno",
+   "title": "Libaak / Alfonso – Leal / Guerrero",
    "sub": "Cuartos de final masculino, Mexico Major"
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
-   "title": "Coello / Tapia – Gil / Valenzuela",
+   "title": "Esbri / Jofre – Lebron / Augsburger",
    "sub": "Cuartos de final masculino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Araujo / Ortega Gallego – Fernandez Sanchez / Calvo Santamaria",
+   "sub": "Cuartos de final femenino, Mexico Major"
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Sanchez Fallada / Ustero Prieto – Guinart España / Alonso De Villa",
-   "sub": "Cuartos de final femenino, Mexico Major"
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "res": {
+    "head": "Ganan Sanchez Fallada / Ustero Prieto: 6-3 6-2"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Icardo Alcorisa / Jensen – Josemaria Martin / Gonzalez Fernandez",
-   "sub": "Cuartos de final femenino, Mexico Major"
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "res": {
+    "head": "Ganan Josemaria Martin / Gonzalez Fernandez: 6-1 6-0"
+   }
   },
   {
    "s": "padel",
    "start": "2026-11-27T23:30:00Z",
-   "title": "Libaak / Alfonso – Leal / Guerrero",
+   "title": "Bergamini / Bautista – Navarro / Di Nenno",
    "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
   },
   {
    "s": "padel",
    "start": "2026-11-27T23:30:00Z",
-   "title": "Esbri / Jofre – Lebron / Augsburger",
+   "title": "Coello / Tapia – Gil / Valenzuela",
    "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
-  },
-  {
-   "s": "padel",
-   "start": "2026-11-28T00:00:00Z",
-   "title": "Araujo / Ortega Gallego – Fernandez Sanchez / Calvo Santamaria",
-   "sub": "Cuartos de final femenino, Mexico Major (hora aproximada)"
   },
   {
    "s": "padel",
