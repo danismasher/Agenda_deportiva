@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T05:09:00Z",
+ "updated": "2026-11-27T18:38:00Z",
  "events": [
   {
    "s": "indy",
@@ -9383,7 +9383,13 @@
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
-   "title": "Cuartos de final masculino",
+   "title": "Bergamini / Bautista – Navarro / Di Nenno",
+   "sub": "Cuartos de final masculino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Coello / Tapia – Gil / Valenzuela",
    "sub": "Cuartos de final masculino, Mexico Major"
   },
   {
