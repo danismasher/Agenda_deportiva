@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T05:54:00Z",
+ "updated": "2026-11-28T12:58:00Z",
  "events": [
   {
    "s": "indy",
@@ -8943,7 +8943,10 @@
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Coello / Tapia – Gil / Valenzuela",
-   "sub": "Cuartos de final masculino, Mexico Major"
+   "sub": "Cuartos de final masculino, Mexico Major",
+   "res": {
+    "head": "Ganan Coello / Tapia: 6-4 6-2"
+   }
   },
   {
    "s": "padel",
@@ -9107,7 +9110,7 @@
   {
    "s": "padel",
    "start": "2026-11-28T22:00:00Z",
-   "title": "Semifinal masculino",
+   "title": "Coello / Tapia – Bergamini / Bautista",
    "sub": "Semifinal masculino, Mexico Major"
   },
   {
