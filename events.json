@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:52:00Z",
+ "updated": "2026-11-28T03:52:00Z",
  "events": [
   {
    "s": "indy",
@@ -9005,7 +9005,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "New York Islanders 1 – 3 Winnipeg Jets"
+   }
   },
   {
    "s": "nhl",
@@ -9025,7 +9028,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Edmonton Oilers 2 – 4 Seattle Kraken"
+   }
   },
   {
    "s": "laliga",
