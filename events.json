@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T12:58:00Z",
+ "updated": "2026-11-28T15:43:00Z",
  "events": [
   {
    "s": "indy",
@@ -9053,7 +9053,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
-   ]
+   ],
+   "res": {
+    "head": "Real Betis 0 – 1 Rayo Vallecano"
+   }
   },
   {
    "s": "motogp",
