@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T00:35:00Z",
+ "updated": "2026-11-28T01:57:00Z",
  "events": [
   {
    "s": "padel",
@@ -58,14 +58,32 @@
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
+   "title": "Bergamini / Bautista – Navarro / Di Nenno",
+   "sub": "Cuartos de final masculino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
    "title": "Libaak / Alfonso – Leal / Guerrero",
+   "sub": "Cuartos de final masculino, Mexico Major",
+   "res": {
+    "head": "Ganan Libaak / Alfonso: 7-6 7-5"
+   }
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Coello / Tapia – Gil / Valenzuela",
    "sub": "Cuartos de final masculino, Mexico Major"
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Esbri / Jofre – Lebron / Augsburger",
-   "sub": "Cuartos de final masculino, Mexico Major"
+   "sub": "Cuartos de final masculino, Mexico Major",
+   "res": {
+    "head": "Ganan Esbri / Jofre: 6-2 6-7 7-6"
+   }
   },
   {
    "s": "padel",
@@ -93,18 +111,6 @@
   },
   {
    "s": "padel",
-   "start": "2026-11-27T23:30:00Z",
-   "title": "Bergamini / Bautista – Navarro / Di Nenno",
-   "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
-  },
-  {
-   "s": "padel",
-   "start": "2026-11-27T23:30:00Z",
-   "title": "Coello / Tapia – Gil / Valenzuela",
-   "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
-  },
-  {
-   "s": "padel",
    "start": "2026-11-28T01:00:00Z",
    "title": "Triay Pons / Brea Senesi – Caldera Sanchez / Goenaga Garcia",
    "sub": "Cuartos de final femenino, Mexico Major",
@@ -112,10 +118,29 @@
   },
   {
    "s": "padel",
-   "date": "2026-11-28",
-   "tbc": true,
-   "title": "Semifinal",
-   "sub": "Mexico Major (fecha estimada)"
+   "start": "2026-11-28T22:00:00Z",
+   "title": "Semifinal masculino",
+   "sub": "Semifinal masculino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-28T22:00:00Z",
+   "title": "Sanchez Fallada / Ustero Prieto – Josemaria Martin / Gonzalez Fernandez",
+   "sub": "Semifinal femenino, Mexico Major",
+   "nb": true
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-28T23:30:00Z",
+   "title": "Libaak / Alfonso – Esbri / Jofre",
+   "sub": "Semifinal masculino, Mexico Major (hora aproximada)"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-29T01:00:00Z",
+   "title": "Semifinal femenino",
+   "sub": "Semifinal femenino, Mexico Major",
+   "nb": true
   },
   {
    "s": "padel",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T00:35:00Z",
+ "updated": "2026-11-28T01:58:00Z",
  "events": [
   {
    "s": "indy",
@@ -8924,14 +8924,32 @@
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
+   "title": "Bergamini / Bautista – Navarro / Di Nenno",
+   "sub": "Cuartos de final masculino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
    "title": "Libaak / Alfonso – Leal / Guerrero",
+   "sub": "Cuartos de final masculino, Mexico Major",
+   "res": {
+    "head": "Ganan Libaak / Alfonso: 7-6 7-5"
+   }
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
+   "title": "Coello / Tapia – Gil / Valenzuela",
    "sub": "Cuartos de final masculino, Mexico Major"
   },
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Esbri / Jofre – Lebron / Augsburger",
-   "sub": "Cuartos de final masculino, Mexico Major"
+   "sub": "Cuartos de final masculino, Mexico Major",
+   "res": {
+    "head": "Ganan Esbri / Jofre: 6-2 6-7 7-6"
+   }
   },
   {
    "s": "padel",
@@ -8965,19 +8983,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg"
-   ]
-  },
-  {
-   "s": "padel",
-   "start": "2026-11-27T23:30:00Z",
-   "title": "Bergamini / Bautista – Navarro / Di Nenno",
-   "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
-  },
-  {
-   "s": "padel",
-   "start": "2026-11-27T23:30:00Z",
-   "title": "Coello / Tapia – Gil / Valenzuela",
-   "sub": "Cuartos de final masculino, Mexico Major (hora aproximada)"
+   ],
+   "res": {
+    "head": "Chicago Blackhawks 2 – 1 New York Rangers"
+   }
   },
   {
    "s": "nhl",
@@ -9079,6 +9088,19 @@
    ]
   },
   {
+   "s": "padel",
+   "start": "2026-11-28T22:00:00Z",
+   "title": "Semifinal masculino",
+   "sub": "Semifinal masculino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-28T22:00:00Z",
+   "title": "Sanchez Fallada / Ustero Prieto – Josemaria Martin / Gonzalez Fernandez",
+   "sub": "Semifinal femenino, Mexico Major",
+   "nb": true
+  },
+  {
    "s": "nhl",
    "start": "2026-11-28T23:00:00Z",
    "title": "Florida Panthers – Tampa Bay Lightning",
@@ -9090,10 +9112,9 @@
   },
   {
    "s": "padel",
-   "date": "2026-11-28",
-   "tbc": true,
-   "title": "Semifinal",
-   "sub": "Mexico Major (fecha estimada)"
+   "start": "2026-11-28T23:30:00Z",
+   "title": "Libaak / Alfonso – Esbri / Jofre",
+   "sub": "Semifinal masculino, Mexico Major (hora aproximada)"
   },
   {
    "s": "nhl",
@@ -9174,6 +9195,13 @@
     "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
    ]
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-29T01:00:00Z",
+   "title": "Semifinal femenino",
+   "sub": "Semifinal femenino, Mexico Major",
+   "nb": true
   },
   {
    "s": "nhl",
