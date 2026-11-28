@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:57:00Z",
+ "updated": "2026-11-28T02:52:00Z",
  "events": [
   {
    "s": "padel",
@@ -89,7 +89,10 @@
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Araujo / Ortega Gallego – Fernandez Sanchez / Calvo Santamaria",
-   "sub": "Cuartos de final femenino, Mexico Major"
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "res": {
+    "head": "Ganan Fernandez Sanchez / Calvo Santamaria: 6-2 6-1"
+   }
   },
   {
    "s": "padel",
@@ -103,18 +106,17 @@
   {
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
+   "title": "Triay Pons / Brea Senesi – Caldera Sanchez / Goenaga Garcia",
+   "sub": "Cuartos de final femenino, Mexico Major"
+  },
+  {
+   "s": "padel",
+   "start": "2026-11-27T22:00:00Z",
    "title": "Icardo Alcorisa / Jensen – Josemaria Martin / Gonzalez Fernandez",
    "sub": "Cuartos de final femenino, Mexico Major",
    "res": {
     "head": "Ganan Josemaria Martin / Gonzalez Fernandez: 6-1 6-0"
    }
-  },
-  {
-   "s": "padel",
-   "start": "2026-11-28T01:00:00Z",
-   "title": "Triay Pons / Brea Senesi – Caldera Sanchez / Goenaga Garcia",
-   "sub": "Cuartos de final femenino, Mexico Major",
-   "nb": true
   },
   {
    "s": "padel",
