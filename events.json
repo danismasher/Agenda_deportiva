@@ -1,478 +1,6 @@
 {
- "updated": "2026-11-27T23:39:00Z",
+ "updated": "2026-11-28T00:35:00Z",
  "events": [
-  {
-   "s": "indy",
-   "date": "2026-08-29",
-   "tbc": true,
-   "title": "Clasificación, Race 1",
-   "sub": "Snap-on Makers and Fixers 250",
-   "res": {
-    "head": "Mejor: Scott McLaughlin",
-    "rows": [
-     [
-      "1",
-      "S. McLaughlin",
-      "Team Penske",
-      ""
-     ],
-     [
-      "2",
-      "A. Palou",
-      "Chip Ganassi Racing",
-      ""
-     ],
-     [
-      "3",
-      "D. Malukas",
-      "Team Penske",
-      ""
-     ],
-     [
-      "4",
-      "P. O'Ward",
-      "Arrow McLaren",
-      ""
-     ],
-     [
-      "5",
-      "J. Newgarden",
-      "Team Penske",
-      ""
-     ],
-     [
-      "6",
-      "W. Power",
-      "Andretti Global",
-      ""
-     ],
-     [
-      "7",
-      "D. Hauger",
-      "Dale Coyne Racing",
-      ""
-     ],
-     [
-      "8",
-      "F. Rosenqvist",
-      "Meyer Shank w/ Curb-Agajanian",
-      ""
-     ],
-     [
-      "9",
-      "L. Foster",
-      "Rahal Letterman Lanigan Racing",
-      ""
-     ],
-     [
-      "10",
-      "C. Lundgaard",
-      "Arrow McLaren",
-      ""
-     ],
-     [
-      "11",
-      "A. Rossi",
-      "ECR",
-      ""
-     ],
-     [
-      "12",
-      "R. Grosjean",
-      "Dale Coyne Racing",
-      ""
-     ],
-     [
-      "13",
-      "M. Schumacher",
-      "Rahal Letterman Lanigan Racing",
-      ""
-     ],
-     [
-      "14",
-      "M. Ericsson",
-      "Andretti Global",
-      ""
-     ],
-     [
-      "15",
-      "S. Dixon",
-      "Chip Ganassi Racing",
-      ""
-     ],
-     [
-      "16",
-      "M. Armstrong",
-      "Meyer Shank w/ Curb-Agajanian",
-      ""
-     ],
-     [
-      "17",
-      "K. Simpson",
-      "Chip Ganassi Racing",
-      ""
-     ],
-     [
-      "18",
-      "C. Rasmussen",
-      "ECR",
-      ""
-     ],
-     [
-      "19",
-      "R. VeeKay",
-      "Juncos Hollinger Racing",
-      ""
-     ],
-     [
-      "20",
-      "G. Rahal",
-      "Rahal Letterman Lanigan Racing",
-      ""
-     ],
-     [
-      "21",
-      "C. Collet",
-      "A.J. Foyt Enterprises",
-      ""
-     ],
-     [
-      "22",
-      "K. Kirkwood",
-      "Andretti Global w/ Curb-Agajanian",
-      ""
-     ],
-     [
-      "23",
-      "S. Ray Robb",
-      "Juncos Hollinger Racing",
-      ""
-     ],
-     [
-      "24",
-      "S. Ferrucci",
-      "A.J. Foyt Enterprises",
-      ""
-     ],
-     [
-      "25",
-      "N. Siegel",
-      "Arrow McLaren",
-      ""
-     ]
-    ]
-   },
-   "sid": "6937",
-   "d": "2026-08-29"
-  },
-  {
-   "s": "indy",
-   "date": "2026-08-29",
-   "tbc": true,
-   "title": "Clasificación, Race 2",
-   "sub": "Snap-on Milwaukee Mile 250",
-   "res": {
-    "head": "Mejor: Alex Palou",
-    "rows": [
-     [
-      "1",
-      "A. Palou",
-      "Chip Ganassi Racing",
-      ""
-     ],
-     [
-      "2",
-      "P. O'Ward",
-      "Arrow McLaren",
-      ""
-     ],
-     [
-      "3",
-      "J. Newgarden",
-      "Team Penske",
-      ""
-     ],
-     [
-      "4",
-      "M. Schumacher",
-      "Rahal Letterman Lanigan Racing",
-      ""
-     ],
-     [
-      "5",
-      "W. Power",
-      "Andretti Global",
-      ""
-     ],
-     [
-      "6",
-      "L. Foster",
-      "Rahal Letterman Lanigan Racing",
-      ""
-     ],
-     [
-      "7",
-      "F. Rosenqvist",
-      "Meyer Shank w/ Curb-Agajanian",
-      ""
-     ],
-     [
-      "8",
-      "S. McLaughlin",
-      "Team Penske",
-      ""
-     ],
-     [
-      "9",
-      "M. Armstrong",
-      "Meyer Shank w/ Curb-Agajanian",
-      ""
-     ],
-     [
-      "10",
-      "S. Dixon",
-      "Chip Ganassi Racing",
-      ""
-     ],
-     [
-      "11",
-      "C. Lundgaard",
-      "Arrow McLaren",
-      ""
-     ],
-     [
-      "12",
-      "R. VeeKay",
-      "Juncos Hollinger Racing",
-      ""
-     ],
-     [
-      "13",
-      "M. Ericsson",
-      "Andretti Global",
-      ""
-     ],
-     [
-      "14",
-      "D. Malukas",
-      "Team Penske",
-      ""
-     ],
-     [
-      "15",
-      "D. Hauger",
-      "Dale Coyne Racing",
-      ""
-     ],
-     [
-      "16",
-      "A. Rossi",
-      "ECR",
-      ""
-     ],
-     [
-      "17",
-      "C. Rasmussen",
-      "ECR",
-      ""
-     ],
-     [
-      "18",
-      "K. Simpson",
-      "Chip Ganassi Racing",
-      ""
-     ],
-     [
-      "19",
-      "G. Rahal",
-      "Rahal Letterman Lanigan Racing",
-      ""
-     ],
-     [
-      "20",
-      "R. Grosjean",
-      "Dale Coyne Racing",
-      ""
-     ],
-     [
-      "21",
-      "C. Collet",
-      "A.J. Foyt Enterprises",
-      ""
-     ],
-     [
-      "22",
-      "S. Ferrucci",
-      "A.J. Foyt Enterprises",
-      ""
-     ],
-     [
-      "23",
-      "S. Ray Robb",
-      "Juncos Hollinger Racing",
-      ""
-     ],
-     [
-      "24",
-      "K. Kirkwood",
-      "Andretti Global w/ Curb-Agajanian",
-      ""
-     ],
-     [
-      "25",
-      "N. Siegel",
-      "Arrow McLaren",
-      ""
-     ]
-    ]
-   },
-   "sid": "6938",
-   "d": "2026-08-29"
-  },
-  {
-   "s": "motogp",
-   "date": "2026-08-29",
-   "tbc": true,
-   "title": "Carrera sprint",
-   "sub": "GP Spain",
-   "res": {
-    "head": "Ganador: Marc Marquez",
-    "rows": [
-     [
-      "1",
-      "M. Marquez",
-      "Ducati Lenovo Team",
-      "19:37.995"
-     ],
-     [
-      "2",
-      "A. Marquez",
-      "BK8 Gresini Racing MotoGP",
-      "+1.140"
-     ],
-     [
-      "3",
-      "M. Bezzecchi",
-      "Aprilia Racing",
-      "+2.089"
-     ],
-     [
-      "4",
-      "P. Acosta",
-      "Red Bull KTM Factory Racing",
-      "+2.648"
-     ],
-     [
-      "5",
-      "J. Martin",
-      "Aprilia Racing",
-      "+6.237"
-     ],
-     [
-      "6",
-      "F. Aldeguer",
-      "BK8 Gresini Racing MotoGP",
-      "+10.475"
-     ],
-     [
-      "7",
-      "D. Moreira",
-      "Pro Honda LCR",
-      "+11.071"
-     ],
-     [
-      "8",
-      "R. Fernandez",
-      "SuperFile Trackhouse MotoGP Team",
-      "+11.213"
-     ],
-     [
-      "9",
-      "J. Zarco",
-      "Castrol Honda LCR",
-      "+12.021"
-     ],
-     [
-      "10",
-      "J. Miller",
-      "Prima Pramac Yamaha MotoGP",
-      "+12.166"
-     ],
-     [
-      "11",
-      "F. Bagnaia",
-      "Ducati Lenovo Team",
-      "+14.575"
-     ],
-     [
-      "12",
-      "A. Rins",
-      "Monster Energy Yamaha MotoGP Team",
-      "+14.648"
-     ],
-     [
-      "13",
-      "T. Razgatlioglu",
-      "Prima Pramac Yamaha MotoGP",
-      "+15.776"
-     ],
-     [
-      "14",
-      "E. Bastianini",
-      "Red Bull KTM Tech3",
-      "+16.051"
-     ],
-     [
-      "15",
-      "B. Binder",
-      "Red Bull KTM Factory Racing",
-      "+16.761"
-     ],
-     [
-      "16",
-      "J. Mir",
-      "Honda HRC Castrol",
-      "+19.845"
-     ],
-     [
-      "17",
-      "P. Espargaro",
-      "Red Bull KTM Tech3",
-      "+23.160"
-     ],
-     [
-      "18",
-      "F. Morbidelli",
-      "Pertamina Enduro VR46 Racing Team",
-      "+25.074"
-     ],
-     [
-      "19",
-      "L. Savadori",
-      "SuperFile Trackhouse MotoGP Team",
-      "+27.798"
-     ],
-     [
-      "–",
-      "F. Quartararo",
-      "Monster Energy Yamaha MotoGP Team",
-      "07:19.131"
-     ],
-     [
-      "–",
-      "F. Di Giannantonio",
-      "Pertamina Enduro VR46 Racing Team",
-      "01:51.730"
-     ],
-     [
-      "–",
-      "L. Marini",
-      "Honda HRC Castrol",
-      ""
-     ]
-    ]
-   }
-  },
   {
    "s": "indy",
    "date": "2026-08-30",
@@ -6662,32 +6190,6 @@
    }
   },
   {
-   "s": "nhl",
-   "start": "2026-11-14T02:00:00Z",
-   "title": "Vancouver Canucks – New York Rangers",
-   "sub": "Rogers Arena",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg"
-   ],
-   "res": {
-    "head": "Vancouver Canucks 1 – 5 New York Rangers"
-   }
-  },
-  {
-   "s": "nhl",
-   "start": "2026-11-14T03:00:00Z",
-   "title": "Vegas Golden Knights – Nashville Predators",
-   "sub": "T-Mobile Arena",
-   "ic": [
-    "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
-    "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg"
-   ],
-   "res": {
-    "head": "Vegas Golden Knights 2 – 3 Nashville Predators (penaltis)"
-   }
-  },
-  {
    "s": "padel",
    "start": "2026-11-14T12:00:00Z",
    "title": "Libaak / Alfonso – Garrido / De Pascual",
@@ -9388,7 +8890,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/COL_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Minnesota Wild 3 – 4 Colorado Avalanche (penaltis)"
+   }
   },
   {
    "s": "nhl",
@@ -9398,7 +8903,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Anaheim Ducks 3 – 5 Los Angeles Kings"
+   }
   },
   {
    "s": "nhl",
@@ -16467,6 +15975,36 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-30T00:00:00Z",
+   "title": "Detroit Red Wings – Florida Panthers",
+   "sub": "Little Caesars",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-30T00:00:00Z",
+   "title": "Pittsburgh Penguins – New York Rangers",
+   "sub": "PPG Paints",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg"
+   ]
+  },
+  {
+   "s": "nhl",
+   "start": "2027-01-30T02:00:00Z",
+   "title": "Utah Mammoth – Washington Capitals",
+   "sub": "Delta Center",
+   "ic": [
+    "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+    "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg"
    ]
   },
   {
