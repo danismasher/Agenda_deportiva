@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:43:00Z",
+ "updated": "2026-11-28T17:27:00Z",
  "events": [
   {
    "s": "indy",
@@ -9072,7 +9072,10 @@
    "ic": [
     "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
     "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
-   ]
+   ],
+   "res": {
+    "head": "Málaga 3 – 4 Athletic Club"
+   }
   },
   {
    "s": "laliga",
