@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:52:00Z",
+ "updated": "2026-11-28T04:55:00Z",
  "events": [
   {
    "s": "indy",
@@ -8973,7 +8973,10 @@
    "s": "padel",
    "start": "2026-11-27T22:00:00Z",
    "title": "Triay Pons / Brea Senesi – Caldera Sanchez / Goenaga Garcia",
-   "sub": "Cuartos de final femenino, Mexico Major"
+   "sub": "Cuartos de final femenino, Mexico Major",
+   "res": {
+    "head": "Ganan Triay Pons / Brea Senesi: 6-2 4-6 7-5"
+   }
   },
   {
    "s": "padel",
@@ -9018,7 +9021,10 @@
    "ic": [
     "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
     "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
-   ]
+   ],
+   "res": {
+    "head": "Buffalo Sabres 3 – 6 Pittsburgh Penguins"
+   }
   },
   {
    "s": "nhl",
@@ -9207,7 +9213,7 @@
   {
    "s": "padel",
    "start": "2026-11-29T01:00:00Z",
-   "title": "Semifinal femenino",
+   "title": "Triay Pons / Brea Senesi – Fernandez Sanchez / Calvo Santamaria",
    "sub": "Semifinal femenino, Mexico Major",
    "nb": true
   },
